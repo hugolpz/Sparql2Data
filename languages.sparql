@@ -1,0 +1,17 @@
+select ?language ?wikidata ?languageLabel ?code
+where {
+  ?language prop:P2 entity:Q4 .              # Filter: P2 'instance of' is Q4 'language'
+  OPTIONAL { ?language prop:P12 ?wikidata }  # Assign value: language's P12 'wikidata id' into ?wikidata
+  OPTIONAL { ?language prop:P13 ?code }      # Assign value: language's P13 'ISO 639-3' into ?wikidata
+  OPTIONAL { ?language rdfs:label ?languageLabel .  # Assign value: label into ?languageLabel
+  FILTER (lang(?languageLabel) = "[AUTO_LANGUAGE]"). }
+}
+GROUP BY ?language ?wikidata ?languageLabel ?code
+ORDER BY ASC(?languageLabel)
+</query>
+|
+<query _pagination="100" languages="<translate><!--T:21--> Number of languages</translate>" records="<translate><!--T:22--> Number of records</translate>">
+select (COUNT(?lang) as ?languages)
+where {
+  ?lang prop:P2 entity:Q4.
+}
