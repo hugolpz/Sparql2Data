@@ -20,4 +20,5 @@ jobs:
     steps:
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: ls -1
+        run: echo "Hello, world!" > languages.json && echo "hi!"
+
