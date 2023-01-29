@@ -5,7 +5,10 @@
 query = cat languages.sparql
 
 # Query Wikidata with SPARQL
-response=$(curl -G --data-urlencode 'query=$query' https://query.wikidata.org/sparql?format=json)
+response=$(curl -G --data-urlencode 'query=$query' https://lingualibre.org/sparql?format=json)
+
+# Save to file
+echo "$reponse" > languages.json
 
 # Use jq to extract values from the JSON response
 values=$(echo "$response" | jq '.results.bindings[].YOUR_FIELD_NAME_HERE.value')
