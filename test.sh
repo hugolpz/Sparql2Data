@@ -2,7 +2,7 @@
 
 
 # 
-query = cat languages.sparql
+query = $(cat languages.sparql)
 
 # Query Wikidata with SPARQL
 response=$(curl -G --data-urlencode 'query=$query' https://lingualibre.org/sparql?format=json)
