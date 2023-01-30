@@ -3,7 +3,7 @@
 query=$(cat ./sparql/languagesSupported.sparql)
 
 # Query Wikidata with SPARQL
-response=$(curl -G --data-urlencode query=${query} https://lingualibre.org/sparql?format=json)
+response=$(curl -G --data-urlencode query="${query}" https://lingualibre.org/sparql?format=json)
 # Save to file
 echo "QUERY= ${query}"
 echo "RESPONSE= ${response}"
