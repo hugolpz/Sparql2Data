@@ -8,10 +8,5 @@ where {
 }
 GROUP BY ?language ?wikidata ?languageLabel ?code
 ORDER BY ASC(?languageLabel)
-</query>
-|
-<query _pagination="100" languages="<translate><!--T:21--> Number of languages</translate>" records="<translate><!--T:22--> Number of records</translate>">
-select (COUNT(?lang) as ?languages)
-where {
-  ?lang prop:P2 entity:Q4.
-}
+
+
