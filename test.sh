@@ -1,13 +1,13 @@
-#!/bin/bash
-
-
-# 
+#!/bin/bas
+# Sparql query
 query=$(cat ./sparql/languagesNumber.sparql)
 
 # Query Wikidata with SPARQL
 response=$(curl -G --data-urlencode 'query=${query}' https://lingualibre.org/sparql?format=json) | jq '.results.bindings[]'
 # Save to file
-echo "${reponse}" > languages.json
+echo "QUERY= ${query}"
+echo "RESPONSE= ${response}"
+echo "${response}" > languages.json
 
 # Use jq to extract values from the JSON response
 values=$(echo "$response" | jq '.results.bindings[].YOUR_FIELD_NAME_HERE.value')
