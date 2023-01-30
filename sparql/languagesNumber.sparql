@@ -1,0 +1,4 @@
+select (COUNT(?lang) as ?languages)
+where {
+  ?lang prop:P2 entity:Q4.
+}
