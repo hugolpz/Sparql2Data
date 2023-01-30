@@ -33,6 +33,8 @@ jobs:
       - name: Run a multi-line script
         run: |
           echo "speakers" > speakers.json
+          git config --global user.email "hugo.lpz@gmail.com"
+          git config --global user.name "hugolpz"
           # Push changes to Github
           git add speakers.json
           git commit -m "Update speakers.json"
