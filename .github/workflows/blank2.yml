@@ -49,7 +49,8 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Add languages via a multi-line script
         run: |
-          ./test.sh
+          git update-index --chmod=+x ./test.sh
+          basb ./test.sh
           # Push changes to Github
           git add languages.json
           git commit -m "Update languages.json"
