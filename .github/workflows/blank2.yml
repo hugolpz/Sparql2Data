@@ -50,7 +50,7 @@ jobs:
       - name: Add languages via a multi-line script
         run: |
           git update-index --chmod=+x ./test.sh
-          basb ./test.sh
+          bash ./test.sh
           # Push changes to Github
           git add languages.json
           git commit -m "Update languages.json"
