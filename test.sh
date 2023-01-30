@@ -1,6 +1,6 @@
 #!/bin/bas
 # Sparql query
-query=$(cat ./sparql/languagesNumber.sparql)
+query=$(cat ./sparql/languagesSupported.sparql)
 
 # Query Wikidata with SPARQL
 response=$(curl -G --data-urlencode 'query=${query}' https://lingualibre.org/sparql?format=json)
