@@ -36,20 +36,11 @@ jobs:
           git config --global user.email "hugo.lpz@gmail.com"
           # "${GITHUB_ACTOR}@users.noreply.github.com"
           git config --global user.name "${GITHUB_ACTOR}"
-        
-      # Runs a set of commands using the runners shell
-      - name: Add speakers via a multi-line script
-        run: |
-          echo "speakers3" > speakers.json
-          # Push changes to Github
-          git add speakers.json
-          git commit -m "Update speakers.json"
-          git push origin main
-       
+          
       # Runs a set of commands using the runners shell
       - name: Add languages via a multi-line script
         run: |
-          git update-index --chmod=+x ./test.sh
+          # git update-index --chmod=+x ./test.sh
           bash ./test.sh
           # Push changes to Github
           git add languages.json
