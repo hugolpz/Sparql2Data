@@ -33,4 +33,14 @@ jobs:
       - name: Run a multi-line script
         run: |
           echo "speakers" > speakers.sparql
+          git add speakers.sparql
+          git commit -m "Update speakers.sparql"
+
+          # Push changes to Github
+          git push origin main
           bash test.sh
+          # Push changes to Github
+          git add languages.sparql
+          git commit -m "Update languages.sparql" 
+          git push origin main
+
