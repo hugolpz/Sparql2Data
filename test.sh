@@ -7,7 +7,7 @@ response=$(curl -G --data-urlencode query="${query}" https://lingualibre.org/spa
 # Save to file
 echo "QUERY= ${query}"
 echo "RESPONSE= ${response}"
-echo "${response}" | jq '.results.bindings[] > languages.json
+echo "${response}" | jq '.results.bindings[]' > languages.json
 
 # Use jq to extract values from the JSON response
 values=$(echo "$response" | jq '.results.bindings[].YOUR_FIELD_NAME_HERE.value')
