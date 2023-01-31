@@ -9,6 +9,9 @@ echo "QUERY= ${query}"
 echo "RESPONSE= ${response}"
 echo "${response}" | jq '.results.bindings' > languages.json
 
+echo "${response}" | jq '.results.bindings' | jq 'map({"language":.language.value,"wikidata":.wikidata.value,"iso":.code.value})' > languages2.json
+echo "${response}" | jq '.results.bindings | map({"language":.language.value,"wikidata":.wikidata.value,"iso":.code.value})' > languages3.json
+
 # Use jq to extract values from the JSON response
 values=$(echo "$response" | jq '.results.bindings[].YOUR_FIELD_NAME_HERE.value')
 
