@@ -53,6 +53,6 @@ jobs:
       - name: Commit changes
         run: |
           # Push changes to Github
-          git add ./output/*
-          git commit -m "Update output files"
+          git add ./data/*
+          git commit -m "Update output files in ./data"
           git push origin main
