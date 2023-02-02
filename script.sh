@@ -89,7 +89,7 @@ echo "RESPONSE= ${clean}" | head -n 20
 # PRINT TO ./DATA/ FOLDER
 echo "PRINT TO ./data/${output}"
 firstline= ${clean} | head -n 1
-if [ ${format} == "json" && ${firstline:0:1} == "[" ]; then
+if [[ ${format} == "json" && ${firstline:0:1} == "[" ]]; then
     echo "${clean}" > "./data/${output}"; 
 elif [ ${format} != "json" ]; then
     echo "${clean}" > "./data/${output}"; 
