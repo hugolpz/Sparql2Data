@@ -8,7 +8,7 @@ response=$(curl -G --data-urlencode query="${query}" https://lingualibre.org/spa
 echo "QUERY= ${query}"
 echo "RESPONSE= ${response}" | head 
 # echo "${response}" | jq '.results.bindings' > languages.json
-echo "${response}" | jq '.results.bindings' | jq 'map(map_values(.value))' > languages.json
+echo "${response}" | jq '.results.bindings' | jq 'map(map_values(.value))' | sed -e s/https:\/\/lingualibre.org\/entity\///g > languages.json
 
 # Use jq to extract values from the JSON response
 values=$(echo "$response" | jq '.results.bindings[].language.value')
