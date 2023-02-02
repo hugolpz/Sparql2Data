@@ -89,12 +89,12 @@ echo "RESPONSE= ${clean}" | head -n 20
 # PRINT TO ./DATA/ FOLDER
 echo "PRINT TO ./data/${output}"
 firstline= ${clean} | head -n 1
-if [[ ${format} == "json" && ${firstline:0:1} == "[" ]]; then
+if [ ${format} == "json" && ${firstline:0:1} == "[" ]; then
     echo "${clean}" > "./data/${output}"; 
-elif [[ ${format} != "json" ]]; then
+elif [ ${format} != "json" ]; then
     echo "${clean}" > "./data/${output}"; 
 else
-    echo "XHR response appears invalide, was NOT printed to ./data/${output} ."
+    echo "XHR response appears invalid, was NOT printed to ./data/${output} ."
 fi
 
 echo "* ********************************************* *"
