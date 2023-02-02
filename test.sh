@@ -6,14 +6,12 @@ query=$(cat ./sparql/languagesSupported.sparql)
 response=$(curl -G --data-urlencode query="${query}" https://lingualibre.org/sparql?format=json)
 # Save to file
 echo "QUERY= ${query}"
-echo "RESPONSE= ${response}"
-echo "${response}" | jq '.results.bindings' > languages.json
-
-echo "${response}" | jq '.results.bindings' | jq 'map({"language":.language.value,"wikidata":.wikidata.value,"iso":.code.value})' > languages2.json
-echo "${response}" | jq '.results.bindings | map({"language":.language.value,"wikidata":.wikidata.value,"iso":.code.value})' > languages3.json
+echo "RESPONSE= ${response}" | head 
+# echo "${response}" | jq '.results.bindings' > languages.json
+echo "${response}" | jq '.results.bindings' | jq 'map(map_values(.value))' > languages.json
 
 # Use jq to extract values from the JSON response
-values=$(echo "$response" | jq '.results.bindings[].YOUR_FIELD_NAME_HERE.value')
+values=$(echo "$response" | jq '.results.bindings[].language.value')
 
 # Iterate over the values and process them in the loop
 for value in $values; do
