@@ -15,8 +15,8 @@ on:
   # Manually from Github's Actions tab
   workflow_dispatch:
 
-permissions:
-  contents: write
+permissions: write-all
+#  contents: write
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -53,6 +53,6 @@ jobs:
       - name: Commit changes
         run: |
           # Push changes to Github
-          git add ./output/*
-          git commit -m "Update output files"
+          git add ./data/*
+          git commit -m "Update output files in ./data"
           git push origin main
