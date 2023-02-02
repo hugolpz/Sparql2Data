@@ -76,4 +76,4 @@ response=$(curl -G --data-urlencode query="${query}" ${serviceURL}?format=${form
 # Save to file
 echo "QUERY= ${query}"
 echo "RESPONSE= ${response}" | head -n 20
-echo "${response}" | jq '.results.bindings' | jq 'map(map_values(.value))' | sed -e "s/https:\/\/.*\/entity\///g" > ./data/${output}
+echo "${response}" | jq '.results.bindings' | jq 'map(map_values(.value))' | sed -e "s/https:\/\/.*\/entity\///g" > "./data/${output}"
