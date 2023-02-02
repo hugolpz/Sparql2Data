@@ -24,8 +24,7 @@ EOF
 sparql="./sparql/WD-demo.sparql"
 service="wikidata"
 format="json"
-output=$(basename "${sparql}" .sparql).${format}
-
+output=""
 
 # Parse command line options
 while [[ $# -gt 0 ]]; do
@@ -53,6 +52,8 @@ while [[ $# -gt 0 ]]; do
   shift
 done
 
+# ASSIGN OUTPUT
+output=$(basename "${sparql}" .sparql).${format}
 serviceURL=""
 # ASSIGN SERVICE
 if [ "$service" == "lingualibre" ]; then
