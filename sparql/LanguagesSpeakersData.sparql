@@ -1,4 +1,3 @@
-# MediaWiki LanguagesSpeakersData.js
 SELECT ?languageLabel ?wikidata ?iso 
 #(COUNT(DISTINCT(?recordsAll)) AS ?records)
 (COUNT(DISTINCT(?speakersAll)) AS ?speakers) 
