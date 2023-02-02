@@ -5,7 +5,7 @@ wdqs=https://www.wikidata.org/sparql
 query=$(cat ./sparql/LanguagesPopulationData.sparql)
 
 # Query Wikidata with SPARQL
-response=$(curl -G --data-urlencode query="${query}" https://www.wikidata.org/sparql?format=json)
+response=$(curl -G --data-urlencode query="${query}" https://query.wikidata.org/sparql?format=json)
 # Save to file
 echo "QUERY= ${query}"
 echo "RESPONSE= ${response}" | head 
