@@ -77,7 +77,14 @@ echo "QUERY= ${query}" | head -n 5
 
 # CURL SPARQL query on Wikidata
 response=$(curl -G --data-urlencode query="${query}" ${serviceURL}?format=${format})
-echo "RESPONSE= ${response}" | head -n 20
 
-# JSON cleanup
-echo "${response}" | jq '.results.bindings' | jq 'map(map_values(.value))' | sed -e "s/https:\/\/.*\/entity\///g" > "./data/${output}"
+# CLEAN BY FORMAT
+if [ "$format" == "json" ]; then
+    clean=$(echo "${response}" | jq '.results.bindings' | jq 'map(map_values(.value))' | sed -e "s/https:\/\/.*\/entity\///g")
+else
+    clean=${response}
+fi
+echo "RESPONSE= ${clean}" | head -n 20
+
+# PRINT TO ./DATA/ FOLDER
+echo "${clean} > "./data/${output}"
