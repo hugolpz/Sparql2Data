@@ -1,9 +1,11 @@
 #!/bin/bas
 # Sparql query
+llqs=https://www.wikidata.org/sparql
+wdqs=https://www.wikidata.org/sparql
 query=$(cat ./sparql/LanguagesPopulationData.sparql)
 
 # Query Wikidata with SPARQL
-response=$(curl -G --data-urlencode query="${query}" https://wikidata.org/sparql?format=json)
+response=$(curl -G --data-urlencode query="${query}" https://www.wikidata.org/sparql?format=json)
 # Save to file
 echo "QUERY= ${query}"
 echo "RESPONSE= ${response}" | head 
