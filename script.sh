@@ -24,7 +24,7 @@ EOF
 sparql="./sparql/WD-demo.sparql"
 service="wikidata"
 format="json"
-ouput=$(basename "${sparql}" .sparql).${format}
+output=$(basename "${sparql}" .sparql).${format}
 
 
 # Parse command line options
