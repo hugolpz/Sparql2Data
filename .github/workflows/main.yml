@@ -46,13 +46,13 @@ jobs:
       # Runs the script
       - name: Runs the script
         run: |
-          # git update-index --chmod=+x ./test.sh
-          bash ./test.sh
+          # git update-index --chmod=+x ./loop.sh
+          bash ./loop.sh
           
       # Commits changes
       - name: Commit changes
         run: |
           # Push changes to Github
-          git add output.json
-          git commit -m "Update output.json"
+          git add ./output/*
+          git commit -m "Update output files"
           git push origin main
