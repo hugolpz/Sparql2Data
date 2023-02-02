@@ -1,0 +1,51 @@
+# MediaWiki:LanguagesPopulationData.js
+# defaultView:Table
+# Run on WDQS <---------------------------------------------------
+# Same can apply to languages :
+# Q3→Q4  : items speaker and language
+# P14→P12 : items WD location and WD language
+# P5→P4 : properties speaker and languages
+# P625→P1098 : properties location and population
+#
+PREFIX ll: <https://lingualibre.org/entity/>
+PREFIX llt: <https://lingualibre.org/prop/direct/>
+#
+SELECT ?itemLabel ?wikidata (MAX(?info) AS ?population) (SAMPLE(?infoTag) AS ?populationQualifier)
+# On Lingualibre, get item's info
+WITH {
+  SELECT *
+  WHERE {
+    SERVICE <https://lingualibre.org/sparql> {    # Commented on LLQS only
+      SELECT ?itemLabel ?wikidata # (COUNT(?record) AS ?records) 
+      {
+        ?item llt:P2 ll:Q4 ;
+                 rdfs:label ?itemLabel;
+                 llt:P12 ?wikidata .
+       # ?record llt:P4 ?item .
+        FILTER (LANG(?itemLabel)='en')
+        FILTER (regex(?wikidata, '^Q'))
+      } GROUP BY ?itemLabel ?wikidata
+    }           # Commented on LLQS only
+  }
+} AS %infoWikidataId
+# On Wikidata, get the target info
+WHERE {
+  INCLUDE %infoWikidataId
+  BIND (URI(CONCAT("http://www.wikidata.org/entity/", ?wikidata)) AS ?wikidataURL)
+  SERVICE <https://query.wikidata.org/sparql> { 
+    SELECT ?wikidataURL ?info { 
+      OPTIONAL { ?wikidataURL wdt:P1098 ?info . }
+    } 
+  }
+  BIND(
+    IF(?info < 1000, "<1k",
+    IF(?info < 20000, "1-20k",
+    IF(?info < 100000, "20-100k",
+    IF(?info < 1000000, "100k-1M",
+    IF(?info < 10000000, "1-10M",
+    IF(?info < 100000000, "10-100M",
+    ">100M"))))))
+    AS ?infoTag).
+} 
+GROUP BY ?itemLabel ?wikidata 
+ORDER BY DESC (?population)

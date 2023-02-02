@@ -1,0 +1,43 @@
+# MediaWiki:LanguagesGenderData.js
+SELECT ?languageLabel ?wikidata ?iso ?malesCount ?malesRecords ?femalesCount ?femalesRecords
+    (ROUND(1000*?femalesRecords/(?femalesRecords+?malesRecords))/10 AS ?percent)
+WITH {
+  SELECT ?language ?languageLabel ?wikidata ?iso {
+      ?record prop:P2 entity:Q2 .     # Filter: P2 'instance of' is Q2 'record'
+      ?record prop:P4 ?language .     # Assign value: P4 'language' into ?language
+      ?language prop:P12 ?wikidata .   # Assign value: P12 'wikidata id' into ?wikidata
+      OPTIONAL { ?language prop:P13 ?iso . } # Assign value: P13 'iso639-3' into ?iso
+      SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en" }
+	}
+	GROUP BY ?language ?languageLabel ?wikidata ?iso
+} AS %base
+WITH {
+  SELECT ?language ?languageLabel ?iso ?genderLabel 
+    (COUNT(DISTINCT ?females) AS ?femalesCount) 
+    (COUNT(DISTINCT ?record) AS ?femalesRecords) {
+  INCLUDE %base
+  ?record prop:P4 ?language ; # Filter
+          prop:P5 ?females . # Assign value: P5 'speaker' into ?females
+  ?females prop:P8 entity:Q17 ;  # Filter
+          prop:P8 ?gender . # Assign value: P8 'gender' into ?gender
+    } GROUP BY ?language ?languageLabel ?iso ?genderLabel
+} AS %females
+WITH {
+  SELECT ?language ?languageLabel ?iso ?genderLabel 
+    (COUNT(DISTINCT ?males) AS ?malesCount)
+    (COUNT(DISTINCT ?record) AS ?malesRecords) {
+  INCLUDE %base
+  ?record prop:P4 ?language ;
+          prop:P5 ?males . # Assign value: P5 'speaker' into variable ?speakerQid
+  ?males prop:P8 entity:Q16 ; 
+          prop:P8 ?gender .
+    } GROUP BY ?language ?languageLabel ?iso ?genderLabel
+} AS %males
+{
+  INCLUDE %base 
+  INCLUDE %females
+  INCLUDE %males
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
+}
+GROUP BY ?languageLabel ?wikidata ?iso ?malesCount ?malesRecords ?femalesCount ?femalesRecords
+ORDER BY ASC(?languageLabel )

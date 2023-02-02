@@ -1,0 +1,24 @@
+# MediaWiki:LanguagesSpeakersData.js
+# TOO BIG, TO RUN IN LLQS
+# Issue 1: ?speakers (all) and ?speakersM (male) appear the same 
+# Issue 2: languages without male speakers are excluded :( I want to keep them.
+SELECT ?languageLabel ?wikidata ?iso 
+#(COUNT(DISTINCT(?recordsAll)) AS ?records)
+(COUNT(DISTINCT(?speakersAll)) AS ?speakers) 
+(COUNT(DISTINCT(?speakersM)) AS ?speakersMales)
+(ROUND(?speakers-?speakersMales) AS ?speakersOthers)
+WHERE{ 
+  ?recordsAll prop:P2 entity:Q2 .    # Filter: items where P2 'instance of' is Q2 'record'
+  ?recordsAll prop:P4 ?language .    # Assign value: P4 'language' into variable ?language
+  ?language prop:P12 ?wikidata .  # Assign value: P12 'wikidata id' into variable ?WD
+  OPTIONAL { ?language prop:P13 ?iso. } # Assign value: P13 'iso639-3' into ?isoCode
+  
+  ?recordsAll prop:P5 ?speakersAll .   # Assign value: P5 'speaker' into variable ?speakerQid  
+  
+  OPTIONAL { 
+  ?recordsAll prop:P5 ?speakersM .   # Assign value: P5 'speaker' into variable ?speakerQidM
+  ?speakersM prop:P8 entity:Q16 .   # Filter: P8 'sex or gender' is Q16 'male
+  }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en" . } 
+}
+GROUP BY ?languageLabel ?language ?wikidata ?iso
