@@ -87,4 +87,5 @@ fi
 echo "RESPONSE= ${clean}" | head -n 20
 
 # PRINT TO ./DATA/ FOLDER
+echo "PRINT TO ./data/${output}"
 echo "${clean}" > "./data/${output}"
