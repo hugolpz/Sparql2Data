@@ -70,10 +70,12 @@ echo "Parameter 's' is: $service"
 echo "  Service URL is: ${serviceURL}"
 echo "Parameter 'f' is: $format"
 
-# Query Wikidata with SPARQL
+# Sparql query
 query=$(cat ${sparql})
+echo "QUERY= ${query}" | head -n 5
+# CURL SPARQL query on Wikidata
 response=$(curl -G --data-urlencode query="${query}" ${serviceURL}?format=${format})
-# Save to file
-echo "QUERY= ${query}"
 echo "RESPONSE= ${response}" | head -n 20
+
+# JSON cleanup
 echo "${response}" | jq '.results.bindings' | jq 'map(map_values(.value))' | sed -e "s/https:\/\/.*\/entity\///g" > "./data/${output}"
