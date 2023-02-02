@@ -53,6 +53,6 @@ jobs:
       - name: Commit changes
         run: |
           # Push changes to Github
-          git add languages.json
-          git commit -m "Update languages.json"
+          git add output.json
+          git commit -m "Update output.json"
           git push origin main
