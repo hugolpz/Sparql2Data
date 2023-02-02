@@ -73,6 +73,7 @@ echo "Parameter 'f' is: $format"
 # Sparql query
 query=$(cat ${sparql})
 echo "QUERY= ${query}" | head -n 5
+
 # CURL SPARQL query on Wikidata
 response=$(curl -G --data-urlencode query="${query}" ${serviceURL}?format=${format})
 echo "RESPONSE= ${response}" | head -n 20
