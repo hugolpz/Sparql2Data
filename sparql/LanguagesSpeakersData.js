@@ -1,7 +1,4 @@
-# MediaWiki:LanguagesSpeakersData.js
-# TOO BIG, TO RUN IN LLQS
-# Issue 1: ?speakers (all) and ?speakersM (male) appear the same 
-# Issue 2: languages without male speakers are excluded :( I want to keep them.
+# MediaWiki LanguagesSpeakersData.js
 SELECT ?languageLabel ?wikidata ?iso 
 #(COUNT(DISTINCT(?recordsAll)) AS ?records)
 (COUNT(DISTINCT(?speakersAll)) AS ?speakers) 
