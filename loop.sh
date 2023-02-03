@@ -1,11 +1,16 @@
 ## Targets
-targetsLL=$(ls -1 ./sparql/LL-L*)
 targetsWD=$(ls -1 ./sparql/WD-*)
-
-for file in $targetsLL; do
-  bash ./script.sh -q $file --service lingualibre --format json 
-done
+targetsWC=$(ls -1 ./sparql/WC-*)
+targetsLL=$(ls -1 ./sparql/LL-L*)
 
 for file in $targetsWD; do
-  bash ./script.sh -q $file --service wikidata --format json 
+  bash ./script.sh --sparql $file --service wikidata --format json 
+done
+
+for file in $targetsWC; do
+  bash ./script.sh --sparql $file --service commons --format json 
+done
+
+for file in $targetsLL; do
+  bash ./script.sh --sparql $file --service lingualibre --format json 
 done
