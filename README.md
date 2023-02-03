@@ -9,8 +9,8 @@ bash ./script.sh -h
 bash ./script.sh -q ./demo.sparql -s wikidata -f json
 # Output response in ./data/demo.json
 
-# Run multiple SPARQL queries in `./sparql`
-# Requires prefixes in those filenames: WD-*, LL-*, CC-*.
+# Run multiple SPARQL queries in `./sparql/`
+# Requires prefixes in those filenames: WD-*, LL-*, WC-*.
 bash loop.sh
 ```
 
