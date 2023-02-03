@@ -6,7 +6,7 @@ Given valid SPARQL queries, an endpoint and an output format, writes the respons
 bash ./script.sh -h
 
 # Basic usage
-bash ./script.sh -q ./demo.sparql -s wikidata -f json
+bash ./script.sh -q ./WD-demo.sparql -s wikidata -f xml
 # Output response in ./data/demo.json
 
 # Run multiple SPARQL queries in `./sparql/`
