@@ -82,7 +82,7 @@ echo "RESPONSE: ${response}" | head -n 20
 
 # CLEAN BY FORMAT
 if [ "$format" == "json" ]; then
-    clean=$(echo "${response}" | jq '.results.bindings' | jq 'map(map_values(.value))' | sed -e "s/https:\/\/.*\/entity\///g" )
+    clean=$(echo "${response}" | jq '.results.bindings' | jq 'map(map_values(.value))' | sed -e "s/https?:\/\/.*\/entity\///g" )
 else
     clean=${response}
 fi
