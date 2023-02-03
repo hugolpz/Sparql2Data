@@ -78,6 +78,7 @@ echo "QUERY= ${query}" | head -n 5
 
 # CURL SPARQL query on Wikidata
 response=$(curl -G --data-urlencode query="${query}" ${serviceURL}?format=${format})
+echo "RESPONSE: ${response}" | head -n 20
 
 # CLEAN BY FORMAT
 if [ "$format" == "json" ]; then
@@ -85,7 +86,7 @@ if [ "$format" == "json" ]; then
 else
     clean=${response}
 fi
-echo "RESPONSE= ${clean}" | head -n 20
+echo "CLEANED: ${clean}" | head -n 20
 
 # PRINT TO ./DATA/ FOLDER
 echo "PRINT TO ./data/${output}"
@@ -99,3 +100,4 @@ else
 fi
 
 echo "* ********************************************* *"
+echo " "
