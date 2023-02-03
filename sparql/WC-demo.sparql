@@ -1,0 +1,6 @@
+# Depictions of dragons
+#defaultView:ImageGrid
+SELECT ?file ?image WHERE {
+  ?file wdt:P180 wd:Q7559;
+    schema:url ?image.
+}
