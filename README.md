@@ -15,7 +15,9 @@ bash ./script.sh -q ./demo.sparql -s wikidata -f json
 bash loop.sh
 ```
 
-### Cron
+### Auto-update
 This repository integrates a github action file.
-On github, a cron command runs `loop.sh` every night at 1:30am, updating the repository.
-You can adapt it to your needs.
+On github, a cron command runs `loop.sh` every night at 1:30am, then commit changes to the repository.
+You can adapt to your needs.
+
+To work on your own server, ignore this .yml commit cycle, create your own cron file fitting to your needs. 
