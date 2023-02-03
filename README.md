@@ -1,4 +1,3 @@
-## SPARQL2DATA
 Given valid SPARQL queries, an endpoint and an output format, writes the response to a local file.
 
 ### Usage
