@@ -1,0 +1,6 @@
+# Mythical animals
+SELECT ?item ?itemLabel WHERE {
+  ?item wdt:P31 wd:Q24334299.
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+}
+LIMIT 200
