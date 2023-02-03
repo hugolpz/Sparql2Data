@@ -62,7 +62,7 @@ if [ "$service" == "lingualibre" ]; then
 elif [ "$service" == "commons" ]; then
   serviceURL="https://commons-query.wikimedia.org/sparql"
 else
-  serviceURL="https://www.wikidata.org/sparql"
+  serviceURL="https://query.wikidata.org/sparql"
 fi
 
 # DEV COMMENTS TO REMOVE
