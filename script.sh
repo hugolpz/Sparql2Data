@@ -8,12 +8,12 @@ showHelp() {
 cat << EOF  
 # Usage: script.sh [-q,--sparql <arg1>] [-s,--service <arg2>] [f,--format <arg3>]#
 # Optional arguments:
-#   -q, --sparql
-#           Relative path of a file with a valid SPARQL query, i.e './query.sparql'
+#   -q, --query, --sparql
+#           Path to a file with a valid SPARQL query, i.e './query.sparql'
 #   -s, --service
-#           Query service among 'wikidata', 'lingualibre', 'commons'. Default to 'wikidata'.
+#           Query service among 'wikidata', 'lingualibre', 'commons'. Default: 'wikidata'.
 #   -f, --format
-#           Output format among json, xml, csv, tsv
+#           Output format among 'xml', 'json', 'csv', 'tsv'.
 #
 # Example: script.sh ./sparql/LL-demo.sparql -s lingualibre -f json
 EOF
@@ -30,7 +30,7 @@ output=""
 while [[ $# -gt 0 ]]; do
   key="$1"
   case $key in
-    -q|--sparql)
+    -q|--query|--sparql)
     sparql="$2"
     shift
     ;;
@@ -52,10 +52,11 @@ while [[ $# -gt 0 ]]; do
   shift
 done
 
-# ASSIGN OUTPUT
+# ASSIGN OUTPUT FILENAME
 output=$(basename "${sparql}" .sparql).${format}
-serviceURL=""
+
 # ASSIGN SERVICE
+serviceURL=""
 if [ "$service" == "lingualibre" ]; then
   serviceURL="https://lingualibre.org/sparql"
 elif [ "$service" == "commons" ]; then
