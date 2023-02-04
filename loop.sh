@@ -1,7 +1,7 @@
 ## Targets
 targetsWD=$(ls -1 ./sparql/WD-*)
 targetsWC=$(ls -1 ./sparql/WC-*)
-targetsLL=$(ls -1 ./sparql/LL-e)
+targetsLL=$(ls -1 ./sparql/LL-e*)
 
 for file in $targetsLL; do
   bash ./script.sh --sparql $file --service lingualibre --format json 
