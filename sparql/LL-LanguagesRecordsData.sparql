@@ -8,7 +8,7 @@ SELECT
 WHERE {
   ?language prop:P2 entity:Q4 .              # Filter: P2 'instance of' is Q4 'language'
   OPTIONAL { ?language prop:P12 ?wikidata }  # Assign value: language's P12 'wikidata id' into ?wikidata
-  OPTIONAL { ?language prop:P13 ?iso         # Assign value: language's P13 'ISO 639-3' into ?wikidata
+  OPTIONAL { ?language prop:P13 ?iso }       # Assign value: language's P13 'ISO 639-3' into ?wikidata
   # OPTIONAL { ?language prop:P17 ?wiki }
   OPTIONAL { ?language rdfs:label ?languageLabel .
              FILTER (lang(?languageLabel) = "[AUTO_LANGUAGE]"). }
