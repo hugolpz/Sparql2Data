@@ -1,7 +1,7 @@
 ## Targets
 targetsWD=$(ls -1 ./sparql/WD-*)
 targetsWC=$(ls -1 ./sparql/WC-*)
-targetsLL=$(ls -1 ./sparql/LL-L*)
+targetsLL=$(ls -1 ./sparql/LL-*)
 
 for file in $targetsWD; do
   bash ./script.sh --sparql $file --service wikidata --format json 
