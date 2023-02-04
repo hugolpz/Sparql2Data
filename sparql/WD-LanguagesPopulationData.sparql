@@ -48,4 +48,4 @@ WHERE {
     AS ?infoTag).
 } 
 GROUP BY ?itemLabel ?wikidata 
-ORDER BY DESC (?population)
+ORDER BY DESC(?population)
