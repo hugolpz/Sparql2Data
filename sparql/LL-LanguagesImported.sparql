@@ -4,7 +4,7 @@ where {
   OPTIONAL { ?language prop:P12 ?wikidata }  # Assign value: language's P12 'wikidata id' into ?wikidata
   OPTIONAL { ?language prop:P13 ?code }      # Assign value: language's P13 'ISO 639-3' into ?wikidata
   OPTIONAL { ?language rdfs:label ?languageLabel .  # Assign value: label into ?languageLabel
-  FILTER (lang(?languageLabel) = "[AUTO_LANGUAGE]"). }
+  FILTER (lang(?languageLabel) = "en"). }
 }
 GROUP BY ?language ?wikidata ?languageLabel ?code
 ORDER BY ASC(?languageLabel)
