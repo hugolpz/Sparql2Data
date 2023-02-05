@@ -21,4 +21,5 @@ WHERE{
   }
   OPTIONAL { ?language rdfs:label ?languageLabel . FILTER (lang(?languageLabel) = "en"). } 
 }
-GROUP BY ?languageLabel ?language ?wikidata ?iso
+GROUP BY ?languageLabel ?wikidata ?iso
+ORDER BY DESC(?speakers)
