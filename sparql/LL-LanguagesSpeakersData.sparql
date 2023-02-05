@@ -19,6 +19,6 @@ WHERE{
   ?recordsAll prop:P5 ?speakersM .   # Assign value: P5 'speaker' into variable ?speakerQidM
   ?speakersM prop:P8 entity:Q16 .   # Filter: P8 'sex or gender' is Q16 'male
   }
-  SERVICE wikibase:label { bd:serviceParam wikibase:language "en" . } 
+  OPTIONAL { ?language rdfs:label ?languageLabel . FILTER (lang(?languageLabel) = "en"). } 
 }
 GROUP BY ?languageLabel ?language ?wikidata ?iso
