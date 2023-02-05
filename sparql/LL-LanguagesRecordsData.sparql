@@ -11,7 +11,7 @@ WHERE {
   OPTIONAL { ?language prop:P13 ?iso }      # Assign value: language's P13 'ISO 639-3' into ?wikidata
  # OPTIONAL { ?language prop:P17 ?wiki }
   OPTIONAL { ?language rdfs:label ?languageLabel .
-             FILTER (lang(?languageLabel) = "[AUTO_LANGUAGE]"). }
+             FILTER (lang(?languageLabel) = "en"). }
   ?record prop:P4 ?language .  # Filter: P4 'language' is Q21 'French'
   ?record prop:P2 entity:Q2 .  # Filter: P2 'instance of' is Q2 'record'
   ?record rdfs:label ?recordLabel. # Assign value: label to ?itemLabel
