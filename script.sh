@@ -24,7 +24,7 @@ EOF
 sparql="./sparql/WD-demo.sparql"
 service="wikidata"
 format="json"
-output=""
+output="WD-demo.json"
 
 # Parse command line options
 while [[ $# -gt 0 ]]; do
@@ -67,11 +67,10 @@ fi
 
 # DEV COMMENTS TO REMOVE
 echo "Parameter 'q' is: $sparql"
-echo "  Output name is: ${output}"
-echo "Parameter 's' is: $service"
-echo "  Service URL is: ${serviceURL}"
 echo "Parameter 'f' is: $format"
-
+echo "└─ Output name is: ${output}"
+echo "Parameter 's' is: $service"
+echo "└─ Service URL is: ${serviceURL}"
 # Sparql query
 query=$(cat ${sparql})
 echo "QUERY= ${query}" | head -n 5
