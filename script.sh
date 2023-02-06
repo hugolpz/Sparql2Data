@@ -46,7 +46,7 @@ while [[ $# -gt 0 ]]; do
     showHelp
     exit 0
     ;;
-    \?) echo "Invalid option: -$OPTARG. Please use `man ./script.sh`" >&2
+    \?) echo "Invalid option. Please use `bssh ./script.sh -h`" >&2
     ;;
   esac
   shift
@@ -71,6 +71,7 @@ echo "Parameter 'f' is: $format"
 echo "└─ Output name is: ${output}"
 echo "Parameter 's' is: $service"
 echo "└─ Service URL is: ${serviceURL}"
+
 # Sparql query
 query=$(cat ${sparql})
 echo "QUERY= ${query}" | head -n 5
