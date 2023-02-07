@@ -1,13 +1,13 @@
-select ?language ?wikidata ?languageLabel ?code
+select ?language ?wikidata ?languageLabel ?iso
 where {
   ?language prop:P2 entity:Q4 .              # Filter: P2 'instance of' is Q4 'language'
   OPTIONAL { ?language prop:P12 ?wikidata }  # Assign value: language's P12 'wikidata id' into ?wikidata
-  OPTIONAL { ?language prop:P13 ?code }      # Assign value: language's P13 'ISO 639-3' into ?wikidata
+  OPTIONAL { ?language prop:P13 ?iso }       # Assign value: language's P13 'ISO 639-3' into ?wikidata
   OPTIONAL { ?language rdfs:label ?languageLabel .  # Assign value: label into ?languageLa
             FILTER (lang(?languageLabel) = "en").
   }
 }
-GROUP BY ?language ?wikidata ?languageLabel ?code
-ORDER BY ASC(?languageLabel)
+GROUP BY ?language ?wikidata ?languageLabel ?iso
+ORDER BY ASC(?iso)
 
 
