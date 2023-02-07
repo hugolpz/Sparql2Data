@@ -7,7 +7,7 @@ bash ./script.sh -h
 
 # Basic usage
 bash ./script.sh -q ./WD-demo.sparql -s wikidata -f xml
-# Output response in ./data/demo.json
+# Output response in ./data/WD-demo.json
 
 # Run multiple SPARQL queries in `./sparql/`
 # Requires prefixes in those filenames: WD-*, LL-*, WC-*.
