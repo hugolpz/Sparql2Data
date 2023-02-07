@@ -82,20 +82,22 @@ echo "RESPONSE: ${response}" | head -n 20
 # CLEAN BY FORMAT
 if [ "$format" == "json" ]; then
     clean=$(echo "${response}" | jq '.results.bindings' | jq 'map(map_values(.value))' | sed -E "s/https?:\/\/.*\/entity\///g" )
+    echo "CLEANED (JSON): ${clean}" | head -n 20
 else
     clean=${response}
 fi
-echo "CLEANED: ${clean}" | head -n 20
 
-# PRINT TO ./DATA/ FOLDER
-echo "PRINT TO ./data/${output}"
+## IF valid response, THEN print to local file, ELSE error message.
+echo "Check if response is valid."
 firstline=$(echo "${clean}" | head -n 1)
 if [[ ${format} == "json" && ${firstline:0:1} == "[" ]]; then
+    echo "JSON response is valid, print."
     echo "${clean}" > "./data/${output}"; 
 elif [ ${format} != "json" ]; then
+    echo "${format} response received, print."
     echo "${clean}" > "./data/${output}"; 
 else
-    echo "XHR response appears invalid, was NOT printed to ./data/${output} ."
+    echo "Response appears invalid, was NOT printed to ./data/${output} ."
 fi
 
 echo "* ********************************************* *"
