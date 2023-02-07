@@ -1,6 +1,4 @@
-#
-SELECT 
-?language ?wikidata ?languageLabel ?iso # ?wiki
+SELECT ?language ?wikidata ?languageLabel ?iso # ?wiki
 (COUNT(?record) AS ?records)
 #(COUNT(DISTINCT(?recordLabel)) AS ?words) 
 #(ROUND(1000*?words/?records)/10 AS ?percent)
@@ -17,4 +15,4 @@ WHERE {
              FILTER (lang(?languageLabel) = "en"). }
 }
 GROUP BY ?language ?wikidata ?languageLabel ?iso # ?wiki
-ORDER BY DESC(?iso)
+ORDER BY ?records ?iso
