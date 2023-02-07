@@ -6,16 +6,15 @@
 showHelp() {
 # `cat << EOF` This means that cat should stop reading when EOF is detected
 cat << EOF  
-# Usage: script.sh [-q,--sparql <arg1>] [-s,--service <arg2>] [f,--format <arg3>]#
-# Optional arguments:
-#   -q, --query, --sparql
-#           Path to a file with a valid SPARQL query, i.e './query.sparql'
-#   -s, --service
-#           Query service among 'wikidata', 'lingualibre', 'commons'. Default: 'wikidata'.
-#   -f, --format
-#           Output format among 'xml', 'json', 'csv', 'tsv'.
-#
-# Example: script.sh ./sparql/LL-demo.sparql -s lingualibre -f json
+Usage: script.sh [-q,--sparql <arg1>] [-s,--service <arg2>] [f,--format <arg3>]#
+Optional arguments:
+  -q, --query, --sparql
+          Path to a file with a valid SPARQL query, i.e './query.sparql'
+  -s, --service
+          Query service among 'wikidata', 'lingualibre', 'commons'. Default: 'wikidata'.
+  -f, --format
+          Output format among 'xml', 'json', 'csv', 'tsv'.
+Example: script.sh ./sparql/LL-demo.sparql -s lingualibre -f json
 EOF
 # EOF is found above and hence cat command stops reading. This is equivalent to echo but much neater when printing out.
 }
@@ -46,7 +45,7 @@ while [[ $# -gt 0 ]]; do
     showHelp
     exit 0
     ;;
-    \?) echo "Invalid option. Please use `bssh ./script.sh -h`" >&2
+    \?) echo "Invalid option. Please use `bash ./script.sh -h`" >&2
     ;;
   esac
   shift
@@ -68,9 +67,9 @@ fi
 # DEV COMMENTS TO REMOVE
 echo "Parameter 'q' is: $sparql"
 echo "Parameter 'f' is: $format"
-echo "└─ Output name is: ${output}"
+echo "└─Output name is: ${output}"
 echo "Parameter 's' is: $service"
-echo "└─ Service URL is: ${serviceURL}"
+echo "└─Service URL is: ${serviceURL}"
 
 # Sparql query
 query=$(cat ${sparql})
