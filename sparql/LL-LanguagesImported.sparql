@@ -8,6 +8,6 @@ where {
   }
 }
 GROUP BY ?language ?wikidata ?languageLabel ?iso
-ORDER BY ASC(?iso)
+ORDER BY (?iso)
 
 
