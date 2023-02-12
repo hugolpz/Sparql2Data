@@ -1,14 +1,14 @@
 [
   {
-    "language": "Q518079",
-    "wikidata": "Q32641",
-    "languageLabel": "Valencian",
-    "records": "1"
-  },
-  {
     "language": "Q430329",
     "wikidata": "Q1256646",
     "languageLabel": "Gutnish",
+    "records": "1"
+  },
+  {
+    "language": "Q518079",
+    "wikidata": "Q32641",
+    "languageLabel": "Valencian",
     "records": "1"
   },
   {
@@ -106,12 +106,6 @@
     "language": "Q74905",
     "wikidata": "Q688348",
     "languageLabel": "Sursilvan",
-    "records": "3"
-  },
-  {
-    "language": "Q733156",
-    "wikidata": "Q3706580",
-    "languageLabel": "meridional Cilentan",
     "records": "3"
   },
   {
@@ -231,6 +225,12 @@
     "languageLabel": "Hungarian",
     "records": "6",
     "iso": "hun"
+  },
+  {
+    "language": "Q733156",
+    "wikidata": "Q3706580",
+    "languageLabel": "meridional Cilentan",
+    "records": "8"
   },
   {
     "language": "Q107",
@@ -502,12 +502,6 @@
     "iso": "min"
   },
   {
-    "language": "Q720542",
-    "wikidata": "Q1213",
-    "languageLabel": "Salentino",
-    "records": "99"
-  },
-  {
     "language": "Q125",
     "wikidata": "Q5137",
     "languageLabel": "Gujarati",
@@ -596,12 +590,6 @@
     "languageLabel": "Cornish",
     "records": "148",
     "iso": "cor"
-  },
-  {
-    "language": "Q733159",
-    "wikidata": "Q13195623",
-    "languageLabel": "centro-meridional Calabrian",
-    "records": "150"
   },
   {
     "language": "Q204943",
@@ -742,6 +730,12 @@
     "iso": "ind"
   },
   {
+    "language": "Q720542",
+    "wikidata": "Q1213",
+    "languageLabel": "Salentino",
+    "records": "424"
+  },
+  {
     "language": "Q165",
     "wikidata": "Q33491",
     "languageLabel": "Haitian Creole",
@@ -817,6 +811,12 @@
     "languageLabel": "French Sign Language",
     "records": "693",
     "iso": "fsl"
+  },
+  {
+    "language": "Q733159",
+    "wikidata": "Q13195623",
+    "languageLabel": "centro-meridional Calabrian",
+    "records": "733"
   },
   {
     "language": "Q195",
@@ -1070,18 +1070,18 @@
     "iso": "aze"
   },
   {
-    "language": "Q259",
-    "wikidata": "Q33973",
-    "languageLabel": "Sicilian",
-    "records": "7440",
-    "iso": "scn"
-  },
-  {
     "language": "Q44",
     "wikidata": "Q9027",
     "languageLabel": "Swedish",
     "records": "8559",
     "iso": "swe"
+  },
+  {
+    "language": "Q259",
+    "wikidata": "Q33973",
+    "languageLabel": "Sicilian",
+    "records": "8987",
+    "iso": "scn"
   },
   {
     "language": "Q129",
@@ -1122,7 +1122,7 @@
     "language": "Q203",
     "wikidata": "Q7026",
     "languageLabel": "Catalan",
-    "records": "17547",
+    "records": "18305",
     "iso": "cat"
   },
   {
@@ -1143,7 +1143,7 @@
     "language": "Q22",
     "wikidata": "Q1860",
     "languageLabel": "English",
-    "records": "28914",
+    "records": "28942",
     "iso": "eng"
   },
   {
