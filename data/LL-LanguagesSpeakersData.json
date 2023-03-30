@@ -88,20 +88,20 @@
     "speakersOthers": "1"
   },
   {
-    "languageLabel": "Bengali",
-    "wikidata": "Q9610",
-    "iso": "ben",
-    "speakers": "16",
-    "speakersMales": "16",
-    "speakersOthers": "0"
-  },
-  {
     "languageLabel": "Indonesian",
     "wikidata": "Q9240",
     "iso": "ind",
     "speakers": "16",
     "speakersMales": "12",
     "speakersOthers": "4"
+  },
+  {
+    "languageLabel": "Bengali",
+    "wikidata": "Q9610",
+    "iso": "ben",
+    "speakers": "16",
+    "speakersMales": "16",
+    "speakersOthers": "0"
   },
   {
     "languageLabel": "Welsh",
@@ -136,20 +136,20 @@
     "speakersOthers": "11"
   },
   {
-    "languageLabel": "Haitian Creole",
-    "wikidata": "Q33491",
-    "iso": "hat",
-    "speakers": "11",
-    "speakersMales": "6",
-    "speakersOthers": "5"
-  },
-  {
     "languageLabel": "Moroccan Arabic",
     "wikidata": "Q56426",
     "iso": "ary",
     "speakers": "11",
     "speakersMales": "7",
     "speakersOthers": "4"
+  },
+  {
+    "languageLabel": "Haitian Creole",
+    "wikidata": "Q33491",
+    "iso": "hat",
+    "speakers": "11",
+    "speakersMales": "6",
+    "speakersOthers": "5"
   },
   {
     "languageLabel": "South Levantine Arabic",
@@ -216,6 +216,14 @@
     "speakersOthers": "5"
   },
   {
+    "languageLabel": "Baoulé",
+    "wikidata": "Q35107",
+    "iso": "bci",
+    "speakers": "8",
+    "speakersMales": "4",
+    "speakersOthers": "4"
+  },
+  {
     "languageLabel": "Punjabi",
     "wikidata": "Q58635",
     "iso": "pan",
@@ -230,14 +238,6 @@
     "speakers": "8",
     "speakersMales": "6",
     "speakersOthers": "2"
-  },
-  {
-    "languageLabel": "Baoulé",
-    "wikidata": "Q35107",
-    "iso": "bci",
-    "speakers": "8",
-    "speakersMales": "4",
-    "speakersOthers": "4"
   },
   {
     "languageLabel": "Santali",
@@ -352,14 +352,6 @@
     "speakersOthers": "2"
   },
   {
-    "languageLabel": "Ghomala' language",
-    "wikidata": "Q35271",
-    "iso": "bbj",
-    "speakers": "5",
-    "speakersMales": "3",
-    "speakersOthers": "2"
-  },
-  {
     "languageLabel": "Algerian Arabic",
     "wikidata": "Q56499",
     "iso": "arq",
@@ -373,6 +365,14 @@
     "speakers": "5",
     "speakersMales": "5",
     "speakersOthers": "0"
+  },
+  {
+    "languageLabel": "Ghomala' language",
+    "wikidata": "Q35271",
+    "iso": "bbj",
+    "speakers": "5",
+    "speakersMales": "3",
+    "speakersOthers": "2"
   },
   {
     "languageLabel": "Fon",
@@ -391,17 +391,17 @@
     "speakersOthers": "1"
   },
   {
+    "languageLabel": "Malayalam",
+    "wikidata": "Q36236",
+    "iso": "mal",
+    "speakers": "4",
+    "speakersMales": "1",
+    "speakersOthers": "3"
+  },
+  {
     "languageLabel": "Galician",
     "wikidata": "Q9307",
     "iso": "glg",
-    "speakers": "4",
-    "speakersMales": "3",
-    "speakersOthers": "1"
-  },
-  {
-    "languageLabel": "Balinese",
-    "wikidata": "Q33070",
-    "iso": "ban",
     "speakers": "4",
     "speakersMales": "3",
     "speakersOthers": "1"
@@ -415,36 +415,12 @@
     "speakersOthers": "2"
   },
   {
-    "languageLabel": "Breton",
-    "wikidata": "Q12107",
-    "iso": "bre",
+    "languageLabel": "Balinese",
+    "wikidata": "Q33070",
+    "iso": "ban",
     "speakers": "4",
     "speakersMales": "3",
     "speakersOthers": "1"
-  },
-  {
-    "languageLabel": "Malayalam",
-    "wikidata": "Q36236",
-    "iso": "mal",
-    "speakers": "4",
-    "speakersMales": "1",
-    "speakersOthers": "3"
-  },
-  {
-    "languageLabel": "Kurdish",
-    "wikidata": "Q36368",
-    "iso": "kur",
-    "speakers": "4",
-    "speakersMales": "3",
-    "speakersOthers": "1"
-  },
-  {
-    "languageLabel": "Irish",
-    "wikidata": "Q9142",
-    "iso": "gle",
-    "speakers": "4",
-    "speakersMales": "2",
-    "speakersOthers": "2"
   },
   {
     "languageLabel": "Atikamekw",
@@ -463,9 +439,33 @@
     "speakersOthers": "1"
   },
   {
+    "languageLabel": "Kurdish",
+    "wikidata": "Q36368",
+    "iso": "kur",
+    "speakers": "4",
+    "speakersMales": "3",
+    "speakersOthers": "1"
+  },
+  {
+    "languageLabel": "Irish",
+    "wikidata": "Q9142",
+    "iso": "gle",
+    "speakers": "4",
+    "speakersMales": "2",
+    "speakersOthers": "2"
+  },
+  {
     "languageLabel": "Bangala",
     "wikidata": "Q34989",
     "iso": "bxg",
+    "speakers": "4",
+    "speakersMales": "3",
+    "speakersOthers": "1"
+  },
+  {
+    "languageLabel": "Breton",
+    "wikidata": "Q12107",
+    "iso": "bre",
     "speakers": "4",
     "speakersMales": "3",
     "speakersOthers": "1"
@@ -495,14 +495,6 @@
     "speakersOthers": "0"
   },
   {
-    "languageLabel": "Afrikaans",
-    "wikidata": "Q14196",
-    "iso": "afr",
-    "speakers": "3",
-    "speakersMales": "3",
-    "speakersOthers": "0"
-  },
-  {
     "languageLabel": "toki pona",
     "wikidata": "Q36846",
     "iso": "tok",
@@ -519,12 +511,36 @@
     "speakersOthers": "0"
   },
   {
+    "languageLabel": "Afrikaans",
+    "wikidata": "Q14196",
+    "iso": "afr",
+    "speakers": "3",
+    "speakersMales": "3",
+    "speakersOthers": "0"
+  },
+  {
+    "languageLabel": "Massa language",
+    "wikidata": "Q56668",
+    "iso": "mcn",
+    "speakers": "3",
+    "speakersMales": "3",
+    "speakersOthers": "0"
+  },
+  {
     "languageLabel": "Greek",
     "wikidata": "Q9129",
     "iso": "gre",
     "speakers": "3",
     "speakersMales": "2",
     "speakersOthers": "1"
+  },
+  {
+    "languageLabel": "Kurmanji",
+    "wikidata": "Q36163",
+    "iso": "kmr",
+    "speakers": "3",
+    "speakersMales": "3",
+    "speakersOthers": "0"
   },
   {
     "languageLabel": "Korean",
@@ -535,9 +551,17 @@
     "speakersOthers": "2"
   },
   {
-    "languageLabel": "Massa language",
-    "wikidata": "Q56668",
-    "iso": "mcn",
+    "languageLabel": "Turkish",
+    "wikidata": "Q256",
+    "iso": "tur",
+    "speakers": "3",
+    "speakersMales": "1",
+    "speakersOthers": "2"
+  },
+  {
+    "languageLabel": "Kabyle",
+    "wikidata": "Q35853",
+    "iso": "kab",
     "speakers": "3",
     "speakersMales": "3",
     "speakersOthers": "0"
@@ -559,38 +583,6 @@
     "speakersOthers": "1"
   },
   {
-    "languageLabel": "Kabyle",
-    "wikidata": "Q35853",
-    "iso": "kab",
-    "speakers": "3",
-    "speakersMales": "3",
-    "speakersOthers": "0"
-  },
-  {
-    "languageLabel": "Turkish",
-    "wikidata": "Q256",
-    "iso": "tur",
-    "speakers": "3",
-    "speakersMales": "1",
-    "speakersOthers": "2"
-  },
-  {
-    "languageLabel": "Kurmanji",
-    "wikidata": "Q36163",
-    "iso": "kmr",
-    "speakers": "3",
-    "speakersMales": "3",
-    "speakersOthers": "0"
-  },
-  {
-    "languageLabel": "Finnish",
-    "wikidata": "Q1412",
-    "iso": "fin",
-    "speakers": "3",
-    "speakersMales": "1",
-    "speakersOthers": "2"
-  },
-  {
     "languageLabel": "Latin",
     "wikidata": "Q397",
     "iso": "lat",
@@ -605,6 +597,22 @@
     "speakers": "3",
     "speakersMales": "2",
     "speakersOthers": "1"
+  },
+  {
+    "languageLabel": "Finnish",
+    "wikidata": "Q1412",
+    "iso": "fin",
+    "speakers": "3",
+    "speakersMales": "1",
+    "speakersOthers": "2"
+  },
+  {
+    "languageLabel": "Javanese",
+    "wikidata": "Q33549",
+    "iso": "jav",
+    "speakers": "3",
+    "speakersMales": "0",
+    "speakersOthers": "3"
   },
   {
     "languageLabel": "Czech",
@@ -623,46 +631,6 @@
     "speakersOthers": "0"
   },
   {
-    "languageLabel": "Javanese",
-    "wikidata": "Q33549",
-    "iso": "jav",
-    "speakers": "3",
-    "speakersMales": "0",
-    "speakersOthers": "3"
-  },
-  {
-    "languageLabel": "Thai",
-    "wikidata": "Q9217",
-    "iso": "tha",
-    "speakers": "2",
-    "speakersMales": "2",
-    "speakersOthers": "0"
-  },
-  {
-    "languageLabel": "Amharic",
-    "wikidata": "Q28244",
-    "iso": "amh",
-    "speakers": "2",
-    "speakersMales": "1",
-    "speakersOthers": "1"
-  },
-  {
-    "languageLabel": "Tagalog",
-    "wikidata": "Q34057",
-    "iso": "tgl",
-    "speakers": "2",
-    "speakersMales": "1",
-    "speakersOthers": "1"
-  },
-  {
-    "languageLabel": "Lingala",
-    "wikidata": "Q36217",
-    "iso": "lin",
-    "speakers": "2",
-    "speakersMales": "2",
-    "speakersOthers": "0"
-  },
-  {
     "languageLabel": "Konkani",
     "wikidata": "Q34239",
     "iso": "kok",
@@ -671,25 +639,9 @@
     "speakersOthers": "1"
   },
   {
-    "languageLabel": "Vietnamese",
-    "wikidata": "Q9199",
-    "iso": "vie",
-    "speakers": "2",
-    "speakersMales": "1",
-    "speakersOthers": "1"
-  },
-  {
-    "languageLabel": "Alemannic German",
-    "wikidata": "Q131339",
-    "iso": "gsw",
-    "speakers": "2",
-    "speakersMales": "2",
-    "speakersOthers": "0"
-  },
-  {
-    "languageLabel": "Bulgarian",
-    "wikidata": "Q7918",
-    "iso": "bul",
+    "languageLabel": "Thai",
+    "wikidata": "Q9217",
+    "iso": "tha",
     "speakers": "2",
     "speakersMales": "2",
     "speakersOthers": "0"
@@ -701,6 +653,14 @@
     "speakers": "2",
     "speakersMales": "2",
     "speakersOthers": "0"
+  },
+  {
+    "languageLabel": "Amharic",
+    "wikidata": "Q28244",
+    "iso": "amh",
+    "speakers": "2",
+    "speakersMales": "1",
+    "speakersOthers": "1"
   },
   {
     "languageLabel": "Yemba",
@@ -725,17 +685,9 @@
     "speakersOthers": "1"
   },
   {
-    "languageLabel": "Erzya",
-    "wikidata": "Q29952",
-    "iso": "myv",
-    "speakers": "2",
-    "speakersMales": "2",
-    "speakersOthers": "0"
-  },
-  {
-    "languageLabel": "Cornish",
-    "wikidata": "Q25289",
-    "iso": "cor",
+    "languageLabel": "Tagalog",
+    "wikidata": "Q34057",
+    "iso": "tgl",
     "speakers": "2",
     "speakersMales": "1",
     "speakersOthers": "1"
@@ -744,6 +696,30 @@
     "languageLabel": "Nyang language",
     "wikidata": "Q35650",
     "iso": "ken",
+    "speakers": "2",
+    "speakersMales": "2",
+    "speakersOthers": "0"
+  },
+  {
+    "languageLabel": "Kaqchikel",
+    "wikidata": "Q35115",
+    "iso": "cak",
+    "speakers": "2",
+    "speakersMales": "1",
+    "speakersOthers": "1"
+  },
+  {
+    "languageLabel": "Lingala",
+    "wikidata": "Q36217",
+    "iso": "lin",
+    "speakers": "2",
+    "speakersMales": "2",
+    "speakersOthers": "0"
+  },
+  {
+    "languageLabel": "Alemannic German",
+    "wikidata": "Q131339",
+    "iso": "gsw",
     "speakers": "2",
     "speakersMales": "2",
     "speakersOthers": "0"
@@ -765,17 +741,25 @@
     "speakersOthers": "0"
   },
   {
-    "languageLabel": "Sicilian",
-    "wikidata": "Q33973",
-    "iso": "scn",
+    "languageLabel": "Bulgarian",
+    "wikidata": "Q7918",
+    "iso": "bul",
     "speakers": "2",
     "speakersMales": "2",
     "speakersOthers": "0"
   },
   {
-    "languageLabel": "Kaqchikel",
-    "wikidata": "Q35115",
-    "iso": "cak",
+    "languageLabel": "Vietnamese",
+    "wikidata": "Q9199",
+    "iso": "vie",
+    "speakers": "2",
+    "speakersMales": "1",
+    "speakersOthers": "1"
+  },
+  {
+    "languageLabel": "Cornish",
+    "wikidata": "Q25289",
+    "iso": "cor",
     "speakers": "2",
     "speakersMales": "1",
     "speakersOthers": "1"
@@ -797,9 +781,25 @@
     "speakersOthers": "0"
   },
   {
+    "languageLabel": "Erzya",
+    "wikidata": "Q29952",
+    "iso": "myv",
+    "speakers": "2",
+    "speakersMales": "2",
+    "speakersOthers": "0"
+  },
+  {
     "languageLabel": "Bambara",
     "wikidata": "Q33243",
     "iso": "bam",
+    "speakers": "2",
+    "speakersMales": "2",
+    "speakersOthers": "0"
+  },
+  {
+    "languageLabel": "Sicilian",
+    "wikidata": "Q33973",
+    "iso": "scn",
     "speakers": "2",
     "speakersMales": "2",
     "speakersOthers": "0"
@@ -821,17 +821,17 @@
     "speakersOthers": "1"
   },
   {
-    "languageLabel": "Basaa language",
-    "wikidata": "Q33093",
-    "iso": "bas",
+    "languageLabel": "Norwegian",
+    "wikidata": "Q9043",
+    "iso": "nor",
     "speakers": "2",
     "speakersMales": "2",
     "speakersOthers": "0"
   },
   {
-    "languageLabel": "Norwegian",
-    "wikidata": "Q9043",
-    "iso": "nor",
+    "languageLabel": "Basaa language",
+    "wikidata": "Q33093",
+    "iso": "bas",
     "speakers": "2",
     "speakersMales": "2",
     "speakersOthers": "0"
@@ -869,12 +869,11 @@
     "speakersOthers": "1"
   },
   {
-    "languageLabel": "Maltese",
-    "wikidata": "Q9166",
-    "iso": "mlt",
+    "languageLabel": "Lemosin dialect",
+    "wikidata": "Q427614",
     "speakers": "1",
-    "speakersMales": "0",
-    "speakersOthers": "1"
+    "speakersMales": "1",
+    "speakersOthers": "0"
   },
   {
     "languageLabel": "Kazakh",
@@ -885,19 +884,67 @@
     "speakersOthers": "0"
   },
   {
-    "languageLabel": "Ancient Greek",
-    "wikidata": "Q35497",
-    "iso": "grc",
+    "languageLabel": "Maltese",
+    "wikidata": "Q9166",
+    "iso": "mlt",
+    "speakers": "1",
+    "speakersMales": "0",
+    "speakersOthers": "1"
+  },
+  {
+    "languageLabel": "Wallisian",
+    "wikidata": "Q36979",
+    "iso": "wls",
     "speakers": "1",
     "speakersMales": "1",
     "speakersOthers": "0"
   },
   {
-    "languageLabel": "Lemosin dialect",
-    "wikidata": "Q427614",
+    "languageLabel": "Southern Min",
+    "wikidata": "Q36495",
+    "iso": "nan",
     "speakers": "1",
     "speakersMales": "1",
     "speakersOthers": "0"
+  },
+  {
+    "languageLabel": "Gascon",
+    "wikidata": "Q35735",
+    "iso": "gsc",
+    "speakers": "1",
+    "speakersMales": "1",
+    "speakersOthers": "0"
+  },
+  {
+    "languageLabel": "Languedocien dialect",
+    "wikidata": "Q942602",
+    "iso": "lnc",
+    "speakers": "1",
+    "speakersMales": "1",
+    "speakersOthers": "0"
+  },
+  {
+    "languageLabel": "Central Catalan",
+    "wikidata": "Q2941602",
+    "speakers": "1",
+    "speakersMales": "0",
+    "speakersOthers": "1"
+  },
+  {
+    "languageLabel": "Ho",
+    "wikidata": "Q33270",
+    "iso": "hoc",
+    "speakers": "1",
+    "speakersMales": "1",
+    "speakersOthers": "0"
+  },
+  {
+    "languageLabel": "Atayal",
+    "wikidata": "Q715766",
+    "iso": "tay",
+    "speakers": "1",
+    "speakersMales": "0",
+    "speakersOthers": "1"
   },
   {
     "languageLabel": "Havu",
@@ -924,84 +971,6 @@
     "speakersOthers": "0"
   },
   {
-    "languageLabel": "Hausa",
-    "wikidata": "Q56475",
-    "iso": "hau",
-    "speakers": "1",
-    "speakersMales": "1",
-    "speakersOthers": "0"
-  },
-  {
-    "languageLabel": "Central Catalan",
-    "wikidata": "Q2941602",
-    "speakers": "1",
-    "speakersMales": "0",
-    "speakersOthers": "1"
-  },
-  {
-    "languageLabel": "British English",
-    "wikidata": "Q7979",
-    "speakers": "1",
-    "speakersMales": "0",
-    "speakersOthers": "1"
-  },
-  {
-    "languageLabel": "Scots",
-    "wikidata": "Q14549",
-    "iso": "sco",
-    "speakers": "1",
-    "speakersMales": "1",
-    "speakersOthers": "0"
-  },
-  {
-    "languageLabel": "Gascon",
-    "wikidata": "Q35735",
-    "iso": "gsc",
-    "speakers": "1",
-    "speakersMales": "1",
-    "speakersOthers": "0"
-  },
-  {
-    "languageLabel": "Languedocien dialect",
-    "wikidata": "Q942602",
-    "iso": "lnc",
-    "speakers": "1",
-    "speakersMales": "1",
-    "speakersOthers": "0"
-  },
-  {
-    "languageLabel": "Wallisian",
-    "wikidata": "Q36979",
-    "iso": "wls",
-    "speakers": "1",
-    "speakersMales": "1",
-    "speakersOthers": "0"
-  },
-  {
-    "languageLabel": "Southern Min",
-    "wikidata": "Q36495",
-    "iso": "nan",
-    "speakers": "1",
-    "speakersMales": "1",
-    "speakersOthers": "0"
-  },
-  {
-    "languageLabel": "Ho",
-    "wikidata": "Q33270",
-    "iso": "hoc",
-    "speakers": "1",
-    "speakersMales": "1",
-    "speakersOthers": "0"
-  },
-  {
-    "languageLabel": "Atayal",
-    "wikidata": "Q715766",
-    "iso": "tay",
-    "speakers": "1",
-    "speakersMales": "0",
-    "speakersOthers": "1"
-  },
-  {
     "languageLabel": "Nga'ka language",
     "wikidata": "Q36068",
     "iso": "mhk",
@@ -1026,6 +995,14 @@
     "speakersOthers": "0"
   },
   {
+    "languageLabel": "Guadeloupean Creole French",
+    "wikidata": "Q3006280",
+    "iso": "gcf",
+    "speakers": "1",
+    "speakersMales": "1",
+    "speakersOthers": "0"
+  },
+  {
     "languageLabel": "Réunion Creole",
     "wikidata": "Q13198",
     "iso": "rcf",
@@ -1042,108 +1019,16 @@
     "speakersOthers": "1"
   },
   {
-    "languageLabel": "Guadeloupean Creole French",
-    "wikidata": "Q3006280",
-    "iso": "gcf",
+    "languageLabel": "Ancient Greek",
+    "wikidata": "Q35497",
+    "iso": "grc",
     "speakers": "1",
     "speakersMales": "1",
     "speakersOthers": "0"
-  },
-  {
-    "languageLabel": "Mon",
-    "wikidata": "Q13349",
-    "iso": "mnw",
-    "speakers": "1",
-    "speakersMales": "1",
-    "speakersOthers": "0"
-  },
-  {
-    "languageLabel": "Egyptian Arabic",
-    "wikidata": "Q29919",
-    "iso": "arz",
-    "speakers": "1",
-    "speakersMales": "1",
-    "speakersOthers": "0"
-  },
-  {
-    "languageLabel": "Wushi",
-    "wikidata": "Q36973",
-    "iso": "bse",
-    "speakers": "1",
-    "speakersMales": "0",
-    "speakersOthers": "1"
-  },
-  {
-    "languageLabel": "Gutnish",
-    "wikidata": "Q1256646",
-    "speakers": "1",
-    "speakersMales": "1",
-    "speakersOthers": "0"
-  },
-  {
-    "languageLabel": "Gallo",
-    "wikidata": "Q37300",
-    "speakers": "1",
-    "speakersMales": "0",
-    "speakersOthers": "1"
   },
   {
     "languageLabel": "American English",
     "wikidata": "Q7976",
-    "speakers": "1",
-    "speakersMales": "1",
-    "speakersOthers": "0"
-  },
-  {
-    "languageLabel": "West Frisian",
-    "wikidata": "Q27175",
-    "iso": "fry",
-    "speakers": "1",
-    "speakersMales": "1",
-    "speakersOthers": "0"
-  },
-  {
-    "languageLabel": "Valencian",
-    "wikidata": "Q32641",
-    "speakers": "1",
-    "speakersMales": "1",
-    "speakersOthers": "0"
-  },
-  {
-    "languageLabel": "Balearic",
-    "wikidata": "Q804899",
-    "speakers": "1",
-    "speakersMales": "0",
-    "speakersOthers": "1"
-  },
-  {
-    "languageLabel": "Aromanian",
-    "wikidata": "Q29316",
-    "iso": "rup",
-    "speakers": "1",
-    "speakersMales": "1",
-    "speakersOthers": "0"
-  },
-  {
-    "languageLabel": "Karachay-Balkar",
-    "wikidata": "Q33714",
-    "iso": "krc",
-    "speakers": "1",
-    "speakersMales": "1",
-    "speakersOthers": "0"
-  },
-  {
-    "languageLabel": "Northern Sotho",
-    "wikidata": "Q33890",
-    "iso": "nso",
-    "speakers": "1",
-    "speakersMales": "1",
-    "speakersOthers": "0"
-  },
-  {
-    "languageLabel": "Kongo",
-    "wikidata": "Q33702",
-    "iso": "kon",
     "speakers": "1",
     "speakersMales": "1",
     "speakersOthers": "0"
@@ -1186,6 +1071,73 @@
     "speakers": "1",
     "speakersMales": "1",
     "speakersOthers": "0"
+  },
+  {
+    "languageLabel": "British English",
+    "wikidata": "Q7979",
+    "speakers": "1",
+    "speakersMales": "0",
+    "speakersOthers": "1"
+  },
+  {
+    "languageLabel": "Hausa",
+    "wikidata": "Q56475",
+    "iso": "hau",
+    "speakers": "1",
+    "speakersMales": "1",
+    "speakersOthers": "0"
+  },
+  {
+    "languageLabel": "Balearic",
+    "wikidata": "Q804899",
+    "speakers": "1",
+    "speakersMales": "0",
+    "speakersOthers": "1"
+  },
+  {
+    "languageLabel": "Egyptian Arabic",
+    "wikidata": "Q29919",
+    "iso": "arz",
+    "speakers": "1",
+    "speakersMales": "1",
+    "speakersOthers": "0"
+  },
+  {
+    "languageLabel": "Wushi",
+    "wikidata": "Q36973",
+    "iso": "bse",
+    "speakers": "1",
+    "speakersMales": "0",
+    "speakersOthers": "1"
+  },
+  {
+    "languageLabel": "Gutnish",
+    "wikidata": "Q1256646",
+    "speakers": "1",
+    "speakersMales": "1",
+    "speakersOthers": "0"
+  },
+  {
+    "languageLabel": "Valencian",
+    "wikidata": "Q32641",
+    "speakers": "1",
+    "speakersMales": "1",
+    "speakersOthers": "0"
+  },
+  {
+    "languageLabel": "Mon",
+    "wikidata": "Q13349",
+    "iso": "mnw",
+    "speakers": "1",
+    "speakersMales": "1",
+    "speakersOthers": "0"
+  },
+  {
+    "languageLabel": "Gallo",
+    "wikidata": "Q37300",
+    "speakers": "1",
+    "speakersMales": "0",
+    "speakersOthers": "1"
   },
   {
     "languageLabel": "Viennese German",
@@ -1272,33 +1224,41 @@
     "speakersOthers": "1"
   },
   {
-    "languageLabel": "Ga",
-    "wikidata": "Q33287",
-    "iso": "gaa",
+    "languageLabel": "Scots",
+    "wikidata": "Q14549",
+    "iso": "sco",
     "speakers": "1",
     "speakersMales": "1",
     "speakersOthers": "0"
   },
   {
-    "languageLabel": "Gikuyu",
-    "wikidata": "Q33587",
-    "iso": "kik",
+    "languageLabel": "Kongo",
+    "wikidata": "Q33702",
+    "iso": "kon",
     "speakers": "1",
     "speakersMales": "1",
     "speakersOthers": "0"
   },
   {
-    "languageLabel": "Tatar",
-    "wikidata": "Q25285",
-    "iso": "tat",
+    "languageLabel": "West Frisian",
+    "wikidata": "Q27175",
+    "iso": "fry",
     "speakers": "1",
     "speakersMales": "1",
     "speakersOthers": "0"
   },
   {
-    "languageLabel": "Ewe",
-    "wikidata": "Q30005",
-    "iso": "ewe",
+    "languageLabel": "Karachay-Balkar",
+    "wikidata": "Q33714",
+    "iso": "krc",
+    "speakers": "1",
+    "speakersMales": "1",
+    "speakersOthers": "0"
+  },
+  {
+    "languageLabel": "Northern Sotho",
+    "wikidata": "Q33890",
+    "iso": "nso",
     "speakers": "1",
     "speakersMales": "1",
     "speakersOthers": "0"
@@ -1320,9 +1280,25 @@
     "speakersOthers": "0"
   },
   {
-    "languageLabel": "Swahili",
-    "wikidata": "Q7838",
-    "iso": "swa",
+    "languageLabel": "Aromanian",
+    "wikidata": "Q29316",
+    "iso": "rup",
+    "speakers": "1",
+    "speakersMales": "1",
+    "speakersOthers": "0"
+  },
+  {
+    "languageLabel": "Ewe",
+    "wikidata": "Q30005",
+    "iso": "ewe",
+    "speakers": "1",
+    "speakersMales": "1",
+    "speakersOthers": "0"
+  },
+  {
+    "languageLabel": "Tatar",
+    "wikidata": "Q25285",
+    "iso": "tat",
     "speakers": "1",
     "speakersMales": "1",
     "speakersOthers": "0"
@@ -1336,9 +1312,49 @@
     "speakersOthers": "0"
   },
   {
+    "languageLabel": "Swahili",
+    "wikidata": "Q7838",
+    "iso": "swa",
+    "speakers": "1",
+    "speakersMales": "1",
+    "speakersOthers": "0"
+  },
+  {
+    "languageLabel": "Ga",
+    "wikidata": "Q33287",
+    "iso": "gaa",
+    "speakers": "1",
+    "speakersMales": "1",
+    "speakersOthers": "0"
+  },
+  {
+    "languageLabel": "Gikuyu",
+    "wikidata": "Q33587",
+    "iso": "kik",
+    "speakers": "1",
+    "speakersMales": "1",
+    "speakersOthers": "0"
+  },
+  {
     "languageLabel": "Malagasy",
     "wikidata": "Q7930",
     "iso": "mlg",
+    "speakers": "1",
+    "speakersMales": "1",
+    "speakersOthers": "0"
+  },
+  {
+    "languageLabel": "Malay",
+    "wikidata": "Q9237",
+    "iso": "msa",
+    "speakers": "1",
+    "speakersMales": "0",
+    "speakersOthers": "1"
+  },
+  {
+    "languageLabel": "Luxembourgish",
+    "wikidata": "Q9051",
+    "iso": "ltz",
     "speakers": "1",
     "speakersMales": "1",
     "speakersOthers": "0"
@@ -1360,22 +1376,6 @@
     "speakersOthers": "0"
   },
   {
-    "languageLabel": "Meitei language",
-    "wikidata": "Q33868",
-    "iso": "mni",
-    "speakers": "1",
-    "speakersMales": "1",
-    "speakersOthers": "0"
-  },
-  {
-    "languageLabel": "Luxembourgish",
-    "wikidata": "Q9051",
-    "iso": "ltz",
-    "speakers": "1",
-    "speakersMales": "1",
-    "speakersOthers": "0"
-  },
-  {
     "languageLabel": "Albanian",
     "wikidata": "Q8748",
     "iso": "sqi",
@@ -1384,11 +1384,11 @@
     "speakersOthers": "0"
   },
   {
-    "languageLabel": "Malay",
-    "wikidata": "Q9237",
-    "iso": "msa",
+    "languageLabel": "Meitei language",
+    "wikidata": "Q33868",
+    "iso": "mni",
     "speakers": "1",
-    "speakersMales": "0",
-    "speakersOthers": "1"
+    "speakersMales": "1",
+    "speakersOthers": "0"
   }
 ]
