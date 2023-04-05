@@ -1,6 +1,6 @@
 # MediaWiki:LanguagesGenderData.js
 SELECT ?languageLabel ?wikidata ?iso ?maleSpeakers ?maleRecords ?femaleSpeakers ?femaleRecords
-    (ROUND(1000*?femalesRecords/(?femalesRecords+?malesRecords))/10 AS ?percent)
+    (ROUND(1000*?femaleRecords/(?femaleRecords+?maleRecords))/10 AS ?percent)
 WITH {
   SELECT ?language ?languageLabel ?wikidata ?iso {
       ?record prop:P2 entity:Q2 .     # Filter: P2 'instance of' is Q2 'record'
