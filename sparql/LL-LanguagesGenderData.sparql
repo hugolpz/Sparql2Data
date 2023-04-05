@@ -1,5 +1,5 @@
 # MediaWiki:LanguagesGenderData.js
-SELECT ?languageLabel ?wikidata ?iso ?malesCount ?malesRecords ?femalesCount ?femalesRecords
+SELECT ?languageLabel ?wikidata ?iso ?maleSpeakers ?maleRecords ?femaleSpeakers ?femaleRecords
     (ROUND(1000*?femalesRecords/(?femalesRecords+?malesRecords))/10 AS ?percent)
 WITH {
   SELECT ?language ?languageLabel ?wikidata ?iso {
@@ -13,8 +13,8 @@ WITH {
 } AS %base
 WITH {
   SELECT ?language ?languageLabel ?iso ?genderLabel 
-    (COUNT(DISTINCT ?females) AS ?femalesCount) 
-    (COUNT(DISTINCT ?record) AS ?femalesRecords) {
+    (COUNT(DISTINCT ?females) AS ?femaleSpeakers) 
+    (COUNT(DISTINCT ?record) AS ?femaleRecords) {
   INCLUDE %base
   ?record prop:P4 ?language ; # Filter
           prop:P5 ?females . # Assign value: P5 'speaker' into ?females
@@ -24,8 +24,8 @@ WITH {
 } AS %females
 WITH {
   SELECT ?language ?languageLabel ?iso ?genderLabel 
-    (COUNT(DISTINCT ?males) AS ?malesCount)
-    (COUNT(DISTINCT ?record) AS ?malesRecords) {
+    (COUNT(DISTINCT ?males) AS ?maleSpeakers)
+    (COUNT(DISTINCT ?record) AS ?maleRecords) {
   INCLUDE %base
   ?record prop:P4 ?language ;
           prop:P5 ?males . # Assign value: P5 'speaker' into variable ?speakerQid
@@ -39,5 +39,5 @@ WITH {
   INCLUDE %males
   SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
 }
-GROUP BY ?languageLabel ?wikidata ?iso ?malesCount ?malesRecords ?femalesCount ?femalesRecords
+GROUP BY ?languageLabel ?wikidata ?iso ?maleSpeakers ?maleRecords ?femaleSpeakers ?femaleRecords
 ORDER BY ASC(?languageLabel )
