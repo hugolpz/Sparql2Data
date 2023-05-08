@@ -172,13 +172,6 @@
     "records": "4"
   },
   {
-    "language": "Q402",
-    "wikidata": "Q29401",
-    "languageLabel": "Assamese",
-    "records": "4",
-    "iso": "asm"
-  },
-  {
     "language": "Q384",
     "wikidata": "Q397",
     "languageLabel": "Latin",
@@ -198,6 +191,13 @@
     "languageLabel": "Atayal",
     "records": "4",
     "iso": "tay"
+  },
+  {
+    "language": "Q402",
+    "wikidata": "Q29401",
+    "languageLabel": "Assamese",
+    "records": "5",
+    "iso": "asm"
   },
   {
     "language": "Q32",
@@ -380,15 +380,15 @@
     "iso": "lua"
   },
   {
-    "language": "Q518087",
-    "wikidata": "Q2941602",
-    "languageLabel": "Central Catalan",
-    "records": "32"
-  },
-  {
     "language": "Q1187",
     "wikidata": "Q427614",
     "languageLabel": "Lemosin dialect",
+    "records": "32"
+  },
+  {
+    "language": "Q518087",
+    "wikidata": "Q2941602",
+    "languageLabel": "Central Catalan",
     "records": "32"
   },
   {
@@ -536,13 +536,6 @@
     "iso": "min"
   },
   {
-    "language": "Q389",
-    "wikidata": "Q5287",
-    "languageLabel": "Japanese",
-    "records": "98",
-    "iso": "jpn"
-  },
-  {
     "language": "Q125",
     "wikidata": "Q5137",
     "languageLabel": "Gujarati",
@@ -576,6 +569,13 @@
     "languageLabel": "Bulu language",
     "records": "112",
     "iso": "bum"
+  },
+  {
+    "language": "Q389",
+    "wikidata": "Q5287",
+    "languageLabel": "Japanese",
+    "records": "112",
+    "iso": "jpn"
   },
   {
     "language": "Q133",
@@ -1023,7 +1023,7 @@
     "language": "Q390278",
     "wikidata": "Q36163",
     "languageLabel": "Kurmanji",
-    "records": "2089",
+    "records": "2091",
     "iso": "kmr"
   },
   {
@@ -1099,7 +1099,7 @@
     "language": "Q385",
     "wikidata": "Q652",
     "languageLabel": "Italian",
-    "records": "4986",
+    "records": "4987",
     "iso": "ita"
   },
   {
@@ -1187,18 +1187,18 @@
     "iso": "deu"
   },
   {
-    "language": "Q43",
-    "wikidata": "Q8798",
-    "languageLabel": "Ukrainian",
-    "records": "20983",
-    "iso": "ukr"
-  },
-  {
     "language": "Q259",
     "wikidata": "Q33973",
     "languageLabel": "Sicilian",
     "records": "21033",
     "iso": "scn"
+  },
+  {
+    "language": "Q43",
+    "wikidata": "Q8798",
+    "languageLabel": "Ukrainian",
+    "records": "21605",
+    "iso": "ukr"
   },
   {
     "language": "Q203",
@@ -1218,7 +1218,7 @@
     "language": "Q22",
     "wikidata": "Q1860",
     "languageLabel": "English",
-    "records": "30037",
+    "records": "30043",
     "iso": "eng"
   },
   {
@@ -1253,7 +1253,7 @@
     "language": "Q21",
     "wikidata": "Q150",
     "languageLabel": "French",
-    "records": "257290",
+    "records": "257292",
     "iso": "fra"
   }
 ]
