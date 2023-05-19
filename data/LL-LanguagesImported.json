@@ -15,14 +15,14 @@
     "languageLabel": "Teochew"
   },
   {
-    "language": "Q52292",
-    "wikidata": "Q707007",
-    "languageLabel": "Rhine Franconian"
-  },
-  {
     "language": "Q518087",
     "wikidata": "Q2941602",
     "languageLabel": "Central Catalan"
+  },
+  {
+    "language": "Q52292",
+    "wikidata": "Q707007",
+    "languageLabel": "Rhine Franconian"
   },
   {
     "language": "Q74906",
@@ -65,6 +65,11 @@
     "languageLabel": "Sursilvan"
   },
   {
+    "language": "Q123270",
+    "wikidata": "Q7979",
+    "languageLabel": "British English"
+  },
+  {
     "language": "Q322719",
     "wikidata": "Q4850727",
     "languageLabel": "Baleswari Oriya"
@@ -80,6 +85,21 @@
     "languageLabel": "Doric"
   },
   {
+    "language": "Q123271",
+    "wikidata": "Q7976",
+    "languageLabel": "American English"
+  },
+  {
+    "language": "Q430329",
+    "wikidata": "Q1256646",
+    "languageLabel": "Gutnish"
+  },
+  {
+    "language": "Q518078",
+    "wikidata": "Q2941596",
+    "languageLabel": "Northwestern Catalan"
+  },
+  {
     "language": "Q538620",
     "wikidata": "Q3217305",
     "languageLabel": "Aluku"
@@ -88,6 +108,11 @@
     "language": "Q538621",
     "wikidata": "Q3363501",
     "languageLabel": "Pamaka"
+  },
+  {
+    "language": "Q567656",
+    "wikidata": "Q37300",
+    "languageLabel": "Gallo"
   },
   {
     "language": "Q518079",
@@ -120,34 +145,14 @@
     "languageLabel": "Lorraine Franconian"
   },
   {
-    "language": "Q123271",
-    "wikidata": "Q7976",
-    "languageLabel": "American English"
-  },
-  {
-    "language": "Q567656",
-    "wikidata": "Q37300",
-    "languageLabel": "Gallo"
-  },
-  {
-    "language": "Q123270",
-    "wikidata": "Q7979",
-    "languageLabel": "British English"
-  },
-  {
-    "language": "Q430329",
-    "wikidata": "Q1256646",
-    "languageLabel": "Gutnish"
-  },
-  {
-    "language": "Q518078",
-    "wikidata": "Q2941596",
-    "languageLabel": "Northwestern Catalan"
-  },
-  {
     "language": "Q585002",
     "wikidata": "Q56474",
     "languageLabel": "Viennese German"
+  },
+  {
+    "language": "Q375",
+    "wikidata": "Q1334774",
+    "languageLabel": "Lehndi"
   },
   {
     "language": "Q594447",
@@ -208,11 +213,6 @@
     "language": "Q904696",
     "wikidata": "Q3302952",
     "languageLabel": "Mayennais"
-  },
-  {
-    "language": "Q375",
-    "wikidata": "Q1334774",
-    "languageLabel": "Lehndi"
   },
   {
     "language": "Q1185",
@@ -2877,15 +2877,15 @@
     "iso": "mic"
   },
   {
-    "language": "Q590236",
-    "wikidata": "Q33500",
-    "languageLabel": "Mandaic",
-    "iso": "mid"
-  },
-  {
     "language": "Q590237",
     "wikidata": "Q6991742",
     "languageLabel": "Neo-Mandaic",
+    "iso": "mid"
+  },
+  {
+    "language": "Q590236",
+    "wikidata": "Q33500",
+    "languageLabel": "Mandaic",
     "iso": "mid"
   },
   {
@@ -3004,6 +3004,12 @@
   },
   {
     "language": "Q217",
+    "wikidata": "Q13330",
+    "languageLabel": "Mirandese",
+    "iso": "mwl"
+  },
+  {
+    "language": "Q921606",
     "wikidata": "Q13330",
     "languageLabel": "Mirandese",
     "iso": "mwl"
