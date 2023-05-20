@@ -10,7 +10,13 @@
 PREFIX ll: <https://lingualibre.org/entity/>
 PREFIX llt: <https://lingualibre.org/prop/direct/>
 #
-SELECT ?itemLabel (SAMPLE(STR(?nativeLabel_)) AS ?nativeLabel) (COUNT(DISTINCT STR(?nativeLabel_)) AS ?cnt) (SAMPLE(STR(?labeliso_)) AS ?labeliso) ?wikidata (MAX(?info) AS ?population) (SAMPLE(?infoTag) AS ?populationQualifier)
+SELECT 
+?itemLabel (SAMPLE(STR(?nativeLabel_)) AS ?nativeLabel) 
+(COUNT(DISTINCT STR(?nativeLabel_)) AS ?cnt) 
+(SAMPLE(STR(?labeliso_)) AS ?labeliso) 
+?wikidata 
+(MAX(?info) AS ?population) 
+(SAMPLE(?infoTag) AS ?populationQualifier)
 # On Lingualibre, get item's info
 WITH {
   SELECT *
