@@ -1,12 +1,13 @@
 SELECT
-?language (SAMPLE(?wikidataGroup) as ?wikidata)
+?language (SAMPLE(?wordsGroup) as ?words) (SAMPLE(?recordsGroup) as ?records)
+(SAMPLE(?wikidataGroup) as ?wikidata)
 (SAMPLE(?languageLabelGroup) as ?languageLabel) (SAMPLE(?codeGroup) as
 ?code) (SAMPLE(?wikiGroup) as ?wiki)
-(SAMPLE(ROUND(1000*?words/?records)/10) AS ?percent)
+(SAMPLE(ROUND(1000*?wordsGroup/?recordsGroup)/10) AS ?percent)
 WHERE {
   {
-    SELECT ?language (SAMPLE(?recordLabelGroup) as ?words)
-(COUNT(?record) AS ?records) {
+    SELECT ?language (SAMPLE(?recordLabelGroup) as ?wordsGroup)
+(COUNT(?record) AS ?recordsGroup) {
       {
         SELECT ?language (COUNT(DISTINCT ?recordLabel) as
 ?recordLabelGroup) WHERE {
@@ -32,4 +33,4 @@ WHERE {
   OPTIONAL { ?language prop:P17 ?wikiGroup }
 }
 GROUP BY ?language
-ORDER BY DESC(?records)
+ORDER BY DESC(?recordsGroup)
