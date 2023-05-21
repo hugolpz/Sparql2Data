@@ -48,6 +48,7 @@ jobs:
         run: |
           # git update-index --chmod=+x ./loop.sh
           bash ./loop.sh
+          bash ./languages-gallery.sh
           
       # Commits changes
       - name: Commit changes
