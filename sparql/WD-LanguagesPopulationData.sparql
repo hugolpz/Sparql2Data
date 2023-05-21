@@ -21,7 +21,7 @@ WITH {
         ?item llt:P2 ll:Q4 ;
                  rdfs:label ?itemLabel;
                  llt:P12 ?wikidata .
-       # ?record llt:P4 ?item .
+        FILTER EXISTS { ?record llt:P4 ?item }
         FILTER (LANG(?itemLabel)='en')
         FILTER (regex(?wikidata, '^Q'))
       } GROUP BY ?itemLabel ?wikidata
