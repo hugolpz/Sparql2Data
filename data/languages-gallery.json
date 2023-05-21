@@ -10,7 +10,7 @@
     "percent": "100",
     "itemLabel": "West Flemish",
     "nativeLabel": "West-Vloams",
-    "cnt": "3",
+    "countLabels": "3",
     "population": "1400000",
     "populationQualifier": "1-10M"
   },
@@ -26,8 +26,8 @@
     "percent": "100",
     "itemLabel": "Sanskrit",
     "nativeLabel": "𑖭𑖽𑖭𑖿𑖎𑖴𑖝𑖦𑖿",
-    "cnt": "2",
-    "labeliso": "संस्कृतम्",
+    "countLabels": "2",
+    "isoLabel": "संस्कृतम्",
     "population": "49736",
     "populationQualifier": "1-20k"
   },
@@ -43,8 +43,8 @@
     "percent": "97.1",
     "itemLabel": "Breton",
     "nativeLabel": "Brezhoneg",
-    "cnt": "2",
-    "labeliso": "brezhoneg",
+    "countLabels": "2",
+    "isoLabel": "brezhoneg",
     "population": "206000",
     "populationQualifier": "100k-1M"
   },
@@ -66,7 +66,7 @@
     "percent": "100",
     "itemLabel": "Gutnish",
     "nativeLabel": "Gutamål",
-    "cnt": "1",
+    "countLabels": "1",
     "population": "2000",
     "populationQualifier": "1-20k"
   },
@@ -82,7 +82,7 @@
     "percent": "100",
     "itemLabel": "Alemannic German",
     "nativeLabel": "Alemannisch",
-    "cnt": "2",
+    "countLabels": "2",
     "population": "10000000",
     "populationQualifier": "10-100M"
   },
@@ -125,8 +125,8 @@
     "wiki": "es",
     "itemLabel": "Spanish",
     "nativeLabel": "castellano",
-    "cnt": "2",
-    "labeliso": "español",
+    "countLabels": "2",
+    "isoLabel": "español",
     "population": "480000000",
     "populationQualifier": ">100M"
   },
@@ -146,7 +146,7 @@
     "wiki": "min",
     "itemLabel": "Minangkabau",
     "nativeLabel": "bahaso Minangkabau",
-    "cnt": "1",
+    "countLabels": "1",
     "population": "5530000",
     "populationQualifier": "1-10M"
   },
@@ -162,7 +162,7 @@
     "percent": "100.4",
     "itemLabel": "Mon",
     "nativeLabel": "ဘာသာမန်",
-    "cnt": "1",
+    "countLabels": "1",
     "population": "850000",
     "populationQualifier": "100k-1M"
   },
@@ -182,7 +182,7 @@
     "wiki": "gcr",
     "itemLabel": "Guianan Creole",
     "nativeLabel": "Kriyòl Gwiyannen",
-    "cnt": "1",
+    "countLabels": "1",
     "population": "300000",
     "populationQualifier": "100k-1M"
   },
@@ -202,8 +202,8 @@
     "wiki": "ar",
     "itemLabel": "Arabic",
     "nativeLabel": "اللُّغَة العَرَبِيّة",
-    "cnt": "1",
-    "labeliso": "العربيَّة",
+    "countLabels": "1",
+    "isoLabel": "العربيَّة",
     "population": "315421300",
     "populationQualifier": ">100M"
   },
@@ -223,8 +223,8 @@
     "wiki": "fi",
     "itemLabel": "Finnish",
     "nativeLabel": "suomi",
-    "cnt": "1",
-    "labeliso": "suomi",
+    "countLabels": "1",
+    "isoLabel": "suomi",
     "population": "5413380",
     "populationQualifier": "100k-1M"
   },
@@ -244,8 +244,8 @@
     "wiki": "oc",
     "itemLabel": "Occitan",
     "nativeLabel": "Occitan",
-    "cnt": "1",
-    "labeliso": "occitan"
+    "countLabels": "1",
+    "isoLabel": "occitan"
   },
   {
     "language": "Q150",
@@ -259,8 +259,8 @@
     "percent": "99.9",
     "itemLabel": "Afrikaans",
     "nativeLabel": "Afrikaans",
-    "cnt": "1",
-    "labeliso": "Afrikaans",
+    "countLabels": "1",
+    "isoLabel": "Afrikaans",
     "population": "10300000",
     "populationQualifier": "1-10M"
   },
@@ -276,8 +276,8 @@
     "percent": "85.7",
     "itemLabel": "Esperanto",
     "nativeLabel": "Esperanto",
-    "cnt": "1",
-    "labeliso": "Esperanto",
+    "countLabels": "1",
+    "isoLabel": "Esperanto",
     "population": "2000000",
     "populationQualifier": "1-10M"
   },
@@ -293,7 +293,7 @@
     "percent": "133.3",
     "itemLabel": "Scots",
     "nativeLabel": "Scots leid",
-    "cnt": "2",
+    "countLabels": "2",
     "population": "1500000",
     "populationQualifier": "20-100k"
   },
@@ -313,8 +313,8 @@
     "wiki": "fr",
     "itemLabel": "French",
     "nativeLabel": "langue française",
-    "cnt": "2",
-    "labeliso": "français",
+    "countLabels": "2",
+    "isoLabel": "français",
     "population": "208157220",
     "populationQualifier": "10-100M"
   },
@@ -334,8 +334,8 @@
     "wiki": "hi",
     "itemLabel": "Hindi",
     "nativeLabel": "मानक हिन्दी",
-    "cnt": "2",
-    "labeliso": "हिन्दी",
+    "countLabels": "2",
+    "isoLabel": "हिन्दी",
     "population": "341000000",
     "populationQualifier": ">100M"
   },
@@ -355,8 +355,8 @@
     "wiki": "mr",
     "itemLabel": "Marathi",
     "nativeLabel": "मराठी",
-    "cnt": "1",
-    "labeliso": "मराठी",
+    "countLabels": "1",
+    "isoLabel": "मराठी",
     "population": "83100000",
     "populationQualifier": "10-100M"
   },
@@ -372,8 +372,8 @@
     "percent": "100",
     "itemLabel": "Urdu",
     "nativeLabel": "اردو",
-    "cnt": "1",
-    "labeliso": "اردو",
+    "countLabels": "1",
+    "isoLabel": "اردو",
     "population": "68600000",
     "populationQualifier": "10-100M"
   },
@@ -393,8 +393,8 @@
     "wiki": "en",
     "itemLabel": "English",
     "nativeLabel": "English",
-    "cnt": "1",
-    "labeliso": "English",
+    "countLabels": "1",
+    "isoLabel": "English",
     "population": "753359540",
     "populationQualifier": ">100M"
   },
@@ -414,8 +414,8 @@
     "wiki": "de",
     "itemLabel": "German",
     "nativeLabel": "Deutsch",
-    "cnt": "1",
-    "labeliso": "Deutsch",
+    "countLabels": "1",
+    "isoLabel": "Deutsch",
     "population": "76540740",
     "populationQualifier": "10-100M"
   },
@@ -454,7 +454,7 @@
     "percent": "100",
     "itemLabel": "Nias",
     "nativeLabel": "Li Niha",
-    "cnt": "1",
+    "countLabels": "1",
     "population": "825768",
     "populationQualifier": "100k-1M"
   },
@@ -470,8 +470,8 @@
     "percent": "100",
     "itemLabel": "Tatar",
     "nativeLabel": "татар теле",
-    "cnt": "1",
-    "labeliso": "татар теле",
+    "countLabels": "1",
+    "isoLabel": "татар теле",
     "population": "5200000",
     "populationQualifier": "1-10M"
   },
@@ -491,8 +491,8 @@
     "wiki": "kw",
     "itemLabel": "Cornish",
     "nativeLabel": "Kernowek",
-    "cnt": "2",
-    "labeliso": "Kernowek",
+    "countLabels": "2",
+    "isoLabel": "Kernowek",
     "population": "600",
     "populationQualifier": "<1k"
   },
@@ -512,8 +512,8 @@
     "wiki": "tr",
     "itemLabel": "Turkish",
     "nativeLabel": "Türkçe",
-    "cnt": "1",
-    "labeliso": "Türkçe",
+    "countLabels": "1",
+    "isoLabel": "Türkçe",
     "population": "82231620",
     "populationQualifier": "1-10M"
   },
@@ -540,8 +540,8 @@
     "percent": "100",
     "itemLabel": "West Frisian",
     "nativeLabel": "Westfrysk",
-    "cnt": "2",
-    "labeliso": "Frysk",
+    "countLabels": "2",
+    "isoLabel": "Frysk",
     "population": "845100",
     "populationQualifier": "100k-1M"
   },
@@ -557,7 +557,7 @@
     "percent": "100",
     "itemLabel": "Acehnese",
     "nativeLabel": "bahsa Acèh",
-    "cnt": "1",
+    "countLabels": "1",
     "population": "3500032",
     "populationQualifier": "1-10M"
   },
@@ -577,8 +577,8 @@
     "wiki": "am",
     "itemLabel": "Amharic",
     "nativeLabel": "አማርኛ",
-    "cnt": "1",
-    "labeliso": "አማርኛ",
+    "countLabels": "1",
+    "isoLabel": "አማርኛ",
     "population": "21900000",
     "populationQualifier": "10-100M"
   },
@@ -594,7 +594,7 @@
     "percent": "100",
     "itemLabel": "Aromanian",
     "nativeLabel": "Limba armãneascã",
-    "cnt": "3",
+    "countLabels": "3",
     "population": "112960",
     "populationQualifier": "100k-1M"
   },
@@ -614,8 +614,8 @@
     "wiki": "is",
     "itemLabel": "Icelandic",
     "nativeLabel": "Íslenska",
-    "cnt": "1",
-    "labeliso": "íslenska",
+    "countLabels": "1",
+    "isoLabel": "íslenska",
     "population": "321040",
     "populationQualifier": "100k-1M"
   },
@@ -631,8 +631,8 @@
     "percent": "100",
     "itemLabel": "Assamese",
     "nativeLabel": "অসমীয়া ভাষা",
-    "cnt": "2",
-    "labeliso": "অসমীয়া ভাষা",
+    "countLabels": "2",
+    "isoLabel": "অসমীয়া ভাষা",
     "population": "15300000",
     "populationQualifier": "10-100M"
   },
@@ -660,7 +660,7 @@
     "code": "bar",
     "itemLabel": "Bavarian",
     "nativeLabel": "Boarisch",
-    "cnt": "1",
+    "countLabels": "1",
     "population": "14100000",
     "populationQualifier": "10-100M"
   },
@@ -676,7 +676,7 @@
     "percent": "100",
     "itemLabel": "Egyptian Arabic",
     "nativeLabel": "اللغه المصريه الحديثه",
-    "cnt": "1",
+    "countLabels": "1",
     "population": "64600000",
     "populationQualifier": "10-100M"
   },
@@ -692,7 +692,7 @@
     "percent": "100",
     "itemLabel": "Erzya",
     "nativeLabel": "Эрзянь кель",
-    "cnt": "1",
+    "countLabels": "1",
     "population": "96860",
     "populationQualifier": "20-100k"
   },
@@ -708,8 +708,8 @@
     "percent": "100",
     "itemLabel": "Ewe",
     "nativeLabel": "Eʋegbe",
-    "cnt": "2",
-    "labeliso": "Eʋegbe",
+    "countLabels": "2",
+    "isoLabel": "Eʋegbe",
     "population": "3000000",
     "populationQualifier": "1-10M"
   },
@@ -746,7 +746,7 @@
     "percent": "100",
     "itemLabel": "Valencian",
     "nativeLabel": "valencià",
-    "cnt": "1",
+    "countLabels": "1",
     "population": "2400000",
     "populationQualifier": "1-10M"
   },
@@ -792,7 +792,7 @@
     "wiki": "ban",
     "itemLabel": "Balinese",
     "nativeLabel": "Basa Bali",
-    "cnt": "1",
+    "countLabels": "1",
     "population": "4000000",
     "populationQualifier": "1-10M"
   },
@@ -820,7 +820,7 @@
     "percent": "99.8",
     "itemLabel": "Banjarese",
     "nativeLabel": "Pandir Banjar",
-    "cnt": "2",
+    "countLabels": "2",
     "population": "3500000",
     "populationQualifier": "1-10M"
   },
@@ -836,8 +836,8 @@
     "percent": "84.1",
     "itemLabel": "Bambara",
     "nativeLabel": "Bamanankan",
-    "cnt": "1",
-    "labeliso": "Bamanankan",
+    "countLabels": "1",
+    "isoLabel": "Bamanankan",
     "population": "2700000",
     "populationQualifier": "1-10M"
   },
@@ -870,7 +870,7 @@
     "wiki": "shy",
     "itemLabel": "Shawiya language",
     "nativeLabel": "Tacawit",
-    "cnt": "1",
+    "countLabels": "1",
     "population": "2300000",
     "populationQualifier": "1-10M"
   },
@@ -890,7 +890,7 @@
     "wiki": "bcl",
     "itemLabel": "Central Bikol",
     "nativeLabel": "Bikol Sentral",
-    "cnt": "2",
+    "countLabels": "2",
     "population": "2500000",
     "populationQualifier": "1-10M"
   },
@@ -906,7 +906,7 @@
     "percent": "100",
     "itemLabel": "Ga",
     "nativeLabel": "Ga",
-    "cnt": "1",
+    "countLabels": "1",
     "population": "745000",
     "populationQualifier": "100k-1M"
   },
@@ -926,7 +926,7 @@
     "wiki": "fon",
     "itemLabel": "Fon",
     "nativeLabel": "fɔ̀ngbè",
-    "cnt": "1",
+    "countLabels": "1",
     "population": "1935500",
     "populationQualifier": "1-10M"
   },
@@ -945,7 +945,7 @@
     "code": "fsl",
     "itemLabel": "French Sign Language",
     "nativeLabel": "langue des signes française",
-    "cnt": "1",
+    "countLabels": "1",
     "population": "283000",
     "populationQualifier": "100k-1M"
   },
@@ -965,8 +965,8 @@
     "wiki": "ht",
     "itemLabel": "Haitian Creole",
     "nativeLabel": "Kreyòl ayisyen",
-    "cnt": "1",
-    "labeliso": "Kreyòl",
+    "countLabels": "1",
+    "isoLabel": "Kreyòl",
     "population": "9600000",
     "populationQualifier": "1-10M"
   },
@@ -982,8 +982,8 @@
     "percent": "100",
     "itemLabel": "Javanese",
     "nativeLabel": "Basa Jawa",
-    "cnt": "2",
-    "labeliso": "Jawa",
+    "countLabels": "2",
+    "isoLabel": "Jawa",
     "population": "68300000",
     "populationQualifier": "10-100M"
   },
@@ -1003,8 +1003,8 @@
     "wiki": "ig",
     "itemLabel": "Igbo",
     "nativeLabel": "Asụsụ Igbo",
-    "cnt": "2",
-    "labeliso": "Asụ̀sụ̀ Ìgbò",
+    "countLabels": "2",
+    "isoLabel": "Asụ̀sụ̀ Ìgbò",
     "population": "27000000",
     "populationQualifier": "10-100M"
   },
@@ -1020,8 +1020,8 @@
     "percent": "100",
     "itemLabel": "Gikuyu",
     "nativeLabel": "Gĩkũyũ",
-    "cnt": "2",
-    "labeliso": "Gĩgĩkũyũ",
+    "countLabels": "2",
+    "isoLabel": "Gĩgĩkũyũ",
     "population": "6623000",
     "populationQualifier": "1-10M"
   },
@@ -1041,8 +1041,8 @@
     "wiki": "kn",
     "itemLabel": "Kannada",
     "nativeLabel": "ಕನ್ನಡ",
-    "cnt": "1",
-    "labeliso": "ಕನ್ನಡ",
+    "countLabels": "1",
+    "isoLabel": "ಕನ್ನಡ",
     "population": "43600000",
     "populationQualifier": "10-100M"
   },
@@ -1058,8 +1058,8 @@
     "percent": "200",
     "itemLabel": "Kongo",
     "nativeLabel": "kikongo",
-    "cnt": "1",
-    "labeliso": "Kisikongo",
+    "countLabels": "1",
+    "isoLabel": "Kisikongo",
     "population": "5016500",
     "populationQualifier": "1-10M"
   },
@@ -1075,7 +1075,7 @@
     "percent": "100",
     "itemLabel": "Karachay-Balkar",
     "nativeLabel": "Таулу тил",
-    "cnt": "6",
+    "countLabels": "6",
     "population": "310400",
     "populationQualifier": "100k-1M"
   },
@@ -1095,8 +1095,8 @@
     "wiki": "or",
     "itemLabel": "Odia",
     "nativeLabel": "ଓଡ଼ିଆ ଭାଷା",
-    "cnt": "2",
-    "labeliso": "ଓଡ଼ିଆ",
+    "countLabels": "2",
+    "isoLabel": "ଓଡ଼ିଆ",
     "population": "34500000",
     "populationQualifier": "10-100M"
   },
@@ -1112,7 +1112,7 @@
     "percent": "200",
     "itemLabel": "Meitei language",
     "nativeLabel": "ꯃꯤꯇꯩ ꯂꯣꯟ",
-    "cnt": "1",
+    "countLabels": "1",
     "population": "1470000",
     "populationQualifier": "1-10M"
   },
@@ -1128,7 +1128,7 @@
     "percent": "100",
     "itemLabel": "Northern Sotho",
     "nativeLabel": "Sesotho sa Leboa",
-    "cnt": "2",
+    "countLabels": "2",
     "population": "4100000",
     "populationQualifier": "1-10M"
   },
@@ -1148,7 +1148,7 @@
     "wiki": "sat",
     "itemLabel": "Santali",
     "nativeLabel": "ᱥᱟᱱᱛᱟᱲᱤ",
-    "cnt": "4",
+    "countLabels": "4",
     "population": "6000000",
     "populationQualifier": "1-10M"
   },
@@ -1164,7 +1164,7 @@
     "percent": "100",
     "itemLabel": "Sicilian",
     "nativeLabel": "Sicilianu",
-    "cnt": "1",
+    "countLabels": "1",
     "population": "4700000",
     "populationQualifier": "1-10M"
   },
@@ -1183,8 +1183,8 @@
     "code": "sun",
     "itemLabel": "Sundanese",
     "nativeLabel": "bahasa Sunda",
-    "cnt": "3",
-    "labeliso": "Sunda",
+    "countLabels": "3",
+    "isoLabel": "Sunda",
     "population": "32400000",
     "populationQualifier": "10-100M"
   },
@@ -1204,7 +1204,7 @@
     "wiki": "pcd",
     "itemLabel": "Picard",
     "nativeLabel": "picard",
-    "cnt": "1",
+    "countLabels": "1",
     "population": "700000",
     "populationQualifier": "100k-1M"
   },
@@ -1220,8 +1220,8 @@
     "percent": "100",
     "itemLabel": "Tagalog",
     "nativeLabel": "Wikang Tagalog",
-    "cnt": "1",
-    "labeliso": "wikang Tagalog",
+    "countLabels": "1",
+    "isoLabel": "wikang Tagalog",
     "population": "23600000",
     "populationQualifier": "10-100M"
   },
@@ -1236,7 +1236,7 @@
     "percent": "100",
     "itemLabel": "Shilha",
     "nativeLabel": "ⵜⴰⵛⵍⵃⵉⵜ",
-    "cnt": "3",
+    "countLabels": "3",
     "population": "8000000",
     "populationQualifier": "1-10M"
   },
@@ -1251,7 +1251,7 @@
     "percent": "100",
     "itemLabel": "Luba-Kasai language",
     "nativeLabel": "Tshiluba",
-    "cnt": "1",
+    "countLabels": "1",
     "population": "6300000",
     "populationQualifier": "1-10M"
   },
@@ -1280,8 +1280,8 @@
     "percent": "100",
     "itemLabel": "Yoruba",
     "nativeLabel": "Èdè Yorùbá",
-    "cnt": "2",
-    "labeliso": "Èdè Yorùbá",
+    "countLabels": "2",
+    "isoLabel": "Èdè Yorùbá",
     "population": "37800000",
     "populationQualifier": "10-100M"
   },
@@ -1368,7 +1368,7 @@
     "code": "bbj",
     "itemLabel": "Ghomala' language",
     "nativeLabel": "Ghɔmálá’",
-    "cnt": "1"
+    "countLabels": "1"
   },
   {
     "language": "Q489393",
@@ -1408,7 +1408,7 @@
     "percent": "100",
     "itemLabel": "Ancient Greek",
     "nativeLabel": "Ἀρχαία Ἑλληνική",
-    "cnt": "1"
+    "countLabels": "1"
   },
   {
     "language": "Q204940",
@@ -1432,7 +1432,7 @@
     "percent": "99.9",
     "itemLabel": "Gascon",
     "nativeLabel": "Gascon",
-    "cnt": "1",
+    "countLabels": "1",
     "population": "250000",
     "populationQualifier": "100k-1M"
   },
@@ -1447,7 +1447,7 @@
     "percent": "100",
     "itemLabel": "Láadan",
     "nativeLabel": "Láadan",
-    "cnt": "1",
+    "countLabels": "1",
     "population": "http://www.wikidata.org/.well-known/genid/b9aeb5ee46ddae8ca79afdb2c3216908"
   },
   {
@@ -1462,7 +1462,7 @@
     "percent": "100",
     "itemLabel": "Kabyle",
     "nativeLabel": "Taqbaylit",
-    "cnt": "2",
+    "countLabels": "2",
     "population": "5586000",
     "populationQualifier": "1-10M"
   },
@@ -1500,7 +1500,7 @@
     "percent": "98.8",
     "itemLabel": "Kurmanji",
     "nativeLabel": "Kurdî",
-    "cnt": "3",
+    "countLabels": "3",
     "population": "14600000",
     "populationQualifier": "10-100M"
   },
@@ -1516,8 +1516,8 @@
     "percent": "100",
     "itemLabel": "Lingala",
     "nativeLabel": "Lingála",
-    "cnt": "2",
-    "labeliso": "Lingála",
+    "countLabels": "2",
+    "isoLabel": "Lingála",
     "population": "2000000",
     "populationQualifier": "1-10M"
   },
@@ -1537,8 +1537,8 @@
     "wiki": "ml",
     "itemLabel": "Malayalam",
     "nativeLabel": "മലയാളം",
-    "cnt": "1",
-    "labeliso": "മലയാളം",
+    "countLabels": "1",
+    "isoLabel": "മലയാളം",
     "population": "37100000",
     "populationQualifier": "10-100M"
   },
@@ -1582,8 +1582,8 @@
     "wiki": "ku",
     "itemLabel": "Kurdish",
     "nativeLabel": "Kurdî",
-    "cnt": "4",
-    "labeliso": "zimanê kurdî",
+    "countLabels": "4",
+    "isoLabel": "zimanê kurdî",
     "population": "21000000",
     "populationQualifier": "10-100M"
   },
@@ -1599,7 +1599,7 @@
     "percent": "100",
     "itemLabel": "Southern Min",
     "nativeLabel": "闽南语",
-    "cnt": "4",
+    "countLabels": "4",
     "population": "50100000",
     "populationQualifier": "10-100M"
   },
@@ -1649,7 +1649,7 @@
     "percent": "100",
     "itemLabel": "Sorani",
     "nativeLabel": "کوردیی ناوەندی",
-    "cnt": "3",
+    "countLabels": "3",
     "population": "7250000",
     "populationQualifier": "1-10M"
   },
@@ -1664,7 +1664,7 @@
     "percent": "96.8",
     "itemLabel": "toki pona",
     "nativeLabel": "toki pona",
-    "cnt": "1",
+    "countLabels": "1",
     "population": "3100",
     "populationQualifier": "1-20k"
   },
@@ -1701,7 +1701,7 @@
     "percent": "92.6",
     "itemLabel": "Faka'uvea",
     "nativeLabel": "Lea faka'uvea",
-    "cnt": "1"
+    "countLabels": "1"
   },
   {
     "language": "Q733156",
@@ -1735,8 +1735,8 @@
     "percent": "100",
     "itemLabel": "Latin",
     "nativeLabel": "Lingua latina",
-    "cnt": "1",
-    "labeliso": "Latine",
+    "countLabels": "1",
+    "isoLabel": "Latine",
     "population": "100",
     "populationQualifier": "<1k"
   },
@@ -1749,7 +1749,7 @@
     "percent": "128.1",
     "itemLabel": "Lemosin dialect",
     "nativeLabel": "Lemosin",
-    "cnt": "1",
+    "countLabels": "1",
     "population": "10000",
     "populationQualifier": "1-20k"
   },
@@ -1774,8 +1774,8 @@
     "percent": "100",
     "itemLabel": "Gujarati",
     "nativeLabel": "ગુજરાતી ભાષા",
-    "cnt": "2",
-    "labeliso": "ગુજરાતી ભાષા",
+    "countLabels": "2",
+    "isoLabel": "ગુજરાતી ભાષા",
     "population": "56400000",
     "populationQualifier": "10-100M"
   },
@@ -1795,8 +1795,8 @@
     "wiki": "pt",
     "itemLabel": "Portuguese",
     "nativeLabel": "português",
-    "cnt": "1",
-    "labeliso": "português",
+    "countLabels": "1",
+    "isoLabel": "português",
     "population": "254300000",
     "populationQualifier": ">100M"
   },
@@ -1816,8 +1816,8 @@
     "wiki": "qu",
     "itemLabel": "Quechua",
     "nativeLabel": "Qhichwa simi",
-    "cnt": "1",
-    "labeliso": "Qichwa",
+    "countLabels": "1",
+    "isoLabel": "Qichwa",
     "population": "8900000",
     "populationQualifier": "1-10M"
   },
@@ -1837,8 +1837,8 @@
     "wiki": "ja",
     "itemLabel": "Japanese",
     "nativeLabel": "日本語",
-    "cnt": "1",
-    "labeliso": "日本語",
+    "countLabels": "1",
+    "isoLabel": "日本語",
     "population": "128000000",
     "populationQualifier": ">100M"
   },
@@ -1875,7 +1875,7 @@
     "wiki": "ary",
     "itemLabel": "Moroccan Arabic",
     "nativeLabel": "الداريجة",
-    "cnt": "1",
+    "countLabels": "1",
     "population": "27500000",
     "populationQualifier": "10-100M"
   },
@@ -1900,8 +1900,8 @@
     "percent": "100",
     "itemLabel": "Hausa",
     "nativeLabel": "Hausa",
-    "cnt": "1",
-    "labeliso": "Hausa",
+    "countLabels": "1",
+    "isoLabel": "Hausa",
     "population": "43900000",
     "populationQualifier": "10-100M"
   },
@@ -1917,7 +1917,7 @@
     "percent": "100",
     "itemLabel": "Shan",
     "nativeLabel": "လိၵ်ႈတႆး",
-    "cnt": "1",
+    "countLabels": "1",
     "population": "3000000",
     "populationQualifier": "1-10M"
   },
@@ -1932,7 +1932,7 @@
     "percent": "100",
     "itemLabel": "Chadian Arabic",
     "nativeLabel": "لهجة تشادية",
-    "cnt": "1",
+    "countLabels": "1",
     "population": "1100000",
     "populationQualifier": "1-10M"
   },
@@ -1952,7 +1952,7 @@
     "wiki": "arq",
     "itemLabel": "Algerian Arabic",
     "nativeLabel": "دزيرية",
-    "cnt": "1",
+    "countLabels": "1",
     "population": "29400000",
     "populationQualifier": "10-100M"
   },
@@ -1985,7 +1985,7 @@
     "wiki": "atj",
     "itemLabel": "Atikamekw",
     "nativeLabel": "Atikamekw Nehiromowin",
-    "cnt": "2",
+    "countLabels": "2",
     "population": "6160",
     "populationQualifier": "1-20k"
   },
@@ -2040,7 +2040,7 @@
     "wiki": "pa",
     "itemLabel": "Punjabi",
     "nativeLabel": "پنجابی",
-    "cnt": "2",
+    "countLabels": "2",
     "population": "125000000",
     "populationQualifier": ">100M"
   },
@@ -2056,8 +2056,8 @@
     "percent": "99.1",
     "itemLabel": "Tamil",
     "nativeLabel": "தமிழ்",
-    "cnt": "1",
-    "labeliso": "தமிழ்",
+    "countLabels": "1",
+    "isoLabel": "தமிழ்",
     "population": "75000000",
     "populationQualifier": "10-100M"
   },
@@ -2077,8 +2077,8 @@
     "wiki": "it",
     "itemLabel": "Italian",
     "nativeLabel": "Italiano",
-    "cnt": "2",
-    "labeliso": "italiano",
+    "countLabels": "2",
+    "isoLabel": "italiano",
     "population": "64800000",
     "populationQualifier": "10-100M"
   },
@@ -2091,7 +2091,7 @@
     "percent": "100",
     "itemLabel": "Sursilvan",
     "nativeLabel": "Sursilvan",
-    "cnt": "1"
+    "countLabels": "1"
   },
   {
     "language": "Q386441",
@@ -2133,8 +2133,8 @@
     "wiki": "ca",
     "itemLabel": "Catalan",
     "nativeLabel": "català",
-    "cnt": "2",
-    "labeliso": "català",
+    "countLabels": "2",
+    "isoLabel": "català",
     "population": "5100000",
     "populationQualifier": "1-10M"
   },
@@ -2149,7 +2149,7 @@
     "percent": "100",
     "itemLabel": "Paiwan",
     "nativeLabel": "Pinayuanan",
-    "cnt": "1"
+    "countLabels": "1"
   },
   {
     "language": "Q51302",
@@ -2163,7 +2163,7 @@
     "percent": "100",
     "itemLabel": "Atayal",
     "nativeLabel": "Atayal",
-    "cnt": "1",
+    "countLabels": "1",
     "population": "80000",
     "populationQualifier": "20-100k"
   },
@@ -2183,8 +2183,8 @@
     "wiki": "nl",
     "itemLabel": "Dutch",
     "nativeLabel": "Hollands",
-    "cnt": "3",
-    "labeliso": "Nederlands",
+    "countLabels": "3",
+    "isoLabel": "Nederlands",
     "population": "23100000",
     "populationQualifier": "10-100M"
   },
@@ -2215,8 +2215,8 @@
     "wiki": "ru",
     "itemLabel": "Russian",
     "nativeLabel": "русский язык",
-    "cnt": "1",
-    "labeliso": "русский язык",
+    "countLabels": "1",
+    "isoLabel": "русский язык",
     "population": "154000000",
     "populationQualifier": ">100M"
   },
@@ -2232,8 +2232,8 @@
     "percent": "100",
     "itemLabel": "Swahili",
     "nativeLabel": "Kiswahili",
-    "cnt": "1",
-    "labeliso": "Kiswahili",
+    "countLabels": "1",
+    "isoLabel": "Kiswahili",
     "population": "15437390",
     "populationQualifier": "10-100M"
   },
@@ -2253,8 +2253,8 @@
     "wiki": "zh",
     "itemLabel": "Chinese writing",
     "nativeLabel": "漢語",
-    "cnt": "2",
-    "labeliso": "中文",
+    "countLabels": "2",
+    "isoLabel": "中文",
     "population": "1299877520",
     "populationQualifier": ">100M"
   },
@@ -2274,8 +2274,8 @@
     "wiki": "ro",
     "itemLabel": "Romanian",
     "nativeLabel": "românește",
-    "cnt": "2",
-    "labeliso": "limba română",
+    "countLabels": "2",
+    "isoLabel": "limba română",
     "population": "24300000",
     "populationQualifier": "10-100M"
   },
@@ -2291,8 +2291,8 @@
     "percent": "100",
     "itemLabel": "Bulgarian",
     "nativeLabel": "български език",
-    "cnt": "1",
-    "labeliso": "български език",
+    "countLabels": "1",
+    "isoLabel": "български език",
     "population": "9000000",
     "populationQualifier": "1-10M"
   },
@@ -2308,8 +2308,8 @@
     "percent": "100",
     "itemLabel": "Malagasy",
     "nativeLabel": "Fiteny malagasy",
-    "cnt": "1",
-    "labeliso": "Fiteny malagasy",
+    "countLabels": "1",
+    "isoLabel": "Fiteny malagasy",
     "population": "18000000",
     "populationQualifier": "10-100M"
   },
@@ -2323,7 +2323,7 @@
     "percent": "100",
     "itemLabel": "American English",
     "nativeLabel": "American English",
-    "cnt": "1"
+    "countLabels": "1"
   },
   {
     "language": "Q123270",
@@ -2335,7 +2335,7 @@
     "percent": "100",
     "itemLabel": "British English",
     "nativeLabel": "British English",
-    "cnt": "1"
+    "countLabels": "1"
   },
   {
     "language": "Q518106",
@@ -2362,8 +2362,8 @@
     "wiki": "pl",
     "itemLabel": "Polish",
     "nativeLabel": "polszczyzna",
-    "cnt": "2",
-    "labeliso": "język polski",
+    "countLabels": "2",
+    "isoLabel": "język polski",
     "population": "39700000",
     "populationQualifier": "10-100M"
   },
@@ -2383,8 +2383,8 @@
     "wiki": "te",
     "itemLabel": "Telugu",
     "nativeLabel": "తెలుగు",
-    "cnt": "1",
-    "labeliso": "తెలుగు",
+    "countLabels": "1",
+    "isoLabel": "తెలుగు",
     "population": "82000000",
     "populationQualifier": "10-100M"
   },
@@ -2400,8 +2400,8 @@
     "percent": "100",
     "itemLabel": "Albanian",
     "nativeLabel": "Gjuha shqipe",
-    "cnt": "1",
-    "labeliso": "shqip",
+    "countLabels": "1",
+    "isoLabel": "shqip",
     "population": "6200000",
     "populationQualifier": "1-10M"
   },
@@ -2421,8 +2421,8 @@
     "wiki": "da",
     "itemLabel": "Basque",
     "nativeLabel": "Euskara",
-    "cnt": "1",
-    "labeliso": "euskara",
+    "countLabels": "1",
+    "isoLabel": "euskara",
     "population": "537860",
     "populationQualifier": "100k-1M"
   },
@@ -2442,8 +2442,8 @@
     "wiki": "hy",
     "itemLabel": "Armenian",
     "nativeLabel": "հայերեն",
-    "cnt": "1",
-    "labeliso": "հայերեն",
+    "countLabels": "1",
+    "isoLabel": "հայերեն",
     "population": "6700000",
     "populationQualifier": "1-10M"
   },
@@ -2463,8 +2463,8 @@
     "wiki": "uk",
     "itemLabel": "Ukrainian",
     "nativeLabel": "українська мова",
-    "cnt": "1",
-    "labeliso": "українська мова",
+    "countLabels": "1",
+    "isoLabel": "українська мова",
     "population": "27300000",
     "populationQualifier": "10-100M"
   },
@@ -2495,8 +2495,8 @@
     "percent": "96.6",
     "itemLabel": "Swedish",
     "nativeLabel": "svenska",
-    "cnt": "1",
-    "labeliso": "svenska",
+    "countLabels": "1",
+    "isoLabel": "svenska",
     "population": "9244250",
     "populationQualifier": "1-10M"
   },
@@ -2512,8 +2512,8 @@
     "percent": "100",
     "itemLabel": "Danish",
     "nativeLabel": "dansk",
-    "cnt": "1",
-    "labeliso": "dansk",
+    "countLabels": "1",
+    "isoLabel": "dansk",
     "population": "6000000",
     "populationQualifier": "1-10M"
   },
@@ -2529,7 +2529,7 @@
     "percent": "86.5",
     "itemLabel": "Norwegian",
     "nativeLabel": "norsk",
-    "cnt": "1",
+    "countLabels": "1",
     "population": "5200000",
     "populationQualifier": "1-10M"
   },
@@ -2545,8 +2545,8 @@
     "percent": "100",
     "itemLabel": "Luxembourgish",
     "nativeLabel": "Lëtzebuergesch",
-    "cnt": "1",
-    "labeliso": "Lëtzebuergesch",
+    "countLabels": "1",
+    "isoLabel": "Lëtzebuergesch",
     "population": "391200",
     "populationQualifier": "20-100k"
   },
@@ -2562,8 +2562,8 @@
     "percent": "100",
     "itemLabel": "Czech",
     "nativeLabel": "čeština",
-    "cnt": "2",
-    "labeliso": "čeština",
+    "countLabels": "2",
+    "isoLabel": "čeština",
     "population": "10700000",
     "populationQualifier": "10-100M"
   },
@@ -2579,8 +2579,8 @@
     "percent": "100",
     "itemLabel": "Slovene",
     "nativeLabel": "Slovenščina",
-    "cnt": "2",
-    "labeliso": "slovenščina",
+    "countLabels": "2",
+    "isoLabel": "slovenščina",
     "population": "2400000",
     "populationQualifier": "1-10M"
   },
@@ -2596,8 +2596,8 @@
     "percent": "100",
     "itemLabel": "Hungarian",
     "nativeLabel": "magyar nyelv",
-    "cnt": "2",
-    "labeliso": "magyar",
+    "countLabels": "2",
+    "isoLabel": "magyar",
     "population": "12600000",
     "populationQualifier": "10-100M"
   },
@@ -2617,7 +2617,7 @@
     "wiki": "el",
     "itemLabel": "Greek",
     "nativeLabel": "ελληνική",
-    "cnt": "2",
+    "countLabels": "2",
     "population": "13100000",
     "populationQualifier": "10-100M"
   },
@@ -2637,8 +2637,8 @@
     "wiki": "ga",
     "itemLabel": "Irish",
     "nativeLabel": "Gaeilge",
-    "cnt": "2",
-    "labeliso": "an Ghaeilge",
+    "countLabels": "2",
+    "isoLabel": "an Ghaeilge",
     "population": "1030000",
     "populationQualifier": "100k-1M"
   },
@@ -2654,8 +2654,8 @@
     "percent": "100",
     "itemLabel": "Maltese",
     "nativeLabel": "Malti",
-    "cnt": "1",
-    "labeliso": "Malti",
+    "countLabels": "1",
+    "isoLabel": "Malti",
     "population": "482880",
     "populationQualifier": "100k-1M"
   },
@@ -2675,8 +2675,8 @@
     "wiki": "fa",
     "itemLabel": "Persian",
     "nativeLabel": "فارسی",
-    "cnt": "1",
-    "labeliso": "فارسی",
+    "countLabels": "1",
+    "isoLabel": "فارسی",
     "population": "45000000",
     "populationQualifier": "10-100M"
   },
@@ -2696,8 +2696,8 @@
     "wiki": "ko",
     "itemLabel": "Korean",
     "nativeLabel": "조선말",
-    "cnt": "3",
-    "labeliso": "한국어",
+    "countLabels": "3",
+    "isoLabel": "한국어",
     "population": "77300000",
     "populationQualifier": "10-100M"
   },
@@ -2717,7 +2717,7 @@
     "wiki": "zh-yue",
     "itemLabel": "Cantonese",
     "nativeLabel": "粵文",
-    "cnt": "2",
+    "countLabels": "2",
     "population": "72893210",
     "populationQualifier": "10-100M"
   },
@@ -2754,8 +2754,8 @@
     "wiki": "vi",
     "itemLabel": "Vietnamese",
     "nativeLabel": "tiếng Việt",
-    "cnt": "1",
-    "labeliso": "tiếng Việt",
+    "countLabels": "1",
+    "isoLabel": "tiếng Việt",
     "population": "76000000",
     "populationQualifier": "10-100M"
   },
@@ -2771,8 +2771,8 @@
     "percent": "100",
     "itemLabel": "Khmer",
     "nativeLabel": "ភាសាខ្មែរ",
-    "cnt": "2",
-    "labeliso": "ភាសាខ្មែរ",
+    "countLabels": "2",
+    "isoLabel": "ភាសាខ្មែរ",
     "population": "16600000",
     "populationQualifier": "10-100M"
   },
@@ -2788,8 +2788,8 @@
     "percent": "100",
     "itemLabel": "Thai",
     "nativeLabel": "ภาษาไทย",
-    "cnt": "1",
-    "labeliso": "ภาษาไทย",
+    "countLabels": "1",
+    "isoLabel": "ภาษาไทย",
     "population": "20700000",
     "populationQualifier": "10-100M"
   },
@@ -2805,8 +2805,8 @@
     "percent": "100",
     "itemLabel": "Burmese",
     "nativeLabel": "မြန်မာဘာသာစကား",
-    "cnt": "2",
-    "labeliso": "မြန်မာဘာသာစကား",
+    "countLabels": "2",
+    "isoLabel": "မြန်မာဘာသာစကား",
     "population": "32900000",
     "populationQualifier": "10-100M"
   },
@@ -2826,8 +2826,8 @@
     "wiki": "ms",
     "itemLabel": "Malay",
     "nativeLabel": "Bahasa Melayu",
-    "cnt": "1",
-    "labeliso": "bahasa Melayu",
+    "countLabels": "1",
+    "isoLabel": "bahasa Melayu",
     "population": "77000000",
     "populationQualifier": "10-100M"
   },
@@ -2847,8 +2847,8 @@
     "wiki": "id",
     "itemLabel": "Indonesian",
     "nativeLabel": "Bahasa Indonesia",
-    "cnt": "1",
-    "labeliso": "bahasa Indonesia",
+    "countLabels": "1",
+    "isoLabel": "bahasa Indonesia",
     "population": "198996550",
     "populationQualifier": "10-100M"
   },
@@ -2864,8 +2864,8 @@
     "percent": "100",
     "itemLabel": "Kazakh",
     "nativeLabel": "қазақ тілі",
-    "cnt": "4",
-    "labeliso": "қазақ тілі",
+    "countLabels": "4",
+    "isoLabel": "қазақ тілі",
     "population": "12900000",
     "populationQualifier": "10-100M"
   },
@@ -2881,8 +2881,8 @@
     "percent": "99.4",
     "itemLabel": "Hebrew",
     "nativeLabel": "עברית חדשה",
-    "cnt": "2",
-    "labeliso": "עברית",
+    "countLabels": "2",
+    "isoLabel": "עברית",
     "population": "9303950",
     "populationQualifier": "1-10M"
   },
@@ -2898,8 +2898,8 @@
     "percent": "91.7",
     "itemLabel": "Azerbaijani",
     "nativeLabel": "Azərbaycan dili",
-    "cnt": "1",
-    "labeliso": "Azərbaycan dili",
+    "countLabels": "1",
+    "isoLabel": "Azərbaycan dili",
     "population": "23000000",
     "populationQualifier": "10-100M"
   },
@@ -2915,8 +2915,8 @@
     "percent": "99.7",
     "itemLabel": "Macedonian",
     "nativeLabel": "македонски јазик",
-    "cnt": "2",
-    "labeliso": "македонски јазик",
+    "countLabels": "2",
+    "isoLabel": "македонски јазик",
     "population": "2000000",
     "populationQualifier": "1-10M"
   },
@@ -2936,8 +2936,8 @@
     "wiki": "gl",
     "itemLabel": "Galician",
     "nativeLabel": "lingua galega",
-    "cnt": "2",
-    "labeliso": "lingua galega",
+    "countLabels": "2",
+    "isoLabel": "lingua galega",
     "population": "2500000",
     "populationQualifier": "1-10M"
   },
@@ -2957,8 +2957,8 @@
     "wiki": "cy",
     "itemLabel": "Welsh",
     "nativeLabel": "Cymraeg",
-    "cnt": "1",
-    "labeliso": "Cymraeg",
+    "countLabels": "1",
+    "isoLabel": "Cymraeg",
     "population": "724000",
     "populationQualifier": "100k-1M"
   },
@@ -2973,7 +2973,7 @@
     "percent": "99.8",
     "itemLabel": "Languedocien dialect",
     "nativeLabel": "Lengadocian",
-    "cnt": "1",
+    "countLabels": "1",
     "population": "5000",
     "populationQualifier": "1-20k"
   },
@@ -2993,8 +2993,8 @@
     "wiki": "bn",
     "itemLabel": "Bengali",
     "nativeLabel": "বাংলা",
-    "cnt": "1",
-    "labeliso": "বাংলা ভাষা",
+    "countLabels": "1",
+    "isoLabel": "বাংলা ভাষা",
     "population": "300000000",
     "populationQualifier": ">100M"
   }
