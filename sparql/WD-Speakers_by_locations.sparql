@@ -3,7 +3,12 @@
 # Source: https://w.wiki/5ZkA
 PREFIX ll:<https://lingualibre.org/entity/>
 PREFIX llt:<https://lingualibre.org/prop/direct/>
-SELECT ?itemLabel ?wikidata (?info AS ?coordinates) ?records (SAMPLE(?tag) AS ?layer)
+SELECT 
+?itemLabel 
+?wikidata 
+(?info AS ?coordinates) 
+?records 
+(SAMPLE(?tag) AS ?layer)
 WITH {
   SELECT *
   WHERE {
