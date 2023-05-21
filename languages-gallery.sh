@@ -1,6 +1,3 @@
-jq \
-  --argjson languagesGenderData "$(<./data/LL-LanguagesGenderData.json)"  \
-  --argjson languagesActive "$(<./data/LL-LanguagesActive.json)" \
-  --argjson languagesRecordsData "$(<./data/LL-LanguagesRecordsData.json)" \
-  --argjson languagesPopulationData "$(<./data/WD-LanguagesPopulationData.json)" \
-  '[ $languagesGenderData + $languagesActive + $languagesRecordsData + $languagesPopulationData | group_by(.wikidata) | .[] | reduce .[] as $obj ({}; . * $obj) ]' <<< "{}" > ./data/languages-gallery.json
+jq -s 'add | group_by(.wikidata) | map(add) | map(select(.records > 0))' \
+    ./data/LL-LanguagesGenderData.json ./data/LL-LanguagesActive.json ./data/LL-LanguagesRecordsData.json ./data/WD-LanguagesPopulationData.json \
+    > ./data/languages-gallery.json
