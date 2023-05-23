@@ -810,19 +810,19 @@
     "populationQualifier": "100k-1M"
   },
   {
-    "itemLabel": "Norwegian",
-    "wikidata": "Q9043",
-    "nativeLabel": "norsk",
-    "countLabels": "1",
-    "population": "5200000",
-    "populationQualifier": "1-10M"
-  },
-  {
     "itemLabel": "Tatar",
     "wikidata": "Q25285",
     "nativeLabel": "татар теле",
     "countLabels": "1",
     "isoLabel": "татар теле",
+    "population": "5200000",
+    "populationQualifier": "1-10M"
+  },
+  {
+    "itemLabel": "Norwegian",
+    "wikidata": "Q9043",
+    "nativeLabel": "norsk",
+    "countLabels": "1",
     "population": "5200000",
     "populationQualifier": "1-10M"
   },
@@ -879,19 +879,19 @@
     "populationQualifier": "1-10M"
   },
   {
-    "itemLabel": "Northern Sotho",
-    "wikidata": "Q33890",
-    "nativeLabel": "Sesotho sa Leboa",
-    "countLabels": "2",
-    "population": "4100000",
-    "populationQualifier": "1-10M"
-  },
-  {
     "itemLabel": "Luganda",
     "wikidata": "Q33368",
     "nativeLabel": "Luganda",
     "countLabels": "1",
     "isoLabel": "Luganda",
+    "population": "4100000",
+    "populationQualifier": "1-10M"
+  },
+  {
+    "itemLabel": "Northern Sotho",
+    "wikidata": "Q33890",
+    "nativeLabel": "Sesotho sa Leboa",
+    "countLabels": "2",
     "population": "4100000",
     "populationQualifier": "1-10M"
   },
@@ -954,17 +954,17 @@
     "populationQualifier": "1-10M"
   },
   {
+    "itemLabel": "Luo dialect",
+    "wikidata": "Q5414796",
+    "population": "3000000",
+    "populationQualifier": "1-10M"
+  },
+  {
     "itemLabel": "Ewe",
     "wikidata": "Q30005",
     "nativeLabel": "Eʋegbe",
     "countLabels": "2",
     "isoLabel": "Eʋegbe",
-    "population": "3000000",
-    "populationQualifier": "1-10M"
-  },
-  {
-    "itemLabel": "Luo dialect",
-    "wikidata": "Q5414796",
     "population": "3000000",
     "populationQualifier": "1-10M"
   },
@@ -983,12 +983,6 @@
     "populationQualifier": "1-10M"
   },
   {
-    "itemLabel": "Dioula language",
-    "wikidata": "Q32706",
-    "population": "2700000",
-    "populationQualifier": "1-10M"
-  },
-  {
     "itemLabel": "Bambara",
     "wikidata": "Q33243",
     "nativeLabel": "Bamanankan",
@@ -998,11 +992,9 @@
     "populationQualifier": "1-10M"
   },
   {
-    "itemLabel": "Central Bikol",
-    "wikidata": "Q33284",
-    "nativeLabel": "Bikol Sentral",
-    "countLabels": "2",
-    "population": "2500000",
+    "itemLabel": "Dioula language",
+    "wikidata": "Q32706",
+    "population": "2700000",
     "populationQualifier": "1-10M"
   },
   {
@@ -1011,6 +1003,14 @@
     "nativeLabel": "lingua galega",
     "countLabels": "2",
     "isoLabel": "lingua galega",
+    "population": "2500000",
+    "populationQualifier": "1-10M"
+  },
+  {
+    "itemLabel": "Central Bikol",
+    "wikidata": "Q33284",
+    "nativeLabel": "Bikol Sentral",
+    "countLabels": "2",
     "population": "2500000",
     "populationQualifier": "1-10M"
   },
@@ -1055,17 +1055,17 @@
     "populationQualifier": "1-10M"
   },
   {
-    "itemLabel": "Upper Saxon German",
-    "wikidata": "Q699284",
-    "population": "2000000",
-    "populationQualifier": "1-10M"
-  },
-  {
     "itemLabel": "Macedonian",
     "wikidata": "Q9296",
     "nativeLabel": "македонски јазик",
     "countLabels": "2",
     "isoLabel": "македонски јазик",
+    "population": "2000000",
+    "populationQualifier": "1-10M"
+  },
+  {
+    "itemLabel": "Upper Saxon German",
+    "wikidata": "Q699284",
     "population": "2000000",
     "populationQualifier": "1-10M"
   },
@@ -1220,17 +1220,17 @@
     "populationQualifier": "100k-1M"
   },
   {
-    "itemLabel": "Réunion Creole",
-    "wikidata": "Q13198",
-    "population": "600000",
-    "populationQualifier": "100k-1M"
-  },
-  {
     "itemLabel": "Walloon",
     "wikidata": "Q34219",
     "nativeLabel": "walon",
     "countLabels": "1",
     "isoLabel": "walon",
+    "population": "600000",
+    "populationQualifier": "100k-1M"
+  },
+  {
+    "itemLabel": "Réunion Creole",
+    "wikidata": "Q13198",
     "population": "600000",
     "populationQualifier": "100k-1M"
   },
@@ -1612,6 +1612,12 @@
     "populationQualifier": "<1k"
   },
   {
+    "itemLabel": "Old Tupi",
+    "wikidata": "Q56944",
+    "population": "0",
+    "populationQualifier": "<1k"
+  },
+  {
     "itemLabel": "Old English",
     "wikidata": "Q42365",
     "nativeLabel": "Ænglisc sprǣc",
@@ -1624,12 +1630,6 @@
     "wikidata": "Q2779185",
     "nativeLabel": "Proensals",
     "countLabels": "2",
-    "population": "0",
-    "populationQualifier": "<1k"
-  },
-  {
-    "itemLabel": "Old Tupi",
-    "wikidata": "Q56944",
     "population": "0",
     "populationQualifier": "<1k"
   },
@@ -1648,29 +1648,59 @@
     "population": "http://www.wikidata.org/.well-known/genid/3cb58562575ba39f1c11888d1de89417"
   },
   {
-    "itemLabel": "Duala",
-    "wikidata": "Q33013"
+    "itemLabel": "Obolo",
+    "wikidata": "Q36614"
   },
   {
-    "itemLabel": "Old French",
-    "wikidata": "Q35222"
+    "itemLabel": "Bangala",
+    "wikidata": "Q34989"
   },
   {
-    "itemLabel": "Ancient Greek",
-    "wikidata": "Q35497",
-    "nativeLabel": "Ἀρχαία Ἑλληνική",
-    "countLabels": "1"
+    "itemLabel": "Viennese German",
+    "wikidata": "Q56474"
   },
   {
-    "itemLabel": "Ghomala' language",
-    "wikidata": "Q35271",
-    "nativeLabel": "Ghɔmálá’",
-    "countLabels": "1"
+    "itemLabel": "Anyin",
+    "wikidata": "Q28395"
   },
   {
-    "itemLabel": "Paiwan",
-    "wikidata": "Q715755",
-    "nativeLabel": "Pinayuanan",
+    "itemLabel": "Ngambay",
+    "wikidata": "Q2372207"
+  },
+  {
+    "itemLabel": "Balearic",
+    "wikidata": "Q804899"
+  },
+  {
+    "itemLabel": "multiple languages",
+    "wikidata": "Q20923490"
+  },
+  {
+    "itemLabel": "Futunan",
+    "wikidata": "Q35334"
+  },
+  {
+    "itemLabel": "Wushi",
+    "wikidata": "Q36973"
+  },
+  {
+    "itemLabel": "Tsimshian",
+    "wikidata": "Q20085721"
+  },
+  {
+    "itemLabel": "Old Church Slavonic",
+    "wikidata": "Q35499",
+    "nativeLabel": "Словѣньскъ ѩꙁꙑкъ",
+    "countLabels": "2"
+  },
+  {
+    "itemLabel": "Laari",
+    "wikidata": "Q12952693"
+  },
+  {
+    "itemLabel": "American English",
+    "wikidata": "Q7976",
+    "nativeLabel": "American English",
     "countLabels": "1"
   },
   {
@@ -1694,93 +1724,9 @@
     "wikidata": "Q35028"
   },
   {
-    "itemLabel": "Havu",
-    "wikidata": "Q5684097"
-  },
-  {
-    "itemLabel": "Wayuu",
-    "wikidata": "Q891085"
-  },
-  {
-    "itemLabel": "Faka'uvea",
-    "wikidata": "Q36979",
-    "nativeLabel": "Lea faka'uvea",
-    "countLabels": "1"
-  },
-  {
-    "itemLabel": "Teochew",
-    "wikidata": "Q36759"
-  },
-  {
-    "itemLabel": "Central Catalan",
-    "wikidata": "Q2941602"
-  },
-  {
-    "itemLabel": "Bikol languages",
-    "wikidata": "Q35455"
-  },
-  {
-    "itemLabel": "Mayennais",
-    "wikidata": "Q3302952"
-  },
-  {
-    "itemLabel": "Viennese German",
-    "wikidata": "Q56474"
-  },
-  {
-    "itemLabel": "Obolo",
-    "wikidata": "Q36614"
-  },
-  {
-    "itemLabel": "Bangala",
-    "wikidata": "Q34989"
-  },
-  {
-    "itemLabel": "Futunan",
-    "wikidata": "Q35334"
-  },
-  {
-    "itemLabel": "centro-meridional Calabrian",
-    "wikidata": "Q13195623"
-  },
-  {
-    "itemLabel": "meridional Cilentan",
-    "wikidata": "Q3706580"
-  },
-  {
-    "itemLabel": "Salentino",
-    "wikidata": "Q1213"
-  },
-  {
-    "itemLabel": "Nanjing Dialect",
-    "wikidata": "Q2681098"
-  },
-  {
-    "itemLabel": "Bila",
-    "wikidata": "Q2902626"
-  },
-  {
-    "itemLabel": "Hausa Sign Language",
-    "wikidata": "Q3915462"
-  },
-  {
-    "itemLabel": "Tsimshian",
-    "wikidata": "Q20085721"
-  },
-  {
-    "itemLabel": "Old Church Slavonic",
-    "wikidata": "Q35499",
-    "nativeLabel": "Словѣньскъ ѩꙁꙑкъ",
-    "countLabels": "2"
-  },
-  {
-    "itemLabel": "Laari",
-    "wikidata": "Q12952693"
-  },
-  {
-    "itemLabel": "American English",
-    "wikidata": "Q7976",
-    "nativeLabel": "American English",
+    "itemLabel": "Ghomala' language",
+    "wikidata": "Q35271",
+    "nativeLabel": "Ghɔmálá’",
     "countLabels": "1"
   },
   {
@@ -1810,28 +1756,64 @@
     "countLabels": "1"
   },
   {
-    "itemLabel": "multiple languages",
-    "wikidata": "Q20923490"
+    "itemLabel": "Paiwan",
+    "wikidata": "Q715755",
+    "nativeLabel": "Pinayuanan",
+    "countLabels": "1"
+  },
+  {
+    "itemLabel": "Havu",
+    "wikidata": "Q5684097"
+  },
+  {
+    "itemLabel": "Wayuu",
+    "wikidata": "Q891085"
+  },
+  {
+    "itemLabel": "Faka'uvea",
+    "wikidata": "Q36979",
+    "nativeLabel": "Lea faka'uvea",
+    "countLabels": "1"
+  },
+  {
+    "itemLabel": "Teochew",
+    "wikidata": "Q36759"
+  },
+  {
+    "itemLabel": "Central Catalan",
+    "wikidata": "Q2941602"
+  },
+  {
+    "itemLabel": "Hausa Sign Language",
+    "wikidata": "Q3915462"
+  },
+  {
+    "itemLabel": "Mayennais",
+    "wikidata": "Q3302952"
   },
   {
     "itemLabel": "Suruí",
     "wikidata": "Q7646993"
   },
   {
-    "itemLabel": "Wushi",
-    "wikidata": "Q36973"
+    "itemLabel": "centro-meridional Calabrian",
+    "wikidata": "Q13195623"
   },
   {
-    "itemLabel": "Anyin",
-    "wikidata": "Q28395"
+    "itemLabel": "meridional Cilentan",
+    "wikidata": "Q3706580"
   },
   {
-    "itemLabel": "Ngambay",
-    "wikidata": "Q2372207"
+    "itemLabel": "Salentino",
+    "wikidata": "Q1213"
   },
   {
-    "itemLabel": "Balearic",
-    "wikidata": "Q804899"
+    "itemLabel": "Nanjing Dialect",
+    "wikidata": "Q2681098"
+  },
+  {
+    "itemLabel": "Bila",
+    "wikidata": "Q2902626"
   },
   {
     "itemLabel": "Ndrumbea",
@@ -1864,5 +1846,23 @@
   {
     "itemLabel": "Blissymbols",
     "wikidata": "Q609817"
+  },
+  {
+    "itemLabel": "Bikol languages",
+    "wikidata": "Q35455"
+  },
+  {
+    "itemLabel": "Ancient Greek",
+    "wikidata": "Q35497",
+    "nativeLabel": "Ἀρχαία Ἑλληνική",
+    "countLabels": "1"
+  },
+  {
+    "itemLabel": "Old French",
+    "wikidata": "Q35222"
+  },
+  {
+    "itemLabel": "Duala",
+    "wikidata": "Q33013"
   }
 ]
