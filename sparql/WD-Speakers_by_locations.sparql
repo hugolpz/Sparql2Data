@@ -6,7 +6,7 @@ PREFIX llt:<https://lingualibre.org/prop/direct/>
 SELECT 
 ?itemLabel 
 ?wikidata 
-(?info AS ?coordinates) 
+(?info AS ?geocoordinates) 
 ?records 
 (SAMPLE(?tag) AS ?layer)
 WITH {
