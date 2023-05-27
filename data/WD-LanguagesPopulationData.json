@@ -787,7 +787,7 @@
   {
     "itemLabel": "Kabyle",
     "wikidata": "Q35853",
-    "nativeLabel": "taqbaylit",
+    "nativeLabel": "Taqbaylit",
     "countLabels": "2",
     "population": "5586000",
     "populationQualifier": "1-10M"
@@ -972,17 +972,17 @@
     "populationQualifier": "1-10M"
   },
   {
+    "itemLabel": "Luo dialect",
+    "wikidata": "Q5414796",
+    "population": "3000000",
+    "populationQualifier": "1-10M"
+  },
+  {
     "itemLabel": "Ewe",
     "wikidata": "Q30005",
     "nativeLabel": "Eʋegbe",
     "countLabels": "2",
     "isoLabel": "Eʋegbe",
-    "population": "3000000",
-    "populationQualifier": "1-10M"
-  },
-  {
-    "itemLabel": "Luo dialect",
-    "wikidata": "Q5414796",
     "population": "3000000",
     "populationQualifier": "1-10M"
   },
@@ -1345,7 +1345,7 @@
   {
     "itemLabel": "Karachay-Balkar",
     "wikidata": "Q33714",
-    "nativeLabel": "Таулу тил",
+    "nativeLabel": "Tawlu til",
     "countLabels": "6",
     "population": "310400",
     "populationQualifier": "100k-1M"
@@ -1639,18 +1639,18 @@
     "populationQualifier": "<1k"
   },
   {
-    "itemLabel": "Old English",
-    "wikidata": "Q42365",
-    "nativeLabel": "Ænglisc sprǣc",
-    "countLabels": "1",
-    "population": "0",
-    "populationQualifier": "<1k"
-  },
-  {
     "itemLabel": "Old Occitan",
     "wikidata": "Q2779185",
     "nativeLabel": "Proensals",
     "countLabels": "2",
+    "population": "0",
+    "populationQualifier": "<1k"
+  },
+  {
+    "itemLabel": "Old English",
+    "wikidata": "Q42365",
+    "nativeLabel": "Ænglisc sprǣc",
+    "countLabels": "1",
     "population": "0",
     "populationQualifier": "<1k"
   },
@@ -1677,6 +1677,12 @@
   {
     "itemLabel": "Tsimshian",
     "wikidata": "Q20085721"
+  },
+  {
+    "itemLabel": "Old Church Slavonic",
+    "wikidata": "Q35499",
+    "nativeLabel": "Словѣньскъ ѩꙁꙑкъ",
+    "countLabels": "2"
   },
   {
     "itemLabel": "Saint Lucian Creole French",
@@ -1715,32 +1721,16 @@
     "wikidata": "Q36068"
   },
   {
-    "itemLabel": "Bulu language",
-    "wikidata": "Q35028"
-  },
-  {
-    "itemLabel": "Ghomala' language",
-    "wikidata": "Q35271",
-    "nativeLabel": "Ghɔmálá’",
-    "countLabels": "1"
-  },
-  {
-    "itemLabel": "Paiwan",
-    "wikidata": "Q715755",
-    "nativeLabel": "Pinayuanan",
-    "countLabels": "1"
-  },
-  {
-    "itemLabel": "Havu",
-    "wikidata": "Q5684097"
-  },
-  {
     "itemLabel": "Hausa Sign Language",
     "wikidata": "Q3915462"
   },
   {
     "itemLabel": "Mayennais",
     "wikidata": "Q3302952"
+  },
+  {
+    "itemLabel": "multiple languages",
+    "wikidata": "Q20923490"
   },
   {
     "itemLabel": "Suruí",
@@ -1771,14 +1761,24 @@
     "wikidata": "Q36614"
   },
   {
-    "itemLabel": "Bangala",
-    "wikidata": "Q34989"
+    "itemLabel": "Bulu language",
+    "wikidata": "Q35028"
   },
   {
-    "itemLabel": "Old Church Slavonic",
-    "wikidata": "Q35499",
-    "nativeLabel": "Словѣньскъ ѩꙁꙑкъ",
-    "countLabels": "2"
+    "itemLabel": "Ghomala' language",
+    "wikidata": "Q35271",
+    "nativeLabel": "Ghɔmálá’",
+    "countLabels": "1"
+  },
+  {
+    "itemLabel": "Paiwan",
+    "wikidata": "Q715755",
+    "nativeLabel": "Pinayuanan",
+    "countLabels": "1"
+  },
+  {
+    "itemLabel": "Havu",
+    "wikidata": "Q5684097"
   },
   {
     "itemLabel": "Wayuu",
@@ -1817,10 +1817,6 @@
     "wikidata": "Q35222"
   },
   {
-    "itemLabel": "Viennese German",
-    "wikidata": "Q56474"
-  },
-  {
     "itemLabel": "Anyin",
     "wikidata": "Q28395"
   },
@@ -1833,12 +1829,12 @@
     "wikidata": "Q804899"
   },
   {
-    "itemLabel": "Futunan",
-    "wikidata": "Q35334"
+    "itemLabel": "Viennese German",
+    "wikidata": "Q56474"
   },
   {
-    "itemLabel": "Wushi",
-    "wikidata": "Q36973"
+    "itemLabel": "Bangala",
+    "wikidata": "Q34989"
   },
   {
     "itemLabel": "Ndrumbea",
@@ -1853,8 +1849,12 @@
     "wikidata": "Q36286"
   },
   {
-    "itemLabel": "multiple languages",
-    "wikidata": "Q20923490"
+    "itemLabel": "Futunan",
+    "wikidata": "Q35334"
+  },
+  {
+    "itemLabel": "Wushi",
+    "wikidata": "Q36973"
   },
   {
     "itemLabel": "Tupuri",
