@@ -11,8 +11,8 @@ PREFIX ll: <https://lingualibre.org/entity/>
 PREFIX llt: <https://lingualibre.org/prop/direct/>
 #
 SELECT 
-?itemLabel (SAMPLE(STR(?nativeLabel_)) AS ?nativeLabel) 
-(COUNT(DISTINCT STR(?nativeLabel_)) AS ?countLabels) 
+?itemLabel (SAMPLE(STR(?languageLabelNative_)) AS ?languageLabelNative) 
+(COUNT(DISTINCT STR(?languageLabelNative_)) AS ?languageLabelsCount) 
 (SAMPLE(STR(?isoLabel_)) AS ?isoLabel) 
 ?wikidata 
 (MAX(?info) AS ?population) 
@@ -39,9 +39,9 @@ WHERE {
   INCLUDE %infoWikidataId
   BIND (URI(CONCAT("http://www.wikidata.org/entity/", ?wikidata)) AS ?wikidataURL)
   SERVICE <https://query.wikidata.org/sparql> { 
-    SELECT ?wikidataURL ?info ?nativeLabel_ ?isoLabel_ { 
+    SELECT ?wikidataURL ?info ?languageLabelNative_ ?isoLabel_ { 
       OPTIONAL { ?wikidataURL wdt:P1098 ?info . }
-      OPTIONAL { ?wikidataURL wdt:P1705 ?nativeLabel_ . }
+      OPTIONAL { ?wikidataURL wdt:P1705 ?languageLabelNative_ . }
       OPTIONAL { ?wikidataURL wdt:P218 ?iso639_1 ; rdfs:label ?isoLabel_ . FILTER(LANG(?isoLabel_) = ?iso639_1) }
     } 
   }
