@@ -947,19 +947,19 @@
     "populationQualifier": "1-10M"
   },
   {
+    "itemLabel": "Banjarese",
+    "wikidata": "Q33151",
+    "languageLabelNative": "Pandir Banjar",
+    "languageLabelsCount": "2",
+    "population": "3500000",
+    "populationQualifier": "1-10M"
+  },
+  {
     "itemLabel": "Bosnian",
     "wikidata": "Q9303",
     "languageLabelNative": "bosanski jezik",
     "languageLabelsCount": "2",
     "isoLabel": "bosanski jezik",
-    "population": "3500000",
-    "populationQualifier": "1-10M"
-  },
-  {
-    "itemLabel": "Banjarese",
-    "wikidata": "Q33151",
-    "languageLabelNative": "Pandir Banjar",
-    "languageLabelsCount": "2",
     "population": "3500000",
     "populationQualifier": "1-10M"
   },
@@ -972,17 +972,17 @@
     "populationQualifier": "1-10M"
   },
   {
+    "itemLabel": "Luo dialect",
+    "wikidata": "Q5414796",
+    "population": "3000000",
+    "populationQualifier": "1-10M"
+  },
+  {
     "itemLabel": "Ewe",
     "wikidata": "Q30005",
     "languageLabelNative": "Eʋegbe",
     "languageLabelsCount": "2",
     "isoLabel": "Eʋegbe",
-    "population": "3000000",
-    "populationQualifier": "1-10M"
-  },
-  {
-    "itemLabel": "Luo dialect",
-    "wikidata": "Q5414796",
     "population": "3000000",
     "populationQualifier": "1-10M"
   },
@@ -1247,17 +1247,17 @@
     "populationQualifier": "100k-1M"
   },
   {
-    "itemLabel": "Réunion Creole",
-    "wikidata": "Q13198",
-    "population": "600000",
-    "populationQualifier": "100k-1M"
-  },
-  {
     "itemLabel": "Walloon",
     "wikidata": "Q34219",
     "languageLabelNative": "walon",
     "languageLabelsCount": "1",
     "isoLabel": "walon",
+    "population": "600000",
+    "populationQualifier": "100k-1M"
+  },
+  {
+    "itemLabel": "Réunion Creole",
+    "wikidata": "Q13198",
     "population": "600000",
     "populationQualifier": "100k-1M"
   },
@@ -1639,10 +1639,8 @@
     "populationQualifier": "<1k"
   },
   {
-    "itemLabel": "Old English",
-    "wikidata": "Q42365",
-    "languageLabelNative": "Ænglisc sprǣc",
-    "languageLabelsCount": "1",
+    "itemLabel": "Old Tupi",
+    "wikidata": "Q56944",
     "population": "0",
     "populationQualifier": "<1k"
   },
@@ -1655,8 +1653,10 @@
     "populationQualifier": "<1k"
   },
   {
-    "itemLabel": "Old Tupi",
-    "wikidata": "Q56944",
+    "itemLabel": "Old English",
+    "wikidata": "Q42365",
+    "languageLabelNative": "Ænglisc sprǣc",
+    "languageLabelsCount": "1",
     "population": "0",
     "populationQualifier": "<1k"
   },
@@ -1675,72 +1675,32 @@
     "population": "http://www.wikidata.org/.well-known/genid/3cb58562575ba39f1c11888d1de89417"
   },
   {
+    "itemLabel": "Viennese German",
+    "wikidata": "Q56474"
+  },
+  {
+    "itemLabel": "Bangala",
+    "wikidata": "Q34989"
+  },
+  {
     "itemLabel": "Anyin",
     "wikidata": "Q28395"
   },
   {
-    "itemLabel": "Yemba",
-    "wikidata": "Q36917"
+    "itemLabel": "Ngambay",
+    "wikidata": "Q2372207"
   },
   {
-    "itemLabel": "Londo",
-    "wikidata": "Q35071"
+    "itemLabel": "Balearic",
+    "wikidata": "Q804899"
   },
   {
-    "itemLabel": "Oroko",
-    "wikidata": "Q36278"
+    "itemLabel": "Futunan",
+    "wikidata": "Q35334"
   },
   {
-    "itemLabel": "Nga'ka language",
-    "wikidata": "Q36068"
-  },
-  {
-    "itemLabel": "Bulu language",
-    "wikidata": "Q35028"
-  },
-  {
-    "itemLabel": "Ghomala' language",
-    "wikidata": "Q35271",
-    "languageLabelNative": "Ghɔmálá’",
-    "languageLabelsCount": "1"
-  },
-  {
-    "itemLabel": "Havu",
-    "wikidata": "Q5684097"
-  },
-  {
-    "itemLabel": "Wayuu",
-    "wikidata": "Q891085"
-  },
-  {
-    "itemLabel": "Faka'uvea",
-    "wikidata": "Q36979",
-    "languageLabelNative": "Lea faka'uvea",
-    "languageLabelsCount": "1"
-  },
-  {
-    "itemLabel": "Teochew",
-    "wikidata": "Q36759"
-  },
-  {
-    "itemLabel": "Central Catalan",
-    "wikidata": "Q2941602"
-  },
-  {
-    "itemLabel": "Bikol languages",
-    "wikidata": "Q35455"
-  },
-  {
-    "itemLabel": "Sursilvan",
-    "wikidata": "Q688348",
-    "languageLabelNative": "Sursilvan",
-    "languageLabelsCount": "1"
-  },
-  {
-    "itemLabel": "Paiwan",
-    "wikidata": "Q715755",
-    "languageLabelNative": "Pinayuanan",
-    "languageLabelsCount": "1"
+    "itemLabel": "Wushi",
+    "wikidata": "Q36973"
   },
   {
     "itemLabel": "Tsimshian",
@@ -1765,6 +1725,44 @@
   {
     "itemLabel": "Guadeloupean Creole French",
     "wikidata": "Q3006280"
+  },
+  {
+    "itemLabel": "Bulu language",
+    "wikidata": "Q35028"
+  },
+  {
+    "itemLabel": "Ghomala' language",
+    "wikidata": "Q35271",
+    "languageLabelNative": "Ghɔmálá’",
+    "languageLabelsCount": "1"
+  },
+  {
+    "itemLabel": "Paiwan",
+    "wikidata": "Q715755",
+    "languageLabelNative": "Pinayuanan",
+    "languageLabelsCount": "1"
+  },
+  {
+    "itemLabel": "Havu",
+    "wikidata": "Q5684097"
+  },
+  {
+    "itemLabel": "Wayuu",
+    "wikidata": "Q891085"
+  },
+  {
+    "itemLabel": "Faka'uvea",
+    "wikidata": "Q36979",
+    "languageLabelNative": "Lea faka'uvea",
+    "languageLabelsCount": "1"
+  },
+  {
+    "itemLabel": "Teochew",
+    "wikidata": "Q36759"
+  },
+  {
+    "itemLabel": "Central Catalan",
+    "wikidata": "Q2941602"
   },
   {
     "itemLabel": "Hausa Sign Language",
@@ -1803,28 +1801,30 @@
     "wikidata": "Q36614"
   },
   {
-    "itemLabel": "Bangala",
-    "wikidata": "Q34989"
+    "itemLabel": "multiple languages",
+    "wikidata": "Q20923490"
   },
   {
-    "itemLabel": "Viennese German",
-    "wikidata": "Q56474"
+    "itemLabel": "Sursilvan",
+    "wikidata": "Q688348",
+    "languageLabelNative": "Sursilvan",
+    "languageLabelsCount": "1"
   },
   {
-    "itemLabel": "Ngambay",
-    "wikidata": "Q2372207"
+    "itemLabel": "Yemba",
+    "wikidata": "Q36917"
   },
   {
-    "itemLabel": "Balearic",
-    "wikidata": "Q804899"
+    "itemLabel": "Londo",
+    "wikidata": "Q35071"
   },
   {
-    "itemLabel": "Futunan",
-    "wikidata": "Q35334"
+    "itemLabel": "Oroko",
+    "wikidata": "Q36278"
   },
   {
-    "itemLabel": "Wushi",
-    "wikidata": "Q36973"
+    "itemLabel": "Nga'ka language",
+    "wikidata": "Q36068"
   },
   {
     "itemLabel": "Ndrumbea",
@@ -1837,10 +1837,6 @@
   {
     "itemLabel": "Ngiemboon",
     "wikidata": "Q36286"
-  },
-  {
-    "itemLabel": "multiple languages",
-    "wikidata": "Q20923490"
   },
   {
     "itemLabel": "Tupuri",
@@ -1863,6 +1859,10 @@
     "wikidata": "Q12952693"
   },
   {
+    "itemLabel": "Blissymbols",
+    "wikidata": "Q609817"
+  },
+  {
     "itemLabel": "American English",
     "wikidata": "Q7976",
     "languageLabelNative": "American English",
@@ -1875,8 +1875,8 @@
     "languageLabelsCount": "1"
   },
   {
-    "itemLabel": "Blissymbols",
-    "wikidata": "Q609817"
+    "itemLabel": "Bikol languages",
+    "wikidata": "Q35455"
   },
   {
     "itemLabel": "Duala",
