@@ -20,8 +20,8 @@ WITH {
   INCLUDE %base
   ?females prop:P8 entity:Q17 ;  # Filter
           prop:P8 ?gender . # Assign value: P8 'gender' into ?gender
-  ?record prop:P4 ?language ; # Filter
-          prop:P5 ?females . # Assign value: P5 'speaker' into ?females
+  ?record prop:P5 ?females ; # Assign value: P5 'speaker' into ?females
+          prop:P4 ?language . # Filter
    } GROUP BY ?language ?languageLabel ?iso ?genderLabel
 } AS %females
 WITH {
@@ -31,9 +31,9 @@ WITH {
   INCLUDE %base
   ?males prop:P8 entity:Q16 ; 
           prop:P8 ?gender .
-  ?record prop:P4 ?language ;
-          prop:P5 ?males . # Assign value: P5 'speaker' into variable ?speakerQid
-   } GROUP BY ?language ?languageLabel ?iso ?genderLabel
+  ?record prop:P5 ?males ; # Assign value: P5 'speaker' into variable ?speakerQid
+          prop:P4 ?language .
+  } GROUP BY ?language ?languageLabel ?iso ?genderLabel
 } AS %males
 {
   INCLUDE %base 
