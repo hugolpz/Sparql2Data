@@ -1,5 +1,7 @@
-# MediaWiki:LanguagesGenderData.js
-SELECT ?languageLabel ?wikidata ?iso ?recordsMale ?recordsFemale
+# MediaWiki:LanguagesGenderData-recordings.js
+SELECT 
+    ?languageLabel ?wikidata ?iso 
+    ?recordsAll ?recordsMale ?recordsFemale
     (?recordsAll-COALESCE(?recordsMale, 0)-COALESCE(?recordsFemale,0) as ?recordsOthers)
     (ROUND(1000*?recordsFemale/(?recordsFemale+?recordsMale))/10 AS ?percent)
 WITH {
@@ -42,5 +44,5 @@ WITH {
   OPTIONAL { INCLUDE %males }
   SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
 }
-GROUP BY ?languageLabel ?wikidata ?iso ?recordsMale ?recordsFemale ?recordsAll
+GROUP BY ?languageLabel ?wikidata ?iso ?recordsAll ?recordsMale ?recordsFemale
 ORDER BY ASC(?languageLabel )
