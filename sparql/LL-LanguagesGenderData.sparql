@@ -3,9 +3,11 @@ SELECT ?languageLabel ?wikidata ?iso ?speakersMale ?recordsMale ?speakersFemale 
     (ROUND(1000*?recordsFemale/(?recordsFemale+?recordsMale))/10 AS ?percent)
 WITH {
   SELECT ?language ?languageLabel ?wikidata ?iso {
-      ?record prop:P2 entity:Q2 .     # Filter: P2 'instance of' is Q2 'record'
-      ?record prop:P4 ?language .     # Assign value: P4 'language' into ?language
       ?language prop:P12 ?wikidata .   # Assign value: P12 'wikidata id' into ?wikidata
+      FILTER EXISTS {
+        ?record prop:P2 entity:Q2 .     # Filter: P2 'instance of' is Q2 'record'
+        ?record prop:P4 ?language .     # Assign value: P4 'language' into ?language
+      }
       OPTIONAL { ?language prop:P13 ?iso . } # Assign value: P13 'iso639-3' into ?iso
       SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en" }
 	}
