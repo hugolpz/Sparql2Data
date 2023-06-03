@@ -1,11 +1,11 @@
 # MediaWiki:LanguagesGenderData-recordings.js
 SELECT 
     ?languageLabel ?wikidata ?iso 
-    ?recordsAll ?recordsMale ?recordsFemale
-    (?recordsAll-COALESCE(?recordsMale, 0)-COALESCE(?recordsFemale,0) as ?recordsOthers)
+    ?records ?recordsMale ?recordsFemale
+    (?records-COALESCE(?recordsMale, 0)-COALESCE(?recordsFemale,0) as ?recordsOthers)
     (ROUND(1000*?recordsFemale/(?recordsFemale+?recordsMale))/10 AS ?percent)
 WITH {
-  SELECT ?language ?languageLabel ?wikidata ?iso (COUNT(?record) as ?recordsAll) {
+  SELECT ?language ?languageLabel ?wikidata ?iso (COUNT(?record) as ?records) {
       ?language prop:P12 ?wikidata .   # Assign value: P12 'wikidata id' into ?wikidata
       ?record prop:P2 entity:Q2 .     # Filter: P2 'instance of' is Q2 'record'
       ?record prop:P4 ?language .     # Assign value: P4 'language' into ?language
@@ -44,5 +44,5 @@ WITH {
   OPTIONAL { INCLUDE %males }
   SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
 }
-GROUP BY ?languageLabel ?wikidata ?iso ?recordsAll ?recordsMale ?recordsFemale
+GROUP BY ?languageLabel ?wikidata ?iso ?records ?recordsMale ?recordsFemale
 ORDER BY ASC(?languageLabel )
