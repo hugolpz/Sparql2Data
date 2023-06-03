@@ -18,22 +18,22 @@ WITH {
     (COUNT(DISTINCT ?females) AS ?speakersFemales) 
     (COUNT(DISTINCT ?record) AS ?recordsFemale) {
   INCLUDE %base
-  ?record prop:P4 ?language ; # Filter
-          prop:P5 ?females . # Assign value: P5 'speaker' into ?females
   ?females prop:P8 entity:Q17 ;  # Filter
           prop:P8 ?gender . # Assign value: P8 'gender' into ?gender
-    } GROUP BY ?language ?languageLabel ?iso ?genderLabel
+  ?record prop:P4 ?language ; # Filter
+          prop:P5 ?females . # Assign value: P5 'speaker' into ?females
+   } GROUP BY ?language ?languageLabel ?iso ?genderLabel
 } AS %females
 WITH {
   SELECT ?language ?languageLabel ?iso ?genderLabel 
     (COUNT(DISTINCT ?males) AS ?speakersMales)
     (COUNT(DISTINCT ?record) AS ?recordsMale) {
   INCLUDE %base
-  ?record prop:P4 ?language ;
-          prop:P5 ?males . # Assign value: P5 'speaker' into variable ?speakerQid
   ?males prop:P8 entity:Q16 ; 
           prop:P8 ?gender .
-    } GROUP BY ?language ?languageLabel ?iso ?genderLabel
+  ?record prop:P4 ?language ;
+          prop:P5 ?males . # Assign value: P5 'speaker' into variable ?speakerQid
+   } GROUP BY ?language ?languageLabel ?iso ?genderLabel
 } AS %males
 {
   INCLUDE %base 
