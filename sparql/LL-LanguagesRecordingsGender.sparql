@@ -3,7 +3,7 @@ SELECT
     ?languageLabel ?wikidata ?iso 
     ?records ?recordsMale ?recordsFemale
     (?records-COALESCE(?recordsMale, 0)-COALESCE(?recordsFemale,0) as ?recordsOthers)
-    (ROUND(1000*?recordsFemale/(?recordsFemale+?recordsMale))/10 AS ?percent)
+    (ROUND(1000*?recordsFemale/(?recordsFemale+?recordsMale))/10 AS ?recordsGenderPercent)
 WITH {
   SELECT ?language ?languageLabel ?wikidata ?iso (COUNT(?record) as ?records) {
       ?language prop:P12 ?wikidata .   # Assign value: P12 'wikidata id' into ?wikidata
