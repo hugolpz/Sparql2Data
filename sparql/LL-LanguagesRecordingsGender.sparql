@@ -34,7 +34,7 @@ WITH {
   ?males prop:P8 entity:Q16 ; 
           prop:P8 ?gender .
   ?record prop:P5 ?males ; # Assign value: P5 'speaker' into variable ?speakerQid
-          prop:P4 ?language
+          prop:P4 ?language .
 
   } GROUP BY ?language ?languageLabel ?iso ?genderLabel
 } AS %males
