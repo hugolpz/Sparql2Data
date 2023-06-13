@@ -9,9 +9,8 @@ WHERE {
  }
     ?langId wdt:P31 wd:Q34770;
             wdt:P218 ?i18nCode;
-          OPTIONAL { wdt:P424 ?wiki; }
-       #   BIND(COALESCE(?wiki, "") AS ?wikimediaCode) # if no value, empty string.
-          OPTIONAL { wdt:P1705 ?native; }
+            wdt:P424 ?wikimediaCode;
+            wdt:P1705 ?native;
             # wdt:P10369 ?lingualibreQid ;
             rdfs:label ?labelEN .
   FILTER ( lang(?labelEN) = "en" )
