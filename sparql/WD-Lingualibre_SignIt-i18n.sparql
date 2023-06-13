@@ -1,0 +1,20 @@
+# List from https://translatewiki.net/wiki/Translating:Lingua_Libre_SignIt#sortable:3=desc
+SELECT ?wdQid ?wikimediaCode ?englishName (GROUP_CONCAT(?nativeLabel ; separator=" | ") as ?nativeName)
+WHERE {
+    VALUES ?langCode { 
+    "anp" "ar" "bn" "br" "de" "en" "es" "fa" "fi" "fr" "he" 
+    "hi" "ia" "id" "it" "ja" "kk-cyrl" "ko" "krc" "lmo" 
+    "mk" "ms" "nb" "pnb" "pt" "pt-br" "qqq" "ru" "scn" 
+    "sl" "sv" "sw" "tl" "tr" "uk" "zh-hans" "zh-hant" "mnw" "hu"
+ }
+    ?langId wdt:P31 wd:Q34770;
+            wdt:P218 ?langCode;
+            wdt:P424 ?wikimediaCode;
+            wdt:P1705 ?native;
+            # wdt:P10369 ?lingualibreQid ;
+            rdfs:label ?englishName .
+  FILTER ( lang(?englishName) = "en" )
+  BIND(REPLACE(STR(?langId), ".*/Q", "Q") AS ?wdQid)
+  BIND(CONCAT(UCASE(SUBSTR(?native, 1 , 1 )), SUBSTR(?native, 2 )) AS ?nativeLabel)
+}
+GROUP BY ?wdQid ?wikimediaCode ?englishName
