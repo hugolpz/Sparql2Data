@@ -17,4 +17,4 @@ WHERE {
   BIND(REPLACE(STR(?langId), ".*/Q", "Q") AS ?wdQid)
   BIND(CONCAT(UCASE(SUBSTR(?native, 1 , 1 )), SUBSTR(?native, 2 )) AS ?nativeLabel)
 }
-GROUP BY ?wdQid ?wikimediaCode ?labelEN
+GROUP BY ?wdQid ?wikimediaCode ?i18nCode ?labelEN
