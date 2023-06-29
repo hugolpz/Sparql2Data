@@ -1,5 +1,514 @@
 [
   {
+    "language": "Q150",
+    "words": "2939",
+    "records": "2943",
+    "wikidata": "Q14196",
+    "languageLabel": "Afrikaans",
+    "code": "afr",
+    "wiki": "af",
+    "percent": "99.9"
+  },
+  {
+    "language": "Q195",
+    "words": "736",
+    "records": "736",
+    "wikidata": "Q131339",
+    "languageLabel": "Alemannic German",
+    "code": "gsw",
+    "wiki": "als",
+    "percent": "100"
+  },
+  {
+    "language": "Q225",
+    "words": "240",
+    "records": "240",
+    "wikidata": "Q27683",
+    "languageLabel": "Acehnese",
+    "code": "ace",
+    "wiki": "ace",
+    "percent": "100"
+  },
+  {
+    "language": "Q41",
+    "words": "6",
+    "records": "6",
+    "wikidata": "Q8748",
+    "languageLabel": "Albanian",
+    "code": "sqi",
+    "wiki": "sq",
+    "percent": "100"
+  },
+  {
+    "language": "Q124",
+    "words": "385",
+    "records": "385",
+    "wikidata": "Q1617",
+    "languageLabel": "Urdu",
+    "code": "urd",
+    "wiki": "ur",
+    "percent": "100"
+  },
+  {
+    "language": "Q141",
+    "words": "2340",
+    "records": "2469",
+    "wikidata": "Q9309",
+    "languageLabel": "Welsh",
+    "code": "cym",
+    "wiki": "cy",
+    "percent": "94.8"
+  },
+  {
+    "language": "Q208",
+    "words": "1528",
+    "records": "1540",
+    "wikidata": "Q9199",
+    "languageLabel": "Vietnamese",
+    "code": "vie",
+    "wiki": "vi",
+    "percent": "99.2"
+  },
+  {
+    "language": "Q224",
+    "words": "11",
+    "records": "11",
+    "wikidata": "Q27175",
+    "languageLabel": "West Frisian",
+    "code": "fry",
+    "wiki": "fy",
+    "percent": "100"
+  },
+  {
+    "language": "Q297",
+    "words": "930",
+    "records": "947",
+    "wikidata": "Q256",
+    "languageLabel": "Turkish",
+    "code": "tur",
+    "wiki": "tr",
+    "percent": "98.2"
+  },
+  {
+    "language": "Q346",
+    "words": "1",
+    "records": "1",
+    "wikidata": "Q34311",
+    "languageLabel": "Yoruba",
+    "code": "yor",
+    "wiki": "yo",
+    "percent": "100"
+  },
+  {
+    "language": "Q43",
+    "words": "26995",
+    "records": "27188",
+    "wikidata": "Q8798",
+    "languageLabel": "Ukrainian",
+    "code": "ukr",
+    "wiki": "uk",
+    "percent": "99.3"
+  },
+  {
+    "language": "Q123",
+    "words": "1019",
+    "records": "1039",
+    "wikidata": "Q1568",
+    "languageLabel": "Hindi",
+    "code": "hin",
+    "wiki": "hi",
+    "percent": "98.1"
+  },
+  {
+    "language": "Q125",
+    "words": "103",
+    "records": "103",
+    "wikidata": "Q5137",
+    "languageLabel": "Gujarati",
+    "code": "guj",
+    "wiki": "gu",
+    "percent": "100"
+  },
+  {
+    "language": "Q140",
+    "words": "34",
+    "records": "34",
+    "wikidata": "Q9307",
+    "languageLabel": "Galician",
+    "code": "glg",
+    "wiki": "gl",
+    "percent": "100"
+  },
+  {
+    "language": "Q165",
+    "words": "444",
+    "records": "449",
+    "wikidata": "Q33491",
+    "languageLabel": "Haitian Creole",
+    "code": "hat",
+    "wiki": "ht",
+    "percent": "98.9"
+  },
+  {
+    "language": "Q193",
+    "words": "9",
+    "records": "9",
+    "wikidata": "Q56475",
+    "languageLabel": "Hausa",
+    "code": "hau",
+    "wiki": "ha",
+    "percent": "100"
+  },
+  {
+    "language": "Q205",
+    "words": "130",
+    "records": "130",
+    "wikidata": "Q9129",
+    "languageLabel": "Greek",
+    "code": "ell",
+    "wiki": "el",
+    "percent": "100"
+  },
+  {
+    "language": "Q206",
+    "words": "586",
+    "records": "590",
+    "wikidata": "Q9142",
+    "languageLabel": "Irish",
+    "code": "gle",
+    "wiki": "ga",
+    "percent": "99.3"
+  },
+  {
+    "language": "Q21",
+    "words": "171698",
+    "records": "262788",
+    "wikidata": "Q150",
+    "languageLabel": "French",
+    "code": "fra",
+    "wiki": "fr",
+    "percent": "65.3"
+  },
+  {
+    "language": "Q22",
+    "words": "28049",
+    "records": "31758",
+    "wikidata": "Q1860",
+    "languageLabel": "English",
+    "code": "eng",
+    "wiki": "en",
+    "percent": "88.3"
+  },
+  {
+    "language": "Q231",
+    "words": "18",
+    "records": "18",
+    "wikidata": "Q29952",
+    "languageLabel": "Erzya",
+    "code": "myv",
+    "wiki": "myv",
+    "percent": "100"
+  },
+  {
+    "language": "Q232",
+    "words": "1",
+    "records": "1",
+    "wikidata": "Q30005",
+    "languageLabel": "Ewe",
+    "code": "ewe",
+    "wiki": "ee",
+    "percent": "100"
+  },
+  {
+    "language": "Q24",
+    "words": "14887",
+    "records": "16036",
+    "wikidata": "Q188",
+    "languageLabel": "German",
+    "code": "deu",
+    "wiki": "de",
+    "percent": "92.8"
+  },
+  {
+    "language": "Q242",
+    "words": "346",
+    "records": "363",
+    "wikidata": "Q33291",
+    "languageLabel": "Fon",
+    "code": "fon",
+    "wiki": "fon",
+    "percent": "95.3"
+  },
+  {
+    "language": "Q25",
+    "words": "28993",
+    "records": "33842",
+    "wikidata": "Q143",
+    "languageLabel": "Esperanto",
+    "code": "epo",
+    "wiki": "eo",
+    "percent": "85.7"
+  },
+  {
+    "language": "Q251",
+    "words": "2199",
+    "records": "2296",
+    "wikidata": "Q33578",
+    "languageLabel": "Igbo",
+    "code": "ibo",
+    "wiki": "ig",
+    "percent": "95.8"
+  },
+  {
+    "language": "Q305",
+    "words": "469",
+    "records": "474",
+    "wikidata": "Q9240",
+    "languageLabel": "Indonesian",
+    "code": "ind",
+    "wiki": "id",
+    "percent": "98.9"
+  },
+  {
+    "language": "Q32",
+    "words": "5",
+    "records": "5",
+    "wikidata": "Q294",
+    "languageLabel": "Icelandic",
+    "code": "isl",
+    "wiki": "is",
+    "percent": "100"
+  },
+  {
+    "language": "Q321",
+    "words": "208",
+    "records": "208",
+    "wikidata": "Q33287",
+    "languageLabel": "Ga",
+    "code": "gaa",
+    "wiki": "gaa",
+    "percent": "100"
+  },
+  {
+    "language": "Q329",
+    "words": "54",
+    "records": "54",
+    "wikidata": "Q33587",
+    "languageLabel": "Gikuyu",
+    "code": "kik",
+    "wiki": "ki",
+    "percent": "100"
+  },
+  {
+    "language": "Q33",
+    "words": "51",
+    "records": "63",
+    "wikidata": "Q1412",
+    "languageLabel": "Finnish",
+    "code": "fin",
+    "wiki": "fi",
+    "percent": "81"
+  },
+  {
+    "language": "Q385",
+    "words": "5900",
+    "records": "7098",
+    "wikidata": "Q652",
+    "languageLabel": "Italian",
+    "code": "ita",
+    "wiki": "it",
+    "percent": "83.1"
+  },
+  {
+    "language": "Q389",
+    "words": "110",
+    "records": "112",
+    "wikidata": "Q5287",
+    "languageLabel": "Japanese",
+    "code": "jpn",
+    "wiki": "ja",
+    "percent": "98.2"
+  },
+  {
+    "language": "Q393",
+    "words": "103",
+    "records": "103",
+    "wikidata": "Q9067",
+    "languageLabel": "Hungarian",
+    "code": "hun",
+    "wiki": "hu",
+    "percent": "100"
+  },
+  {
+    "language": "Q397",
+    "words": "1336",
+    "records": "1344",
+    "wikidata": "Q9288",
+    "languageLabel": "Hebrew",
+    "code": "heb",
+    "wiki": "he",
+    "percent": "99.4"
+  },
+  {
+    "language": "Q78",
+    "words": "306",
+    "records": "306",
+    "wikidata": "Q33549",
+    "languageLabel": "Javanese",
+    "code": "jav",
+    "wiki": "jv",
+    "percent": "100"
+  },
+  {
+    "language": "Q137",
+    "words": "2",
+    "records": "2",
+    "wikidata": "Q9252",
+    "languageLabel": "Kazakh",
+    "code": "kaz",
+    "wiki": "kk",
+    "percent": "100"
+  },
+  {
+    "language": "Q181",
+    "words": "16",
+    "records": "16",
+    "wikidata": "Q36217",
+    "languageLabel": "Lingala",
+    "code": "lin",
+    "wiki": "ln",
+    "percent": "100"
+  },
+  {
+    "language": "Q182",
+    "words": "590",
+    "records": "587",
+    "wikidata": "Q36368",
+    "languageLabel": "Kurdish",
+    "code": "kur",
+    "wiki": "ku",
+    "percent": "100.5"
+  },
+  {
+    "language": "Q207",
+    "words": "127",
+    "records": "127",
+    "wikidata": "Q9176",
+    "languageLabel": "Korean",
+    "code": "kor",
+    "wiki": "ko",
+    "percent": "100"
+  },
+  {
+    "language": "Q254",
+    "words": "1",
+    "records": "1",
+    "wikidata": "Q33714",
+    "languageLabel": "Karachay-Balkar",
+    "code": "krc",
+    "wiki": "krc",
+    "percent": "100"
+  },
+  {
+    "language": "Q273",
+    "words": "18",
+    "records": "18",
+    "wikidata": "Q35853",
+    "languageLabel": "Kabyle",
+    "code": "kab",
+    "wiki": "kab",
+    "percent": "100"
+  },
+  {
+    "language": "Q286",
+    "words": "2",
+    "records": "1",
+    "wikidata": "Q33702",
+    "languageLabel": "Kongo",
+    "code": "kon",
+    "wiki": "kg",
+    "percent": "200"
+  },
+  {
+    "language": "Q306",
+    "words": "2036",
+    "records": "2043",
+    "wikidata": "Q9296",
+    "languageLabel": "Macedonian",
+    "code": "mkd",
+    "wiki": "mk",
+    "percent": "99.7"
+  },
+  {
+    "language": "Q345",
+    "words": "29",
+    "records": "29",
+    "wikidata": "Q34173",
+    "languageLabel": "Luba-Kasai language",
+    "code": "lua",
+    "percent": "100"
+  },
+  {
+    "language": "Q38",
+    "words": "1383",
+    "records": "1383",
+    "wikidata": "Q7930",
+    "languageLabel": "Malagasy",
+    "code": "mlg",
+    "wiki": "mg",
+    "percent": "100"
+  },
+  {
+    "language": "Q384",
+    "words": "4",
+    "records": "4",
+    "wikidata": "Q397",
+    "languageLabel": "Latin",
+    "code": "lat",
+    "wiki": "la",
+    "percent": "100"
+  },
+  {
+    "language": "Q395",
+    "words": "7",
+    "records": "7",
+    "wikidata": "Q9205",
+    "languageLabel": "Khmer",
+    "code": "khm",
+    "wiki": "km",
+    "percent": "100"
+  },
+  {
+    "language": "Q46",
+    "words": "86",
+    "records": "86",
+    "wikidata": "Q9051",
+    "languageLabel": "Luxembourgish",
+    "code": "ltz",
+    "wiki": "lb",
+    "percent": "100"
+  },
+  {
+    "language": "Q49",
+    "words": "29",
+    "records": "29",
+    "wikidata": "Q9237",
+    "languageLabel": "Malay",
+    "code": "msa",
+    "wiki": "ms",
+    "percent": "100"
+  },
+  {
+    "language": "Q80",
+    "words": "393",
+    "records": "597",
+    "wikidata": "Q33673",
+    "languageLabel": "Kannada",
+    "code": "kan",
+    "wiki": "kn",
+    "percent": "65.8"
+  },
+  {
     "language": "Q128",
     "words": "1",
     "records": "1",
@@ -237,296 +746,6 @@
     "percent": "100"
   },
   {
-    "language": "Q123",
-    "words": "1019",
-    "records": "1039",
-    "wikidata": "Q1568",
-    "languageLabel": "Hindi",
-    "code": "hin",
-    "wiki": "hi",
-    "percent": "98.1"
-  },
-  {
-    "language": "Q125",
-    "words": "103",
-    "records": "103",
-    "wikidata": "Q5137",
-    "languageLabel": "Gujarati",
-    "code": "guj",
-    "wiki": "gu",
-    "percent": "100"
-  },
-  {
-    "language": "Q140",
-    "words": "34",
-    "records": "34",
-    "wikidata": "Q9307",
-    "languageLabel": "Galician",
-    "code": "glg",
-    "wiki": "gl",
-    "percent": "100"
-  },
-  {
-    "language": "Q165",
-    "words": "444",
-    "records": "449",
-    "wikidata": "Q33491",
-    "languageLabel": "Haitian Creole",
-    "code": "hat",
-    "wiki": "ht",
-    "percent": "98.9"
-  },
-  {
-    "language": "Q193",
-    "words": "9",
-    "records": "9",
-    "wikidata": "Q56475",
-    "languageLabel": "Hausa",
-    "code": "hau",
-    "wiki": "ha",
-    "percent": "100"
-  },
-  {
-    "language": "Q205",
-    "words": "130",
-    "records": "130",
-    "wikidata": "Q9129",
-    "languageLabel": "Greek",
-    "code": "ell",
-    "wiki": "el",
-    "percent": "100"
-  },
-  {
-    "language": "Q206",
-    "words": "586",
-    "records": "590",
-    "wikidata": "Q9142",
-    "languageLabel": "Irish",
-    "code": "gle",
-    "wiki": "ga",
-    "percent": "99.3"
-  },
-  {
-    "language": "Q21",
-    "words": "171639",
-    "records": "262695",
-    "wikidata": "Q150",
-    "languageLabel": "French",
-    "code": "fra",
-    "wiki": "fr",
-    "percent": "65.3"
-  },
-  {
-    "language": "Q22",
-    "words": "28011",
-    "records": "31720",
-    "wikidata": "Q1860",
-    "languageLabel": "English",
-    "code": "eng",
-    "wiki": "en",
-    "percent": "88.3"
-  },
-  {
-    "language": "Q231",
-    "words": "18",
-    "records": "18",
-    "wikidata": "Q29952",
-    "languageLabel": "Erzya",
-    "code": "myv",
-    "wiki": "myv",
-    "percent": "100"
-  },
-  {
-    "language": "Q232",
-    "words": "1",
-    "records": "1",
-    "wikidata": "Q30005",
-    "languageLabel": "Ewe",
-    "code": "ewe",
-    "wiki": "ee",
-    "percent": "100"
-  },
-  {
-    "language": "Q24",
-    "words": "14887",
-    "records": "16036",
-    "wikidata": "Q188",
-    "languageLabel": "German",
-    "code": "deu",
-    "wiki": "de",
-    "percent": "92.8"
-  },
-  {
-    "language": "Q242",
-    "words": "346",
-    "records": "363",
-    "wikidata": "Q33291",
-    "languageLabel": "Fon",
-    "code": "fon",
-    "wiki": "fon",
-    "percent": "95.3"
-  },
-  {
-    "language": "Q25",
-    "words": "28993",
-    "records": "33842",
-    "wikidata": "Q143",
-    "languageLabel": "Esperanto",
-    "code": "epo",
-    "wiki": "eo",
-    "percent": "85.7"
-  },
-  {
-    "language": "Q251",
-    "words": "2199",
-    "records": "2296",
-    "wikidata": "Q33578",
-    "languageLabel": "Igbo",
-    "code": "ibo",
-    "wiki": "ig",
-    "percent": "95.8"
-  },
-  {
-    "language": "Q305",
-    "words": "469",
-    "records": "474",
-    "wikidata": "Q9240",
-    "languageLabel": "Indonesian",
-    "code": "ind",
-    "wiki": "id",
-    "percent": "98.9"
-  },
-  {
-    "language": "Q32",
-    "words": "5",
-    "records": "5",
-    "wikidata": "Q294",
-    "languageLabel": "Icelandic",
-    "code": "isl",
-    "wiki": "is",
-    "percent": "100"
-  },
-  {
-    "language": "Q321",
-    "words": "208",
-    "records": "208",
-    "wikidata": "Q33287",
-    "languageLabel": "Ga",
-    "code": "gaa",
-    "wiki": "gaa",
-    "percent": "100"
-  },
-  {
-    "language": "Q329",
-    "words": "54",
-    "records": "54",
-    "wikidata": "Q33587",
-    "languageLabel": "Gikuyu",
-    "code": "kik",
-    "wiki": "ki",
-    "percent": "100"
-  },
-  {
-    "language": "Q33",
-    "words": "51",
-    "records": "63",
-    "wikidata": "Q1412",
-    "languageLabel": "Finnish",
-    "code": "fin",
-    "wiki": "fi",
-    "percent": "81"
-  },
-  {
-    "language": "Q385",
-    "words": "5900",
-    "records": "7098",
-    "wikidata": "Q652",
-    "languageLabel": "Italian",
-    "code": "ita",
-    "wiki": "it",
-    "percent": "83.1"
-  },
-  {
-    "language": "Q389",
-    "words": "110",
-    "records": "112",
-    "wikidata": "Q5287",
-    "languageLabel": "Japanese",
-    "code": "jpn",
-    "wiki": "ja",
-    "percent": "98.2"
-  },
-  {
-    "language": "Q393",
-    "words": "103",
-    "records": "103",
-    "wikidata": "Q9067",
-    "languageLabel": "Hungarian",
-    "code": "hun",
-    "wiki": "hu",
-    "percent": "100"
-  },
-  {
-    "language": "Q397",
-    "words": "1336",
-    "records": "1344",
-    "wikidata": "Q9288",
-    "languageLabel": "Hebrew",
-    "code": "heb",
-    "wiki": "he",
-    "percent": "99.4"
-  },
-  {
-    "language": "Q78",
-    "words": "306",
-    "records": "306",
-    "wikidata": "Q33549",
-    "languageLabel": "Javanese",
-    "code": "jav",
-    "wiki": "jv",
-    "percent": "100"
-  },
-  {
-    "language": "Q150",
-    "words": "2939",
-    "records": "2943",
-    "wikidata": "Q14196",
-    "languageLabel": "Afrikaans",
-    "code": "afr",
-    "wiki": "af",
-    "percent": "99.9"
-  },
-  {
-    "language": "Q195",
-    "words": "736",
-    "records": "736",
-    "wikidata": "Q131339",
-    "languageLabel": "Alemannic German",
-    "code": "gsw",
-    "wiki": "als",
-    "percent": "100"
-  },
-  {
-    "language": "Q225",
-    "words": "240",
-    "records": "240",
-    "wikidata": "Q27683",
-    "languageLabel": "Acehnese",
-    "code": "ace",
-    "wiki": "ace",
-    "percent": "100"
-  },
-  {
-    "language": "Q41",
-    "words": "6",
-    "records": "6",
-    "wikidata": "Q8748",
-    "languageLabel": "Albanian",
-    "code": "sqi",
-    "wiki": "sq",
-    "percent": "100"
-  },
-  {
     "language": "Q113",
     "words": "1963",
     "records": "1982",
@@ -685,225 +904,6 @@
     "percent": "100"
   },
   {
-    "language": "Q137",
-    "words": "2",
-    "records": "2",
-    "wikidata": "Q9252",
-    "languageLabel": "Kazakh",
-    "code": "kaz",
-    "wiki": "kk",
-    "percent": "100"
-  },
-  {
-    "language": "Q181",
-    "words": "16",
-    "records": "16",
-    "wikidata": "Q36217",
-    "languageLabel": "Lingala",
-    "code": "lin",
-    "wiki": "ln",
-    "percent": "100"
-  },
-  {
-    "language": "Q182",
-    "words": "590",
-    "records": "587",
-    "wikidata": "Q36368",
-    "languageLabel": "Kurdish",
-    "code": "kur",
-    "wiki": "ku",
-    "percent": "100.5"
-  },
-  {
-    "language": "Q207",
-    "words": "127",
-    "records": "127",
-    "wikidata": "Q9176",
-    "languageLabel": "Korean",
-    "code": "kor",
-    "wiki": "ko",
-    "percent": "100"
-  },
-  {
-    "language": "Q254",
-    "words": "1",
-    "records": "1",
-    "wikidata": "Q33714",
-    "languageLabel": "Karachay-Balkar",
-    "code": "krc",
-    "wiki": "krc",
-    "percent": "100"
-  },
-  {
-    "language": "Q273",
-    "words": "18",
-    "records": "18",
-    "wikidata": "Q35853",
-    "languageLabel": "Kabyle",
-    "code": "kab",
-    "wiki": "kab",
-    "percent": "100"
-  },
-  {
-    "language": "Q286",
-    "words": "2",
-    "records": "1",
-    "wikidata": "Q33702",
-    "languageLabel": "Kongo",
-    "code": "kon",
-    "wiki": "kg",
-    "percent": "200"
-  },
-  {
-    "language": "Q306",
-    "words": "2036",
-    "records": "2043",
-    "wikidata": "Q9296",
-    "languageLabel": "Macedonian",
-    "code": "mkd",
-    "wiki": "mk",
-    "percent": "99.7"
-  },
-  {
-    "language": "Q345",
-    "words": "29",
-    "records": "29",
-    "wikidata": "Q34173",
-    "languageLabel": "Luba-Kasai language",
-    "code": "lua",
-    "percent": "100"
-  },
-  {
-    "language": "Q38",
-    "words": "1383",
-    "records": "1383",
-    "wikidata": "Q7930",
-    "languageLabel": "Malagasy",
-    "code": "mlg",
-    "wiki": "mg",
-    "percent": "100"
-  },
-  {
-    "language": "Q384",
-    "words": "4",
-    "records": "4",
-    "wikidata": "Q397",
-    "languageLabel": "Latin",
-    "code": "lat",
-    "wiki": "la",
-    "percent": "100"
-  },
-  {
-    "language": "Q395",
-    "words": "7",
-    "records": "7",
-    "wikidata": "Q9205",
-    "languageLabel": "Khmer",
-    "code": "khm",
-    "wiki": "km",
-    "percent": "100"
-  },
-  {
-    "language": "Q46",
-    "words": "86",
-    "records": "86",
-    "wikidata": "Q9051",
-    "languageLabel": "Luxembourgish",
-    "code": "ltz",
-    "wiki": "lb",
-    "percent": "100"
-  },
-  {
-    "language": "Q49",
-    "words": "29",
-    "records": "29",
-    "wikidata": "Q9237",
-    "languageLabel": "Malay",
-    "code": "msa",
-    "wiki": "ms",
-    "percent": "100"
-  },
-  {
-    "language": "Q80",
-    "words": "393",
-    "records": "597",
-    "wikidata": "Q33673",
-    "languageLabel": "Kannada",
-    "code": "kan",
-    "wiki": "kn",
-    "percent": "65.8"
-  },
-  {
-    "language": "Q124",
-    "words": "385",
-    "records": "385",
-    "wikidata": "Q1617",
-    "languageLabel": "Urdu",
-    "code": "urd",
-    "wiki": "ur",
-    "percent": "100"
-  },
-  {
-    "language": "Q141",
-    "words": "2340",
-    "records": "2469",
-    "wikidata": "Q9309",
-    "languageLabel": "Welsh",
-    "code": "cym",
-    "wiki": "cy",
-    "percent": "94.8"
-  },
-  {
-    "language": "Q208",
-    "words": "1528",
-    "records": "1540",
-    "wikidata": "Q9199",
-    "languageLabel": "Vietnamese",
-    "code": "vie",
-    "wiki": "vi",
-    "percent": "99.2"
-  },
-  {
-    "language": "Q224",
-    "words": "11",
-    "records": "11",
-    "wikidata": "Q27175",
-    "languageLabel": "West Frisian",
-    "code": "fry",
-    "wiki": "fy",
-    "percent": "100"
-  },
-  {
-    "language": "Q297",
-    "words": "930",
-    "records": "947",
-    "wikidata": "Q256",
-    "languageLabel": "Turkish",
-    "code": "tur",
-    "wiki": "tr",
-    "percent": "98.2"
-  },
-  {
-    "language": "Q346",
-    "words": "1",
-    "records": "1",
-    "wikidata": "Q34311",
-    "languageLabel": "Yoruba",
-    "code": "yor",
-    "wiki": "yo",
-    "percent": "100"
-  },
-  {
-    "language": "Q43",
-    "words": "26995",
-    "records": "27188",
-    "wikidata": "Q8798",
-    "languageLabel": "Ukrainian",
-    "code": "ukr",
-    "wiki": "uk",
-    "percent": "99.3"
-  },
-  {
     "language": "Q101",
     "words": "1",
     "records": "1",
@@ -934,8 +934,8 @@
   },
   {
     "language": "Q129",
-    "words": "9355",
-    "records": "9758",
+    "words": "9356",
+    "records": "9759",
     "wikidata": "Q7737",
     "languageLabel": "Russian",
     "code": "rus",
@@ -1118,8 +1118,8 @@
   },
   {
     "language": "Q437",
-    "words": "7150",
-    "records": "7443",
+    "words": "7151",
+    "records": "7444",
     "wikidata": "Q36236",
     "languageLabel": "Malayalam",
     "code": "mal",
@@ -1647,6 +1647,15 @@
     "percent": "100"
   },
   {
+    "language": "Q646153",
+    "words": "2857",
+    "records": "2948",
+    "wikidata": "Q55633582",
+    "languageLabel": "South Levantine Arabic",
+    "code": "ajp",
+    "percent": "96.9"
+  },
+  {
     "language": "Q646166",
     "words": "923",
     "records": "923",
@@ -1663,15 +1672,6 @@
     "languageLabel": "Sudanese Arabic",
     "code": "apd",
     "percent": "100"
-  },
-  {
-    "language": "Q646153",
-    "words": "2857",
-    "records": "2948",
-    "wikidata": "Q55633582",
-    "languageLabel": "South Levantine Arabic",
-    "code": "ajp",
-    "percent": "96.9"
   },
   {
     "language": "Q655434",
