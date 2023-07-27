@@ -1,20 +1,37 @@
 # List from https://translatewiki.net/wiki/Translating:Lingua_Libre_SignIt#sortable:3=desc
-SELECT ?wdQid ?wikimediaCode ?i18nCode ?labelEN (GROUP_CONCAT(?nativeLabel ; separator=" | ") as ?labelNative)
+# 2023.07.26
+SELECT ?wdQid ?wikimediaCode ?i18nCode ?labelEN 
+  (SAMPLE(?nativeLabel) as ?labelNative)
 WHERE {
+    # languages & scripts
     VALUES ?i18nCode { 
-    "anp" "ar" "bn" "br" "de" "en" "es" "fa" "fi" "fr" "he" 
-    "hi" "ia" "id" "it" "ja" "kk-cyrl" "ko" "krc" "lmo" 
-    "mk" "ms" "nb" "pnb" "pt" "pt-br" "qqq" "ru" "scn" 
-    "sl" "sv" "sw" "tl" "tr" "uk" "zh-hans" "zh-hant" "mnw" "hu"
+    "anp" "ar" "bn" "br" "de" "en" "es" "fa" "fi" "fr"
+    "he" "hi" "ia" "id" "it" "ja" "kk-cyrl" "ko" "krc" "lmo"
+    "mk" "ms" "nb" "pnb" "pt" "pt-br" "qqq" "ru" "scn" "sl"
+    "sv" "sw" "tl" "tr" "uk" "zh-hans" "zh-hant" "mnw" "hu"
+    "kk" "zh"
  }
-    ?langId wdt:P31 wd:Q34770;
-            wdt:P218 ?i18nCode;
-            wdt:P424 ?wikimediaCode;
-            wdt:P1705 ?native;
+    # Scripts, not languages
+    VALUES ?i18nScript { "kk-cyrl" "zh-hans" "zh-hant" }
+  
+    { ?langId wdt:P218 ?i18nCode. } # has for iso 639-1 code
+    UNION {?langId wdt:P219 ?i18nCode. } # has for iso 639-2 code
+    UNION {?langId wdt:P220 ?i18nCode. } # has for iso 639-3 code
+    UNION {?langId wdt:P305 ?i18nCode. } # has for isoIETF code
+  
+  #  UNION {?langId wdt:P31 wd:Q1149626 ; # has for instance written language
+  #                 wdt:P424 ?i18nScript ; # has for wikimedia code
+  #                 rdfs:label ?labelEN . }
+
+    # UNION { ?langId wdt:P424 ?i18nCode. }  # has for wikimedia code
+
+    OPTIONAL { ?langId wdt:P424 ?wikimediaCode. }
+    OPTIONAL { ?langId wdt:P1705 ?native. }
             # wdt:P10369 ?lingualibreQid ;
-            rdfs:label ?labelEN .
+    ?langId rdfs:label ?labelEN .
   FILTER ( lang(?labelEN) = "en" )
   BIND(REPLACE(STR(?langId), ".*/Q", "Q") AS ?wdQid)
   BIND(CONCAT(UCASE(SUBSTR(?native, 1 , 1 )), SUBSTR(?native, 2 )) AS ?nativeLabel)
 }
 GROUP BY ?wdQid ?wikimediaCode ?i18nCode ?labelEN
+ORDER BY ASC(?i18nCode)
