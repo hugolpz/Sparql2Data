@@ -1,5 +1,5 @@
 # List from https://translatewiki.net/wiki/Translating:Lingua_Libre_SignIt#sortable:3=desc
-# 2023.07.26
+# 2023.07.26 https://lingualibre.org/wiki/Help:SPARQL_for_maintenance#.E2.9C.85_Languages_iso_from_SignIt_.E2.86.92_relevant_data
 SELECT ?wdQid ?wikimediaCode ?i18nCode ?labelEN 
   (SAMPLE(?nativeLabel) as ?labelNative)
 WHERE {
