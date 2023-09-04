@@ -11,8 +11,8 @@
     "percent": 65,
     "population": 208157220,
     "populationQualifier": "10-100M",
-    "records": 268758,
-    "recordsFemale": 19078,
+    "records": 268759,
+    "recordsFemale": 19079,
     "recordsMale": 244689,
     "recordsOthers": 4991,
     "speakers": 405,
@@ -21,7 +21,7 @@
     "speakersOthers": 21,
     "wiki": "fr",
     "wikidata": "Q150",
-    "words": 174791
+    "words": 174792
   },
   {
     "code": "ori",
@@ -176,11 +176,11 @@
     "languageLabel": "Telugu",
     "languageLabelNative": "తెలుగు",
     "languageLabelsCount": 1,
-    "percent": 84,
+    "percent": 84.3,
     "population": 82000000,
     "populationQualifier": "10-100M",
-    "records": 25821,
-    "recordsFemale": 21165,
+    "records": 26428,
+    "recordsFemale": 21772,
     "recordsMale": 4617,
     "recordsOthers": 39,
     "speakers": 7,
@@ -189,7 +189,7 @@
     "speakersOthers": 1,
     "wiki": "te",
     "wikidata": "Q8097",
-    "words": 21691
+    "words": 22286
   },
   {
     "code": "scn",
@@ -343,12 +343,12 @@
     "languageLabel": "Malayalam",
     "languageLabelNative": "മലയാളം",
     "languageLabelsCount": 1,
-    "percent": 91,
+    "percent": 91.1,
     "population": 37100000,
     "populationQualifier": "10-100M",
-    "records": 12545,
+    "records": 12711,
     "recordsFemale": 2488,
-    "recordsMale": 10057,
+    "recordsMale": 10223,
     "recordsOthers": 0,
     "speakers": 9,
     "speakersFemales": 3,
@@ -356,7 +356,7 @@
     "speakersOthers": 0,
     "wiki": "ml",
     "wikidata": "Q36236",
-    "words": 11419
+    "words": 11585
   },
   {
     "code": "spa",
@@ -1118,6 +1118,21 @@
     "words": 1383
   },
   {
+    "code": "blk",
+    "iso": "blk",
+    "itemLabel": "Pa'O",
+    "language": "Q1033277",
+    "languageLabel": "Pa'O",
+    "percent": 99.9,
+    "records": 1372,
+    "recordsFemale": 0,
+    "recordsMale": 1372,
+    "recordsOthers": 0,
+    "wiki": "blk",
+    "wikidata": "Q7121294",
+    "words": 1371
+  },
+  {
     "code": "heb",
     "iso": "heb",
     "isoLabel": "עברית",
@@ -1140,21 +1155,6 @@
     "wiki": "he",
     "wikidata": "Q9288",
     "words": 1336
-  },
-  {
-    "code": "blk",
-    "iso": "blk",
-    "itemLabel": "Pa'O",
-    "language": "Q1033277",
-    "languageLabel": "Pa'O",
-    "percent": 99.9,
-    "records": 1333,
-    "recordsFemale": 0,
-    "recordsMale": 1333,
-    "recordsOthers": 0,
-    "wiki": "blk",
-    "wikidata": "Q7121294",
-    "words": 1332
   },
   {
     "code": "tam",
@@ -3945,6 +3945,22 @@
     "speakersMales": 1,
     "speakersOthers": 0,
     "wikidata": "Q35334",
+    "words": 2
+  },
+  {
+    "code": "bew",
+    "iso": "bew",
+    "itemLabel": "Betawi",
+    "language": "Q1063306",
+    "languageLabel": "Betawi",
+    "languageLabelNative": "basa Betawi",
+    "languageLabelsCount": 1,
+    "percent": 100,
+    "records": 2,
+    "recordsFemale": 0,
+    "recordsMale": 2,
+    "recordsOthers": 0,
+    "wikidata": "Q33014",
     "words": 2
   },
   {
