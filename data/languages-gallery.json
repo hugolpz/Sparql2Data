@@ -11,9 +11,9 @@
     "percent": 65,
     "population": 208157220,
     "populationQualifier": "10-100M",
-    "records": 268767,
+    "records": 268878,
     "recordsFemale": 19079,
-    "recordsMale": 244697,
+    "recordsMale": 244808,
     "recordsOthers": 4991,
     "speakers": 405,
     "speakersFemales": 155,
@@ -21,7 +21,7 @@
     "speakersOthers": 21,
     "wiki": "fr",
     "wikidata": "Q150",
-    "words": 174800
+    "words": 174897
   },
   {
     "code": "ori",
@@ -128,12 +128,12 @@
     "languageLabel": "English",
     "languageLabelNative": "English",
     "languageLabelsCount": 1,
-    "percent": 87.6,
+    "percent": 87.5,
     "population": 753359540,
     "populationQualifier": ">100M",
-    "records": 33205,
+    "records": 33274,
     "recordsFemale": 2206,
-    "recordsMale": 28238,
+    "recordsMale": 28307,
     "recordsOthers": 2761,
     "speakers": 109,
     "speakersFemales": 23,
@@ -141,7 +141,7 @@
     "speakersOthers": 8,
     "wiki": "en",
     "wikidata": "Q1860",
-    "words": 29078
+    "words": 29110
   },
   {
     "code": "tel",
@@ -155,9 +155,9 @@
     "percent": 84.8,
     "population": 82000000,
     "populationQualifier": "10-100M",
-    "records": 27994,
-    "recordsFemale": 23228,
-    "recordsMale": 4727,
+    "records": 28627,
+    "recordsFemale": 23781,
+    "recordsMale": 4807,
     "recordsOthers": 39,
     "speakers": 7,
     "speakersFemales": 2,
@@ -165,7 +165,7 @@
     "speakersOthers": 1,
     "wiki": "te",
     "wikidata": "Q8097",
-    "words": 23751
+    "words": 24280
   },
   {
     "code": "ukr",
@@ -657,6 +657,30 @@
     "words": 4142
   },
   {
+    "code": "bul",
+    "iso": "bul",
+    "isoLabel": "български език",
+    "itemLabel": "Bulgarian",
+    "language": "Q204",
+    "languageLabel": "Bulgarian",
+    "languageLabelNative": "български език",
+    "languageLabelsCount": 1,
+    "percent": 100,
+    "population": 9000000,
+    "populationQualifier": "1-10M",
+    "records": 3974,
+    "recordsFemale": 0,
+    "recordsMale": 3974,
+    "recordsOthers": 0,
+    "speakers": 2,
+    "speakersFemales": 0,
+    "speakersMales": 2,
+    "speakersOthers": 0,
+    "wiki": "bg",
+    "wikidata": "Q7918",
+    "words": 3974
+  },
+  {
     "code": "fas",
     "iso": "fas",
     "isoLabel": "فارسی",
@@ -681,30 +705,6 @@
     "words": 3091
   },
   {
-    "code": "bul",
-    "iso": "bul",
-    "isoLabel": "български език",
-    "itemLabel": "Bulgarian",
-    "language": "Q204",
-    "languageLabel": "Bulgarian",
-    "languageLabelNative": "български език",
-    "languageLabelsCount": 1,
-    "percent": 100,
-    "population": 9000000,
-    "populationQualifier": "1-10M",
-    "records": 3458,
-    "recordsFemale": 0,
-    "recordsMale": 3458,
-    "recordsOthers": 0,
-    "speakers": 2,
-    "speakersFemales": 0,
-    "speakersMales": 2,
-    "speakersOthers": 0,
-    "wiki": "bg",
-    "wikidata": "Q7918",
-    "words": 3458
-  },
-  {
     "code": "ajp",
     "iso": "ajp",
     "itemLabel": "South Levantine Arabic",
@@ -713,16 +713,16 @@
     "percent": 97.1,
     "population": 11600000,
     "populationQualifier": "10-100M",
-    "records": 3122,
+    "records": 3181,
     "recordsFemale": 146,
-    "recordsMale": 2976,
+    "recordsMale": 3035,
     "recordsOthers": 0,
     "speakers": 11,
     "speakersFemales": 2,
     "speakersMales": 9,
     "speakersOthers": 0,
     "wikidata": "Q55633582",
-    "words": 3031
+    "words": 3090
   },
   {
     "code": "afr",
@@ -1000,6 +1000,21 @@
     "words": 1529
   },
   {
+    "code": "blk",
+    "iso": "blk",
+    "itemLabel": "Pa'O",
+    "language": "Q1033277",
+    "languageLabel": "Pa'O",
+    "percent": 99.9,
+    "records": 1531,
+    "recordsFemale": 0,
+    "recordsMale": 1531,
+    "recordsOthers": 0,
+    "wiki": "blk",
+    "wikidata": "Q7121294",
+    "words": 1530
+  },
+  {
     "code": "hin",
     "iso": "hin",
     "isoLabel": "हिन्दी",
@@ -1022,21 +1037,6 @@
     "wiki": "hi",
     "wikidata": "Q1568",
     "words": 1500
-  },
-  {
-    "code": "blk",
-    "iso": "blk",
-    "itemLabel": "Pa'O",
-    "language": "Q1033277",
-    "languageLabel": "Pa'O",
-    "percent": 99.9,
-    "records": 1525,
-    "recordsFemale": 0,
-    "recordsMale": 1525,
-    "recordsOthers": 0,
-    "wiki": "blk",
-    "wikidata": "Q7121294",
-    "words": 1524
   },
   {
     "code": "gcr",
@@ -1168,9 +1168,9 @@
     "percent": 99.4,
     "population": 75000000,
     "populationQualifier": "10-100M",
-    "records": 1148,
+    "records": 1154,
     "recordsFemale": 0,
-    "recordsMale": 1148,
+    "recordsMale": 1154,
     "recordsOthers": 0,
     "speakers": 6,
     "speakersFemales": 0,
@@ -1178,7 +1178,7 @@
     "speakersOthers": 1,
     "wiki": "ta",
     "wikidata": "Q5885",
-    "words": 1141
+    "words": 1147
   },
   {
     "code": "hye",
@@ -3017,7 +3017,7 @@
     "itemLabel": "Aromanian",
     "language": "Q229",
     "languageLabel": "Aromanian",
-    "languageLabelNative": "limba rãmãneascã",
+    "languageLabelNative": "limba rãmãnã",
     "languageLabelsCount": 9,
     "percent": 100,
     "population": 112960,
