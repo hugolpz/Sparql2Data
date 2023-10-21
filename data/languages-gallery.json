@@ -8,12 +8,12 @@
     "languageLabel": "French",
     "languageLabelNative": "langue française",
     "languageLabelsCount": 2,
-    "percent": 65,
+    "percent": 65.1,
     "population": 208157220,
     "populationQualifier": "10-100M",
-    "records": 272862,
+    "records": 273314,
     "recordsFemale": 19569,
-    "recordsMale": 248130,
+    "recordsMale": 248582,
     "recordsOthers": 5163,
     "speakers": 460,
     "speakersFemales": 183,
@@ -21,7 +21,7 @@
     "speakersOthers": 27,
     "wiki": "fr",
     "wikidata": "Q150",
-    "words": 177387
+    "words": 177827
   },
   {
     "code": "ori",
@@ -72,6 +72,30 @@
     "words": 91639
   },
   {
+    "code": "tel",
+    "iso": "tel",
+    "isoLabel": "తెలుగు",
+    "itemLabel": "Telugu",
+    "language": "Q39",
+    "languageLabel": "Telugu",
+    "languageLabelNative": "తెలుగు",
+    "languageLabelsCount": 1,
+    "percent": 90.2,
+    "population": 82000000,
+    "populationQualifier": "10-100M",
+    "records": 68363,
+    "recordsFemale": 63245,
+    "recordsMale": 5079,
+    "recordsOthers": 39,
+    "speakers": 13,
+    "speakersFemales": 6,
+    "speakersMales": 5,
+    "speakersOthers": 2,
+    "wiki": "te",
+    "wikidata": "Q8097",
+    "words": 61671
+  },
+  {
     "code": "ben",
     "iso": "ben",
     "isoLabel": "বাংলা ভাষা",
@@ -94,30 +118,6 @@
     "wiki": "bn",
     "wikidata": "Q9610",
     "words": 62477
-  },
-  {
-    "code": "tel",
-    "iso": "tel",
-    "isoLabel": "తెలుగు",
-    "itemLabel": "Telugu",
-    "language": "Q39",
-    "languageLabel": "Telugu",
-    "languageLabelNative": "తెలుగు",
-    "languageLabelsCount": 1,
-    "percent": 90,
-    "population": 82000000,
-    "populationQualifier": "10-100M",
-    "records": 66132,
-    "recordsFemale": 61014,
-    "recordsMale": 5079,
-    "recordsOthers": 39,
-    "speakers": 13,
-    "speakersFemales": 6,
-    "speakersMales": 5,
-    "speakersOthers": 2,
-    "wiki": "te",
-    "wikidata": "Q8097",
-    "words": 59492
   },
   {
     "code": "eng",
@@ -274,9 +274,9 @@
     "percent": 91.7,
     "population": 76540740,
     "populationQualifier": "10-100M",
-    "records": 16289,
+    "records": 16295,
     "recordsFemale": 4487,
-    "recordsMale": 11469,
+    "recordsMale": 11475,
     "recordsOthers": 333,
     "speakers": 55,
     "speakersFemales": 12,
@@ -284,7 +284,7 @@
     "speakersOthers": 8,
     "wiki": "de",
     "wikidata": "Q188",
-    "words": 14937
+    "words": 14942
   },
   {
     "code": "mar",
@@ -394,8 +394,8 @@
     "percent": 95.5,
     "population": 154000000,
     "populationQualifier": ">100M",
-    "records": 10687,
-    "recordsFemale": 3998,
+    "records": 10816,
+    "recordsFemale": 4127,
     "recordsMale": 6430,
     "recordsOthers": 259,
     "speakers": 36,
@@ -404,7 +404,7 @@
     "speakersOthers": 4,
     "wiki": "ru",
     "wikidata": "Q7737",
-    "words": 10203
+    "words": 10326
   },
   {
     "code": "swe",
@@ -538,9 +538,9 @@
     "percent": 95.7,
     "population": 750000,
     "populationQualifier": "100k-1M",
-    "records": 6214,
+    "records": 6218,
     "recordsFemale": 441,
-    "recordsMale": 5514,
+    "recordsMale": 5518,
     "recordsOthers": 259,
     "speakers": 31,
     "speakersFemales": 13,
@@ -548,7 +548,7 @@
     "speakersOthers": 6,
     "wiki": "da",
     "wikidata": "Q8752",
-    "words": 5948
+    "words": 5951
   },
   {
     "code": "yue",
@@ -3223,6 +3223,18 @@
     "words": 29
   },
   {
+    "itemLabel": "Medinipuri Odia",
+    "language": "Q594450",
+    "languageLabel": "Medinipuri Odia",
+    "percent": 221.4,
+    "records": 28,
+    "recordsFemale": 0,
+    "recordsMale": 28,
+    "recordsOthers": 0,
+    "wikidata": "Q107417772",
+    "words": 62
+  },
+  {
     "code": "wls",
     "iso": "wls",
     "itemLabel": "Faka'uvea",
@@ -3301,18 +3313,6 @@
     "wiki": "ast",
     "wikidata": "Q29507",
     "words": 21
-  },
-  {
-    "itemLabel": "Medinipuri Odia",
-    "language": "Q594450",
-    "languageLabel": "Medinipuri Odia",
-    "percent": 140,
-    "records": 20,
-    "recordsFemale": 0,
-    "recordsMale": 20,
-    "recordsOthers": 0,
-    "wikidata": "Q107417772",
-    "words": 28
   },
   {
     "code": "kab",
