@@ -11,9 +11,9 @@
     "percent": 65.1,
     "population": 208157220,
     "populationQualifier": "10-100M",
-    "records": 273314,
-    "recordsFemale": 19569,
-    "recordsMale": 248582,
+    "records": 273827,
+    "recordsFemale": 19659,
+    "recordsMale": 249005,
     "recordsOthers": 5163,
     "speakers": 460,
     "speakersFemales": 183,
@@ -21,7 +21,7 @@
     "speakersOthers": 27,
     "wiki": "fr",
     "wikidata": "Q150",
-    "words": 177827
+    "words": 178201
   },
   {
     "code": "ori",
@@ -80,11 +80,11 @@
     "languageLabel": "Telugu",
     "languageLabelNative": "తెలుగు",
     "languageLabelsCount": 1,
-    "percent": 90.2,
+    "percent": 90.3,
     "population": 82000000,
     "populationQualifier": "10-100M",
-    "records": 68363,
-    "recordsFemale": 63245,
+    "records": 68779,
+    "recordsFemale": 63661,
     "recordsMale": 5079,
     "recordsOthers": 39,
     "speakers": 13,
@@ -93,7 +93,7 @@
     "speakersOthers": 2,
     "wiki": "te",
     "wikidata": "Q8097",
-    "words": 61671
+    "words": 62081
   },
   {
     "code": "ben",
@@ -104,12 +104,12 @@
     "languageLabel": "Bengali",
     "languageLabelNative": "বাংলা",
     "languageLabelsCount": 1,
-    "percent": 92.2,
+    "percent": 92.1,
     "population": 300000000,
     "populationQualifier": ">100M",
-    "records": 67786,
+    "records": 67968,
     "recordsFemale": 368,
-    "recordsMale": 67418,
+    "recordsMale": 67600,
     "recordsOthers": 0,
     "speakers": 20,
     "speakersFemales": 2,
@@ -117,7 +117,7 @@
     "speakersOthers": 0,
     "wiki": "bn",
     "wikidata": "Q9610",
-    "words": 62477
+    "words": 62624
   },
   {
     "code": "eng",
@@ -274,9 +274,9 @@
     "percent": 91.7,
     "population": 76540740,
     "populationQualifier": "10-100M",
-    "records": 16295,
+    "records": 16297,
     "recordsFemale": 4487,
-    "recordsMale": 11475,
+    "recordsMale": 11477,
     "recordsOthers": 333,
     "speakers": 55,
     "speakersFemales": 12,
@@ -284,7 +284,7 @@
     "speakersOthers": 8,
     "wiki": "de",
     "wikidata": "Q188",
-    "words": 14942
+    "words": 14944
   },
   {
     "code": "mar",
@@ -370,9 +370,9 @@
     "percent": 93.5,
     "population": 480000000,
     "populationQualifier": ">100M",
-    "records": 11659,
+    "records": 11663,
     "recordsFemale": 1169,
-    "recordsMale": 9914,
+    "recordsMale": 9918,
     "recordsOthers": 576,
     "speakers": 47,
     "speakersFemales": 19,
@@ -380,7 +380,7 @@
     "speakersOthers": 7,
     "wiki": "es",
     "wikidata": "Q1321",
-    "words": 10899
+    "words": 10903
   },
   {
     "code": "rus",
@@ -394,17 +394,17 @@
     "percent": 95.5,
     "population": 154000000,
     "populationQualifier": ">100M",
-    "records": 10816,
-    "recordsFemale": 4127,
+    "records": 10940,
+    "recordsFemale": 4169,
     "recordsMale": 6430,
-    "recordsOthers": 259,
+    "recordsOthers": 341,
     "speakers": 36,
     "speakersFemales": 12,
     "speakersMales": 20,
     "speakersOthers": 4,
     "wiki": "ru",
     "wikidata": "Q7737",
-    "words": 10326
+    "words": 10449
   },
   {
     "code": "swe",
@@ -646,9 +646,9 @@
     "percent": 100,
     "population": 9000000,
     "populationQualifier": "1-10M",
-    "records": 4541,
+    "records": 4542,
     "recordsFemale": 0,
-    "recordsMale": 4541,
+    "recordsMale": 4542,
     "recordsOthers": 0,
     "speakers": 2,
     "speakersFemales": 0,
@@ -656,7 +656,7 @@
     "speakersOthers": 0,
     "wiki": "bg",
     "wikidata": "Q7918",
-    "words": 4541
+    "words": 4542
   },
   {
     "code": "pan",
@@ -1602,6 +1602,30 @@
     "words": 517
   },
   {
+    "code": "ind",
+    "iso": "ind",
+    "isoLabel": "Indonesia",
+    "itemLabel": "Indonesian",
+    "language": "Q305",
+    "languageLabel": "Indonesian",
+    "languageLabelNative": "Bahasa Indonesia",
+    "languageLabelsCount": 1,
+    "percent": 96.8,
+    "population": 198996550,
+    "populationQualifier": "10-100M",
+    "records": 526,
+    "recordsFemale": 18,
+    "recordsMale": 508,
+    "recordsOthers": 0,
+    "speakers": 23,
+    "speakersFemales": 9,
+    "speakersMales": 14,
+    "speakersOthers": 0,
+    "wiki": "id",
+    "wikidata": "Q9240",
+    "words": 509
+  },
+  {
     "code": "atj",
     "iso": "atj",
     "itemLabel": "Atikamekw",
@@ -1646,30 +1670,6 @@
     "wiki": "min",
     "wikidata": "Q13324",
     "words": 503
-  },
-  {
-    "code": "ind",
-    "iso": "ind",
-    "isoLabel": "Indonesia",
-    "itemLabel": "Indonesian",
-    "language": "Q305",
-    "languageLabel": "Indonesian",
-    "languageLabelNative": "Bahasa Indonesia",
-    "languageLabelsCount": 1,
-    "percent": 98.6,
-    "population": 198996550,
-    "populationQualifier": "10-100M",
-    "records": 494,
-    "recordsFemale": 18,
-    "recordsMale": 476,
-    "recordsOthers": 0,
-    "speakers": 23,
-    "speakersFemales": 9,
-    "speakersMales": 14,
-    "speakersOthers": 0,
-    "wiki": "id",
-    "wikidata": "Q9240",
-    "words": 487
   },
   {
     "code": "hat",
@@ -4440,6 +4440,40 @@
     "speakersMales": 1,
     "speakersOthers": 0,
     "wikidata": "Q1256646",
+    "words": 1
+  },
+  {
+    "code": "---",
+    "iso": "plm",
+    "itemLabel": "Palembang",
+    "language": "Q1120653",
+    "languageLabel": "Palembang",
+    "languageLabelNative": "Baso Wong Palembang",
+    "languageLabelsCount": 2,
+    "percent": 100,
+    "records": 1,
+    "recordsFemale": 0,
+    "recordsMale": 1,
+    "recordsOthers": 0,
+    "wikidata": "Q12497929",
+    "words": 1
+  },
+  {
+    "code": "mfa",
+    "iso": "mfa",
+    "itemLabel": "Kelantan-Pattani Malay",
+    "language": "Q1120652",
+    "languageLabel": "Kelantan-Pattani Malay",
+    "languageLabelNative": "Bahasa Melayu Patani",
+    "languageLabelsCount": 5,
+    "percent": 100,
+    "population": 1470000,
+    "populationQualifier": "1-10M",
+    "records": 1,
+    "recordsFemale": 0,
+    "recordsMale": 1,
+    "recordsOthers": 0,
+    "wikidata": "Q1199751",
     "words": 1
   },
   {
