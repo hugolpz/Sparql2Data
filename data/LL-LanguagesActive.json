@@ -201,13 +201,6 @@
     "iso": "tat"
   },
   {
-    "language": "Q51870",
-    "wikidata": "Q35132",
-    "languageLabel": "Amis",
-    "records": "4",
-    "iso": "ami"
-  },
-  {
     "language": "Q139",
     "wikidata": "Q9299",
     "languageLabel": "Serbian",
@@ -220,6 +213,13 @@
     "languageLabel": "Atayal",
     "records": "4",
     "iso": "tay"
+  },
+  {
+    "language": "Q51870",
+    "wikidata": "Q35132",
+    "languageLabel": "Amis",
+    "records": "5",
+    "iso": "ami"
   },
   {
     "language": "Q32",
@@ -422,15 +422,15 @@
     "iso": "lua"
   },
   {
-    "language": "Q1187",
-    "wikidata": "Q427614",
-    "languageLabel": "Lemosin dialect",
-    "records": "32"
-  },
-  {
     "language": "Q518087",
     "wikidata": "Q2941602",
     "languageLabel": "Central Catalan",
+    "records": "32"
+  },
+  {
+    "language": "Q1187",
+    "wikidata": "Q427614",
+    "languageLabel": "Lemosin dialect",
     "records": "32"
   },
   {
@@ -531,20 +531,6 @@
     "records": "50"
   },
   {
-    "language": "Q230",
-    "wikidata": "Q29507",
-    "languageLabel": "Asturian",
-    "records": "52",
-    "iso": "ast"
-  },
-  {
-    "language": "Q41",
-    "wikidata": "Q8748",
-    "languageLabel": "Albanian",
-    "records": "52",
-    "iso": "sqi"
-  },
-  {
     "language": "Q300",
     "wikidata": "Q9035",
     "languageLabel": "Danish",
@@ -599,6 +585,13 @@
     "iso": "tgl"
   },
   {
+    "language": "Q230",
+    "wikidata": "Q29507",
+    "languageLabel": "Asturian",
+    "records": "75",
+    "iso": "ast"
+  },
+  {
     "language": "Q52072",
     "wikidata": "Q36068",
     "languageLabel": "Nga'ka language",
@@ -611,6 +604,13 @@
     "languageLabel": "Luxembourgish",
     "records": "86",
     "iso": "ltz"
+  },
+  {
+    "language": "Q41",
+    "wikidata": "Q8748",
+    "languageLabel": "Albanian",
+    "records": "86",
+    "iso": "sqi"
   },
   {
     "language": "Q1028058",
@@ -1294,7 +1294,7 @@
     "language": "Q299",
     "wikidata": "Q8752",
     "languageLabel": "Basque",
-    "records": "6245",
+    "records": "6261",
     "iso": "eus"
   },
   {
@@ -1413,21 +1413,21 @@
     "language": "Q22",
     "wikidata": "Q1860",
     "languageLabel": "English",
-    "records": "34270",
+    "records": "34308",
     "iso": "eng"
   },
   {
     "language": "Q307",
     "wikidata": "Q9610",
     "languageLabel": "Bengali",
-    "records": "67969",
+    "records": "68046",
     "iso": "ben"
   },
   {
     "language": "Q39",
     "wikidata": "Q8097",
     "languageLabel": "Telugu",
-    "records": "79544",
+    "records": "80527",
     "iso": "tel"
   },
   {
@@ -1448,7 +1448,7 @@
     "language": "Q21",
     "wikidata": "Q150",
     "languageLabel": "French",
-    "records": "283458",
+    "records": "283459",
     "iso": "fra"
   }
 ]
