@@ -346,13 +346,6 @@
     "iso": "nob"
   },
   {
-    "language": "Q181",
-    "wikidata": "Q36217",
-    "languageLabel": "Lingala",
-    "records": "17",
-    "iso": "lin"
-  },
-  {
     "language": "Q52296",
     "wikidata": "Q13198",
     "languageLabel": "Réunion Creole",
@@ -386,6 +379,13 @@
     "languageLabel": "Zazaki",
     "records": "20",
     "iso": "zza"
+  },
+  {
+    "language": "Q181",
+    "wikidata": "Q36217",
+    "languageLabel": "Lingala",
+    "records": "21",
+    "iso": "lin"
   },
   {
     "language": "Q304",
@@ -443,15 +443,15 @@
     "iso": "lua"
   },
   {
-    "language": "Q518087",
-    "wikidata": "Q2941602",
-    "languageLabel": "Central Catalan",
-    "records": "32"
-  },
-  {
     "language": "Q1187",
     "wikidata": "Q427614",
     "languageLabel": "Lemosin dialect",
+    "records": "32"
+  },
+  {
+    "language": "Q518087",
+    "wikidata": "Q2941602",
+    "languageLabel": "Central Catalan",
     "records": "32"
   },
   {
@@ -1215,13 +1215,6 @@
     "iso": "bre"
   },
   {
-    "language": "Q131",
-    "wikidata": "Q8785",
-    "languageLabel": "Armenian",
-    "records": "1805",
-    "iso": "hye"
-  },
-  {
     "language": "Q306",
     "wikidata": "Q9296",
     "languageLabel": "Macedonian",
@@ -1236,11 +1229,11 @@
     "iso": "cmn"
   },
   {
-    "language": "Q297",
-    "wikidata": "Q256",
-    "languageLabel": "Turkish",
-    "records": "2336",
-    "iso": "tur"
+    "language": "Q131",
+    "wikidata": "Q8785",
+    "languageLabel": "Armenian",
+    "records": "2177",
+    "iso": "hye"
   },
   {
     "language": "Q141",
@@ -1255,6 +1248,13 @@
     "languageLabel": "Igbo",
     "records": "2525",
     "iso": "ibo"
+  },
+  {
+    "language": "Q297",
+    "wikidata": "Q256",
+    "languageLabel": "Turkish",
+    "records": "2636",
+    "iso": "tur"
   },
   {
     "language": "Q115107",
@@ -1299,18 +1299,18 @@
     "iso": "kmr"
   },
   {
-    "language": "Q127",
-    "wikidata": "Q5885",
-    "languageLabel": "Tamil",
-    "records": "3859",
-    "iso": "tam"
-  },
-  {
     "language": "Q48",
     "wikidata": "Q9168",
     "languageLabel": "Persian",
     "records": "4116",
     "iso": "fas"
+  },
+  {
+    "language": "Q127",
+    "wikidata": "Q5885",
+    "languageLabel": "Tamil",
+    "records": "4279",
+    "iso": "tam"
   },
   {
     "language": "Q446",
@@ -1518,7 +1518,7 @@
     "language": "Q21",
     "wikidata": "Q150",
     "languageLabel": "French",
-    "records": "350332",
+    "records": "351537",
     "iso": "fra"
   }
 ]
