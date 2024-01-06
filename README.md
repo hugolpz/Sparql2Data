@@ -1,4 +1,8 @@
-Given valid SPARQL queries, an endpoint and an output format, writes the response to a local file.
+Given valid SPARQL queries, an endpoint and an output format, writes the response to a persistent local file. 
+
+### Description
+Sparql2data is a tiny github-hosted tool which uses your #SPARQL query, fetch #Wikidata or other wikibase, save result daily (or weekly) into a persitent file, so your webpage doesnt wait 20secs for its data to show up.
+You can then build a basic HTML/CSS/JS webpage to display your data. A working proof of concept is https://github.com/hugolpz/LanguagesGallery/ .
 
 ### Usage
 ```bash
