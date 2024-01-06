@@ -57,7 +57,7 @@ output=$(basename "${sparql}" .sparql).${format}
 # ASSIGN SERVICE
 serviceURL=""
 if [ "$service" == "lingualibre" ]; then
-  serviceURL="https://lingualibre.org/sparql"
+  serviceURL="https://lingualibre.org/bigdata/sparql"
 elif [ "$service" == "commons" ]; then
   serviceURL="https://commons-query.wikimedia.org/sparql"
 else
