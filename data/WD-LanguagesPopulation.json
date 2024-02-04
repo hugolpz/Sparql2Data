@@ -666,15 +666,6 @@
     "isoLabel": "svenska"
   },
   {
-    "itemLabel": "Serbian",
-    "wikidata": "Q9299",
-    "population": "9000000",
-    "populationQualifier": "1-10M",
-    "languageLabelNative": "српски језик",
-    "languageLabelsCount": "3",
-    "isoLabel": "српски језик"
-  },
-  {
     "itemLabel": "Bulgarian",
     "wikidata": "Q7918",
     "population": "9000000",
@@ -682,6 +673,15 @@
     "languageLabelNative": "български език",
     "languageLabelsCount": "1",
     "isoLabel": "български език"
+  },
+  {
+    "itemLabel": "Serbian",
+    "wikidata": "Q9299",
+    "population": "9000000",
+    "populationQualifier": "1-10M",
+    "languageLabelNative": "српски језик",
+    "languageLabelsCount": "3",
+    "isoLabel": "српски језик"
   },
   {
     "itemLabel": "Quechua",
@@ -850,15 +850,6 @@
     "isoLabel": "suomi"
   },
   {
-    "itemLabel": "Tatar",
-    "wikidata": "Q25285",
-    "population": "5200000",
-    "populationQualifier": "1-10M",
-    "languageLabelNative": "татар теле",
-    "languageLabelsCount": "1",
-    "isoLabel": "татар теле"
-  },
-  {
     "itemLabel": "Mongolian",
     "wikidata": "Q9246",
     "population": "5200000",
@@ -866,6 +857,15 @@
     "languageLabelNative": "монгол хэл",
     "languageLabelsCount": "2",
     "isoLabel": "монгол хэл"
+  },
+  {
+    "itemLabel": "Tatar",
+    "wikidata": "Q25285",
+    "population": "5200000",
+    "populationQualifier": "1-10M",
+    "languageLabelNative": "татар теле",
+    "languageLabelsCount": "1",
+    "isoLabel": "татар теле"
   },
   {
     "itemLabel": "Norwegian",
@@ -979,15 +979,6 @@
     "languageLabelsCount": "1"
   },
   {
-    "itemLabel": "Wolof",
-    "wikidata": "Q34257",
-    "population": "3700000",
-    "populationQualifier": "1-10M",
-    "languageLabelNative": "Wolof",
-    "languageLabelsCount": "1",
-    "isoLabel": "Wolof"
-  },
-  {
     "itemLabel": "Georgian",
     "wikidata": "Q8108",
     "population": "3700000",
@@ -997,12 +988,29 @@
     "isoLabel": "ქართული ენა"
   },
   {
+    "itemLabel": "Wolof",
+    "wikidata": "Q34257",
+    "population": "3700000",
+    "populationQualifier": "1-10M",
+    "languageLabelNative": "Wolof",
+    "languageLabelsCount": "1",
+    "isoLabel": "Wolof"
+  },
+  {
     "itemLabel": "Acehnese",
     "wikidata": "Q27683",
     "population": "3500032",
     "populationQualifier": "1-10M",
     "languageLabelNative": "bahsa Acèh",
     "languageLabelsCount": "1"
+  },
+  {
+    "itemLabel": "Banjarese",
+    "wikidata": "Q33151",
+    "population": "3500000",
+    "populationQualifier": "1-10M",
+    "languageLabelNative": "Pandir Banjar",
+    "languageLabelsCount": "2"
   },
   {
     "itemLabel": "Bosnian",
@@ -1014,14 +1022,6 @@
     "isoLabel": "bosanski jezik"
   },
   {
-    "itemLabel": "Banjarese",
-    "wikidata": "Q33151",
-    "population": "3500000",
-    "populationQualifier": "1-10M",
-    "languageLabelNative": "Pandir Banjar",
-    "languageLabelsCount": "2"
-  },
-  {
     "itemLabel": "Dagbani",
     "wikidata": "Q32238",
     "population": "3160000",
@@ -1030,8 +1030,8 @@
     "languageLabelsCount": "1"
   },
   {
-    "itemLabel": "Luo dialect",
-    "wikidata": "Q5414796",
+    "itemLabel": "Southern Kurdish",
+    "wikidata": "Q1496597",
     "population": "3000000",
     "populationQualifier": "1-10M"
   },
@@ -1045,8 +1045,8 @@
     "isoLabel": "Twi"
   },
   {
-    "itemLabel": "Southern Kurdish",
-    "wikidata": "Q1496597",
+    "itemLabel": "Luo dialect",
+    "wikidata": "Q5414796",
     "population": "3000000",
     "populationQualifier": "1-10M"
   },
@@ -1074,6 +1074,12 @@
     "populationQualifier": "1-10M"
   },
   {
+    "itemLabel": "Dioula language",
+    "wikidata": "Q32706",
+    "population": "2700000",
+    "populationQualifier": "1-10M"
+  },
+  {
     "itemLabel": "Bambara",
     "wikidata": "Q33243",
     "population": "2700000",
@@ -1081,12 +1087,6 @@
     "languageLabelNative": "Bamanankan",
     "languageLabelsCount": "1",
     "isoLabel": "Bamanankan"
-  },
-  {
-    "itemLabel": "Dioula language",
-    "wikidata": "Q32706",
-    "population": "2700000",
-    "populationQualifier": "1-10M"
   },
   {
     "itemLabel": "Galician",
@@ -1137,15 +1137,6 @@
     "populationQualifier": "1-10M"
   },
   {
-    "itemLabel": "Lingala",
-    "wikidata": "Q36217",
-    "population": "2000000",
-    "populationQualifier": "1-10M",
-    "languageLabelNative": "Lingála",
-    "languageLabelsCount": "2",
-    "isoLabel": "Lingála"
-  },
-  {
     "itemLabel": "Toba Batak",
     "wikidata": "Q33017",
     "population": "2000000",
@@ -1158,6 +1149,15 @@
     "wikidata": "Q699284",
     "population": "2000000",
     "populationQualifier": "1-10M"
+  },
+  {
+    "itemLabel": "Lingala",
+    "wikidata": "Q36217",
+    "population": "2000000",
+    "populationQualifier": "1-10M",
+    "languageLabelNative": "Lingála",
+    "languageLabelsCount": "2",
+    "isoLabel": "Lingála"
   },
   {
     "itemLabel": "Macedonian",
@@ -1311,6 +1311,14 @@
     "wikidata": "Q35028",
     "population": "860000",
     "populationQualifier": "100k-1M"
+  },
+  {
+    "itemLabel": "Manado language",
+    "wikidata": "Q1068112",
+    "population": "850000",
+    "populationQualifier": "100k-1M",
+    "languageLabelNative": "bahasa Manado",
+    "languageLabelsCount": "1"
   },
   {
     "itemLabel": "Mon",
@@ -1483,11 +1491,11 @@
     "languageLabelsCount": "6"
   },
   {
-    "itemLabel": "Mapudungun",
-    "wikidata": "Q33730",
+    "itemLabel": "Sumbawa",
+    "wikidata": "Q3182585",
     "population": "300000",
     "populationQualifier": "100k-1M",
-    "languageLabelNative": "Mapudungun",
+    "languageLabelNative": "Basa Samawa",
     "languageLabelsCount": "1"
   },
   {
@@ -1497,6 +1505,14 @@
     "populationQualifier": "100k-1M",
     "languageLabelNative": "lenghe furlane",
     "languageLabelsCount": "2"
+  },
+  {
+    "itemLabel": "Mapudungun",
+    "wikidata": "Q33730",
+    "population": "300000",
+    "populationQualifier": "100k-1M",
+    "languageLabelNative": "Mapudungun",
+    "languageLabelsCount": "1"
   },
   {
     "itemLabel": "Guianan Creole",
@@ -1531,14 +1547,14 @@
     "languageLabelsCount": "1"
   },
   {
-    "itemLabel": "Rinconada Bikol",
-    "wikidata": "Q12633026",
+    "itemLabel": "Basaa language",
+    "wikidata": "Q33093",
     "population": "230000",
     "populationQualifier": "100k-1M"
   },
   {
-    "itemLabel": "Basaa language",
-    "wikidata": "Q33093",
+    "itemLabel": "Rinconada Bikol",
+    "wikidata": "Q12633026",
     "population": "230000",
     "populationQualifier": "100k-1M"
   },
@@ -1774,18 +1790,18 @@
     "languageLabelsCount": "1"
   },
   {
+    "itemLabel": "Suruí",
+    "wikidata": "Q7646993",
+    "population": "2000",
+    "populationQualifier": "1-20k"
+  },
+  {
     "itemLabel": "Gutnish",
     "wikidata": "Q1256646",
     "population": "2000",
     "populationQualifier": "1-20k",
     "languageLabelNative": "Gutamål",
     "languageLabelsCount": "1"
-  },
-  {
-    "itemLabel": "Suruí",
-    "wikidata": "Q7646993",
-    "population": "2000",
-    "populationQualifier": "1-20k"
   },
   {
     "itemLabel": "Sakizaya",
@@ -1834,8 +1850,8 @@
     "languageLabelsCount": "1"
   },
   {
-    "itemLabel": "Old Tupi",
-    "wikidata": "Q56944",
+    "itemLabel": "Modern Standard Arabic",
+    "wikidata": "Q56467",
     "population": "0",
     "populationQualifier": "<1k"
   },
@@ -1849,8 +1865,8 @@
     "isoLabel": "𑀧𑀸𑀮𑀺"
   },
   {
-    "itemLabel": "Modern Standard Arabic",
-    "wikidata": "Q56467",
+    "itemLabel": "Old Tupi",
+    "wikidata": "Q56944",
     "population": "0",
     "populationQualifier": "<1k"
   },
@@ -1886,80 +1902,24 @@
     "languageLabelsCount": "1"
   },
   {
-    "itemLabel": "Batak Angkola",
-    "wikidata": "Q2640686"
-  },
-  {
-    "itemLabel": "Viennese German",
-    "wikidata": "Q56474"
-  },
-  {
-    "itemLabel": "multiple languages",
-    "wikidata": "Q20923490"
-  },
-  {
-    "itemLabel": "Anyin",
-    "wikidata": "Q28395"
-  },
-  {
-    "itemLabel": "Ngambay",
-    "wikidata": "Q2372207"
-  },
-  {
-    "itemLabel": "Balearic",
-    "wikidata": "Q804899"
-  },
-  {
-    "itemLabel": "Baleswari Oriya",
-    "wikidata": "Q4850727"
-  },
-  {
-    "itemLabel": "Ngiemboon",
-    "wikidata": "Q36286"
-  },
-  {
-    "itemLabel": "Tupuri",
-    "wikidata": "Q36646"
-  },
-  {
-    "itemLabel": "Mundang",
-    "wikidata": "Q36032"
-  },
-  {
-    "itemLabel": "Massa language",
-    "wikidata": "Q56668"
-  },
-  {
-    "itemLabel": "Nyang language",
-    "wikidata": "Q35650"
-  },
-  {
-    "itemLabel": "Laari",
-    "wikidata": "Q12952693"
-  },
-  {
-    "itemLabel": "Futunan",
-    "wikidata": "Q35334"
-  },
-  {
-    "itemLabel": "Wushi",
-    "wikidata": "Q36973"
-  },
-  {
-    "itemLabel": "Ndrumbea",
-    "wikidata": "Q6983819"
-  },
-  {
-    "itemLabel": "American English",
-    "wikidata": "Q7976",
-    "languageLabelNative": "American English",
+    "itemLabel": "Ancient Greek",
+    "wikidata": "Q35497",
+    "languageLabelNative": "Ἀρχαία Ἑλληνική",
     "languageLabelsCount": "1"
   },
   {
-    "itemLabel": "British English",
-    "wikidata": "Q7979",
-    "languageLabelNative": "British English",
-    "languageLabelsCount": "1"
+    "itemLabel": "Old French",
+    "wikidata": "Q35222"
+  },
+  {
+    "itemLabel": "Kaidipang",
+    "wikidata": "Q6347611"
+  },
+  {
+    "itemLabel": "Kaur",
+    "wikidata": "Q6378867",
+    "languageLabelNative": "bahasa Kaur",
+    "languageLabelsCount": "2"
   },
   {
     "itemLabel": "Petjo",
@@ -1983,6 +1943,12 @@
     "itemLabel": "Betawi",
     "wikidata": "Q33014",
     "languageLabelNative": "basa Betawi",
+    "languageLabelsCount": "1"
+  },
+  {
+    "itemLabel": "Lampung Api",
+    "wikidata": "Q49215",
+    "languageLabelNative": "bahasa Lampung Api",
     "languageLabelsCount": "1"
   },
   {
@@ -2018,6 +1984,26 @@
     "wikidata": "Q2902626"
   },
   {
+    "itemLabel": "Obolo",
+    "wikidata": "Q36614"
+  },
+  {
+    "itemLabel": "Bangala",
+    "wikidata": "Q34989"
+  },
+  {
+    "itemLabel": "multiple languages",
+    "wikidata": "Q20923490"
+  },
+  {
+    "itemLabel": "Batak Angkola",
+    "wikidata": "Q2640686"
+  },
+  {
+    "itemLabel": "Viennese German",
+    "wikidata": "Q56474"
+  },
+  {
     "itemLabel": "Láadan",
     "wikidata": "Q35757",
     "languageLabelNative": "Láadan",
@@ -2032,22 +2018,74 @@
     "wikidata": "Q2891045"
   },
   {
-    "itemLabel": "Obolo",
-    "wikidata": "Q36614"
+    "itemLabel": "Anyin",
+    "wikidata": "Q28395"
   },
   {
-    "itemLabel": "Bangala",
-    "wikidata": "Q34989"
+    "itemLabel": "Ngambay",
+    "wikidata": "Q2372207"
   },
   {
-    "itemLabel": "Old French",
-    "wikidata": "Q35222"
+    "itemLabel": "Balearic",
+    "wikidata": "Q804899"
   },
   {
-    "itemLabel": "Ancient Greek",
-    "wikidata": "Q35497",
-    "languageLabelNative": "Ἀρχαία Ἑλληνική",
+    "itemLabel": "Futunan",
+    "wikidata": "Q35334"
+  },
+  {
+    "itemLabel": "Wushi",
+    "wikidata": "Q36973"
+  },
+  {
+    "itemLabel": "Ndrumbea",
+    "wikidata": "Q6983819"
+  },
+  {
+    "itemLabel": "Baleswari Oriya",
+    "wikidata": "Q4850727"
+  },
+  {
+    "itemLabel": "Ngiemboon",
+    "wikidata": "Q36286"
+  },
+  {
+    "itemLabel": "Tupuri",
+    "wikidata": "Q36646"
+  },
+  {
+    "itemLabel": "Mundang",
+    "wikidata": "Q36032"
+  },
+  {
+    "itemLabel": "Massa language",
+    "wikidata": "Q56668"
+  },
+  {
+    "itemLabel": "Nyang language",
+    "wikidata": "Q35650"
+  },
+  {
+    "itemLabel": "Laari",
+    "wikidata": "Q12952693"
+  },
+  {
+    "itemLabel": "American English",
+    "wikidata": "Q7976",
+    "languageLabelNative": "American English",
     "languageLabelsCount": "1"
+  },
+  {
+    "itemLabel": "British English",
+    "wikidata": "Q7979",
+    "languageLabelNative": "British English",
+    "languageLabelsCount": "1"
+  },
+  {
+    "itemLabel": "Saint Lucian Creole French",
+    "wikidata": "Q3006285",
+    "languageLabelNative": "patwa",
+    "languageLabelsCount": "2"
   },
   {
     "itemLabel": "Guarani",
@@ -2055,6 +2093,16 @@
     "languageLabelNative": "Avañe'ẽ",
     "languageLabelsCount": "1",
     "isoLabel": "avañe'ẽ"
+  },
+  {
+    "itemLabel": "Tsimshian",
+    "wikidata": "Q20085721"
+  },
+  {
+    "itemLabel": "Old Church Slavonic",
+    "wikidata": "Q35499",
+    "languageLabelNative": "Словѣньскъ ѩꙁꙑкъ",
+    "languageLabelsCount": "2"
   },
   {
     "itemLabel": "Amis",
@@ -2087,10 +2135,6 @@
     "wikidata": "Q36759"
   },
   {
-    "itemLabel": "Tsimshian",
-    "wikidata": "Q20085721"
-  },
-  {
     "itemLabel": "Central Catalan",
     "wikidata": "Q2941602"
   },
@@ -2099,20 +2143,29 @@
     "wikidata": "Q35455"
   },
   {
-    "itemLabel": "Old Church Slavonic",
-    "wikidata": "Q35499",
-    "languageLabelNative": "Словѣньскъ ѩꙁꙑкъ",
-    "languageLabelsCount": "2"
-  },
-  {
     "itemLabel": "Duala",
     "wikidata": "Q33013"
   },
   {
-    "itemLabel": "Saint Lucian Creole French",
-    "wikidata": "Q3006285",
-    "languageLabelNative": "patwa",
-    "languageLabelsCount": "2"
+    "itemLabel": "Latin",
+    "wikidata": "Q397",
+    "languageLabelNative": "Lingua latina",
+    "languageLabelsCount": "1",
+    "isoLabel": "Latine"
+  },
+  {
+    "itemLabel": "Ahom",
+    "wikidata": "Q34778"
+  },
+  {
+    "itemLabel": "Salentino",
+    "wikidata": "Q1213"
+  },
+  {
+    "itemLabel": "Gayo",
+    "wikidata": "Q33286",
+    "languageLabelNative": "bahasa Gayo",
+    "languageLabelsCount": "1"
   },
   {
     "itemLabel": "Martinique Creole",
@@ -2153,21 +2206,6 @@
     "wikidata": "Q35271",
     "languageLabelNative": "Ghɔmálá’",
     "languageLabelsCount": "1"
-  },
-  {
-    "itemLabel": "Ahom",
-    "wikidata": "Q34778"
-  },
-  {
-    "itemLabel": "Salentino",
-    "wikidata": "Q1213"
-  },
-  {
-    "itemLabel": "Latin",
-    "wikidata": "Q397",
-    "languageLabelNative": "Lingua latina",
-    "languageLabelsCount": "1",
-    "isoLabel": "Latine"
   },
   {
     "itemLabel": "Blissymbols",
