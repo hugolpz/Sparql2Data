@@ -381,13 +381,6 @@
     "iso": "smw"
   },
   {
-    "language": "Q1286100",
-    "wikidata": "Q6378867",
-    "languageLabel": "Kaur",
-    "records": "20",
-    "iso": "vkk"
-  },
-  {
     "language": "Q55",
     "wikidata": "Q10199",
     "languageLabel": "Zazaki",
@@ -464,15 +457,22 @@
     "iso": "lua"
   },
   {
-    "language": "Q1187",
-    "wikidata": "Q427614",
-    "languageLabel": "Lemosin dialect",
-    "records": "32"
+    "language": "Q1286100",
+    "wikidata": "Q6378867",
+    "languageLabel": "Kaur",
+    "records": "29",
+    "iso": "vkk"
   },
   {
     "language": "Q518087",
     "wikidata": "Q2941602",
     "languageLabel": "Central Catalan",
+    "records": "32"
+  },
+  {
+    "language": "Q1187",
+    "wikidata": "Q427614",
+    "languageLabel": "Lemosin dialect",
     "records": "32"
   },
   {
@@ -1078,13 +1078,6 @@
     "iso": "gle"
   },
   {
-    "language": "Q78",
-    "wikidata": "Q33549",
-    "languageLabel": "Javanese",
-    "records": "594",
-    "iso": "jav"
-  },
-  {
     "language": "Q555966",
     "wikidata": "Q13349",
     "languageLabel": "Mon",
@@ -1103,13 +1096,6 @@
     "wikidata": "Q1213",
     "languageLabel": "Salentino",
     "records": "626"
-  },
-  {
-    "language": "Q216",
-    "wikidata": "Q13324",
-    "languageLabel": "Minangkabau",
-    "records": "626",
-    "iso": "min"
   },
   {
     "language": "Q134",
@@ -1146,10 +1132,24 @@
     "records": "739"
   },
   {
+    "language": "Q78",
+    "wikidata": "Q33549",
+    "languageLabel": "Javanese",
+    "records": "749",
+    "iso": "jav"
+  },
+  {
     "language": "Q4465",
     "wikidata": "Q36759",
     "languageLabel": "Teochew",
     "records": "772"
+  },
+  {
+    "language": "Q216",
+    "wikidata": "Q13324",
+    "languageLabel": "Minangkabau",
+    "records": "777",
+    "iso": "min"
   },
   {
     "language": "Q392",
@@ -1201,13 +1201,6 @@
     "iso": "ind"
   },
   {
-    "language": "Q83",
-    "wikidata": "Q34002",
-    "languageLabel": "Sundanese",
-    "records": "1187",
-    "iso": "sun"
-  },
-  {
     "language": "Q38",
     "wikidata": "Q7930",
     "languageLabel": "Malagasy",
@@ -1234,6 +1227,13 @@
     "languageLabel": "Vietnamese",
     "records": "1553",
     "iso": "vie"
+  },
+  {
+    "language": "Q83",
+    "wikidata": "Q34002",
+    "languageLabel": "Sundanese",
+    "records": "1591",
+    "iso": "sun"
   },
   {
     "language": "Q1033277",
@@ -1445,18 +1445,18 @@
     "iso": "por"
   },
   {
-    "language": "Q299",
-    "wikidata": "Q8752",
-    "languageLabel": "Basque",
-    "records": "7175",
-    "iso": "eus"
-  },
-  {
     "language": "Q385",
     "wikidata": "Q652",
     "languageLabel": "Italian",
     "records": "7253",
     "iso": "ita"
+  },
+  {
+    "language": "Q299",
+    "wikidata": "Q8752",
+    "languageLabel": "Basque",
+    "records": "7626",
+    "iso": "eus"
   },
   {
     "language": "Q44",
@@ -1546,7 +1546,7 @@
     "language": "Q22",
     "wikidata": "Q1860",
     "languageLabel": "English",
-    "records": "45247",
+    "records": "45409",
     "iso": "eng"
   },
   {
@@ -1581,7 +1581,7 @@
     "language": "Q21",
     "wikidata": "Q150",
     "languageLabel": "French",
-    "records": "378650",
+    "records": "378677",
     "iso": "fra"
   }
 ]
