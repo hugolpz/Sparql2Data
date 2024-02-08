@@ -17,6 +17,10 @@ SELECT
 ?wikidata 
 (MAX(?info) AS ?population) 
 (SAMPLE(?infoTag) AS ?populationQualifier)
+(SAMPLE(?UnescoStatusLabel_) AS  ?UnescoStatus)
+(SAMPLE(STR(?EthnologueStatusLabel_)) AS ?EthnologueStatus)
+(SAMPLE(?EthnologueCode) AS ?EthnologueCode)
+
 # On Lingualibre, get item's info
 WITH {
   SELECT *
@@ -34,15 +38,19 @@ WITH {
     }           # Commented on LLQS only
   }
 } AS %infoWikidataId
+
 # On Wikidata, get the target info
 WHERE {
   INCLUDE %infoWikidataId
   BIND (URI(CONCAT("http://www.wikidata.org/entity/", ?wikidata)) AS ?wikidataURL)
   SERVICE <https://query.wikidata.org/sparql> { 
-    SELECT ?wikidataURL ?info ?languageLabelNative_ ?isoLabel_ { 
+    SELECT ?wikidataURL ?info ?languageLabelNative_ ?isoLabel_ ?UnescoStatusLabel_ ?EthnologueStatusLabel_ ?EthnologueCode { 
       OPTIONAL { ?wikidataURL wdt:P1098 ?info . }
       OPTIONAL { ?wikidataURL wdt:P1705 ?languageLabelNative_ . }
-      OPTIONAL { ?wikidataURL wdt:P218 ?iso639_1 ; rdfs:label ?isoLabel_ . FILTER(LANG(?isoLabel_) = ?iso639_1) }
+      OPTIONAL { ?wikidataURL wdt:P218 ?iso639_1 ; rdfs:label ?isoLabel_ . FILTER(LANG(?isoLabel_)=?iso639_1) . }
+      OPTIONAL { ?wikidataURL wdt:P1999 ?UnescoStatus. ?UnescoStatus rdfs:label ?UnescoStatusLabel_ . FILTER(LANG(?UnescoStatusLabel_)='en') . }
+      OPTIONAL { ?wikidataURL wdt:P3823 ?EthnologueStatus . ?EthnologueStatus rdfs:label ?EthnologueStatusLabel_ . FILTER(LANG(?EthnologueStatusLabel_)='en') . }
+      OPTIONAL { ?wikidataURL wdt:P1627 ?EthnologueCode . }
     } 
   }
   BIND(
@@ -54,6 +62,7 @@ WHERE {
     IF(?info < 100000000, "10-100M",
     ">100M"))))))
     AS ?infoTag).
-} 
+}
+
 GROUP BY ?itemLabel ?wikidata 
 ORDER BY DESC(?population)
