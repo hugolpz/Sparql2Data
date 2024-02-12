@@ -201,20 +201,6 @@
     "iso": "isl"
   },
   {
-    "language": "Q1120653",
-    "wikidata": "Q12497929",
-    "languageLabel": "Palembang",
-    "records": "5",
-    "iso": "mis"
-  },
-  {
-    "language": "Q1120653",
-    "wikidata": "Q12497929",
-    "languageLabel": "Palembang",
-    "records": "5",
-    "iso": "plm"
-  },
-  {
     "language": "Q36",
     "wikidata": "Q7838",
     "languageLabel": "Swahili",
@@ -267,6 +253,20 @@
     "wikidata": "Q3302952",
     "languageLabel": "Mayennais",
     "records": "8"
+  },
+  {
+    "language": "Q1120653",
+    "wikidata": "Q12497929",
+    "languageLabel": "Palembang",
+    "records": "8",
+    "iso": "mis"
+  },
+  {
+    "language": "Q1120653",
+    "wikidata": "Q12497929",
+    "languageLabel": "Palembang",
+    "records": "8",
+    "iso": "plm"
   },
   {
     "language": "Q188",
@@ -358,6 +358,13 @@
     "languageLabel": "Shan",
     "records": "17",
     "iso": "shn"
+  },
+  {
+    "language": "Q1295690",
+    "wikidata": "Q3915769",
+    "languageLabel": "Jambi Malay",
+    "records": "18",
+    "iso": "jax"
   },
   {
     "language": "Q273",
@@ -464,15 +471,15 @@
     "iso": "vkk"
   },
   {
-    "language": "Q1187",
-    "wikidata": "Q427614",
-    "languageLabel": "Lemosin dialect",
-    "records": "32"
-  },
-  {
     "language": "Q518087",
     "wikidata": "Q2941602",
     "languageLabel": "Central Catalan",
+    "records": "32"
+  },
+  {
+    "language": "Q1187",
+    "wikidata": "Q427614",
+    "languageLabel": "Lemosin dialect",
     "records": "32"
   },
   {
@@ -676,17 +683,17 @@
     "iso": "sqi"
   },
   {
-    "language": "Q123271",
-    "wikidata": "Q7976",
-    "languageLabel": "American English",
-    "records": "95"
-  },
-  {
     "language": "Q1028058",
     "wikidata": "Q3367751",
     "languageLabel": "Central Malay",
     "records": "95",
     "iso": "pse"
+  },
+  {
+    "language": "Q123271",
+    "wikidata": "Q7976",
+    "languageLabel": "American English",
+    "records": "96"
   },
   {
     "language": "Q73",
@@ -849,6 +856,13 @@
     "iso": "mos"
   },
   {
+    "language": "Q1214383",
+    "wikidata": "Q33190",
+    "languageLabel": "Bugis",
+    "records": "183",
+    "iso": "bug"
+  },
+  {
     "language": "Q52067",
     "wikidata": "Q35271",
     "languageLabel": "Ghomala' language",
@@ -948,7 +962,7 @@
     "language": "Q1063306",
     "wikidata": "Q33014",
     "languageLabel": "Betawi",
-    "records": "263",
+    "records": "266",
     "iso": "bew"
   },
   {
@@ -1132,24 +1146,10 @@
     "iso": "ast"
   },
   {
-    "language": "Q78",
-    "wikidata": "Q33549",
-    "languageLabel": "Javanese",
-    "records": "749",
-    "iso": "jav"
-  },
-  {
     "language": "Q4465",
     "wikidata": "Q36759",
     "languageLabel": "Teochew",
     "records": "772"
-  },
-  {
-    "language": "Q216",
-    "wikidata": "Q13324",
-    "languageLabel": "Minangkabau",
-    "records": "777",
-    "iso": "min"
   },
   {
     "language": "Q392",
@@ -1157,6 +1157,13 @@
     "languageLabel": "Czech",
     "records": "787",
     "iso": "ces"
+  },
+  {
+    "language": "Q78",
+    "wikidata": "Q33549",
+    "languageLabel": "Javanese",
+    "records": "803",
+    "iso": "jav"
   },
   {
     "language": "Q204940",
@@ -1197,8 +1204,15 @@
     "language": "Q305",
     "wikidata": "Q9240",
     "languageLabel": "Indonesian",
-    "records": "1085",
+    "records": "1112",
     "iso": "ind"
+  },
+  {
+    "language": "Q216",
+    "wikidata": "Q13324",
+    "languageLabel": "Minangkabau",
+    "records": "1229",
+    "iso": "min"
   },
   {
     "language": "Q38",
@@ -1462,7 +1476,7 @@
     "language": "Q299",
     "wikidata": "Q8752",
     "languageLabel": "Basque",
-    "records": "8976",
+    "records": "9603",
     "iso": "eus"
   },
   {
@@ -1546,7 +1560,7 @@
     "language": "Q22",
     "wikidata": "Q1860",
     "languageLabel": "English",
-    "records": "45657",
+    "records": "45679",
     "iso": "eng"
   },
   {
@@ -1581,7 +1595,7 @@
     "language": "Q21",
     "wikidata": "Q150",
     "languageLabel": "French",
-    "records": "378843",
+    "records": "378869",
     "iso": "fra"
   }
 ]
