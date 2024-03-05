@@ -250,15 +250,15 @@
     "iso": "khm"
   },
   {
-    "language": "Q904696",
-    "wikidata": "Q3302952",
-    "languageLabel": "Mayennais",
-    "records": "8"
-  },
-  {
     "language": "Q733156",
     "wikidata": "Q3706580",
     "languageLabel": "meridional Cilentan",
+    "records": "8"
+  },
+  {
+    "language": "Q904696",
+    "wikidata": "Q3302952",
+    "languageLabel": "Mayennais",
     "records": "8"
   },
   {
@@ -835,13 +835,6 @@
     "iso": "cor"
   },
   {
-    "language": "Q1293302",
-    "wikidata": "Q2727930",
-    "languageLabel": "Tangut",
-    "records": "151",
-    "iso": "txg"
-  },
-  {
     "language": "Q140",
     "wikidata": "Q9307",
     "languageLabel": "Galician",
@@ -887,8 +880,15 @@
     "language": "Q295",
     "wikidata": "Q2407831",
     "languageLabel": "Nias",
-    "records": "177",
+    "records": "181",
     "iso": "nia"
+  },
+  {
+    "language": "Q1293302",
+    "wikidata": "Q2727930",
+    "languageLabel": "Tangut",
+    "records": "181",
+    "iso": "txg"
   },
   {
     "language": "Q52067",
@@ -1236,13 +1236,6 @@
     "iso": "ken"
   },
   {
-    "language": "Q230",
-    "wikidata": "Q29507",
-    "languageLabel": "Asturian",
-    "records": "852",
-    "iso": "ast"
-  },
-  {
     "language": "Q99628",
     "wikidata": "Q33302",
     "languageLabel": "French Sign Language",
@@ -1255,6 +1248,13 @@
     "languageLabel": "North Levantine Arabic",
     "records": "923",
     "iso": "apc"
+  },
+  {
+    "language": "Q230",
+    "wikidata": "Q29507",
+    "languageLabel": "Asturian",
+    "records": "939",
+    "iso": "ast"
   },
   {
     "language": "Q161",
@@ -1553,7 +1553,7 @@
     "language": "Q386",
     "wikidata": "Q1321",
     "languageLabel": "Spanish",
-    "records": "12294",
+    "records": "12331",
     "iso": "spa"
   },
   {
@@ -1581,7 +1581,7 @@
     "language": "Q299",
     "wikidata": "Q8752",
     "languageLabel": "Basque",
-    "records": "14469",
+    "records": "14571",
     "iso": "eus"
   },
   {
@@ -1637,7 +1637,7 @@
     "language": "Q22",
     "wikidata": "Q1860",
     "languageLabel": "English",
-    "records": "46176",
+    "records": "46275",
     "iso": "eng"
   },
   {
@@ -1672,7 +1672,7 @@
     "language": "Q21",
     "wikidata": "Q150",
     "languageLabel": "French",
-    "records": "379799",
+    "records": "379811",
     "iso": "fra"
   }
 ]
