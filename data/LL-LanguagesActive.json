@@ -395,13 +395,6 @@
     "iso": "hoc"
   },
   {
-    "language": "Q55",
-    "wikidata": "Q10199",
-    "languageLabel": "Zazaki",
-    "records": "20",
-    "iso": "zza"
-  },
-  {
     "language": "Q181",
     "wikidata": "Q36217",
     "languageLabel": "Lingala",
@@ -414,6 +407,13 @@
     "languageLabel": "Burmese",
     "records": "21",
     "iso": "mya"
+  },
+  {
+    "language": "Q55",
+    "wikidata": "Q10199",
+    "languageLabel": "Zazaki",
+    "records": "21",
+    "iso": "zza"
   },
   {
     "language": "Q139",
@@ -856,25 +856,18 @@
     "iso": "mos"
   },
   {
-    "language": "Q1293302",
-    "wikidata": "Q2727930",
-    "languageLabel": "Tangut",
-    "records": "181",
-    "iso": "txg"
-  },
-  {
-    "language": "Q295",
-    "wikidata": "Q2407831",
-    "languageLabel": "Nias",
-    "records": "188",
-    "iso": "nia"
-  },
-  {
     "language": "Q52067",
     "wikidata": "Q35271",
     "languageLabel": "Ghomala' language",
     "records": "189",
     "iso": "bbj"
+  },
+  {
+    "language": "Q295",
+    "wikidata": "Q2407831",
+    "languageLabel": "Nias",
+    "records": "190",
+    "iso": "nia"
   },
   {
     "language": "Q27",
@@ -888,6 +881,13 @@
     "wikidata": "Q7979",
     "languageLabel": "British English",
     "records": "202"
+  },
+  {
+    "language": "Q1293302",
+    "wikidata": "Q2727930",
+    "languageLabel": "Tangut",
+    "records": "204",
+    "iso": "txg"
   },
   {
     "language": "Q321",
@@ -1064,13 +1064,6 @@
     "iso": "fon"
   },
   {
-    "language": "Q436",
-    "wikidata": "Q36213",
-    "languageLabel": "Madurese",
-    "records": "378",
-    "iso": "mad"
-  },
-  {
     "language": "Q124",
     "wikidata": "Q1617",
     "languageLabel": "Urdu",
@@ -1113,6 +1106,13 @@
     "iso": "atj"
   },
   {
+    "language": "Q436",
+    "wikidata": "Q36213",
+    "languageLabel": "Madurese",
+    "records": "549",
+    "iso": "mad"
+  },
+  {
     "language": "Q339",
     "wikidata": "Q33965",
     "languageLabel": "Santali",
@@ -1125,20 +1125,6 @@
     "languageLabel": "Haitian Creole",
     "records": "553",
     "iso": "hat"
-  },
-  {
-    "language": "Q1120653",
-    "wikidata": "Q12497929",
-    "languageLabel": "Palembang",
-    "records": "562",
-    "iso": "mis"
-  },
-  {
-    "language": "Q1120653",
-    "wikidata": "Q12497929",
-    "languageLabel": "Palembang",
-    "records": "562",
-    "iso": "plm"
   },
   {
     "language": "Q402",
@@ -1181,6 +1167,20 @@
     "languageLabel": "Kannada",
     "records": "615",
     "iso": "kan"
+  },
+  {
+    "language": "Q1120653",
+    "wikidata": "Q12497929",
+    "languageLabel": "Palembang",
+    "records": "621",
+    "iso": "mis"
+  },
+  {
+    "language": "Q1120653",
+    "wikidata": "Q12497929",
+    "languageLabel": "Palembang",
+    "records": "621",
+    "iso": "plm"
   },
   {
     "language": "Q720542",
@@ -1358,7 +1358,7 @@
     "language": "Q83",
     "wikidata": "Q34002",
     "languageLabel": "Sundanese",
-    "records": "1912",
+    "records": "1955",
     "iso": "sun"
   },
   {
@@ -1369,18 +1369,18 @@
     "iso": "mkd"
   },
   {
-    "language": "Q78",
-    "wikidata": "Q33549",
-    "languageLabel": "Javanese",
-    "records": "2099",
-    "iso": "jav"
-  },
-  {
     "language": "Q113",
     "wikidata": "Q9192",
     "languageLabel": "Mandarin Chinese",
     "records": "2169",
     "iso": "cmn"
+  },
+  {
+    "language": "Q78",
+    "wikidata": "Q33549",
+    "languageLabel": "Javanese",
+    "records": "2182",
+    "iso": "jav"
   },
   {
     "language": "Q141",
@@ -1553,7 +1553,7 @@
     "language": "Q386",
     "wikidata": "Q1321",
     "languageLabel": "Spanish",
-    "records": "12376",
+    "records": "12463",
     "iso": "spa"
   },
   {
@@ -1581,7 +1581,7 @@
     "language": "Q299",
     "wikidata": "Q8752",
     "languageLabel": "Basque",
-    "records": "15296",
+    "records": "15628",
     "iso": "eus"
   },
   {
@@ -1637,7 +1637,7 @@
     "language": "Q22",
     "wikidata": "Q1860",
     "languageLabel": "English",
-    "records": "46673",
+    "records": "47283",
     "iso": "eng"
   },
   {
