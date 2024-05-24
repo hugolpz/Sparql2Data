@@ -27,4 +27,4 @@ To work on your own server, ignore this .yml commit cycle, create your own cron 
 
 ### Github pages: xhr queries
 The repository is configured as a github page. Generated data files are therefore public.
-<br>Example : [./data/LL-demo.json](https://hugolpz.github.io/Sparql2Data/data/LL-demo.json)
+<br>Example : [./data/LL-demo.json](https://hugolpz.github.io/Sparql2Data/data/LL-demo.json) .
