@@ -10,51 +10,6 @@
     "languageLabel": "Teochew"
   },
   {
-    "language": "Q52292",
-    "wikidata": "Q707007",
-    "languageLabel": "Rhine Franconian"
-  },
-  {
-    "language": "Q74907",
-    "wikidata": "Q688309",
-    "languageLabel": "Putèr"
-  },
-  {
-    "language": "Q84029",
-    "wikidata": "Q3006281",
-    "languageLabel": "Martinique Creole"
-  },
-  {
-    "language": "Q84031",
-    "wikidata": "Q16962250",
-    "languageLabel": "Dominican Creole French"
-  },
-  {
-    "language": "Q123270",
-    "wikidata": "Q7979",
-    "languageLabel": "British English"
-  },
-  {
-    "language": "Q518079",
-    "wikidata": "Q32641",
-    "languageLabel": "Valencian"
-  },
-  {
-    "language": "Q518106",
-    "wikidata": "Q804899",
-    "languageLabel": "Balearic"
-  },
-  {
-    "language": "Q518118",
-    "wikidata": "Q3175284",
-    "languageLabel": "Northern Catalan"
-  },
-  {
-    "language": "Q518128",
-    "wikidata": "Q585704",
-    "languageLabel": "Algherese"
-  },
-  {
     "language": "Q74902",
     "wikidata": "Q688873",
     "languageLabel": "Rumantsch Grischun"
@@ -80,6 +35,31 @@
     "languageLabel": "Vallader"
   },
   {
+    "language": "Q52292",
+    "wikidata": "Q707007",
+    "languageLabel": "Rhine Franconian"
+  },
+  {
+    "language": "Q74907",
+    "wikidata": "Q688309",
+    "languageLabel": "Putèr"
+  },
+  {
+    "language": "Q84029",
+    "wikidata": "Q3006281",
+    "languageLabel": "Martinique Creole"
+  },
+  {
+    "language": "Q84031",
+    "wikidata": "Q16962250",
+    "languageLabel": "Dominican Creole French"
+  },
+  {
+    "language": "Q123270",
+    "wikidata": "Q7979",
+    "languageLabel": "British English"
+  },
+  {
     "language": "Q123271",
     "wikidata": "Q7976",
     "languageLabel": "American English"
@@ -100,16 +80,6 @@
     "languageLabel": "Doric"
   },
   {
-    "language": "Q430329",
-    "wikidata": "Q1256646",
-    "languageLabel": "Gutnish"
-  },
-  {
-    "language": "Q518078",
-    "wikidata": "Q2941596",
-    "languageLabel": "Northwestern Catalan"
-  },
-  {
     "language": "Q521069",
     "wikidata": "Q671198",
     "languageLabel": "Lorrain"
@@ -125,9 +95,14 @@
     "languageLabel": "Gallo"
   },
   {
-    "language": "Q585002",
-    "wikidata": "Q56474",
-    "languageLabel": "Viennese German"
+    "language": "Q430329",
+    "wikidata": "Q1256646",
+    "languageLabel": "Gutnish"
+  },
+  {
+    "language": "Q518078",
+    "wikidata": "Q2941596",
+    "languageLabel": "Northwestern Catalan"
   },
   {
     "language": "Q538620",
@@ -138,6 +113,31 @@
     "language": "Q538621",
     "wikidata": "Q3363501",
     "languageLabel": "Pamaka"
+  },
+  {
+    "language": "Q585002",
+    "wikidata": "Q56474",
+    "languageLabel": "Viennese German"
+  },
+  {
+    "language": "Q518079",
+    "wikidata": "Q32641",
+    "languageLabel": "Valencian"
+  },
+  {
+    "language": "Q518106",
+    "wikidata": "Q804899",
+    "languageLabel": "Balearic"
+  },
+  {
+    "language": "Q518118",
+    "wikidata": "Q3175284",
+    "languageLabel": "Northern Catalan"
+  },
+  {
+    "language": "Q518128",
+    "wikidata": "Q585704",
+    "languageLabel": "Algherese"
   },
   {
     "language": "Q594447",
@@ -195,6 +195,16 @@
     "languageLabel": "Kazakh-Russian Sign Language"
   },
   {
+    "language": "Q904696",
+    "wikidata": "Q3302952",
+    "languageLabel": "Mayennais"
+  },
+  {
+    "language": "Q932484",
+    "wikidata": "Q192170",
+    "languageLabel": "Prakrit"
+  },
+  {
     "language": "Q1304026",
     "wikidata": "Q25035641",
     "languageLabel": "Mendawai"
@@ -210,21 +220,6 @@
     "languageLabel": "Silbo Gomero"
   },
   {
-    "language": "Q375",
-    "wikidata": "Q1334774",
-    "languageLabel": "Lehndi"
-  },
-  {
-    "language": "Q904696",
-    "wikidata": "Q3302952",
-    "languageLabel": "Mayennais"
-  },
-  {
-    "language": "Q932484",
-    "wikidata": "Q192170",
-    "languageLabel": "Prakrit"
-  },
-  {
     "language": "Q1185",
     "wikidata": "Q241243",
     "languageLabel": "Provençal dialect"
@@ -238,6 +233,11 @@
     "language": "Q1188",
     "wikidata": "Q1649613",
     "languageLabel": "Vivaroaupenc dialect"
+  },
+  {
+    "language": "Q375",
+    "wikidata": "Q1334774",
+    "languageLabel": "Lehndi"
   },
   {
     "language": "Q713359",
@@ -3060,15 +3060,15 @@
     "iso": "mic"
   },
   {
-    "language": "Q590236",
-    "wikidata": "Q33500",
-    "languageLabel": "Mandaic",
-    "iso": "mid"
-  },
-  {
     "language": "Q590237",
     "wikidata": "Q6991742",
     "languageLabel": "Neo-Mandaic",
+    "iso": "mid"
+  },
+  {
+    "language": "Q590236",
+    "wikidata": "Q33500",
+    "languageLabel": "Mandaic",
     "iso": "mid"
   },
   {
