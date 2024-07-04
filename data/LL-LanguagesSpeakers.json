@@ -499,24 +499,14 @@
     "speakersOthers": "2"
   },
   {
-    "iso": "fsl",
-    "wikidata": "Q33302",
-    "language": "Q99628",
-    "records": "862",
+    "iso": "sqi",
+    "wikidata": "Q8748",
+    "language": "Q41",
+    "records": "88",
     "speakers": "9",
     "speakersMales": "4",
-    "speakersFemales": "3",
-    "speakersOthers": "2"
-  },
-  {
-    "iso": "bci",
-    "wikidata": "Q35107",
-    "language": "Q19858",
-    "records": "136",
-    "speakers": "9",
-    "speakersMales": "4",
-    "speakersFemales": "4",
-    "speakersOthers": "1"
+    "speakersFemales": "5",
+    "speakersOthers": "0"
   },
   {
     "iso": "asm",
@@ -549,14 +539,14 @@
     "speakersOthers": "0"
   },
   {
-    "iso": "sqi",
-    "wikidata": "Q8748",
-    "language": "Q41",
-    "records": "88",
+    "iso": "fsl",
+    "wikidata": "Q33302",
+    "language": "Q99628",
+    "records": "862",
     "speakers": "9",
     "speakersMales": "4",
-    "speakersFemales": "5",
-    "speakersOthers": "0"
+    "speakersFemales": "3",
+    "speakersOthers": "2"
   },
   {
     "iso": "shy",
@@ -566,6 +556,16 @@
     "speakers": "9",
     "speakersMales": "7",
     "speakersFemales": "1",
+    "speakersOthers": "1"
+  },
+  {
+    "iso": "bci",
+    "wikidata": "Q35107",
+    "language": "Q19858",
+    "records": "136",
+    "speakers": "9",
+    "speakersMales": "4",
+    "speakersFemales": "4",
     "speakersOthers": "1"
   },
   {
@@ -639,16 +639,6 @@
     "speakersOthers": "0"
   },
   {
-    "iso": "fas",
-    "wikidata": "Q9168",
-    "language": "Q48",
-    "records": "4116",
-    "speakers": "6",
-    "speakersMales": "3",
-    "speakersFemales": "3",
-    "speakersOthers": "0"
-  },
-  {
     "iso": "ron",
     "wikidata": "Q7913",
     "language": "Q37",
@@ -656,6 +646,16 @@
     "speakers": "6",
     "speakersMales": "5",
     "speakersFemales": "1",
+    "speakersOthers": "0"
+  },
+  {
+    "iso": "fas",
+    "wikidata": "Q9168",
+    "language": "Q48",
+    "records": "4116",
+    "speakers": "6",
+    "speakersMales": "3",
+    "speakersFemales": "3",
     "speakersOthers": "0"
   },
   {
@@ -689,16 +689,6 @@
     "speakersOthers": "0"
   },
   {
-    "iso": "lin",
-    "wikidata": "Q36217",
-    "language": "Q181",
-    "records": "22",
-    "speakers": "5",
-    "speakersMales": "5",
-    "speakersFemales": "0",
-    "speakersOthers": "0"
-  },
-  {
     "iso": "kur",
     "wikidata": "Q36368",
     "language": "Q182",
@@ -719,6 +709,16 @@
     "speakersOthers": "0"
   },
   {
+    "iso": "lin",
+    "wikidata": "Q36217",
+    "language": "Q181",
+    "records": "22",
+    "speakers": "5",
+    "speakersMales": "5",
+    "speakersFemales": "0",
+    "speakersOthers": "0"
+  },
+  {
     "iso": "kor",
     "wikidata": "Q9176",
     "language": "Q207",
@@ -727,26 +727,6 @@
     "speakersMales": "2",
     "speakersFemales": "2",
     "speakersOthers": "1"
-  },
-  {
-    "iso": "lat",
-    "wikidata": "Q397",
-    "language": "Q384",
-    "records": "23",
-    "speakers": "5",
-    "speakersMales": "4",
-    "speakersFemales": "0",
-    "speakersOthers": "1"
-  },
-  {
-    "iso": "bxg",
-    "wikidata": "Q34989",
-    "language": "Q590228",
-    "records": "48",
-    "speakers": "5",
-    "speakersMales": "4",
-    "speakersFemales": "1",
-    "speakersOthers": "0"
   },
   {
     "iso": "blk",
@@ -759,14 +739,24 @@
     "speakersOthers": "0"
   },
   {
-    "iso": "nan",
-    "wikidata": "Q36495",
-    "language": "Q19859",
-    "records": "100",
+    "iso": "bxg",
+    "wikidata": "Q34989",
+    "language": "Q590228",
+    "records": "48",
     "speakers": "5",
-    "speakersMales": "2",
-    "speakersFemales": "3",
+    "speakersMales": "4",
+    "speakersFemales": "1",
     "speakersOthers": "0"
+  },
+  {
+    "iso": "lat",
+    "wikidata": "Q397",
+    "language": "Q384",
+    "records": "23",
+    "speakers": "5",
+    "speakersMales": "4",
+    "speakersFemales": "0",
+    "speakersOthers": "1"
   },
   {
     "iso": "nor",
@@ -789,6 +779,16 @@
     "speakersOthers": "1"
   },
   {
+    "iso": "nan",
+    "wikidata": "Q36495",
+    "language": "Q19859",
+    "records": "100",
+    "speakers": "5",
+    "speakersMales": "2",
+    "speakersFemales": "3",
+    "speakersOthers": "0"
+  },
+  {
     "iso": "yue",
     "wikidata": "Q9186",
     "language": "Q221062",
@@ -806,6 +806,16 @@
     "speakers": "4",
     "speakersMales": "2",
     "speakersFemales": "1",
+    "speakersOthers": "1"
+  },
+  {
+    "iso": "tur",
+    "wikidata": "Q256",
+    "language": "Q297",
+    "records": "4410",
+    "speakers": "4",
+    "speakersMales": "1",
+    "speakersFemales": "2",
     "speakersOthers": "1"
   },
   {
@@ -839,40 +849,20 @@
     "speakersOthers": "0"
   },
   {
-    "iso": "tur",
-    "wikidata": "Q256",
-    "language": "Q297",
-    "records": "4410",
+    "iso": "san",
+    "wikidata": "Q11059",
+    "language": "Q308",
+    "records": "49",
     "speakers": "4",
-    "speakersMales": "1",
-    "speakersFemales": "2",
-    "speakersOthers": "1"
+    "speakersMales": "4",
+    "speakersFemales": "0",
+    "speakersOthers": "0"
   },
   {
     "iso": "ces",
     "wikidata": "Q9056",
     "language": "Q392",
     "records": "787",
-    "speakers": "4",
-    "speakersMales": "4",
-    "speakersFemales": "0",
-    "speakersOthers": "0"
-  },
-  {
-    "iso": "heb",
-    "wikidata": "Q9288",
-    "language": "Q397",
-    "records": "3113",
-    "speakers": "4",
-    "speakersMales": "4",
-    "speakersFemales": "0",
-    "speakersOthers": "0"
-  },
-  {
-    "iso": "san",
-    "wikidata": "Q11059",
-    "language": "Q308",
-    "records": "49",
     "speakers": "4",
     "speakersMales": "4",
     "speakersFemales": "0",
@@ -889,6 +879,16 @@
     "speakersOthers": "0"
   },
   {
+    "iso": "heb",
+    "wikidata": "Q9288",
+    "language": "Q397",
+    "records": "3113",
+    "speakers": "4",
+    "speakersMales": "4",
+    "speakersFemales": "0",
+    "speakersOthers": "0"
+  },
+  {
     "iso": "hun",
     "wikidata": "Q9067",
     "language": "Q393",
@@ -899,16 +899,6 @@
     "speakersOthers": "0"
   },
   {
-    "iso": "atj",
-    "wikidata": "Q56590",
-    "language": "Q52295",
-    "records": "516",
-    "speakers": "4",
-    "speakersMales": "2",
-    "speakersFemales": "2",
-    "speakersOthers": "0"
-  },
-  {
     "iso": "ami",
     "wikidata": "Q35132",
     "language": "Q51870",
@@ -916,6 +906,16 @@
     "speakers": "4",
     "speakersMales": "1",
     "speakersFemales": "3",
+    "speakersOthers": "0"
+  },
+  {
+    "iso": "atj",
+    "wikidata": "Q56590",
+    "language": "Q52295",
+    "records": "516",
+    "speakers": "4",
+    "speakersMales": "2",
+    "speakersFemales": "2",
     "speakersOthers": "0"
   },
   {
@@ -979,16 +979,6 @@
     "speakersOthers": "0"
   },
   {
-    "iso": "vie",
-    "wikidata": "Q9199",
-    "language": "Q208",
-    "records": "2744",
-    "speakers": "3",
-    "speakersMales": "2",
-    "speakersFemales": "1",
-    "speakersOthers": "0"
-  },
-  {
     "iso": "ace",
     "wikidata": "Q27683",
     "language": "Q225",
@@ -1019,6 +1009,26 @@
     "speakersOthers": "0"
   },
   {
+    "iso": "vie",
+    "wikidata": "Q9199",
+    "language": "Q208",
+    "records": "2744",
+    "speakers": "3",
+    "speakersMales": "2",
+    "speakersFemales": "1",
+    "speakersOthers": "0"
+  },
+  {
+    "iso": "mkd",
+    "wikidata": "Q9296",
+    "language": "Q306",
+    "records": "2043",
+    "speakers": "3",
+    "speakersMales": "2",
+    "speakersFemales": "0",
+    "speakersOthers": "1"
+  },
+  {
     "iso": "bbc",
     "wikidata": "Q33017",
     "language": "Q1120651",
@@ -1039,6 +1049,16 @@
     "speakersOthers": "0"
   },
   {
+    "iso": "kat",
+    "wikidata": "Q8108",
+    "language": "Q390",
+    "records": "577",
+    "speakers": "3",
+    "speakersMales": "1",
+    "speakersFemales": "2",
+    "speakersOthers": "0"
+  },
+  {
     "iso": "fin",
     "wikidata": "Q1412",
     "language": "Q33",
@@ -1049,13 +1069,23 @@
     "speakersOthers": "0"
   },
   {
-    "iso": "kat",
-    "wikidata": "Q8108",
-    "language": "Q390",
-    "records": "577",
+    "iso": "fil",
+    "wikidata": "Q33298",
+    "language": "Q75",
+    "records": "7",
     "speakers": "3",
-    "speakersMales": "1",
-    "speakersFemales": "2",
+    "speakersMales": "2",
+    "speakersFemales": "1",
+    "speakersOthers": "0"
+  },
+  {
+    "iso": "gsc",
+    "wikidata": "Q35735",
+    "language": "Q930",
+    "records": "4915",
+    "speakers": "3",
+    "speakersMales": "2",
+    "speakersFemales": "1",
     "speakersOthers": "0"
   },
   {
@@ -1069,26 +1099,6 @@
     "speakersOthers": "0"
   },
   {
-    "iso": "mkd",
-    "wikidata": "Q9296",
-    "language": "Q306",
-    "records": "2043",
-    "speakers": "3",
-    "speakersMales": "2",
-    "speakersFemales": "0",
-    "speakersOthers": "1"
-  },
-  {
-    "iso": "gsc",
-    "wikidata": "Q35735",
-    "language": "Q930",
-    "records": "4915",
-    "speakers": "3",
-    "speakersMales": "2",
-    "speakersFemales": "1",
-    "speakersOthers": "0"
-  },
-  {
     "iso": "shi",
     "wikidata": "Q34152",
     "language": "Q424673",
@@ -1096,16 +1106,6 @@
     "speakers": "3",
     "speakersMales": "3",
     "speakersFemales": "0",
-    "speakersOthers": "0"
-  },
-  {
-    "iso": "fil",
-    "wikidata": "Q33298",
-    "language": "Q75",
-    "records": "7",
-    "speakers": "3",
-    "speakersMales": "2",
-    "speakersFemales": "1",
     "speakersOthers": "0"
   },
   {
@@ -1188,6 +1188,16 @@
     "speakersOthers": "1"
   },
   {
+    "iso": "gsw",
+    "wikidata": "Q131339",
+    "language": "Q195",
+    "records": "738",
+    "speakers": "2",
+    "speakersMales": "2",
+    "speakersFemales": "0",
+    "speakersOthers": "0"
+  },
+  {
     "iso": "twi",
     "wikidata": "Q36850",
     "language": "Q188",
@@ -1208,16 +1218,6 @@
     "speakersOthers": "1"
   },
   {
-    "iso": "gsw",
-    "wikidata": "Q131339",
-    "language": "Q195",
-    "records": "738",
-    "speakers": "2",
-    "speakersMales": "2",
-    "speakersFemales": "0",
-    "speakersOthers": "0"
-  },
-  {
     "iso": "grc",
     "wikidata": "Q35497",
     "language": "Q177",
@@ -1235,6 +1235,26 @@
     "speakers": "2",
     "speakersMales": "1",
     "speakersFemales": "1",
+    "speakersOthers": "0"
+  },
+  {
+    "iso": "myv",
+    "wikidata": "Q29952",
+    "language": "Q231",
+    "records": "18",
+    "speakers": "2",
+    "speakersMales": "2",
+    "speakersFemales": "0",
+    "speakersOthers": "0"
+  },
+  {
+    "iso": "ewe",
+    "wikidata": "Q30005",
+    "language": "Q232",
+    "records": "9",
+    "speakers": "2",
+    "speakersMales": "2",
+    "speakersFemales": "0",
     "speakersOthers": "0"
   },
   {
@@ -1268,23 +1288,43 @@
     "speakersOthers": "0"
   },
   {
-    "iso": "myv",
-    "wikidata": "Q29952",
-    "language": "Q231",
-    "records": "18",
+    "iso": "nep",
+    "wikidata": "Q33823",
+    "language": "Q287",
+    "records": "164",
     "speakers": "2",
     "speakersMales": "2",
     "speakersFemales": "0",
     "speakersOthers": "0"
   },
   {
-    "iso": "ewe",
-    "wikidata": "Q30005",
-    "language": "Q232",
-    "records": "9",
+    "iso": "nia",
+    "wikidata": "Q2407831",
+    "language": "Q295",
+    "records": "195",
+    "speakers": "2",
+    "speakersMales": "1",
+    "speakersFemales": "1",
+    "speakersOthers": "0"
+  },
+  {
+    "iso": "---",
+    "wikidata": "Q2681098",
+    "language": "Q713359",
+    "records": "306",
     "speakers": "2",
     "speakersMales": "2",
     "speakersFemales": "0",
+    "speakersOthers": "0"
+  },
+  {
+    "iso": "bar",
+    "wikidata": "Q29540",
+    "language": "Q807153",
+    "records": "316",
+    "speakers": "2",
+    "speakersMales": "1",
+    "speakersFemales": "1",
     "speakersOthers": "0"
   },
   {
@@ -1308,50 +1348,20 @@
     "speakersOthers": "1"
   },
   {
-    "iso": "nep",
-    "wikidata": "Q33823",
-    "language": "Q287",
-    "records": "164",
+    "iso": "bam",
+    "wikidata": "Q33243",
+    "language": "Q318",
+    "records": "44",
     "speakers": "2",
     "speakersMales": "2",
     "speakersFemales": "0",
     "speakersOthers": "0"
   },
   {
-    "iso": "nia",
-    "wikidata": "Q2407831",
-    "language": "Q295",
-    "records": "195",
-    "speakers": "2",
-    "speakersMales": "1",
-    "speakersFemales": "1",
-    "speakersOthers": "0"
-  },
-  {
-    "iso": "tat",
-    "wikidata": "Q25285",
-    "language": "Q313",
+    "iso": "isl",
+    "wikidata": "Q294",
+    "language": "Q32",
     "records": "5",
-    "speakers": "2",
-    "speakersMales": "1",
-    "speakersFemales": "1",
-    "speakersOthers": "0"
-  },
-  {
-    "iso": "---",
-    "wikidata": "Q2681098",
-    "language": "Q713359",
-    "records": "306",
-    "speakers": "2",
-    "speakersMales": "2",
-    "speakersFemales": "0",
-    "speakersOthers": "0"
-  },
-  {
-    "iso": "bar",
-    "wikidata": "Q29540",
-    "language": "Q807153",
-    "records": "316",
     "speakers": "2",
     "speakersMales": "1",
     "speakersFemales": "1",
@@ -1418,19 +1428,9 @@
     "speakersOthers": "0"
   },
   {
-    "iso": "bam",
-    "wikidata": "Q33243",
-    "language": "Q318",
-    "records": "44",
-    "speakers": "2",
-    "speakersMales": "2",
-    "speakersFemales": "0",
-    "speakersOthers": "0"
-  },
-  {
-    "iso": "isl",
-    "wikidata": "Q294",
-    "language": "Q32",
+    "iso": "tat",
+    "wikidata": "Q25285",
+    "language": "Q313",
     "records": "5",
     "speakers": "2",
     "speakersMales": "1",
@@ -1448,20 +1448,10 @@
     "speakersOthers": "1"
   },
   {
-    "iso": "ltz",
-    "wikidata": "Q9051",
-    "language": "Q46",
-    "records": "916",
-    "speakers": "2",
-    "speakersMales": "2",
-    "speakersFemales": "0",
-    "speakersOthers": "0"
-  },
-  {
-    "iso": "kok",
-    "wikidata": "Q34239",
-    "language": "Q425",
-    "records": "327",
+    "iso": "mni",
+    "wikidata": "Q33868",
+    "language": "Q418",
+    "records": "2",
     "speakers": "2",
     "speakersMales": "1",
     "speakersFemales": "0",
@@ -1478,30 +1468,10 @@
     "speakersOthers": "0"
   },
   {
-    "iso": "mni",
-    "wikidata": "Q33868",
-    "language": "Q418",
-    "records": "2",
-    "speakers": "2",
-    "speakersMales": "1",
-    "speakersFemales": "0",
-    "speakersOthers": "1"
-  },
-  {
-    "iso": "hoc",
-    "wikidata": "Q33270",
-    "language": "Q27302",
-    "records": "19",
-    "speakers": "2",
-    "speakersMales": "2",
-    "speakersFemales": "0",
-    "speakersOthers": "0"
-  },
-  {
-    "iso": "shu",
-    "wikidata": "Q56497",
-    "language": "Q43042",
-    "records": "47",
+    "iso": "ltz",
+    "wikidata": "Q9051",
+    "language": "Q46",
+    "records": "916",
     "speakers": "2",
     "speakersMales": "2",
     "speakersFemales": "0",
@@ -1516,6 +1486,26 @@
     "speakersMales": "1",
     "speakersFemales": "1",
     "speakersOthers": "0"
+  },
+  {
+    "iso": "dua",
+    "wikidata": "Q33013",
+    "language": "Q73",
+    "records": "99",
+    "speakers": "2",
+    "speakersMales": "2",
+    "speakersFemales": "0",
+    "speakersOthers": "0"
+  },
+  {
+    "iso": "kok",
+    "wikidata": "Q34239",
+    "language": "Q425",
+    "records": "327",
+    "speakers": "2",
+    "speakersMales": "1",
+    "speakersFemales": "0",
+    "speakersOthers": "1"
   },
   {
     "wikidata": "Q32641",
@@ -1547,10 +1537,20 @@
     "speakersOthers": "0"
   },
   {
-    "iso": "dua",
-    "wikidata": "Q33013",
-    "language": "Q73",
-    "records": "99",
+    "iso": "hoc",
+    "wikidata": "Q33270",
+    "language": "Q27302",
+    "records": "19",
+    "speakers": "2",
+    "speakersMales": "2",
+    "speakersFemales": "0",
+    "speakersOthers": "0"
+  },
+  {
+    "iso": "shu",
+    "wikidata": "Q56497",
+    "language": "Q43042",
+    "records": "47",
     "speakers": "2",
     "speakersMales": "2",
     "speakersFemales": "0",
@@ -1614,6 +1614,16 @@
     "speakersOthers": "0"
   },
   {
+    "iso": "zgh",
+    "wikidata": "Q7598268",
+    "language": "Q121",
+    "records": "1",
+    "speakers": "1",
+    "speakersMales": "1",
+    "speakersFemales": "0",
+    "speakersOthers": "0"
+  },
+  {
     "iso": "srr",
     "wikidata": "Q36284",
     "language": "Q101",
@@ -1628,16 +1638,6 @@
     "wikidata": "Q56482",
     "language": "Q107",
     "records": "17",
-    "speakers": "1",
-    "speakersMales": "1",
-    "speakersFemales": "0",
-    "speakersOthers": "0"
-  },
-  {
-    "iso": "zgh",
-    "wikidata": "Q7598268",
-    "language": "Q121",
-    "records": "1",
     "speakers": "1",
     "speakersMales": "1",
     "speakersFemales": "0",
@@ -1684,16 +1684,6 @@
     "speakersOthers": "0"
   },
   {
-    "iso": "gla",
-    "wikidata": "Q9314",
-    "language": "Q142",
-    "records": "2",
-    "speakers": "1",
-    "speakersMales": "1",
-    "speakersFemales": "0",
-    "speakersOthers": "0"
-  },
-  {
     "iso": "ljl",
     "wikidata": "Q2697010",
     "language": "Q197",
@@ -1704,60 +1694,20 @@
     "speakersOthers": "0"
   },
   {
+    "iso": "gla",
+    "wikidata": "Q9314",
+    "language": "Q142",
+    "records": "2",
+    "speakers": "1",
+    "speakersMales": "1",
+    "speakersFemales": "0",
+    "speakersOthers": "0"
+  },
+  {
     "iso": "fry",
     "wikidata": "Q27175",
     "language": "Q224",
     "records": "11",
-    "speakers": "1",
-    "speakersMales": "1",
-    "speakersFemales": "0",
-    "speakersOthers": "0"
-  },
-  {
-    "iso": "fur",
-    "wikidata": "Q33441",
-    "language": "Q245",
-    "records": "7",
-    "speakers": "1",
-    "speakersMales": "1",
-    "speakersFemales": "0",
-    "speakersOthers": "0"
-  },
-  {
-    "iso": "krc",
-    "wikidata": "Q33714",
-    "language": "Q254",
-    "records": "1",
-    "speakers": "1",
-    "speakersMales": "1",
-    "speakersFemales": "0",
-    "speakersOthers": "0"
-  },
-  {
-    "iso": "csb",
-    "wikidata": "Q33690",
-    "language": "Q253",
-    "records": "1",
-    "speakers": "1",
-    "speakersMales": "1",
-    "speakersFemales": "0",
-    "speakersOthers": "0"
-  },
-  {
-    "iso": "rup",
-    "wikidata": "Q29316",
-    "language": "Q229",
-    "records": "34",
-    "speakers": "1",
-    "speakersMales": "1",
-    "speakersFemales": "0",
-    "speakersOthers": "0"
-  },
-  {
-    "iso": "nso",
-    "wikidata": "Q33890",
-    "language": "Q258",
-    "records": "45",
     "speakers": "1",
     "speakersMales": "1",
     "speakersFemales": "0",
@@ -1774,6 +1724,26 @@
     "speakersOthers": "0"
   },
   {
+    "iso": "rup",
+    "wikidata": "Q29316",
+    "language": "Q229",
+    "records": "34",
+    "speakers": "1",
+    "speakersMales": "1",
+    "speakersFemales": "0",
+    "speakersOthers": "0"
+  },
+  {
+    "iso": "fur",
+    "wikidata": "Q33441",
+    "language": "Q245",
+    "records": "7",
+    "speakers": "1",
+    "speakersMales": "1",
+    "speakersFemales": "0",
+    "speakersOthers": "0"
+  },
+  {
     "iso": "kaa",
     "wikidata": "Q33541",
     "language": "Q249",
@@ -1784,52 +1754,13 @@
     "speakersOthers": "0"
   },
   {
-    "iso": "ann",
-    "wikidata": "Q36614",
-    "language": "Q590247",
-    "records": "1",
+    "iso": "nso",
+    "wikidata": "Q33890",
+    "language": "Q258",
+    "records": "45",
     "speakers": "1",
     "speakersMales": "1",
     "speakersFemales": "0",
-    "speakersOthers": "0"
-  },
-  {
-    "wikidata": "Q107417772",
-    "language": "Q594450",
-    "records": "55",
-    "speakers": "1",
-    "speakersMales": "1",
-    "speakersFemales": "0",
-    "speakersOthers": "0"
-  },
-  {
-    "iso": "ldn",
-    "wikidata": "Q35757",
-    "language": "Q622446",
-    "records": "252",
-    "speakers": "1",
-    "speakersMales": "0",
-    "speakersFemales": "0",
-    "speakersOthers": "1"
-  },
-  {
-    "iso": "apc",
-    "wikidata": "Q22809485",
-    "language": "Q646166",
-    "records": "923",
-    "speakers": "1",
-    "speakersMales": "0",
-    "speakersFemales": "0",
-    "speakersOthers": "1"
-  },
-  {
-    "iso": "apd",
-    "wikidata": "Q56573",
-    "language": "Q646167",
-    "records": "3",
-    "speakers": "1",
-    "speakersMales": "0",
-    "speakersFemales": "1",
     "speakersOthers": "0"
   },
   {
@@ -1837,16 +1768,6 @@
     "wikidata": "Q34219",
     "language": "Q289",
     "records": "9",
-    "speakers": "1",
-    "speakersMales": "1",
-    "speakersFemales": "0",
-    "speakersOthers": "0"
-  },
-  {
-    "iso": "bel",
-    "wikidata": "Q9091",
-    "language": "Q303",
-    "records": "731",
     "speakers": "1",
     "speakersMales": "1",
     "speakersFemales": "0",
@@ -1929,6 +1850,95 @@
     "speakersOthers": "0"
   },
   {
+    "iso": "csb",
+    "wikidata": "Q33690",
+    "language": "Q253",
+    "records": "1",
+    "speakers": "1",
+    "speakersMales": "1",
+    "speakersFemales": "0",
+    "speakersOthers": "0"
+  },
+  {
+    "iso": "krc",
+    "wikidata": "Q33714",
+    "language": "Q254",
+    "records": "1",
+    "speakers": "1",
+    "speakersMales": "1",
+    "speakersFemales": "0",
+    "speakersOthers": "0"
+  },
+  {
+    "iso": "kon",
+    "wikidata": "Q33702",
+    "language": "Q286",
+    "records": "1",
+    "speakers": "1",
+    "speakersMales": "1",
+    "speakersFemales": "0",
+    "speakersOthers": "0"
+  },
+  {
+    "iso": "bel",
+    "wikidata": "Q9091",
+    "language": "Q303",
+    "records": "731",
+    "speakers": "1",
+    "speakersMales": "1",
+    "speakersFemales": "0",
+    "speakersOthers": "0"
+  },
+  {
+    "iso": "ann",
+    "wikidata": "Q36614",
+    "language": "Q590247",
+    "records": "1",
+    "speakers": "1",
+    "speakersMales": "1",
+    "speakersFemales": "0",
+    "speakersOthers": "0"
+  },
+  {
+    "wikidata": "Q107417772",
+    "language": "Q594450",
+    "records": "55",
+    "speakers": "1",
+    "speakersMales": "1",
+    "speakersFemales": "0",
+    "speakersOthers": "0"
+  },
+  {
+    "iso": "ldn",
+    "wikidata": "Q35757",
+    "language": "Q622446",
+    "records": "252",
+    "speakers": "1",
+    "speakersMales": "0",
+    "speakersFemales": "0",
+    "speakersOthers": "1"
+  },
+  {
+    "iso": "apc",
+    "wikidata": "Q22809485",
+    "language": "Q646166",
+    "records": "923",
+    "speakers": "1",
+    "speakersMales": "0",
+    "speakersFemales": "0",
+    "speakersOthers": "1"
+  },
+  {
+    "iso": "apd",
+    "wikidata": "Q56573",
+    "language": "Q646167",
+    "records": "3",
+    "speakers": "1",
+    "speakersMales": "0",
+    "speakersFemales": "1",
+    "speakersOthers": "0"
+  },
+  {
     "iso": "mfa",
     "wikidata": "Q1199751",
     "language": "Q1120652",
@@ -1989,20 +1999,20 @@
     "speakersOthers": "0"
   },
   {
-    "iso": "txg",
-    "wikidata": "Q2727930",
-    "language": "Q1293302",
-    "records": "481",
+    "iso": "kzp",
+    "wikidata": "Q6347611",
+    "language": "Q1286102",
+    "records": "50",
     "speakers": "1",
     "speakersMales": "1",
     "speakersFemales": "0",
     "speakersOthers": "0"
   },
   {
-    "iso": "kzp",
-    "wikidata": "Q6347611",
-    "language": "Q1286102",
-    "records": "50",
+    "iso": "txg",
+    "wikidata": "Q2727930",
+    "language": "Q1293302",
+    "records": "481",
     "speakers": "1",
     "speakersMales": "1",
     "speakersFemales": "0",
@@ -2099,6 +2109,16 @@
     "speakersOthers": "0"
   },
   {
+    "iso": "nob",
+    "wikidata": "Q25167",
+    "language": "Q401",
+    "records": "15",
+    "speakers": "1",
+    "speakersMales": "0",
+    "speakersFemales": "1",
+    "speakersOthers": "0"
+  },
+  {
     "iso": "gay",
     "wikidata": "Q33286",
     "language": "Q320",
@@ -2129,13 +2149,13 @@
     "speakersOthers": "0"
   },
   {
-    "iso": "kon",
-    "wikidata": "Q33702",
-    "language": "Q286",
-    "records": "1",
+    "iso": "mon",
+    "wikidata": "Q9246",
+    "language": "Q50",
+    "records": "2",
     "speakers": "1",
-    "speakersMales": "1",
-    "speakersFemales": "0",
+    "speakersMales": "0",
+    "speakersFemales": "1",
     "speakersOthers": "0"
   },
   {
@@ -2143,6 +2163,36 @@
     "wikidata": "Q9205",
     "language": "Q395",
     "records": "7",
+    "speakers": "1",
+    "speakersMales": "1",
+    "speakersFemales": "0",
+    "speakersOthers": "0"
+  },
+  {
+    "iso": "lvs",
+    "wikidata": "Q9078",
+    "language": "Q47",
+    "records": "1",
+    "speakers": "1",
+    "speakersMales": "1",
+    "speakersFemales": "0",
+    "speakersOthers": "0"
+  },
+  {
+    "iso": "ile",
+    "wikidata": "Q35850",
+    "language": "Q97",
+    "records": "2",
+    "speakers": "1",
+    "speakersMales": "1",
+    "speakersFemales": "0",
+    "speakersOthers": "0"
+  },
+  {
+    "iso": "mlg",
+    "wikidata": "Q7930",
+    "language": "Q38",
+    "records": "1383",
     "speakers": "1",
     "speakersMales": "1",
     "speakersFemales": "0",
@@ -2169,16 +2219,6 @@
     "speakersOthers": "0"
   },
   {
-    "iso": "ile",
-    "wikidata": "Q35850",
-    "language": "Q97",
-    "records": "2",
-    "speakers": "1",
-    "speakersMales": "1",
-    "speakersFemales": "0",
-    "speakersOthers": "0"
-  },
-  {
     "iso": "auv",
     "wikidata": "Q35359",
     "language": "Q1186",
@@ -2198,23 +2238,12 @@
     "speakersOthers": "0"
   },
   {
-    "iso": "nob",
-    "wikidata": "Q25167",
-    "language": "Q401",
-    "records": "15",
+    "wikidata": "Q804899",
+    "language": "Q518106",
+    "records": "132",
     "speakers": "1",
     "speakersMales": "0",
     "speakersFemales": "1",
-    "speakersOthers": "0"
-  },
-  {
-    "iso": "mlg",
-    "wikidata": "Q7930",
-    "language": "Q38",
-    "records": "1383",
-    "speakers": "1",
-    "speakersMales": "1",
-    "speakersFemales": "0",
     "speakersOthers": "0"
   },
   {
@@ -2234,26 +2263,6 @@
     "speakers": "1",
     "speakersMales": "1",
     "speakersFemales": "0",
-    "speakersOthers": "0"
-  },
-  {
-    "iso": "lvs",
-    "wikidata": "Q9078",
-    "language": "Q47",
-    "records": "1",
-    "speakers": "1",
-    "speakersMales": "1",
-    "speakersFemales": "0",
-    "speakersOthers": "0"
-  },
-  {
-    "iso": "mon",
-    "wikidata": "Q9246",
-    "language": "Q50",
-    "records": "2",
-    "speakers": "1",
-    "speakersMales": "0",
-    "speakersFemales": "1",
     "speakersOthers": "0"
   },
   {
@@ -2296,42 +2305,23 @@
     "speakersOthers": "0"
   },
   {
-    "iso": "rcf",
-    "wikidata": "Q13198",
-    "language": "Q52296",
-    "records": "17",
+    "iso": "mnw",
+    "wikidata": "Q13349",
+    "language": "Q555966",
+    "records": "799",
     "speakers": "1",
     "speakersMales": "1",
     "speakersFemales": "0",
     "speakersOthers": "0"
   },
   {
-    "iso": "vls",
-    "wikidata": "Q100103",
-    "language": "Q55890",
-    "records": "1",
+    "wikidata": "Q37300",
+    "language": "Q567656",
+    "records": "258",
     "speakers": "1",
     "speakersMales": "0",
     "speakersFemales": "0",
     "speakersOthers": "1"
-  },
-  {
-    "wikidata": "Q56474",
-    "language": "Q585002",
-    "records": "29",
-    "speakers": "1",
-    "speakersMales": "1",
-    "speakersFemales": "0",
-    "speakersOthers": "0"
-  },
-  {
-    "wikidata": "Q804899",
-    "language": "Q518106",
-    "records": "132",
-    "speakers": "1",
-    "speakersMales": "0",
-    "speakersFemales": "1",
-    "speakersOthers": "0"
   },
   {
     "iso": "hav",
@@ -2388,6 +2378,26 @@
     "wikidata": "Q36990",
     "language": "Q52293",
     "records": "2",
+    "speakers": "1",
+    "speakersMales": "0",
+    "speakersFemales": "0",
+    "speakersOthers": "1"
+  },
+  {
+    "iso": "rcf",
+    "wikidata": "Q13198",
+    "language": "Q52296",
+    "records": "17",
+    "speakers": "1",
+    "speakersMales": "1",
+    "speakersFemales": "0",
+    "speakersOthers": "0"
+  },
+  {
+    "iso": "vls",
+    "wikidata": "Q100103",
+    "language": "Q55890",
+    "records": "1",
     "speakers": "1",
     "speakersMales": "0",
     "speakersFemales": "0",
@@ -2483,22 +2493,12 @@
     "speakersOthers": "0"
   },
   {
-    "iso": "mnw",
-    "wikidata": "Q13349",
-    "language": "Q555966",
-    "records": "799",
+    "wikidata": "Q56474",
+    "language": "Q585002",
+    "records": "29",
     "speakers": "1",
     "speakersMales": "1",
     "speakersFemales": "0",
     "speakersOthers": "0"
-  },
-  {
-    "wikidata": "Q37300",
-    "language": "Q567656",
-    "records": "258",
-    "speakers": "1",
-    "speakersMales": "0",
-    "speakersFemales": "0",
-    "speakersOthers": "1"
   }
 ]
