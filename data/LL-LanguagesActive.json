@@ -552,13 +552,6 @@
     "iso": "bam"
   },
   {
-    "language": "Q1083586",
-    "wikidata": "Q5317225",
-    "languageLabel": "Kadazandusun",
-    "records": "44",
-    "iso": "dtp"
-  },
-  {
     "language": "Q459005",
     "wikidata": "Q35115",
     "languageLabel": "Kaqchikel",
@@ -634,6 +627,13 @@
     "languageLabel": "Swahili",
     "records": "51",
     "iso": "swa"
+  },
+  {
+    "language": "Q1083586",
+    "wikidata": "Q5317225",
+    "languageLabel": "Kadazandusun",
+    "records": "52",
+    "iso": "dtp"
   },
   {
     "language": "Q84029",
@@ -764,6 +764,13 @@
     "languageLabel": "Duala",
     "records": "99",
     "iso": "dua"
+  },
+  {
+    "language": "Q53",
+    "wikidata": "Q9264",
+    "languageLabel": "Uzbek",
+    "records": "100",
+    "iso": "uzb"
   },
   {
     "language": "Q1269176",
@@ -1073,7 +1080,7 @@
     "language": "Q185",
     "wikidata": "Q36727",
     "languageLabel": "Pali",
-    "records": "331",
+    "records": "332",
     "iso": "pli"
   },
   {
@@ -1274,15 +1281,8 @@
     "language": "Q436",
     "wikidata": "Q36213",
     "languageLabel": "Madurese",
-    "records": "799",
+    "records": "800",
     "iso": "mad"
-  },
-  {
-    "language": "Q555966",
-    "wikidata": "Q13349",
-    "languageLabel": "Mon",
-    "records": "803",
-    "iso": "mnw"
   },
   {
     "language": "Q402",
@@ -1290,6 +1290,13 @@
     "languageLabel": "Assamese",
     "records": "812",
     "iso": "asm"
+  },
+  {
+    "language": "Q555966",
+    "wikidata": "Q13349",
+    "languageLabel": "Mon",
+    "records": "824",
+    "iso": "mnw"
   },
   {
     "language": "Q204940",
@@ -1309,7 +1316,7 @@
     "language": "Q19859",
     "wikidata": "Q36495",
     "languageLabel": "Southern Min",
-    "records": "874",
+    "records": "877",
     "iso": "nan"
   },
   {
@@ -1344,7 +1351,7 @@
     "language": "Q769475",
     "wikidata": "Q33151",
     "languageLabel": "Banjarese",
-    "records": "1365",
+    "records": "1366",
     "iso": "bjn"
   },
   {
@@ -1355,12 +1362,6 @@
     "iso": "mlg"
   },
   {
-    "language": "Q4465",
-    "wikidata": "Q36759",
-    "languageLabel": "Teochew",
-    "records": "1470"
-  },
-  {
     "language": "Q84030",
     "wikidata": "Q1363072",
     "languageLabel": "Guianan Creole",
@@ -1368,10 +1369,16 @@
     "iso": "gcr"
   },
   {
+    "language": "Q4465",
+    "wikidata": "Q36759",
+    "languageLabel": "Teochew",
+    "records": "1538"
+  },
+  {
     "language": "Q264201",
     "wikidata": "Q56426",
     "languageLabel": "Moroccan Arabic",
-    "records": "1541",
+    "records": "1543",
     "iso": "ary"
   },
   {
@@ -1420,7 +1427,7 @@
     "language": "Q305",
     "wikidata": "Q9240",
     "languageLabel": "Indonesian",
-    "records": "1937",
+    "records": "1938",
     "iso": "ind"
   },
   {
@@ -1480,6 +1487,13 @@
     "iso": "bcl"
   },
   {
+    "language": "Q52",
+    "wikidata": "Q9260",
+    "languageLabel": "Tajik",
+    "records": "2673",
+    "iso": "tgk"
+  },
+  {
     "language": "Q208",
     "wikidata": "Q9199",
     "languageLabel": "Vietnamese",
@@ -1490,7 +1504,7 @@
     "language": "Q113",
     "wikidata": "Q9192",
     "languageLabel": "Mandarin Chinese",
-    "records": "2749",
+    "records": "2750",
     "iso": "cmn"
   },
   {
@@ -1501,17 +1515,10 @@
     "iso": "afr"
   },
   {
-    "language": "Q230",
-    "wikidata": "Q29507",
-    "languageLabel": "Asturian",
-    "records": "3000",
-    "iso": "ast"
-  },
-  {
     "language": "Q397",
     "wikidata": "Q9288",
     "languageLabel": "Hebrew",
-    "records": "3113",
+    "records": "3114",
     "iso": "heb"
   },
   {
@@ -1520,6 +1527,13 @@
     "languageLabel": "South Levantine Arabic",
     "records": "3314",
     "iso": "ajp"
+  },
+  {
+    "language": "Q230",
+    "wikidata": "Q29507",
+    "languageLabel": "Asturian",
+    "records": "3336",
+    "iso": "ast"
   },
   {
     "language": "Q209",
@@ -1608,14 +1622,14 @@
     "language": "Q204",
     "wikidata": "Q7918",
     "languageLabel": "Bulgarian",
-    "records": "5812",
+    "records": "6027",
     "iso": "bul"
   },
   {
     "language": "Q221062",
     "wikidata": "Q9186",
     "languageLabel": "Cantonese",
-    "records": "6682",
+    "records": "6683",
     "iso": "yue"
   },
   {
@@ -1636,7 +1650,7 @@
     "language": "Q126",
     "wikidata": "Q5146",
     "languageLabel": "Portuguese",
-    "records": "7597",
+    "records": "7599",
     "iso": "por"
   },
   {
@@ -1692,7 +1706,7 @@
     "language": "Q24",
     "wikidata": "Q188",
     "languageLabel": "German",
-    "records": "18592",
+    "records": "18602",
     "iso": "deu"
   },
   {
@@ -1741,7 +1755,7 @@
     "language": "Q22",
     "wikidata": "Q1860",
     "languageLabel": "English",
-    "records": "57746",
+    "records": "58981",
     "iso": "eng"
   },
   {
@@ -1755,14 +1769,14 @@
     "language": "Q298",
     "wikidata": "Q809",
     "languageLabel": "Polish",
-    "records": "94586",
+    "records": "94609",
     "iso": "pol"
   },
   {
     "language": "Q39",
     "wikidata": "Q8097",
     "languageLabel": "Telugu",
-    "records": "98503",
+    "records": "98536",
     "iso": "tel"
   },
   {
@@ -1776,7 +1790,7 @@
     "language": "Q21",
     "wikidata": "Q150",
     "languageLabel": "French",
-    "records": "384467",
+    "records": "385045",
     "iso": "fra"
   }
 ]
