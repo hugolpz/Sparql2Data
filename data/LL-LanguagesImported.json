@@ -15,6 +15,26 @@
     "languageLabel": "Rhine Franconian"
   },
   {
+    "language": "Q123270",
+    "wikidata": "Q7979",
+    "languageLabel": "British English"
+  },
+  {
+    "language": "Q74907",
+    "wikidata": "Q688309",
+    "languageLabel": "Putèr"
+  },
+  {
+    "language": "Q84029",
+    "wikidata": "Q3006281",
+    "languageLabel": "Martinique Creole"
+  },
+  {
+    "language": "Q84031",
+    "wikidata": "Q16962250",
+    "languageLabel": "Dominican Creole French"
+  },
+  {
     "language": "Q74902",
     "wikidata": "Q688873",
     "languageLabel": "Rumantsch Grischun"
@@ -40,24 +60,14 @@
     "languageLabel": "Vallader"
   },
   {
-    "language": "Q74907",
-    "wikidata": "Q688309",
-    "languageLabel": "Putèr"
+    "language": "Q538620",
+    "wikidata": "Q3217305",
+    "languageLabel": "Aluku"
   },
   {
-    "language": "Q84029",
-    "wikidata": "Q3006281",
-    "languageLabel": "Martinique Creole"
-  },
-  {
-    "language": "Q84031",
-    "wikidata": "Q16962250",
-    "languageLabel": "Dominican Creole French"
-  },
-  {
-    "language": "Q123270",
-    "wikidata": "Q7979",
-    "languageLabel": "British English"
+    "language": "Q538621",
+    "wikidata": "Q3363501",
+    "languageLabel": "Pamaka"
   },
   {
     "language": "Q123271",
@@ -70,34 +80,14 @@
     "languageLabel": "Baleswari Oriya"
   },
   {
-    "language": "Q365515",
-    "wikidata": "Q6747180",
-    "languageLabel": "Manbhumi dialect"
+    "language": "Q521069",
+    "wikidata": "Q671198",
+    "languageLabel": "Lorrain"
   },
   {
-    "language": "Q379019",
-    "wikidata": "Q1245019",
-    "languageLabel": "Doric"
-  },
-  {
-    "language": "Q430329",
-    "wikidata": "Q1256646",
-    "languageLabel": "Gutnish"
-  },
-  {
-    "language": "Q518078",
-    "wikidata": "Q2941596",
-    "languageLabel": "Northwestern Catalan"
-  },
-  {
-    "language": "Q538620",
-    "wikidata": "Q3217305",
-    "languageLabel": "Aluku"
-  },
-  {
-    "language": "Q538621",
-    "wikidata": "Q3363501",
-    "languageLabel": "Pamaka"
+    "language": "Q521070",
+    "wikidata": "Q511035",
+    "languageLabel": "Lorraine Franconian"
   },
   {
     "language": "Q518079",
@@ -120,14 +110,14 @@
     "languageLabel": "Algherese"
   },
   {
-    "language": "Q521069",
-    "wikidata": "Q671198",
-    "languageLabel": "Lorrain"
+    "language": "Q430329",
+    "wikidata": "Q1256646",
+    "languageLabel": "Gutnish"
   },
   {
-    "language": "Q521070",
-    "wikidata": "Q511035",
-    "languageLabel": "Lorraine Franconian"
+    "language": "Q518078",
+    "wikidata": "Q2941596",
+    "languageLabel": "Northwestern Catalan"
   },
   {
     "language": "Q567656",
@@ -135,14 +125,19 @@
     "languageLabel": "Gallo"
   },
   {
+    "language": "Q365515",
+    "wikidata": "Q6747180",
+    "languageLabel": "Manbhumi dialect"
+  },
+  {
+    "language": "Q379019",
+    "wikidata": "Q1245019",
+    "languageLabel": "Doric"
+  },
+  {
     "language": "Q585002",
     "wikidata": "Q56474",
     "languageLabel": "Viennese German"
-  },
-  {
-    "language": "Q375",
-    "wikidata": "Q1334774",
-    "languageLabel": "Lehndi"
   },
   {
     "language": "Q594447",
@@ -170,16 +165,6 @@
     "languageLabel": "Phulbani Odia"
   },
   {
-    "language": "Q701734",
-    "wikidata": "Q109788339",
-    "languageLabel": "Salcete Konkani"
-  },
-  {
-    "language": "Q710470",
-    "wikidata": "Q695526",
-    "languageLabel": "Tarantino"
-  },
-  {
     "language": "Q720542",
     "wikidata": "Q1213",
     "languageLabel": "Salentino"
@@ -200,9 +185,14 @@
     "languageLabel": "Kazakh-Russian Sign Language"
   },
   {
-    "language": "Q1363869",
-    "wikidata": "Q47007453",
-    "languageLabel": "Tangsi"
+    "language": "Q701734",
+    "wikidata": "Q109788339",
+    "languageLabel": "Salcete Konkani"
+  },
+  {
+    "language": "Q710470",
+    "wikidata": "Q695526",
+    "languageLabel": "Tarantino"
   },
   {
     "language": "Q904696",
@@ -213,6 +203,16 @@
     "language": "Q932484",
     "wikidata": "Q192170",
     "languageLabel": "Prakrit"
+  },
+  {
+    "language": "Q1363869",
+    "wikidata": "Q47007453",
+    "languageLabel": "Tangsi"
+  },
+  {
+    "language": "Q375",
+    "wikidata": "Q1334774",
+    "languageLabel": "Lehndi"
   },
   {
     "language": "Q1304026",
@@ -3084,15 +3084,15 @@
     "iso": "mic"
   },
   {
-    "language": "Q590237",
-    "wikidata": "Q6991742",
-    "languageLabel": "Neo-Mandaic",
-    "iso": "mid"
-  },
-  {
     "language": "Q590236",
     "wikidata": "Q33500",
     "languageLabel": "Mandaic",
+    "iso": "mid"
+  },
+  {
+    "language": "Q590237",
+    "wikidata": "Q6991742",
+    "languageLabel": "Neo-Mandaic",
     "iso": "mid"
   },
   {
