@@ -1,5 +1,5 @@
 
-SELECT DISTINCT ?language ?languageQid ?languageLabel ?ethnologueStatusLabel ?population ?iso639_2
+SELECT DISTINCT ?language ?languageQid ?languageLabel ?nativeLabel ?ethnologueStatusLabel ?population ?iso639_2
 # (SAMPLE(?native) AS ?labelNative)
 # (IF(?languageType = wd:Q34228, "Yes", "No") AS ?isSignedLanguage) 
 (IF(CONTAINS(STR(?languageType), STR(wd:Q34228)), "signed", "spoken") AS ?type)
