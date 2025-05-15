@@ -4,16 +4,16 @@
     "wikidata": "Q9192",
     "population": "918000000",
     "populationQualifier": ">100M",
-    "EthnologueStatus": "1 National",
-    "EthnologueCode": "cmn"
+    "EthnologueCode": "cmn",
+    "EthnologueStatus": "1 National"
   },
   {
     "itemLabel": "English",
     "wikidata": "Q1860",
     "population": "753359540",
     "populationQualifier": ">100M",
-    "EthnologueStatus": "0 International",
     "EthnologueCode": "eng",
+    "EthnologueStatus": "0 International",
     "languageLabelNative": "English",
     "languageLabelsCount": "1",
     "UnescoStatus": "1 safe",
@@ -24,8 +24,8 @@
     "wikidata": "Q1321",
     "population": "485000000",
     "populationQualifier": ">100M",
-    "EthnologueStatus": "1 National",
     "EthnologueCode": "spa",
+    "EthnologueStatus": "1 National",
     "languageLabelNative": "español",
     "languageLabelsCount": "2",
     "UnescoStatus": "1 safe",
@@ -36,8 +36,8 @@
     "wikidata": "Q1568",
     "population": "341000000",
     "populationQualifier": ">100M",
-    "EthnologueStatus": "1 National",
     "EthnologueCode": "hin",
+    "EthnologueStatus": "1 National",
     "languageLabelNative": "हिन्दी",
     "languageLabelsCount": "2",
     "isoLabel": "हिन्दी"
@@ -54,6 +54,17 @@
     "isoLabel": "العربية"
   },
   {
+    "itemLabel": "Bengali",
+    "wikidata": "Q9610",
+    "population": "300000000",
+    "populationQualifier": ">100M",
+    "EthnologueCode": "ben",
+    "EthnologueStatus": "1 National",
+    "languageLabelNative": "বাংলা",
+    "languageLabelsCount": "1",
+    "isoLabel": "বাংলা ভাষা"
+  },
+  {
     "itemLabel": "American English",
     "wikidata": "Q7976",
     "population": "300000000",
@@ -62,23 +73,12 @@
     "languageLabelsCount": "1"
   },
   {
-    "itemLabel": "Bengali",
-    "wikidata": "Q9610",
-    "population": "300000000",
-    "populationQualifier": ">100M",
-    "EthnologueStatus": "1 National",
-    "EthnologueCode": "ben",
-    "languageLabelNative": "বাংলা",
-    "languageLabelsCount": "1",
-    "isoLabel": "বাংলা ভাষা"
-  },
-  {
     "itemLabel": "Portuguese",
     "wikidata": "Q5146",
     "population": "254300000",
     "populationQualifier": ">100M",
-    "EthnologueStatus": "1 National",
     "EthnologueCode": "por",
+    "EthnologueStatus": "1 National",
     "languageLabelNative": "português",
     "languageLabelsCount": "1",
     "isoLabel": "português"
@@ -88,8 +88,8 @@
     "wikidata": "Q150",
     "population": "208157220",
     "populationQualifier": ">100M",
-    "EthnologueStatus": "0 International",
     "EthnologueCode": "fra",
+    "EthnologueStatus": "0 International",
     "languageLabelNative": "français",
     "languageLabelsCount": "1",
     "UnescoStatus": "1 safe",
@@ -100,8 +100,8 @@
     "wikidata": "Q9240",
     "population": "198996550",
     "populationQualifier": ">100M",
-    "EthnologueStatus": "1 National",
     "EthnologueCode": "ind",
+    "EthnologueStatus": "1 National",
     "languageLabelNative": "Bahasa Indonesia",
     "languageLabelsCount": "1",
     "isoLabel": "bahasa Indonesia"
@@ -111,8 +111,8 @@
     "wikidata": "Q7737",
     "population": "154000000",
     "populationQualifier": ">100M",
-    "EthnologueStatus": "1 National",
     "EthnologueCode": "rus",
+    "EthnologueStatus": "1 National",
     "languageLabelNative": "русский язык",
     "languageLabelsCount": "1",
     "UnescoStatus": "1 safe",
@@ -123,8 +123,8 @@
     "wikidata": "Q5287",
     "population": "128000000",
     "populationQualifier": ">100M",
-    "EthnologueStatus": "1 National",
     "EthnologueCode": "jpn",
+    "EthnologueStatus": "1 National",
     "languageLabelNative": "日本語",
     "languageLabelsCount": "1",
     "UnescoStatus": "1 safe",
@@ -145,16 +145,16 @@
     "wikidata": "Q33298",
     "population": "90000000",
     "populationQualifier": "10-100M",
-    "EthnologueStatus": "1 National",
-    "EthnologueCode": "fil"
+    "EthnologueCode": "fil",
+    "EthnologueStatus": "1 National"
   },
   {
     "itemLabel": "Marathi",
     "wikidata": "Q1571",
     "population": "83100000",
     "populationQualifier": "10-100M",
-    "EthnologueStatus": "2 Provincial",
     "EthnologueCode": "mar",
+    "EthnologueStatus": "2 Provincial",
     "languageLabelNative": "मराठी",
     "languageLabelsCount": "1",
     "isoLabel": "मराठी"
@@ -164,8 +164,8 @@
     "wikidata": "Q256",
     "population": "82231620",
     "populationQualifier": "10-100M",
-    "EthnologueStatus": "1 National",
     "EthnologueCode": "tur",
+    "EthnologueStatus": "1 National",
     "languageLabelNative": "Türkçe",
     "languageLabelsCount": "1",
     "UnescoStatus": "1 safe",
@@ -176,8 +176,8 @@
     "wikidata": "Q8097",
     "population": "82000000",
     "populationQualifier": "10-100M",
-    "EthnologueStatus": "2 Provincial",
     "EthnologueCode": "tel",
+    "EthnologueStatus": "2 Provincial",
     "languageLabelNative": "తెలుగు",
     "languageLabelsCount": "1",
     "isoLabel": "తెలుగు"
@@ -187,8 +187,8 @@
     "wikidata": "Q9176",
     "population": "77300000",
     "populationQualifier": "10-100M",
-    "EthnologueStatus": "1 National",
     "EthnologueCode": "kor",
+    "EthnologueStatus": "1 National",
     "languageLabelNative": "한국어",
     "languageLabelsCount": "3",
     "UnescoStatus": "1 safe",
@@ -209,8 +209,8 @@
     "wikidata": "Q188",
     "population": "76540740",
     "populationQualifier": "10-100M",
-    "EthnologueStatus": "1 National",
     "EthnologueCode": "deu",
+    "EthnologueStatus": "1 National",
     "languageLabelNative": "Deutsch",
     "languageLabelsCount": "1",
     "UnescoStatus": "1 safe",
@@ -221,8 +221,8 @@
     "wikidata": "Q9199",
     "population": "76000000",
     "populationQualifier": "10-100M",
-    "EthnologueStatus": "1 National",
     "EthnologueCode": "vie",
+    "EthnologueStatus": "1 National",
     "languageLabelNative": "Tiếng Việt",
     "languageLabelsCount": "2",
     "UnescoStatus": "1 safe",
@@ -233,8 +233,8 @@
     "wikidata": "Q5885",
     "population": "75000000",
     "populationQualifier": "10-100M",
-    "EthnologueStatus": "2 Provincial",
     "EthnologueCode": "tam",
+    "EthnologueStatus": "2 Provincial",
     "languageLabelNative": "தமிழ்",
     "languageLabelsCount": "1",
     "isoLabel": "தமிழ்"
@@ -252,8 +252,8 @@
     "wikidata": "Q1617",
     "population": "68600000",
     "populationQualifier": "10-100M",
-    "EthnologueStatus": "1 National",
     "EthnologueCode": "urd",
+    "EthnologueStatus": "1 National",
     "languageLabelNative": "اردو",
     "languageLabelsCount": "1",
     "UnescoStatus": "1 safe",
@@ -264,8 +264,8 @@
     "wikidata": "Q33549",
     "population": "68300000",
     "populationQualifier": "10-100M",
-    "EthnologueStatus": "4 Educational",
     "EthnologueCode": "jav",
+    "EthnologueStatus": "4 Educational",
     "languageLabelNative": "Jawa",
     "languageLabelsCount": "2",
     "UnescoStatus": "1 safe",
@@ -276,8 +276,8 @@
     "wikidata": "Q652",
     "population": "64800000",
     "populationQualifier": "10-100M",
-    "EthnologueStatus": "1 National",
     "EthnologueCode": "ita",
+    "EthnologueStatus": "1 National",
     "languageLabelNative": "italiano",
     "languageLabelsCount": "2",
     "UnescoStatus": "1 safe",
@@ -288,8 +288,8 @@
     "wikidata": "Q29919",
     "population": "64600000",
     "populationQualifier": "10-100M",
-    "EthnologueStatus": "3 Wider Communication",
     "EthnologueCode": "arz",
+    "EthnologueStatus": "3 Wider Communication",
     "languageLabelNative": "arz",
     "languageLabelsCount": "1"
   },
@@ -298,8 +298,8 @@
     "wikidata": "Q5137",
     "population": "56400000",
     "populationQualifier": "10-100M",
-    "EthnologueStatus": "2 Provincial",
     "EthnologueCode": "guj",
+    "EthnologueStatus": "2 Provincial",
     "languageLabelNative": "ગુજરાતી",
     "languageLabelsCount": "1",
     "isoLabel": "ગુજરાતી ભાષા"
@@ -309,8 +309,8 @@
     "wikidata": "Q33268",
     "population": "52200000",
     "populationQualifier": "10-100M",
-    "EthnologueStatus": "4 Educational",
     "EthnologueCode": "bho",
+    "EthnologueStatus": "4 Educational",
     "languageLabelNative": "भोजपुरी",
     "languageLabelsCount": "2"
   },
@@ -319,9 +319,9 @@
     "wikidata": "Q36495",
     "population": "50100000",
     "populationQualifier": "10-100M",
-    "EthnologueStatus": "6a Vigorous",
     "EthnologueCode": "nan",
-    "languageLabelNative": "Bân-lâm-gí",
+    "EthnologueStatus": "6a Vigorous",
+    "languageLabelNative": "閩南語",
     "languageLabelsCount": "4"
   },
   {
@@ -329,8 +329,8 @@
     "wikidata": "Q33655",
     "population": "47500000",
     "populationQualifier": "10-100M",
-    "EthnologueStatus": "3 Wider Communication",
     "EthnologueCode": "pcm",
+    "EthnologueStatus": "3 Wider Communication",
     "languageLabelNative": "pidgin",
     "languageLabelsCount": "1"
   },
@@ -350,8 +350,8 @@
     "wikidata": "Q56475",
     "population": "43900000",
     "populationQualifier": "10-100M",
-    "EthnologueStatus": "2 Provincial",
     "EthnologueCode": "hau",
+    "EthnologueStatus": "2 Provincial",
     "languageLabelNative": "Hausa",
     "languageLabelsCount": "2",
     "isoLabel": "Hausa"
@@ -361,8 +361,8 @@
     "wikidata": "Q33673",
     "population": "43600000",
     "populationQualifier": "10-100M",
-    "EthnologueStatus": "2 Provincial",
     "EthnologueCode": "kan",
+    "EthnologueStatus": "2 Provincial",
     "languageLabelNative": "ಕನ್ನಡ",
     "languageLabelsCount": "1",
     "isoLabel": "ಕನ್ನಡ"
@@ -372,8 +372,8 @@
     "wikidata": "Q56499",
     "population": "42252851",
     "populationQualifier": "10-100M",
-    "EthnologueStatus": "3 Wider Communication",
     "EthnologueCode": "arq",
+    "EthnologueStatus": "3 Wider Communication",
     "languageLabelNative": "دريرية",
     "languageLabelsCount": "3"
   },
@@ -382,8 +382,8 @@
     "wikidata": "Q809",
     "population": "39700000",
     "populationQualifier": "10-100M",
-    "EthnologueStatus": "1 National",
     "EthnologueCode": "pol",
+    "EthnologueStatus": "1 National",
     "languageLabelNative": "język polski",
     "languageLabelsCount": "2",
     "isoLabel": "język polski"
@@ -403,8 +403,8 @@
     "wikidata": "Q34311",
     "population": "37800000",
     "populationQualifier": "10-100M",
-    "EthnologueStatus": "2 Provincial",
     "EthnologueCode": "yor",
+    "EthnologueStatus": "2 Provincial",
     "languageLabelNative": "Yorùbá",
     "languageLabelsCount": "2",
     "isoLabel": "Èdè Yorùbá"
@@ -414,8 +414,8 @@
     "wikidata": "Q36236",
     "population": "37100000",
     "populationQualifier": "10-100M",
-    "EthnologueStatus": "2 Provincial",
     "EthnologueCode": "mal",
+    "EthnologueStatus": "2 Provincial",
     "languageLabelNative": "മലയാളം",
     "languageLabelsCount": "2",
     "isoLabel": "മലയാളം"
@@ -425,8 +425,8 @@
     "wikidata": "Q33810",
     "population": "34500000",
     "populationQualifier": "10-100M",
-    "EthnologueStatus": "2 Provincial",
     "EthnologueCode": "ory",
+    "EthnologueStatus": "2 Provincial",
     "languageLabelNative": "ଓଡ଼ିଆ",
     "languageLabelsCount": "2",
     "isoLabel": "ଓଡ଼ିଆ"
@@ -436,8 +436,8 @@
     "wikidata": "Q9228",
     "population": "32900000",
     "populationQualifier": "10-100M",
-    "EthnologueStatus": "1 National",
     "EthnologueCode": "mya",
+    "EthnologueStatus": "1 National",
     "languageLabelNative": "မြန်မာဘာသာ",
     "languageLabelsCount": "2",
     "UnescoStatus": "1 safe",
@@ -448,8 +448,8 @@
     "wikidata": "Q34002",
     "population": "32400000",
     "populationQualifier": "10-100M",
-    "EthnologueStatus": "5 Developing",
     "EthnologueCode": "sun",
+    "EthnologueStatus": "5 Developing",
     "languageLabelNative": "bahasa Sunda",
     "languageLabelsCount": "4",
     "isoLabel": "Sunda"
@@ -459,16 +459,16 @@
     "wikidata": "Q56573",
     "population": "31900000",
     "populationQualifier": "10-100M",
-    "EthnologueStatus": "3 Wider Communication",
-    "EthnologueCode": "apd"
+    "EthnologueCode": "apd",
+    "EthnologueStatus": "3 Wider Communication"
   },
   {
     "itemLabel": "Moroccan Arabic",
     "wikidata": "Q56426",
     "population": "27500000",
     "populationQualifier": "10-100M",
-    "EthnologueStatus": "3 Wider Communication",
     "EthnologueCode": "ary",
+    "EthnologueStatus": "3 Wider Communication",
     "languageLabelNative": "الداريجة",
     "languageLabelsCount": "1"
   },
@@ -488,8 +488,8 @@
     "wikidata": "Q33578",
     "population": "27000000",
     "populationQualifier": "10-100M",
-    "EthnologueStatus": "2 Provincial",
     "EthnologueCode": "ibo",
+    "EthnologueStatus": "2 Provincial",
     "languageLabelNative": "Igbo",
     "languageLabelsCount": "2",
     "isoLabel": "Asụ̀sụ̀ Ìgbò"
@@ -499,39 +499,39 @@
     "wikidata": "Q8798",
     "population": "26900000",
     "populationQualifier": "10-100M",
-    "EthnologueStatus": "1 National",
     "EthnologueCode": "ukr",
+    "EthnologueStatus": "1 National",
     "languageLabelNative": "українська мова",
     "languageLabelsCount": "1",
     "UnescoStatus": "1 safe",
     "isoLabel": "українська мова"
   },
   {
-    "itemLabel": "North Levantine Arabic",
-    "wikidata": "Q22809485",
-    "population": "24600000",
-    "populationQualifier": "10-100M",
-    "EthnologueStatus": "3 Wider Communication",
-    "EthnologueCode": "apc"
-  },
-  {
     "itemLabel": "Sindhi",
     "wikidata": "Q33997",
     "population": "24600000",
     "populationQualifier": "10-100M",
-    "EthnologueStatus": "2 Provincial",
     "EthnologueCode": "snd",
+    "EthnologueStatus": "2 Provincial",
     "languageLabelNative": "सिंधी",
     "languageLabelsCount": "3",
     "isoLabel": "سنڌي"
+  },
+  {
+    "itemLabel": "North Levantine Arabic",
+    "wikidata": "Q22809485",
+    "population": "24600000",
+    "populationQualifier": "10-100M",
+    "EthnologueCode": "apc",
+    "EthnologueStatus": "3 Wider Communication"
   },
   {
     "itemLabel": "Romanian",
     "wikidata": "Q7913",
     "population": "24300000",
     "populationQualifier": "10-100M",
-    "EthnologueStatus": "1 National",
     "EthnologueCode": "ron",
+    "EthnologueStatus": "1 National",
     "languageLabelNative": "limba română",
     "languageLabelsCount": "2",
     "isoLabel": "limba română"
@@ -550,8 +550,8 @@
     "wikidata": "Q34057",
     "population": "23600000",
     "populationQualifier": "10-100M",
-    "EthnologueStatus": "3 Wider Communication",
     "EthnologueCode": "tgl",
+    "EthnologueStatus": "3 Wider Communication",
     "languageLabelNative": "wikang Tagalog",
     "languageLabelsCount": "1",
     "isoLabel": "wikang Tagalog"
@@ -561,8 +561,8 @@
     "wikidata": "Q7411",
     "population": "23100000",
     "populationQualifier": "10-100M",
-    "EthnologueStatus": "1 National",
     "EthnologueCode": "nld",
+    "EthnologueStatus": "1 National",
     "languageLabelNative": "Nederlands",
     "languageLabelsCount": "3",
     "isoLabel": "Nederlands"
@@ -582,8 +582,8 @@
     "wikidata": "Q28244",
     "population": "21900000",
     "populationQualifier": "10-100M",
-    "EthnologueStatus": "1 National",
     "EthnologueCode": "amh",
+    "EthnologueStatus": "1 National",
     "languageLabelNative": "አማርኛ",
     "languageLabelsCount": "1",
     "isoLabel": "አማርኛ"
@@ -603,8 +603,8 @@
     "wikidata": "Q9217",
     "population": "20700000",
     "populationQualifier": "10-100M",
-    "EthnologueStatus": "1 National",
     "EthnologueCode": "tha",
+    "EthnologueStatus": "1 National",
     "languageLabelNative": "ภาษาไทย",
     "languageLabelsCount": "1",
     "UnescoStatus": "1 safe",
@@ -615,8 +615,8 @@
     "wikidata": "Q36217",
     "population": "20000000",
     "populationQualifier": "10-100M",
-    "EthnologueStatus": "3 Wider Communication",
     "EthnologueCode": "lin",
+    "EthnologueStatus": "3 Wider Communication",
     "languageLabelNative": "Lingala",
     "languageLabelsCount": "3",
     "isoLabel": "Lingála"
@@ -636,8 +636,8 @@
     "wikidata": "Q9205",
     "population": "16600000",
     "populationQualifier": "10-100M",
-    "EthnologueStatus": "1 National",
     "EthnologueCode": "khm",
+    "EthnologueStatus": "1 National",
     "languageLabelNative": "ខ្មែរ",
     "languageLabelsCount": "2",
     "isoLabel": "ភាសាខ្មែរ"
@@ -647,8 +647,8 @@
     "wikidata": "Q13275",
     "population": "16200000",
     "populationQualifier": "10-100M",
-    "EthnologueStatus": "1 National",
     "EthnologueCode": "som",
+    "EthnologueStatus": "1 National",
     "languageLabelNative": "Af-Soomaali",
     "languageLabelsCount": "3",
     "isoLabel": "Af-Soomaali"
@@ -658,8 +658,8 @@
     "wikidata": "Q9267",
     "population": "16000000",
     "populationQualifier": "10-100M",
-    "EthnologueStatus": "1 National",
     "EthnologueCode": "tuk",
+    "EthnologueStatus": "1 National",
     "languageLabelNative": "Türkmen",
     "languageLabelsCount": "4",
     "isoLabel": "Türkmen dili"
@@ -669,8 +669,8 @@
     "wikidata": "Q33239",
     "population": "15900000",
     "populationQualifier": "10-100M",
-    "EthnologueStatus": "3 Wider Communication",
     "EthnologueCode": "ceb",
+    "EthnologueStatus": "3 Wider Communication",
     "languageLabelNative": "Sinugboanon",
     "languageLabelsCount": "1"
   },
@@ -679,8 +679,8 @@
     "wikidata": "Q33823",
     "population": "15800000",
     "populationQualifier": "10-100M",
-    "EthnologueStatus": "1 National",
     "EthnologueCode": "nep",
+    "EthnologueStatus": "1 National",
     "languageLabelNative": "नेपाली",
     "languageLabelsCount": "1",
     "isoLabel": "नेपाली भाषा"
@@ -700,8 +700,8 @@
     "wikidata": "Q13267",
     "population": "15300000",
     "populationQualifier": "10-100M",
-    "EthnologueStatus": "1 National",
     "EthnologueCode": "sin",
+    "EthnologueStatus": "1 National",
     "languageLabelNative": "සිංහල",
     "languageLabelsCount": "2",
     "isoLabel": "සිංහල"
@@ -711,8 +711,8 @@
     "wikidata": "Q29401",
     "population": "15300000",
     "populationQualifier": "10-100M",
-    "EthnologueStatus": "2 Provincial",
     "EthnologueCode": "asm",
+    "EthnologueStatus": "2 Provincial",
     "languageLabelNative": "অসমীয়া",
     "languageLabelsCount": "2",
     "isoLabel": "অসমীয়া ভাষা"
@@ -722,8 +722,8 @@
     "wikidata": "Q36213",
     "population": "15000000",
     "populationQualifier": "10-100M",
-    "EthnologueStatus": "5 Developing",
     "EthnologueCode": "mad",
+    "EthnologueStatus": "5 Developing",
     "languageLabelNative": "Bhâsa Madhurâ",
     "languageLabelsCount": "2"
   },
@@ -732,8 +732,8 @@
     "wikidata": "Q36163",
     "population": "14600000",
     "populationQualifier": "10-100M",
-    "EthnologueStatus": "3 Wider Communication",
     "EthnologueCode": "kmr",
+    "EthnologueStatus": "3 Wider Communication",
     "languageLabelNative": "Kurmancî",
     "languageLabelsCount": "3"
   },
@@ -742,8 +742,8 @@
     "wikidata": "Q29540",
     "population": "14100000",
     "populationQualifier": "10-100M",
-    "EthnologueStatus": "5 Developing",
     "EthnologueCode": "bar",
+    "EthnologueStatus": "5 Developing",
     "languageLabelNative": "Boarisch",
     "languageLabelsCount": "1",
     "UnescoStatus": "2 vulnerable"
@@ -753,8 +753,8 @@
     "wikidata": "Q9260",
     "population": "14000000",
     "populationQualifier": "10-100M",
-    "EthnologueStatus": "1 National",
     "EthnologueCode": "tgk",
+    "EthnologueStatus": "1 National",
     "languageLabelNative": "забони тоҷикӣ",
     "languageLabelsCount": "8",
     "isoLabel": "забони тоҷикӣ"
@@ -773,8 +773,8 @@
     "wikidata": "Q9252",
     "population": "12900000",
     "populationQualifier": "10-100M",
-    "EthnologueStatus": "1 National",
     "EthnologueCode": "kaz",
+    "EthnologueStatus": "1 National",
     "languageLabelNative": "қазақ тілі",
     "languageLabelsCount": "4",
     "UnescoStatus": "1 safe",
@@ -785,8 +785,8 @@
     "wikidata": "Q9067",
     "population": "12600000",
     "populationQualifier": "10-100M",
-    "EthnologueStatus": "1 National",
     "EthnologueCode": "hun",
+    "EthnologueStatus": "1 National",
     "languageLabelNative": "magyar",
     "languageLabelsCount": "2",
     "UnescoStatus": "1 safe",
@@ -797,8 +797,8 @@
     "wikidata": "Q33573",
     "population": "12100000",
     "populationQualifier": "10-100M",
-    "EthnologueStatus": "1 National",
     "EthnologueCode": "kin",
+    "EthnologueStatus": "1 National",
     "languageLabelNative": "Ikinyarwanda",
     "languageLabelsCount": "2",
     "isoLabel": "Ikinyarwanda"
@@ -808,16 +808,16 @@
     "wikidata": "Q55633582",
     "population": "11600000",
     "populationQualifier": "10-100M",
-    "EthnologueStatus": "3 Wider Communication",
-    "EthnologueCode": "ajp"
+    "EthnologueCode": "ajp",
+    "EthnologueStatus": "3 Wider Communication"
   },
   {
     "itemLabel": "Akan language",
     "wikidata": "Q28026",
     "population": "11000000",
     "populationQualifier": "10-100M",
-    "EthnologueStatus": "3 Wider Communication",
     "EthnologueCode": "aka",
+    "EthnologueStatus": "3 Wider Communication",
     "languageLabelNative": "Akan",
     "languageLabelsCount": "2"
   },
@@ -826,8 +826,8 @@
     "wikidata": "Q33583",
     "population": "10800000",
     "populationQualifier": "10-100M",
-    "EthnologueStatus": "1 National",
     "EthnologueCode": "run",
+    "EthnologueStatus": "1 National",
     "languageLabelNative": "Ikirundi",
     "languageLabelsCount": "1",
     "isoLabel": "Ikirundi"
@@ -837,8 +837,8 @@
     "wikidata": "Q9056",
     "population": "10700000",
     "populationQualifier": "10-100M",
-    "EthnologueStatus": "1 National",
     "EthnologueCode": "ces",
+    "EthnologueStatus": "1 National",
     "languageLabelNative": "čeština",
     "languageLabelsCount": "2",
     "isoLabel": "čeština"
@@ -848,8 +848,8 @@
     "wikidata": "Q14196",
     "population": "10300000",
     "populationQualifier": "10-100M",
-    "EthnologueStatus": "1 National",
     "EthnologueCode": "afr",
+    "EthnologueStatus": "1 National",
     "languageLabelNative": "Afrikaans",
     "languageLabelsCount": "1",
     "UnescoStatus": "2 vulnerable",
@@ -860,8 +860,8 @@
     "wikidata": "Q131339",
     "population": "10000000",
     "populationQualifier": "10-100M",
-    "EthnologueStatus": "5 Developing",
     "EthnologueCode": "gsw",
+    "EthnologueStatus": "5 Developing",
     "languageLabelNative": "Alemannisch",
     "languageLabelsCount": "2",
     "UnescoStatus": "2 vulnerable"
@@ -871,8 +871,8 @@
     "wikidata": "Q33491",
     "population": "9600000",
     "populationQualifier": "1-10M",
-    "EthnologueStatus": "1 National",
     "EthnologueCode": "hat",
+    "EthnologueStatus": "1 National",
     "languageLabelNative": "Kreyòl ayisyen",
     "languageLabelsCount": "1",
     "isoLabel": "kreyòl ayisyen"
@@ -882,8 +882,8 @@
     "wikidata": "Q9288",
     "population": "9303950",
     "populationQualifier": "1-10M",
-    "EthnologueStatus": "1 National",
     "EthnologueCode": "heb",
+    "EthnologueStatus": "1 National",
     "languageLabelNative": "עברית",
     "languageLabelsCount": "2",
     "UnescoStatus": "1 safe",
@@ -894,34 +894,34 @@
     "wikidata": "Q9027",
     "population": "9244250",
     "populationQualifier": "1-10M",
-    "EthnologueStatus": "1 National",
     "EthnologueCode": "swe",
+    "EthnologueStatus": "1 National",
     "languageLabelNative": "svenska",
     "languageLabelsCount": "1",
     "isoLabel": "svenska"
-  },
-  {
-    "itemLabel": "Serbian",
-    "wikidata": "Q9299",
-    "population": "9000000",
-    "populationQualifier": "1-10M",
-    "EthnologueStatus": "1 National",
-    "EthnologueCode": "srp",
-    "languageLabelNative": "српски",
-    "languageLabelsCount": "3",
-    "isoLabel": "српски језик"
   },
   {
     "itemLabel": "Bulgarian",
     "wikidata": "Q7918",
     "population": "9000000",
     "populationQualifier": "1-10M",
-    "EthnologueStatus": "1 National",
     "EthnologueCode": "bul",
+    "EthnologueStatus": "1 National",
     "languageLabelNative": "български език",
     "languageLabelsCount": "1",
     "UnescoStatus": "1 safe",
     "isoLabel": "български език"
+  },
+  {
+    "itemLabel": "Serbian",
+    "wikidata": "Q9299",
+    "population": "9000000",
+    "populationQualifier": "1-10M",
+    "EthnologueCode": "srp",
+    "EthnologueStatus": "1 National",
+    "languageLabelNative": "српски",
+    "languageLabelsCount": "3",
+    "isoLabel": "српски језик"
   },
   {
     "itemLabel": "Quechua",
@@ -938,8 +938,8 @@
     "wikidata": "Q35978",
     "population": "8200000",
     "populationQualifier": "1-10M",
-    "EthnologueStatus": "3 Wider Communication",
     "EthnologueCode": "hil",
+    "EthnologueStatus": "3 Wider Communication",
     "languageLabelNative": "Hiligaynon",
     "languageLabelsCount": "1"
   },
@@ -948,8 +948,8 @@
     "wikidata": "Q34152",
     "population": "8000000",
     "populationQualifier": "1-10M",
-    "EthnologueStatus": "5 Developing",
     "EthnologueCode": "shi",
+    "EthnologueStatus": "5 Developing",
     "languageLabelNative": "تشلحيت",
     "languageLabelsCount": "3"
   },
@@ -958,8 +958,8 @@
     "wikidata": "Q9091",
     "population": "7600000",
     "populationQualifier": "1-10M",
-    "EthnologueStatus": "1 National",
     "EthnologueCode": "bel",
+    "EthnologueStatus": "1 National",
     "languageLabelNative": "беларуская мова",
     "languageLabelsCount": "1",
     "UnescoStatus": "2 vulnerable",
@@ -970,16 +970,16 @@
     "wikidata": "Q36096",
     "population": "7600000",
     "populationQualifier": "1-10M",
-    "EthnologueStatus": "3 Wider Communication",
-    "EthnologueCode": "mos"
+    "EthnologueCode": "mos",
+    "EthnologueStatus": "3 Wider Communication"
   },
   {
     "itemLabel": "Neapolitan",
     "wikidata": "Q33845",
     "population": "7500000",
     "populationQualifier": "1-10M",
-    "EthnologueStatus": "5 Developing",
     "EthnologueCode": "nap",
+    "EthnologueStatus": "5 Developing",
     "languageLabelNative": "Lengua napulitana",
     "languageLabelsCount": "1",
     "UnescoStatus": "2 vulnerable"
@@ -996,8 +996,8 @@
     "wikidata": "Q36811",
     "population": "7250000",
     "populationQualifier": "1-10M",
-    "EthnologueStatus": "2 Provincial",
     "EthnologueCode": "ckb",
+    "EthnologueStatus": "2 Provincial",
     "languageLabelNative": "کوردی",
     "languageLabelsCount": "3"
   },
@@ -1006,8 +1006,8 @@
     "wikidata": "Q33965",
     "population": "7200000",
     "populationQualifier": "1-10M",
-    "EthnologueStatus": "4 Educational",
     "EthnologueCode": "sat",
+    "EthnologueStatus": "4 Educational",
     "languageLabelNative": "ᱥᱟᱱᱛᱟᱲᱤ",
     "languageLabelsCount": "10",
     "UnescoStatus": "2 vulnerable"
@@ -1017,8 +1017,8 @@
     "wikidata": "Q6654",
     "population": "7000000",
     "populationQualifier": "1-10M",
-    "EthnologueStatus": "1 National",
     "EthnologueCode": "hrv",
+    "EthnologueStatus": "1 National",
     "languageLabelNative": "hrvatski",
     "languageLabelsCount": "2",
     "isoLabel": "hrvatski jezik"
@@ -1028,8 +1028,8 @@
     "wikidata": "Q33552",
     "population": "6900000",
     "populationQualifier": "1-10M",
-    "EthnologueStatus": "4 Educational",
     "EthnologueCode": "kas",
+    "EthnologueStatus": "4 Educational",
     "languageLabelNative": "کٲشُر",
     "languageLabelsCount": "3",
     "isoLabel": "کٲشِر زَبان"
@@ -1039,8 +1039,8 @@
     "wikidata": "Q8785",
     "population": "6700000",
     "populationQualifier": "1-10M",
-    "EthnologueStatus": "1 National",
     "EthnologueCode": "hye",
+    "EthnologueStatus": "1 National",
     "languageLabelNative": "հայերեն",
     "languageLabelsCount": "1",
     "isoLabel": "հայերեն"
@@ -1050,8 +1050,8 @@
     "wikidata": "Q33587",
     "population": "6623000",
     "populationQualifier": "1-10M",
-    "EthnologueStatus": "5 Developing",
     "EthnologueCode": "kik",
+    "EthnologueStatus": "5 Developing",
     "languageLabelNative": "Gĩgĩkũyũ",
     "languageLabelsCount": "2",
     "isoLabel": "Gĩgĩkũyũ"
@@ -1061,8 +1061,8 @@
     "wikidata": "Q34173",
     "population": "6300000",
     "populationQualifier": "1-10M",
-    "EthnologueStatus": "2 Provincial",
     "EthnologueCode": "lua",
+    "EthnologueStatus": "2 Provincial",
     "languageLabelNative": "Tshiluba",
     "languageLabelsCount": "1"
   },
@@ -1077,35 +1077,35 @@
     "isoLabel": "shqip"
   },
   {
+    "itemLabel": "Danish",
+    "wikidata": "Q9035",
+    "population": "6000000",
+    "populationQualifier": "1-10M",
+    "EthnologueCode": "dan",
+    "EthnologueStatus": "1 National",
+    "languageLabelNative": "dansk",
+    "languageLabelsCount": "1",
+    "isoLabel": "dansk"
+  },
+  {
     "itemLabel": "Slovak",
     "wikidata": "Q9058",
     "population": "6000000",
     "populationQualifier": "1-10M",
-    "EthnologueStatus": "1 National",
     "EthnologueCode": "slk",
+    "EthnologueStatus": "1 National",
     "languageLabelNative": "slovenčina",
     "languageLabelsCount": "2",
     "UnescoStatus": "1 safe",
     "isoLabel": "slovenčina"
   },
   {
-    "itemLabel": "Danish",
-    "wikidata": "Q9035",
-    "population": "6000000",
-    "populationQualifier": "1-10M",
-    "EthnologueStatus": "1 National",
-    "EthnologueCode": "dan",
-    "languageLabelNative": "dansk",
-    "languageLabelsCount": "1",
-    "isoLabel": "dansk"
-  },
-  {
     "itemLabel": "Kabyle",
     "wikidata": "Q35853",
     "population": "5586000",
     "populationQualifier": "1-10M",
-    "EthnologueStatus": "5 Developing",
     "EthnologueCode": "kab",
+    "EthnologueStatus": "5 Developing",
     "languageLabelNative": "taqbaylit",
     "languageLabelsCount": "2"
   },
@@ -1114,8 +1114,8 @@
     "wikidata": "Q13324",
     "population": "5530000",
     "populationQualifier": "1-10M",
-    "EthnologueStatus": "5 Developing",
     "EthnologueCode": "min",
+    "EthnologueStatus": "5 Developing",
     "languageLabelNative": "bahaso Minangkabau",
     "languageLabelsCount": "1"
   },
@@ -1124,8 +1124,8 @@
     "wikidata": "Q1412",
     "population": "5413380",
     "populationQualifier": "1-10M",
-    "EthnologueStatus": "1 National",
     "EthnologueCode": "fin",
+    "EthnologueStatus": "1 National",
     "languageLabelNative": "suomi",
     "languageLabelsCount": "1",
     "UnescoStatus": "1 safe",
@@ -1146,8 +1146,8 @@
     "wikidata": "Q9043",
     "population": "5200000",
     "populationQualifier": "1-10M",
-    "EthnologueStatus": "1 National",
     "EthnologueCode": "nor",
+    "EthnologueStatus": "1 National",
     "languageLabelNative": "norsk",
     "languageLabelsCount": "1"
   },
@@ -1156,8 +1156,8 @@
     "wikidata": "Q25285",
     "population": "5200000",
     "populationQualifier": "1-10M",
-    "EthnologueStatus": "2 Provincial",
     "EthnologueCode": "tat",
+    "EthnologueStatus": "2 Provincial",
     "languageLabelNative": "татар теле",
     "languageLabelsCount": "1",
     "isoLabel": "татар теле"
@@ -1167,8 +1167,8 @@
     "wikidata": "Q33190",
     "population": "5017800",
     "populationQualifier": "1-10M",
-    "EthnologueStatus": "3 Wider Communication",
     "EthnologueCode": "bug",
+    "EthnologueStatus": "3 Wider Communication",
     "languageLabelNative": "basa Ogi",
     "languageLabelsCount": "2"
   },
@@ -1187,8 +1187,8 @@
     "wikidata": "Q25433",
     "population": "5000000",
     "populationQualifier": "1-10M",
-    "EthnologueStatus": "7 Shifting",
     "EthnologueCode": "nds",
+    "EthnologueStatus": "7 Shifting",
     "languageLabelNative": "Niedersächsisch",
     "languageLabelsCount": "4"
   },
@@ -1197,8 +1197,8 @@
     "wikidata": "Q7026",
     "population": "4873396",
     "populationQualifier": "1-10M",
-    "EthnologueStatus": "2 Provincial",
     "EthnologueCode": "cat",
+    "EthnologueStatus": "2 Provincial",
     "languageLabelNative": "valencià",
     "languageLabelsCount": "2",
     "isoLabel": "català"
@@ -1208,8 +1208,8 @@
     "wikidata": "Q33973",
     "population": "4700000",
     "populationQualifier": "1-10M",
-    "EthnologueStatus": "5 Developing",
     "EthnologueCode": "scn",
+    "EthnologueStatus": "5 Developing",
     "languageLabelNative": "Sicilianu",
     "languageLabelsCount": "1",
     "UnescoStatus": "2 vulnerable"
@@ -1219,8 +1219,8 @@
     "wikidata": "Q9255",
     "population": "4568480",
     "populationQualifier": "1-10M",
-    "EthnologueStatus": "1 National",
     "EthnologueCode": "kir",
+    "EthnologueStatus": "1 National",
     "languageLabelNative": "кыргызча",
     "languageLabelsCount": "2",
     "isoLabel": "кыргыз тили"
@@ -1230,52 +1230,32 @@
     "wikidata": "Q33243",
     "population": "4200000",
     "populationQualifier": "1-10M",
-    "EthnologueStatus": "4 Educational",
     "EthnologueCode": "bam",
+    "EthnologueStatus": "4 Educational",
     "languageLabelNative": "Bamanankan",
     "languageLabelsCount": "1",
     "isoLabel": "Bamanankan"
-  },
-  {
-    "itemLabel": "Luganda",
-    "wikidata": "Q33368",
-    "population": "4100000",
-    "populationQualifier": "1-10M",
-    "EthnologueStatus": "3 Wider Communication",
-    "EthnologueCode": "lug",
-    "languageLabelNative": "Luganda",
-    "languageLabelsCount": "1",
-    "isoLabel": "Luganda"
   },
   {
     "itemLabel": "Northern Sotho",
     "wikidata": "Q33890",
     "population": "4100000",
     "populationQualifier": "1-10M",
-    "EthnologueStatus": "1 National",
     "EthnologueCode": "nso",
+    "EthnologueStatus": "1 National",
     "languageLabelNative": "Sepedi",
     "languageLabelsCount": "2"
   },
   {
-    "itemLabel": "Bokmål",
-    "wikidata": "Q25167",
-    "population": "4000000",
+    "itemLabel": "Luganda",
+    "wikidata": "Q33368",
+    "population": "4100000",
     "populationQualifier": "1-10M",
-    "languageLabelNative": "bokmål",
+    "EthnologueCode": "lug",
+    "EthnologueStatus": "3 Wider Communication",
+    "languageLabelNative": "Luganda",
     "languageLabelsCount": "1",
-    "isoLabel": "bokmål"
-  },
-  {
-    "itemLabel": "Lithuanian",
-    "wikidata": "Q9083",
-    "population": "4000000",
-    "populationQualifier": "1-10M",
-    "EthnologueStatus": "1 National",
-    "EthnologueCode": "lit",
-    "languageLabelNative": "Lietuviškai",
-    "languageLabelsCount": "2",
-    "isoLabel": "lietuvių kalba"
+    "isoLabel": "Luganda"
   },
   {
     "itemLabel": "Aymara",
@@ -1289,22 +1269,42 @@
     "isoLabel": "Aymar aru"
   },
   {
+    "itemLabel": "Bokmål",
+    "wikidata": "Q25167",
+    "population": "4000000",
+    "populationQualifier": "1-10M",
+    "languageLabelNative": "bokmål",
+    "languageLabelsCount": "1",
+    "isoLabel": "bokmål"
+  },
+  {
     "itemLabel": "Balinese",
     "wikidata": "Q33070",
     "population": "4000000",
     "populationQualifier": "1-10M",
-    "EthnologueStatus": "5 Developing",
     "EthnologueCode": "ban",
+    "EthnologueStatus": "5 Developing",
     "languageLabelNative": "Basa Bali",
     "languageLabelsCount": "1"
+  },
+  {
+    "itemLabel": "Lithuanian",
+    "wikidata": "Q9083",
+    "population": "4000000",
+    "populationQualifier": "1-10M",
+    "EthnologueCode": "lit",
+    "EthnologueStatus": "1 National",
+    "languageLabelNative": "Lietuviškai",
+    "languageLabelsCount": "2",
+    "isoLabel": "lietuvių kalba"
   },
   {
     "itemLabel": "Lombard",
     "wikidata": "Q33754",
     "population": "3900000",
     "populationQualifier": "1-10M",
-    "EthnologueStatus": "6a Vigorous",
     "EthnologueCode": "lmo",
+    "EthnologueStatus": "6a Vigorous",
     "languageLabelNative": "Lengua lombarda",
     "languageLabelsCount": "1",
     "UnescoStatus": "3 definitely endangered"
@@ -1314,69 +1314,69 @@
     "wikidata": "Q56231",
     "population": "3763900",
     "populationQualifier": "1-10M",
-    "EthnologueStatus": "3 Wider Communication",
-    "EthnologueCode": "mey"
-  },
-  {
-    "itemLabel": "Georgian",
-    "wikidata": "Q8108",
-    "population": "3700000",
-    "populationQualifier": "1-10M",
-    "EthnologueStatus": "1 National",
-    "EthnologueCode": "kat",
-    "languageLabelNative": "ქართული ენა",
-    "languageLabelsCount": "2",
-    "isoLabel": "ქართული ენა"
+    "EthnologueCode": "mey",
+    "EthnologueStatus": "3 Wider Communication"
   },
   {
     "itemLabel": "Wolof",
     "wikidata": "Q34257",
     "population": "3700000",
     "populationQualifier": "1-10M",
-    "EthnologueStatus": "4 Educational",
     "EthnologueCode": "wol",
+    "EthnologueStatus": "4 Educational",
     "languageLabelNative": "Wolof",
     "languageLabelsCount": "1",
     "isoLabel": "Wolof"
+  },
+  {
+    "itemLabel": "Georgian",
+    "wikidata": "Q8108",
+    "population": "3700000",
+    "populationQualifier": "1-10M",
+    "EthnologueCode": "kat",
+    "EthnologueStatus": "1 National",
+    "languageLabelNative": "ქართული ენა",
+    "languageLabelsCount": "2",
+    "isoLabel": "ქართული ენა"
   },
   {
     "itemLabel": "Acehnese",
     "wikidata": "Q27683",
     "population": "3500032",
     "populationQualifier": "1-10M",
-    "EthnologueStatus": "6b Threatened",
     "EthnologueCode": "ace",
+    "EthnologueStatus": "6b Threatened",
     "languageLabelNative": "bahsa Acèh",
     "languageLabelsCount": "1"
-  },
-  {
-    "itemLabel": "Bosnian",
-    "wikidata": "Q9303",
-    "population": "3500000",
-    "populationQualifier": "1-10M",
-    "EthnologueStatus": "1 National",
-    "EthnologueCode": "bos",
-    "languageLabelNative": "bosanski jezik",
-    "languageLabelsCount": "2",
-    "isoLabel": "bosanski jezik"
   },
   {
     "itemLabel": "Banjarese",
     "wikidata": "Q33151",
     "population": "3500000",
     "populationQualifier": "1-10M",
-    "EthnologueStatus": "3 Wider Communication",
     "EthnologueCode": "bjn",
+    "EthnologueStatus": "3 Wider Communication",
     "languageLabelNative": "Basa Banjar",
     "languageLabelsCount": "2"
+  },
+  {
+    "itemLabel": "Bosnian",
+    "wikidata": "Q9303",
+    "population": "3500000",
+    "populationQualifier": "1-10M",
+    "EthnologueCode": "bos",
+    "EthnologueStatus": "1 National",
+    "languageLabelNative": "bosanski jezik",
+    "languageLabelsCount": "2",
+    "isoLabel": "bosanski jezik"
   },
   {
     "itemLabel": "Dagbani",
     "wikidata": "Q32238",
     "population": "3160000",
     "populationQualifier": "1-10M",
-    "EthnologueStatus": "4 Educational",
     "EthnologueCode": "dag",
+    "EthnologueStatus": "4 Educational",
     "languageLabelNative": "Dagbanli",
     "languageLabelsCount": "1"
   },
@@ -1385,29 +1385,26 @@
     "wikidata": "Q1496597",
     "population": "3000000",
     "populationQualifier": "1-10M",
-    "EthnologueStatus": "6a Vigorous",
-    "EthnologueCode": "sdh"
+    "EthnologueCode": "sdh",
+    "EthnologueStatus": "6a Vigorous"
   },
   {
     "itemLabel": "Shan",
     "wikidata": "Q56482",
     "population": "3000000",
     "populationQualifier": "1-10M",
-    "EthnologueStatus": "3 Wider Communication",
     "EthnologueCode": "shn",
+    "EthnologueStatus": "3 Wider Communication",
     "languageLabelNative": "လိၵ်ႈတႆး",
     "languageLabelsCount": "1"
   },
   {
-    "itemLabel": "Ewe",
-    "wikidata": "Q30005",
+    "itemLabel": "Luo dialect",
+    "wikidata": "Q5414796",
     "population": "3000000",
     "populationQualifier": "1-10M",
-    "EthnologueStatus": "3 Wider Communication",
-    "EthnologueCode": "ewe",
-    "languageLabelNative": "Eʋe",
-    "languageLabelsCount": "2",
-    "isoLabel": "Eʋegbe"
+    "EthnologueCode": "luo",
+    "EthnologueStatus": "5 Developing"
   },
   {
     "itemLabel": "Twi",
@@ -1419,12 +1416,15 @@
     "isoLabel": "Twi"
   },
   {
-    "itemLabel": "Luo dialect",
-    "wikidata": "Q5414796",
+    "itemLabel": "Ewe",
+    "wikidata": "Q30005",
     "population": "3000000",
     "populationQualifier": "1-10M",
-    "EthnologueStatus": "5 Developing",
-    "EthnologueCode": "luo"
+    "EthnologueCode": "ewe",
+    "EthnologueStatus": "3 Wider Communication",
+    "languageLabelNative": "Eʋe",
+    "languageLabelsCount": "2",
+    "isoLabel": "Eʋegbe"
   },
   {
     "itemLabel": "Gondi",
@@ -1439,40 +1439,29 @@
     "wikidata": "Q32706",
     "population": "2700000",
     "populationQualifier": "1-10M",
-    "EthnologueStatus": "3 Wider Communication",
-    "EthnologueCode": "dyu"
-  },
-  {
-    "itemLabel": "Central Bikol",
-    "wikidata": "Q33284",
-    "population": "2500000",
-    "populationQualifier": "1-10M",
-    "EthnologueStatus": "3 Wider Communication",
-    "EthnologueCode": "bcl",
-    "languageLabelNative": "Bikol",
-    "languageLabelsCount": "2"
+    "EthnologueCode": "dyu",
+    "EthnologueStatus": "3 Wider Communication"
   },
   {
     "itemLabel": "Galician",
     "wikidata": "Q9307",
     "population": "2500000",
     "populationQualifier": "1-10M",
-    "EthnologueStatus": "2 Provincial",
     "EthnologueCode": "glg",
+    "EthnologueStatus": "2 Provincial",
     "languageLabelNative": "galego",
     "languageLabelsCount": "2",
     "isoLabel": "lingua galega"
   },
   {
-    "itemLabel": "Slovene",
-    "wikidata": "Q9063",
-    "population": "2400000",
+    "itemLabel": "Central Bikol",
+    "wikidata": "Q33284",
+    "population": "2500000",
     "populationQualifier": "1-10M",
-    "EthnologueStatus": "1 National",
-    "EthnologueCode": "slv",
-    "languageLabelNative": "slovenščina",
-    "languageLabelsCount": "2",
-    "isoLabel": "slovenščina"
+    "EthnologueCode": "bcl",
+    "EthnologueStatus": "3 Wider Communication",
+    "languageLabelNative": "Bikol",
+    "languageLabelsCount": "2"
   },
   {
     "itemLabel": "Valencian",
@@ -1483,12 +1472,23 @@
     "languageLabelsCount": "1"
   },
   {
+    "itemLabel": "Slovene",
+    "wikidata": "Q9063",
+    "population": "2400000",
+    "populationQualifier": "1-10M",
+    "EthnologueCode": "slv",
+    "EthnologueStatus": "1 National",
+    "languageLabelNative": "slovenščina",
+    "languageLabelsCount": "2",
+    "isoLabel": "slovenščina"
+  },
+  {
     "itemLabel": "Shawiya language",
     "wikidata": "Q33274",
     "population": "2300000",
     "populationQualifier": "1-10M",
-    "EthnologueStatus": "6a Vigorous",
     "EthnologueCode": "shy",
+    "EthnologueStatus": "6a Vigorous",
     "languageLabelNative": "Tacawit",
     "languageLabelsCount": "1"
   },
@@ -1497,8 +1497,8 @@
     "wikidata": "Q33424",
     "population": "2300000",
     "populationQualifier": "1-10M",
-    "EthnologueStatus": "3 Wider Communication",
     "EthnologueCode": "iba",
+    "EthnologueStatus": "3 Wider Communication",
     "languageLabelNative": "jaku Iban",
     "languageLabelsCount": "1"
   },
@@ -1507,27 +1507,24 @@
     "wikidata": "Q35107",
     "population": "2100000",
     "populationQualifier": "1-10M",
-    "EthnologueStatus": "5 Developing",
-    "EthnologueCode": "bci"
+    "EthnologueCode": "bci",
+    "EthnologueStatus": "5 Developing"
   },
   {
-    "itemLabel": "Esperanto",
-    "wikidata": "Q143",
+    "itemLabel": "Upper Saxon German",
+    "wikidata": "Q699284",
     "population": "2000000",
     "populationQualifier": "1-10M",
-    "EthnologueStatus": "3 Wider Communication",
-    "EthnologueCode": "epo",
-    "languageLabelNative": "Esperanto",
-    "languageLabelsCount": "1",
-    "isoLabel": "Esperanto"
+    "EthnologueCode": "sxu",
+    "EthnologueStatus": "6a Vigorous"
   },
   {
     "itemLabel": "Toba Batak",
     "wikidata": "Q33017",
     "population": "2000000",
     "populationQualifier": "1-10M",
-    "EthnologueStatus": "6b Threatened",
     "EthnologueCode": "bbc",
+    "EthnologueStatus": "6b Threatened",
     "languageLabelNative": "Hata Batak",
     "languageLabelsCount": "1"
   },
@@ -1536,27 +1533,30 @@
     "wikidata": "Q9296",
     "population": "2000000",
     "populationQualifier": "1-10M",
-    "EthnologueStatus": "1 National",
     "EthnologueCode": "mkd",
+    "EthnologueStatus": "1 National",
     "languageLabelNative": "македонски",
     "languageLabelsCount": "2",
     "isoLabel": "македонски јазик"
   },
   {
-    "itemLabel": "Upper Saxon German",
-    "wikidata": "Q699284",
+    "itemLabel": "Esperanto",
+    "wikidata": "Q143",
     "population": "2000000",
     "populationQualifier": "1-10M",
-    "EthnologueStatus": "6a Vigorous",
-    "EthnologueCode": "sxu"
+    "EthnologueCode": "epo",
+    "EthnologueStatus": "3 Wider Communication",
+    "languageLabelNative": "Esperanto",
+    "languageLabelsCount": "1",
+    "isoLabel": "Esperanto"
   },
   {
     "itemLabel": "Fon",
     "wikidata": "Q33291",
     "population": "1935500",
     "populationQualifier": "1-10M",
-    "EthnologueStatus": "3 Wider Communication",
     "EthnologueCode": "fon",
+    "EthnologueStatus": "3 Wider Communication",
     "languageLabelNative": "fɔ̀ngbè",
     "languageLabelsCount": "1"
   },
@@ -1581,25 +1581,25 @@
     "isoLabel": "latviešu valoda"
   },
   {
-    "itemLabel": "Ho",
-    "wikidata": "Q33270",
-    "population": "1500000",
-    "populationQualifier": "1-10M",
-    "EthnologueStatus": "5 Developing",
-    "EthnologueCode": "hoc",
-    "languageLabelNative": "𑢹𑣉𑣉 𑣎𑣋𑣜",
-    "languageLabelsCount": "1",
-    "UnescoStatus": "2 vulnerable"
-  },
-  {
     "itemLabel": "Scots",
     "wikidata": "Q14549",
     "population": "1500000",
     "populationQualifier": "1-10M",
-    "EthnologueStatus": "5 Developing",
     "EthnologueCode": "sco",
+    "EthnologueStatus": "5 Developing",
     "languageLabelNative": "Scots",
     "languageLabelsCount": "2",
+    "UnescoStatus": "2 vulnerable"
+  },
+  {
+    "itemLabel": "Ho",
+    "wikidata": "Q33270",
+    "population": "1500000",
+    "populationQualifier": "1-10M",
+    "EthnologueCode": "hoc",
+    "EthnologueStatus": "5 Developing",
+    "languageLabelNative": "𑢹𑣉𑣉 𑣎𑣋𑣜",
+    "languageLabelsCount": "1",
     "UnescoStatus": "2 vulnerable"
   },
   {
@@ -1607,8 +1607,8 @@
     "wikidata": "Q1199751",
     "population": "1470000",
     "populationQualifier": "1-10M",
-    "EthnologueStatus": "5 Developing",
     "EthnologueCode": "mfa",
+    "EthnologueStatus": "5 Developing",
     "languageLabelNative": "Bahasa Melayu Patani",
     "languageLabelsCount": "6",
     "UnescoStatus": "2 vulnerable"
@@ -1618,8 +1618,8 @@
     "wikidata": "Q33868",
     "population": "1470000",
     "populationQualifier": "1-10M",
-    "EthnologueStatus": "2 Provincial",
     "EthnologueCode": "mni",
+    "EthnologueStatus": "2 Provincial",
     "languageLabelNative": "ꯃꯤꯇꯩ ꯂꯣꯟ",
     "languageLabelsCount": "1",
     "UnescoStatus": "2 vulnerable"
@@ -1629,8 +1629,8 @@
     "wikidata": "Q100103",
     "population": "1400000",
     "populationQualifier": "1-10M",
-    "EthnologueStatus": "6b Threatened",
     "EthnologueCode": "vls",
+    "EthnologueStatus": "6b Threatened",
     "languageLabelNative": "Vlaemsch",
     "languageLabelsCount": "3",
     "UnescoStatus": "2 vulnerable"
@@ -1656,42 +1656,42 @@
     "isoLabel": "eesti keel"
   },
   {
+    "itemLabel": "Serer",
+    "wikidata": "Q36284",
+    "population": "1200000",
+    "populationQualifier": "1-10M",
+    "EthnologueCode": "srr",
+    "EthnologueStatus": "5 Developing",
+    "languageLabelNative": "Seereer",
+    "languageLabelsCount": "1"
+  },
+  {
     "itemLabel": "Bashkir",
     "wikidata": "Q13389",
     "population": "1200000",
     "populationQualifier": "1-10M",
-    "EthnologueStatus": "2 Provincial",
     "EthnologueCode": "bak",
+    "EthnologueStatus": "2 Provincial",
     "languageLabelNative": "башҡорт теле",
     "languageLabelsCount": "3",
     "UnescoStatus": "2 vulnerable",
     "isoLabel": "башҡорт теле"
   },
   {
-    "itemLabel": "Serer",
-    "wikidata": "Q36284",
-    "population": "1200000",
-    "populationQualifier": "1-10M",
-    "EthnologueStatus": "5 Developing",
-    "EthnologueCode": "srr",
-    "languageLabelNative": "Seereer",
-    "languageLabelsCount": "1"
-  },
-  {
     "itemLabel": "Mandailing",
     "wikidata": "Q2891049",
     "population": "1100000",
     "populationQualifier": "1-10M",
-    "EthnologueStatus": "6b Threatened",
-    "EthnologueCode": "btm"
+    "EthnologueCode": "btm",
+    "EthnologueStatus": "6b Threatened"
   },
   {
     "itemLabel": "Chadian Arabic",
     "wikidata": "Q56497",
     "population": "1100000",
     "populationQualifier": "1-10M",
-    "EthnologueStatus": "3 Wider Communication",
     "EthnologueCode": "shu",
+    "EthnologueStatus": "3 Wider Communication",
     "languageLabelNative": "لهجة تشادية",
     "languageLabelsCount": "1"
   },
@@ -1700,10 +1700,20 @@
     "wikidata": "Q36660",
     "population": "1096795",
     "populationQualifier": "1-10M",
-    "EthnologueStatus": "5 Developing",
     "EthnologueCode": "snk",
+    "EthnologueStatus": "5 Developing",
     "languageLabelNative": "Sooninkanxanne",
     "languageLabelsCount": "1"
+  },
+  {
+    "itemLabel": "Gorontalo",
+    "wikidata": "Q2501174",
+    "population": "1000000",
+    "populationQualifier": "1-10M",
+    "EthnologueCode": "gor",
+    "EthnologueStatus": "6b Threatened",
+    "languageLabelNative": "Hulontalo",
+    "languageLabelsCount": "2"
   },
   {
     "itemLabel": "Yiddish",
@@ -1717,22 +1727,12 @@
     "isoLabel": "יידיש"
   },
   {
-    "itemLabel": "Gorontalo",
-    "wikidata": "Q2501174",
-    "population": "1000000",
-    "populationQualifier": "1-10M",
-    "EthnologueStatus": "6b Threatened",
-    "EthnologueCode": "gor",
-    "languageLabelNative": "Hulontalo",
-    "languageLabelsCount": "2"
-  },
-  {
     "itemLabel": "Cape Verdean Creole",
     "wikidata": "Q35963",
     "population": "871000",
     "populationQualifier": "100k-1M",
-    "EthnologueStatus": "1 National",
     "EthnologueCode": "kea",
+    "EthnologueStatus": "1 National",
     "languageLabelNative": "kabuverdianu",
     "languageLabelsCount": "2"
   },
@@ -1741,16 +1741,16 @@
     "wikidata": "Q35028",
     "population": "860000",
     "populationQualifier": "100k-1M",
-    "EthnologueStatus": "3 Wider Communication",
-    "EthnologueCode": "bum"
+    "EthnologueCode": "bum",
+    "EthnologueStatus": "3 Wider Communication"
   },
   {
     "itemLabel": "Manado",
     "wikidata": "Q1068112",
     "population": "850000",
     "populationQualifier": "100k-1M",
-    "EthnologueStatus": "3 Wider Communication",
     "EthnologueCode": "xmm",
+    "EthnologueStatus": "3 Wider Communication",
     "languageLabelNative": "bahasa Manado",
     "languageLabelsCount": "1"
   },
@@ -1759,8 +1759,8 @@
     "wikidata": "Q13349",
     "population": "850000",
     "populationQualifier": "100k-1M",
-    "EthnologueStatus": "5 Developing",
     "EthnologueCode": "mnw",
+    "EthnologueStatus": "5 Developing",
     "languageLabelNative": "ဘာသာမန်",
     "languageLabelsCount": "1",
     "UnescoStatus": "2 vulnerable"
@@ -1781,8 +1781,8 @@
     "wikidata": "Q2407831",
     "population": "825768",
     "populationQualifier": "100k-1M",
-    "EthnologueStatus": "5 Developing",
     "EthnologueCode": "nia",
+    "EthnologueStatus": "5 Developing",
     "languageLabelNative": "Li Niha",
     "languageLabelsCount": "1"
   },
@@ -1791,8 +1791,8 @@
     "wikidata": "Q34318",
     "population": "764400",
     "populationQualifier": "100k-1M",
-    "EthnologueStatus": "4 Educational",
     "EthnologueCode": "tly",
+    "EthnologueStatus": "4 Educational",
     "languageLabelNative": "Tolyšə zyvon",
     "languageLabelsCount": "5",
     "UnescoStatus": "2 vulnerable"
@@ -1802,8 +1802,8 @@
     "wikidata": "Q8752",
     "population": "750000",
     "populationQualifier": "100k-1M",
-    "EthnologueStatus": "2 Provincial",
     "EthnologueCode": "eus",
+    "EthnologueStatus": "2 Provincial",
     "languageLabelNative": "euskara",
     "languageLabelsCount": "2",
     "UnescoStatus": "2 vulnerable",
@@ -1814,8 +1814,8 @@
     "wikidata": "Q33287",
     "population": "745000",
     "populationQualifier": "100k-1M",
-    "EthnologueStatus": "4 Educational",
     "EthnologueCode": "gaa",
+    "EthnologueStatus": "4 Educational",
     "languageLabelNative": "Ga",
     "languageLabelsCount": "1"
   },
@@ -1824,8 +1824,8 @@
     "wikidata": "Q33348",
     "population": "738070",
     "populationQualifier": "100k-1M",
-    "EthnologueStatus": "2 Provincial",
     "EthnologueCode": "chv",
+    "EthnologueStatus": "2 Provincial",
     "languageLabelNative": "Чăваш чĕлхи",
     "languageLabelsCount": "1",
     "UnescoStatus": "3 definitely endangered",
@@ -1836,8 +1836,8 @@
     "wikidata": "Q9309",
     "population": "724000",
     "populationQualifier": "100k-1M",
-    "EthnologueStatus": "2 Provincial",
     "EthnologueCode": "cym",
+    "EthnologueStatus": "2 Provincial",
     "languageLabelNative": "Cymraeg",
     "languageLabelsCount": "1",
     "UnescoStatus": "2 vulnerable",
@@ -1848,55 +1848,55 @@
     "wikidata": "Q34024",
     "population": "700000",
     "populationQualifier": "100k-1M",
-    "EthnologueStatus": "8b Nearly Extinct",
     "EthnologueCode": "pcd",
+    "EthnologueStatus": "8b Nearly Extinct",
     "languageLabelNative": "picard",
     "languageLabelsCount": "1",
     "UnescoStatus": "4 severely endangered"
-  },
-  {
-    "itemLabel": "Karonese",
-    "wikidata": "Q33012",
-    "population": "600000",
-    "populationQualifier": "100k-1M",
-    "EthnologueStatus": "6b Threatened",
-    "EthnologueCode": "btx"
-  },
-  {
-    "itemLabel": "Mauritian Creole",
-    "wikidata": "Q33661",
-    "population": "600000",
-    "populationQualifier": "100k-1M",
-    "EthnologueStatus": "3 Wider Communication",
-    "EthnologueCode": "mfe"
-  },
-  {
-    "itemLabel": "Réunion Creole",
-    "wikidata": "Q13198",
-    "population": "600000",
-    "populationQualifier": "100k-1M",
-    "EthnologueStatus": "6a Vigorous",
-    "EthnologueCode": "rcf"
   },
   {
     "itemLabel": "Walloon",
     "wikidata": "Q34219",
     "population": "600000",
     "populationQualifier": "100k-1M",
-    "EthnologueStatus": "6b Threatened",
     "EthnologueCode": "wln",
+    "EthnologueStatus": "6b Threatened",
     "languageLabelNative": "walon",
     "languageLabelsCount": "1",
     "UnescoStatus": "3 definitely endangered",
     "isoLabel": "walon"
   },
   {
+    "itemLabel": "Karonese",
+    "wikidata": "Q33012",
+    "population": "600000",
+    "populationQualifier": "100k-1M",
+    "EthnologueCode": "btx",
+    "EthnologueStatus": "6b Threatened"
+  },
+  {
+    "itemLabel": "Mauritian Creole",
+    "wikidata": "Q33661",
+    "population": "600000",
+    "populationQualifier": "100k-1M",
+    "EthnologueCode": "mfe",
+    "EthnologueStatus": "3 Wider Communication"
+  },
+  {
+    "itemLabel": "Réunion Creole",
+    "wikidata": "Q13198",
+    "population": "600000",
+    "populationQualifier": "100k-1M",
+    "EthnologueCode": "rcf",
+    "EthnologueStatus": "6a Vigorous"
+  },
+  {
     "itemLabel": "Karakalpak",
     "wikidata": "Q33541",
     "population": "583410",
     "populationQualifier": "100k-1M",
-    "EthnologueStatus": "5 Developing",
     "EthnologueCode": "kaa",
+    "EthnologueStatus": "5 Developing",
     "languageLabelNative": "Qaraqalpaq tili",
     "languageLabelsCount": "2"
   },
@@ -1905,8 +1905,8 @@
     "wikidata": "Q9166",
     "population": "570000",
     "populationQualifier": "100k-1M",
-    "EthnologueStatus": "1 National",
     "EthnologueCode": "mlt",
+    "EthnologueStatus": "1 National",
     "languageLabelNative": "Malti",
     "languageLabelsCount": "1",
     "isoLabel": "Malti"
@@ -1916,8 +1916,8 @@
     "wikidata": "Q33357",
     "population": "552740",
     "populationQualifier": "100k-1M",
-    "EthnologueStatus": "5 Developing",
     "EthnologueCode": "crh",
+    "EthnologueStatus": "5 Developing",
     "languageLabelNative": "Къырым тили",
     "languageLabelsCount": "6",
     "UnescoStatus": "4 severely endangered"
@@ -1927,8 +1927,8 @@
     "wikidata": "Q14185",
     "population": "542000",
     "populationQualifier": "100k-1M",
-    "EthnologueStatus": "6b Threatened",
     "EthnologueCode": "oci",
+    "EthnologueStatus": "6b Threatened",
     "languageLabelNative": "occitan",
     "languageLabelsCount": "3",
     "UnescoStatus": "2 vulnerable",
@@ -1939,18 +1939,28 @@
     "wikidata": "Q30319",
     "population": "522000",
     "populationQualifier": "100k-1M",
-    "EthnologueStatus": "5 Developing",
     "EthnologueCode": "szl",
+    "EthnologueStatus": "5 Developing",
     "languageLabelNative": "Ślůnsko godka",
     "languageLabelsCount": "2"
+  },
+  {
+    "itemLabel": "Puno Quechua",
+    "wikidata": "Q7260479",
+    "population": "500000",
+    "populationQualifier": "100k-1M",
+    "EthnologueCode": "qxp",
+    "EthnologueStatus": "4 Educational",
+    "languageLabelNative": "punu qichwa simi",
+    "languageLabelsCount": "1"
   },
   {
     "itemLabel": "Toraja-Sa’dan",
     "wikidata": "Q36673",
     "population": "500000",
     "populationQualifier": "100k-1M",
-    "EthnologueStatus": "5 Developing",
     "EthnologueCode": "sda",
+    "EthnologueStatus": "5 Developing",
     "languageLabelNative": "bahasa Sa'dan",
     "languageLabelsCount": "1"
   },
@@ -1959,26 +1969,16 @@
     "wikidata": "Q35115",
     "population": "500000",
     "populationQualifier": "100k-1M",
-    "EthnologueStatus": "4 Educational",
-    "EthnologueCode": "cak"
-  },
-  {
-    "itemLabel": "Puno Quechua",
-    "wikidata": "Q7260479",
-    "population": "500000",
-    "populationQualifier": "100k-1M",
-    "EthnologueStatus": "4 Educational",
-    "EthnologueCode": "qxp",
-    "languageLabelNative": "punu qichwa simi",
-    "languageLabelsCount": "1"
+    "EthnologueCode": "cak",
+    "EthnologueStatus": "4 Educational"
   },
   {
     "itemLabel": "Komering",
     "wikidata": "Q49224",
     "population": "470000",
     "populationQualifier": "100k-1M",
-    "EthnologueStatus": "6a Vigorous",
     "EthnologueCode": "kge",
+    "EthnologueStatus": "6a Vigorous",
     "languageLabelNative": "Basa Kumoring",
     "languageLabelsCount": "2"
   },
@@ -1987,8 +1987,8 @@
     "wikidata": "Q34125",
     "population": "463500",
     "populationQualifier": "100k-1M",
-    "EthnologueStatus": "5 Developing",
     "EthnologueCode": "tet",
+    "EthnologueStatus": "5 Developing",
     "languageLabelNative": "Lia-tetun",
     "languageLabelsCount": "2"
   },
@@ -1997,8 +1997,8 @@
     "wikidata": "Q29507",
     "population": "450000",
     "populationQualifier": "100k-1M",
-    "EthnologueStatus": "6b Threatened",
     "EthnologueCode": "ast",
+    "EthnologueStatus": "6b Threatened",
     "languageLabelNative": "asturianu",
     "languageLabelsCount": "1",
     "UnescoStatus": "3 definitely endangered"
@@ -2008,8 +2008,8 @@
     "wikidata": "Q34011",
     "population": "415720",
     "populationQualifier": "100k-1M",
-    "EthnologueStatus": "1 National",
     "EthnologueCode": "smo",
+    "EthnologueStatus": "1 National",
     "languageLabelNative": "Gagana fa'a Sāmoa",
     "languageLabelsCount": "2",
     "isoLabel": "Gagana fa'a Sāmoa"
@@ -2019,8 +2019,8 @@
     "wikidata": "Q9051",
     "population": "391200",
     "populationQualifier": "100k-1M",
-    "EthnologueStatus": "4 Educational",
     "EthnologueCode": "ltz",
+    "EthnologueStatus": "4 Educational",
     "languageLabelNative": "Lëtzebuergesch",
     "languageLabelsCount": "1",
     "isoLabel": "Lëtzebuergesch"
@@ -2030,8 +2030,8 @@
     "wikidata": "Q46728",
     "population": "380000",
     "populationQualifier": "100k-1M",
-    "EthnologueStatus": "3 Wider Communication",
     "EthnologueCode": "hif",
+    "EthnologueStatus": "3 Wider Communication",
     "languageLabelNative": "Fiji Baat",
     "languageLabelsCount": "3"
   },
@@ -2049,8 +2049,8 @@
     "wikidata": "Q3056339",
     "population": "350000",
     "populationQualifier": "100k-1M",
-    "EthnologueStatus": "6a Vigorous",
     "EthnologueCode": "rej",
+    "EthnologueStatus": "6a Vigorous",
     "languageLabelNative": "Miling Hêjang",
     "languageLabelsCount": "1"
   },
@@ -2059,8 +2059,8 @@
     "wikidata": "Q33295",
     "population": "341270",
     "populationQualifier": "100k-1M",
-    "EthnologueStatus": "4 Educational",
     "EthnologueCode": "fij",
+    "EthnologueStatus": "4 Educational",
     "languageLabelNative": "vosa Vakaviti",
     "languageLabelsCount": "1",
     "isoLabel": "Na vosa vaka-Viti"
@@ -2070,8 +2070,8 @@
     "wikidata": "Q33000",
     "population": "327000",
     "populationQualifier": "100k-1M",
-    "EthnologueStatus": "5 Developing",
     "EthnologueCode": "bfi",
+    "EthnologueStatus": "5 Developing",
     "languageLabelNative": "British Sign Language",
     "languageLabelsCount": "1"
   },
@@ -2080,8 +2080,8 @@
     "wikidata": "Q32952",
     "population": "326000",
     "populationQualifier": "100k-1M",
-    "EthnologueStatus": "5 Developing",
     "EthnologueCode": "ccp",
+    "EthnologueStatus": "5 Developing",
     "languageLabelNative": "𑄌𑄋𑄴𑄟𑄳𑄦 𑄞𑄌𑄴",
     "languageLabelsCount": "2"
   },
@@ -2090,8 +2090,8 @@
     "wikidata": "Q294",
     "population": "321040",
     "populationQualifier": "100k-1M",
-    "EthnologueStatus": "1 National",
     "EthnologueCode": "isl",
+    "EthnologueStatus": "1 National",
     "languageLabelNative": "íslenska",
     "languageLabelsCount": "2",
     "isoLabel": "íslenska"
@@ -2101,8 +2101,8 @@
     "wikidata": "Q33714",
     "population": "310400",
     "populationQualifier": "100k-1M",
-    "EthnologueStatus": "5 Developing",
     "EthnologueCode": "krc",
+    "EthnologueStatus": "5 Developing",
     "languageLabelNative": "qaraçay-malqar",
     "languageLabelsCount": "5",
     "UnescoStatus": "2 vulnerable"
@@ -2112,29 +2112,26 @@
     "wikidata": "Q3182585",
     "population": "300000",
     "populationQualifier": "100k-1M",
-    "EthnologueStatus": "6a Vigorous",
     "EthnologueCode": "smw",
+    "EthnologueStatus": "6a Vigorous",
     "languageLabelNative": "Basa Samawa",
     "languageLabelsCount": "1"
   },
   {
-    "itemLabel": "Mapudungun",
-    "wikidata": "Q33730",
+    "itemLabel": "Hyam",
+    "wikidata": "Q35403",
     "population": "300000",
     "populationQualifier": "100k-1M",
-    "EthnologueStatus": "6b Threatened",
-    "EthnologueCode": "arn",
-    "languageLabelNative": "Mapudungun",
-    "languageLabelsCount": "1",
-    "UnescoStatus": "4 severely endangered"
+    "EthnologueCode": "jab",
+    "EthnologueStatus": "6a Vigorous"
   },
   {
     "itemLabel": "Friulian",
     "wikidata": "Q33441",
     "population": "300000",
     "populationQualifier": "100k-1M",
-    "EthnologueStatus": "4 Educational",
     "EthnologueCode": "fur",
+    "EthnologueStatus": "4 Educational",
     "languageLabelNative": "furlan",
     "languageLabelsCount": "2",
     "UnescoStatus": "3 definitely endangered"
@@ -2144,26 +2141,29 @@
     "wikidata": "Q1363072",
     "population": "300000",
     "populationQualifier": "100k-1M",
-    "EthnologueStatus": "6a Vigorous",
     "EthnologueCode": "gcr",
+    "EthnologueStatus": "6a Vigorous",
     "languageLabelNative": "Kriyòl Gwiyannen",
     "languageLabelsCount": "1"
   },
   {
-    "itemLabel": "Hyam",
-    "wikidata": "Q35403",
+    "itemLabel": "Mapudungun",
+    "wikidata": "Q33730",
     "population": "300000",
     "populationQualifier": "100k-1M",
-    "EthnologueStatus": "6a Vigorous",
-    "EthnologueCode": "jab"
+    "EthnologueCode": "arn",
+    "EthnologueStatus": "6b Threatened",
+    "languageLabelNative": "Mapudungun",
+    "languageLabelsCount": "1",
+    "UnescoStatus": "4 severely endangered"
   },
   {
     "itemLabel": "Tuvan",
     "wikidata": "Q34119",
     "population": "297000",
     "populationQualifier": "100k-1M",
-    "EthnologueStatus": "2 Provincial",
     "EthnologueCode": "tyv",
+    "EthnologueStatus": "2 Provincial",
     "languageLabelNative": "Tyva dyl",
     "languageLabelsCount": "2",
     "UnescoStatus": "2 vulnerable"
@@ -2173,8 +2173,8 @@
     "wikidata": "Q33302",
     "population": "283000",
     "populationQualifier": "100k-1M",
-    "EthnologueStatus": "5 Developing",
     "EthnologueCode": "fsl",
+    "EthnologueStatus": "5 Developing",
     "languageLabelNative": "langue des signes française",
     "languageLabelsCount": "1"
   },
@@ -2192,35 +2192,35 @@
     "wikidata": "Q8821",
     "population": "232600",
     "populationQualifier": "100k-1M",
-    "EthnologueStatus": "1 National",
     "EthnologueCode": "cnr",
+    "EthnologueStatus": "1 National",
     "languageLabelNative": "crnogorski jezik",
     "languageLabelsCount": "2",
     "UnescoStatus": "2 vulnerable"
-  },
-  {
-    "itemLabel": "Basaa language",
-    "wikidata": "Q33093",
-    "population": "230000",
-    "populationQualifier": "100k-1M",
-    "EthnologueStatus": "5 Developing",
-    "EthnologueCode": "bas"
   },
   {
     "itemLabel": "Rinconada Bikol",
     "wikidata": "Q12633026",
     "population": "230000",
     "populationQualifier": "100k-1M",
-    "EthnologueStatus": "6a Vigorous",
-    "EthnologueCode": "bto"
+    "EthnologueCode": "bto",
+    "EthnologueStatus": "6a Vigorous"
+  },
+  {
+    "itemLabel": "Basaa language",
+    "wikidata": "Q33093",
+    "population": "230000",
+    "populationQualifier": "100k-1M",
+    "EthnologueCode": "bas",
+    "EthnologueStatus": "5 Developing"
   },
   {
     "itemLabel": "Franco-Provençal",
     "wikidata": "Q15087",
     "population": "227000",
     "populationQualifier": "100k-1M",
-    "EthnologueStatus": "8b Nearly Extinct",
     "EthnologueCode": "frp",
+    "EthnologueStatus": "8b Nearly Extinct",
     "languageLabelNative": "arpetan",
     "languageLabelsCount": "2",
     "UnescoStatus": "3 definitely endangered"
@@ -2230,18 +2230,30 @@
     "wikidata": "Q10322106",
     "population": "219000",
     "populationQualifier": "100k-1M",
-    "EthnologueStatus": "6a Vigorous",
     "EthnologueCode": "ukl",
+    "EthnologueStatus": "6a Vigorous",
     "languageLabelNative": "українська жестова мова",
     "languageLabelsCount": "1"
+  },
+  {
+    "itemLabel": "Māori",
+    "wikidata": "Q36451",
+    "population": "213849",
+    "populationQualifier": "100k-1M",
+    "EthnologueCode": "mri",
+    "EthnologueStatus": "6b Threatened",
+    "languageLabelNative": "Māori",
+    "languageLabelsCount": "3",
+    "UnescoStatus": "2 vulnerable",
+    "isoLabel": "reo Māori"
   },
   {
     "itemLabel": "Kadazandusun",
     "wikidata": "Q5317225",
     "population": "180000",
     "populationQualifier": "100k-1M",
-    "EthnologueStatus": "6b Threatened",
     "EthnologueCode": "dtp",
+    "EthnologueStatus": "6b Threatened",
     "languageLabelNative": "boros Kadazandusun",
     "languageLabelsCount": "1"
   },
@@ -2250,32 +2262,20 @@
     "wikidata": "Q13310",
     "population": "169369",
     "populationQualifier": "100k-1M",
-    "EthnologueStatus": "6b Threatened",
     "EthnologueCode": "nav",
+    "EthnologueStatus": "6b Threatened",
     "languageLabelNative": "Diné",
     "languageLabelsCount": "2",
     "UnescoStatus": "2 vulnerable",
     "isoLabel": "Diné bizaad"
   },
   {
-    "itemLabel": "Māori",
-    "wikidata": "Q36451",
-    "population": "160000",
-    "populationQualifier": "100k-1M",
-    "EthnologueStatus": "6b Threatened",
-    "EthnologueCode": "mri",
-    "languageLabelNative": "Māori",
-    "languageLabelsCount": "3",
-    "UnescoStatus": "2 vulnerable",
-    "isoLabel": "reo Māori"
-  },
-  {
     "itemLabel": "Corsican",
     "wikidata": "Q33111",
     "population": "151000",
     "populationQualifier": "100k-1M",
-    "EthnologueStatus": "4 Educational",
     "EthnologueCode": "cos",
+    "EthnologueStatus": "4 Educational",
     "languageLabelNative": "corsu",
     "languageLabelsCount": "1",
     "UnescoStatus": "3 definitely endangered",
@@ -2286,8 +2286,8 @@
     "wikidata": "Q9142",
     "population": "141000",
     "populationQualifier": "100k-1M",
-    "EthnologueStatus": "3 Wider Communication",
     "EthnologueCode": "gle",
+    "EthnologueStatus": "3 Wider Communication",
     "languageLabelNative": "An Ghaeilge",
     "languageLabelsCount": "2",
     "UnescoStatus": "3 definitely endangered",
@@ -2298,16 +2298,16 @@
     "wikidata": "Q2067656",
     "population": "124000",
     "populationQualifier": "100k-1M",
-    "EthnologueStatus": "6a Vigorous",
-    "EthnologueCode": "end"
+    "EthnologueCode": "end",
+    "EthnologueStatus": "6a Vigorous"
   },
   {
     "itemLabel": "Aromanian",
     "wikidata": "Q29316",
     "population": "112960",
     "populationQualifier": "100k-1M",
-    "EthnologueStatus": "4 Educational",
     "EthnologueCode": "rup",
+    "EthnologueStatus": "4 Educational",
     "languageLabelNative": "armãneashce",
     "languageLabelsCount": "9",
     "UnescoStatus": "3 definitely endangered"
@@ -2317,8 +2317,8 @@
     "wikidata": "Q33690",
     "population": "108000",
     "populationQualifier": "100k-1M",
-    "EthnologueStatus": "8a Moribund",
     "EthnologueCode": "csb",
+    "EthnologueStatus": "8a Moribund",
     "languageLabelNative": "Kaszëbsczi jãzëk",
     "languageLabelsCount": "2",
     "UnescoStatus": "4 severely endangered"
@@ -2328,8 +2328,8 @@
     "wikidata": "Q12107",
     "population": "107000",
     "populationQualifier": "100k-1M",
-    "EthnologueStatus": "7 Shifting",
     "EthnologueCode": "bre",
+    "EthnologueStatus": "7 Shifting",
     "languageLabelNative": "brezhoneg",
     "languageLabelsCount": "2",
     "UnescoStatus": "4 severely endangered",
@@ -2340,8 +2340,8 @@
     "wikidata": "Q2697010",
     "population": "105000",
     "populationQualifier": "100k-1M",
-    "EthnologueStatus": "6a Vigorous",
     "EthnologueCode": "ljl",
+    "EthnologueStatus": "6a Vigorous",
     "languageLabelNative": "bahasa Aku",
     "languageLabelsCount": "1"
   },
@@ -2350,8 +2350,8 @@
     "wikidata": "Q845441",
     "population": "100000",
     "populationQualifier": "100k-1M",
-    "EthnologueStatus": "6b Threatened",
     "EthnologueCode": "sdc",
+    "EthnologueStatus": "6b Threatened",
     "languageLabelNative": "Sassaresu",
     "languageLabelsCount": "1",
     "UnescoStatus": "3 definitely endangered"
@@ -2361,8 +2361,8 @@
     "wikidata": "Q29952",
     "population": "96860",
     "populationQualifier": "20-100k",
-    "EthnologueStatus": "5 Developing",
     "EthnologueCode": "myv",
+    "EthnologueStatus": "5 Developing",
     "languageLabelNative": "Эрзянь кель",
     "languageLabelsCount": "1",
     "UnescoStatus": "3 definitely endangered"
@@ -2372,8 +2372,8 @@
     "wikidata": "Q33779",
     "population": "90000",
     "populationQualifier": "20-100k",
-    "EthnologueStatus": "5 Developing",
     "EthnologueCode": "srm",
+    "EthnologueStatus": "5 Developing",
     "languageLabelNative": "Saamáka",
     "languageLabelsCount": "1"
   },
@@ -2391,8 +2391,8 @@
     "wikidata": "Q715766",
     "population": "80000",
     "populationQualifier": "20-100k",
-    "EthnologueStatus": "5 Developing",
     "EthnologueCode": "tay",
+    "EthnologueStatus": "5 Developing",
     "languageLabelNative": "Atayal",
     "languageLabelsCount": "1",
     "UnescoStatus": "2 vulnerable"
@@ -2402,8 +2402,8 @@
     "wikidata": "Q25258",
     "population": "69150",
     "populationQualifier": "20-100k",
-    "EthnologueStatus": "1 National",
     "EthnologueCode": "fao",
+    "EthnologueStatus": "1 National",
     "languageLabelNative": "Føroyskt",
     "languageLabelsCount": "3",
     "UnescoStatus": "2 vulnerable",
@@ -2414,8 +2414,8 @@
     "wikidata": "Q34128",
     "population": "68000",
     "populationQualifier": "20-100k",
-    "EthnologueStatus": "1 National",
     "EthnologueCode": "tah",
+    "EthnologueStatus": "1 National",
     "languageLabelNative": "reo tahiti",
     "languageLabelsCount": "1",
     "isoLabel": "reo Tahiti"
@@ -2425,8 +2425,8 @@
     "wikidata": "Q33262",
     "population": "64300",
     "populationQualifier": "20-100k",
-    "EthnologueStatus": "1 National",
     "EthnologueCode": "cha",
+    "EthnologueStatus": "1 National",
     "languageLabelNative": "Chamorro",
     "languageLabelsCount": "2",
     "UnescoStatus": "2 vulnerable",
@@ -2437,8 +2437,8 @@
     "wikidata": "Q9314",
     "population": "60130",
     "populationQualifier": "20-100k",
-    "EthnologueStatus": "2 Provincial",
     "EthnologueCode": "gla",
+    "EthnologueStatus": "2 Provincial",
     "languageLabelNative": "Gàidhlig",
     "languageLabelsCount": "2",
     "UnescoStatus": "3 definitely endangered",
@@ -2449,8 +2449,8 @@
     "wikidata": "Q11059",
     "population": "49736",
     "populationQualifier": "20-100k",
-    "EthnologueStatus": "4 Educational",
     "EthnologueCode": "san",
+    "EthnologueStatus": "4 Educational",
     "languageLabelNative": "संस्कृतम्",
     "languageLabelsCount": "2",
     "isoLabel": "संस्कृतम्"
@@ -2479,8 +2479,8 @@
     "wikidata": "Q33569",
     "population": "27200",
     "populationQualifier": "20-100k",
-    "EthnologueStatus": "2 Provincial",
     "EthnologueCode": "haw",
+    "EthnologueStatus": "2 Provincial",
     "languageLabelNative": "‘Ōlelo Hawai‘i",
     "languageLabelsCount": "1",
     "UnescoStatus": "5 critically endangered"
@@ -2490,8 +2490,8 @@
     "wikidata": "Q33947",
     "population": "25700",
     "populationQualifier": "20-100k",
-    "EthnologueStatus": "6b Threatened",
     "EthnologueCode": "sme",
+    "EthnologueStatus": "6b Threatened",
     "languageLabelNative": "davvisámegiella",
     "languageLabelsCount": "2",
     "UnescoStatus": "3 definitely endangered",
@@ -2502,16 +2502,16 @@
     "wikidata": "Q680517",
     "population": "22780",
     "populationQualifier": "20-100k",
-    "EthnologueStatus": "6b Threatened",
-    "EthnologueCode": "wae"
+    "EthnologueCode": "wae",
+    "EthnologueStatus": "6b Threatened"
   },
   {
     "itemLabel": "Mirandese",
     "wikidata": "Q13330",
     "population": "15000",
     "populationQualifier": "1-20k",
-    "EthnologueStatus": "2 Provincial",
     "EthnologueCode": "mwl",
+    "EthnologueStatus": "2 Provincial",
     "languageLabelNative": "léngua mirandesa",
     "languageLabelsCount": "3"
   },
@@ -2520,8 +2520,8 @@
     "wikidata": "Q13351",
     "population": "11000",
     "populationQualifier": "1-20k",
-    "EthnologueStatus": "6b Threatened",
     "EthnologueCode": "moe",
+    "EthnologueStatus": "6b Threatened",
     "languageLabelNative": "Innu Aimun",
     "languageLabelsCount": "2",
     "UnescoStatus": "2 vulnerable"
@@ -2548,8 +2548,8 @@
     "wikidata": "Q56590",
     "population": "6160",
     "populationQualifier": "1-20k",
-    "EthnologueStatus": "5 Developing",
     "EthnologueCode": "atj",
+    "EthnologueStatus": "5 Developing",
     "languageLabelNative": "Atikamekw",
     "languageLabelsCount": "2",
     "UnescoStatus": "2 vulnerable"
@@ -2568,8 +2568,8 @@
     "wikidata": "Q36746",
     "population": "5000",
     "populationQualifier": "1-20k",
-    "EthnologueStatus": "6b Threatened",
     "EthnologueCode": "rap",
+    "EthnologueStatus": "6b Threatened",
     "UnescoStatus": "4 severely endangered"
   },
   {
@@ -2577,8 +2577,8 @@
     "wikidata": "Q34097",
     "population": "3300",
     "populationQualifier": "1-20k",
-    "EthnologueStatus": "6b Threatened",
     "EthnologueCode": "tkl",
+    "EthnologueStatus": "6b Threatened",
     "languageLabelNative": "gagana Tokelau",
     "languageLabelsCount": "1",
     "UnescoStatus": "4 severely endangered"
@@ -2592,6 +2592,15 @@
     "languageLabelsCount": "1"
   },
   {
+    "itemLabel": "Suruí",
+    "wikidata": "Q7646993",
+    "population": "2000",
+    "populationQualifier": "1-20k",
+    "EthnologueCode": "sru",
+    "EthnologueStatus": "6a Vigorous",
+    "UnescoStatus": "2 vulnerable"
+  },
+  {
     "itemLabel": "Gutnish",
     "wikidata": "Q1256646",
     "population": "2000",
@@ -2599,15 +2608,6 @@
     "languageLabelNative": "Gutamål",
     "languageLabelsCount": "1",
     "UnescoStatus": "3 definitely endangered"
-  },
-  {
-    "itemLabel": "Suruí",
-    "wikidata": "Q7646993",
-    "population": "2000",
-    "populationQualifier": "1-20k",
-    "EthnologueStatus": "6a Vigorous",
-    "EthnologueCode": "sru",
-    "UnescoStatus": "2 vulnerable"
   },
   {
     "itemLabel": "Tangsi",
@@ -2622,8 +2622,8 @@
     "wikidata": "Q718269",
     "population": "958",
     "populationQualifier": "<1k",
-    "EthnologueStatus": "4 Educational",
     "EthnologueCode": "szy",
+    "EthnologueStatus": "4 Educational",
     "languageLabelNative": "Sakizaya",
     "languageLabelsCount": "1",
     "UnescoStatus": "5 critically endangered"
@@ -2633,16 +2633,16 @@
     "wikidata": "Q33759",
     "population": "938",
     "populationQualifier": "<1k",
-    "EthnologueStatus": "6b Threatened",
-    "EthnologueCode": "mns"
+    "EthnologueCode": "mns",
+    "EthnologueStatus": "6b Threatened"
   },
   {
     "itemLabel": "Cornish",
     "wikidata": "Q25289",
     "population": "600",
     "populationQualifier": "<1k",
-    "EthnologueStatus": "9 Reawakening",
     "EthnologueCode": "cor",
+    "EthnologueStatus": "9 Reawakening",
     "languageLabelNative": "kernewek",
     "languageLabelsCount": "3",
     "UnescoStatus": "5 critically endangered",
@@ -2653,8 +2653,8 @@
     "wikidata": "Q56416",
     "population": "140",
     "populationQualifier": "<1k",
-    "EthnologueStatus": "7 Shifting",
     "EthnologueCode": "acy",
+    "EthnologueStatus": "7 Shifting",
     "UnescoStatus": "4 severely endangered"
   },
   {
@@ -2671,8 +2671,8 @@
     "wikidata": "Q33638",
     "population": "20",
     "populationQualifier": "<1k",
-    "EthnologueStatus": "8b Nearly Extinct",
     "EthnologueCode": "mnc",
+    "EthnologueStatus": "8b Nearly Extinct",
     "languageLabelNative": "ᠮᠠᠨᠵᡠ ᡤᡳᠰᡠᠨ",
     "languageLabelsCount": "1"
   },
@@ -2691,6 +2691,31 @@
     "populationQualifier": "<1k"
   },
   {
+    "itemLabel": "Modern Standard Arabic",
+    "wikidata": "Q56467",
+    "population": "0",
+    "populationQualifier": "<1k"
+  },
+  {
+    "itemLabel": "Old Occitan",
+    "wikidata": "Q2779185",
+    "population": "0",
+    "populationQualifier": "<1k",
+    "languageLabelNative": "Romans",
+    "languageLabelsCount": "2"
+  },
+  {
+    "itemLabel": "Pali",
+    "wikidata": "Q36727",
+    "population": "0",
+    "populationQualifier": "<1k",
+    "EthnologueCode": "pli",
+    "EthnologueStatus": "9 Second language only",
+    "languageLabelNative": "Pāḷi",
+    "languageLabelsCount": "2",
+    "isoLabel": "𑀧𑀸𑀮𑀺"
+  },
+  {
     "itemLabel": "Old English",
     "wikidata": "Q42365",
     "population": "0",
@@ -2706,35 +2731,10 @@
     "UnescoStatus": "6 extinct"
   },
   {
-    "itemLabel": "Pali",
-    "wikidata": "Q36727",
-    "population": "0",
-    "populationQualifier": "<1k",
-    "EthnologueStatus": "9 Second language only",
-    "EthnologueCode": "pli",
-    "languageLabelNative": "Pāḷi",
-    "languageLabelsCount": "2",
-    "isoLabel": "𑀧𑀸𑀮𑀺"
-  },
-  {
-    "itemLabel": "Modern Standard Arabic",
-    "wikidata": "Q56467",
-    "population": "0",
-    "populationQualifier": "<1k"
-  },
-  {
     "itemLabel": "Old Tupi",
     "wikidata": "Q56944",
     "population": "0",
     "populationQualifier": "<1k"
-  },
-  {
-    "itemLabel": "Old Occitan",
-    "wikidata": "Q2779185",
-    "population": "0",
-    "populationQualifier": "<1k",
-    "languageLabelNative": "Romans",
-    "languageLabelsCount": "2"
   },
   {
     "itemLabel": "Lojban",
@@ -2742,420 +2742,6 @@
     "population": "http://www.wikidata.org/.well-known/genid/3cb58562575ba39f1c11888d1de89417",
     "languageLabelNative": "la .lojban.",
     "languageLabelsCount": "1"
-  },
-  {
-    "itemLabel": "Tangut",
-    "wikidata": "Q2727930",
-    "languageLabelNative": "𗼇𗟲",
-    "languageLabelsCount": "1"
-  },
-  {
-    "itemLabel": "Proto-Germanic",
-    "wikidata": "Q669623"
-  },
-  {
-    "itemLabel": "Mayennais",
-    "wikidata": "Q3302952"
-  },
-  {
-    "itemLabel": "Central Catalan",
-    "wikidata": "Q2941602"
-  },
-  {
-    "itemLabel": "Armenian Sign Language",
-    "wikidata": "Q3446604",
-    "EthnologueStatus": "6a Vigorous",
-    "EthnologueCode": "aen"
-  },
-  {
-    "itemLabel": "Biak",
-    "wikidata": "Q1961488",
-    "EthnologueStatus": "6b Threatened",
-    "EthnologueCode": "bhw",
-    "UnescoStatus": "2 vulnerable"
-  },
-  {
-    "itemLabel": "Kensiu",
-    "wikidata": "Q6391529",
-    "EthnologueStatus": "6a Vigorous",
-    "EthnologueCode": "kns"
-  },
-  {
-    "itemLabel": "Jambi Malay",
-    "wikidata": "Q3915769",
-    "EthnologueStatus": "6a Vigorous",
-    "EthnologueCode": "jax",
-    "languageLabelNative": "bahaso Melayu Jambi",
-    "languageLabelsCount": "1"
-  },
-  {
-    "itemLabel": "Kanayatn",
-    "wikidata": "Q6388963",
-    "EthnologueStatus": "3 Wider Communication",
-    "EthnologueCode": "knx"
-  },
-  {
-    "itemLabel": "Tenggarong",
-    "wikidata": "Q12683226",
-    "EthnologueStatus": "6a Vigorous",
-    "EthnologueCode": "vkt"
-  },
-  {
-    "itemLabel": "Kaidipang",
-    "wikidata": "Q6347611",
-    "EthnologueStatus": "6b Threatened",
-    "EthnologueCode": "kzp"
-  },
-  {
-    "itemLabel": "Kaur",
-    "wikidata": "Q6378867",
-    "EthnologueStatus": "6a Vigorous",
-    "EthnologueCode": "vkk",
-    "languageLabelNative": "bahasa Bintuhan",
-    "languageLabelsCount": "2"
-  },
-  {
-    "itemLabel": "Petjo",
-    "wikidata": "Q940486",
-    "EthnologueStatus": "8b Nearly Extinct",
-    "EthnologueCode": "pey"
-  },
-  {
-    "itemLabel": "Palembang",
-    "wikidata": "Q12497929",
-    "EthnologueStatus": "2 Provincial",
-    "EthnologueCode": "plm",
-    "languageLabelNative": "baso Pelémbang",
-    "languageLabelsCount": "1"
-  },
-  {
-    "itemLabel": "Minriq",
-    "wikidata": "Q2742268",
-    "EthnologueStatus": "6b Threatened",
-    "EthnologueCode": "mnq"
-  },
-  {
-    "itemLabel": "Lampung Nyo",
-    "wikidata": "Q12473424",
-    "EthnologueStatus": "6a Vigorous",
-    "EthnologueCode": "abl",
-    "languageLabelNative": "Caba Abbung",
-    "languageLabelsCount": "1"
-  },
-  {
-    "itemLabel": "Pa'O",
-    "wikidata": "Q7121294",
-    "EthnologueStatus": "5 Developing",
-    "EthnologueCode": "blk"
-  },
-  {
-    "itemLabel": "Central Malay",
-    "wikidata": "Q3367751",
-    "EthnologueStatus": "6a Vigorous",
-    "EthnologueCode": "pse"
-  },
-  {
-    "itemLabel": "Taiwanese Sign Language",
-    "wikidata": "Q34019",
-    "EthnologueStatus": "6b Threatened",
-    "EthnologueCode": "tss",
-    "languageLabelNative": "台灣手語",
-    "languageLabelsCount": "1"
-  },
-  {
-    "itemLabel": "Chinese Sign Language",
-    "wikidata": "Q1094190",
-    "EthnologueStatus": "5 Developing",
-    "EthnologueCode": "csl",
-    "languageLabelNative": "中国手语",
-    "languageLabelsCount": "2"
-  },
-  {
-    "itemLabel": "Nga'ka language",
-    "wikidata": "Q36068",
-    "EthnologueStatus": "6a Vigorous",
-    "EthnologueCode": "mhk"
-  },
-  {
-    "itemLabel": "Bakumpai",
-    "wikidata": "Q3436626",
-    "EthnologueStatus": "3 Wider Communication",
-    "EthnologueCode": "bkr"
-  },
-  {
-    "itemLabel": "Indonesian Sign Language",
-    "wikidata": "Q3915477",
-    "EthnologueStatus": "6a Vigorous",
-    "EthnologueCode": "inl",
-    "languageLabelNative": "Bahasa Isyarat Indonesia",
-    "languageLabelsCount": "1"
-  },
-  {
-    "itemLabel": "Highland Konjo",
-    "wikidata": "Q3198688",
-    "EthnologueStatus": "6b Threatened",
-    "EthnologueCode": "kjk",
-    "languageLabelNative": "bahasa Konjo Pegunungan",
-    "languageLabelsCount": "1"
-  },
-  {
-    "itemLabel": "Papuan Malay",
-    "wikidata": "Q12473446",
-    "EthnologueStatus": "3 Wider Communication",
-    "EthnologueCode": "pmy",
-    "languageLabelNative": "bahasa Melayu Papua",
-    "languageLabelsCount": "1"
-  },
-  {
-    "itemLabel": "Ngaju",
-    "wikidata": "Q2992872",
-    "EthnologueStatus": "3 Wider Communication",
-    "EthnologueCode": "nij"
-  },
-  {
-    "itemLabel": "Haji",
-    "wikidata": "Q5639933",
-    "EthnologueStatus": "6a Vigorous",
-    "EthnologueCode": "hji",
-    "languageLabelNative": "bahasa Haji",
-    "languageLabelsCount": "1"
-  },
-  {
-    "itemLabel": "Standard Moroccan Tamazight",
-    "wikidata": "Q7598268",
-    "EthnologueStatus": "1 National",
-    "EthnologueCode": "zgh",
-    "languageLabelNative": "ⵜⴰⵎⴰⵣⵉⵖⵜ ⵜⴰⵏⴰⵡⴰⵢⵜ",
-    "languageLabelsCount": "1"
-  },
-  {
-    "itemLabel": "Tsimshian",
-    "wikidata": "Q20085721",
-    "EthnologueStatus": "8a Moribund",
-    "EthnologueCode": "tsi",
-    "UnescoStatus": "5 critically endangered"
-  },
-  {
-    "itemLabel": "Guarani",
-    "wikidata": "Q35876",
-    "EthnologueCode": "grn",
-    "languageLabelNative": "Avañe'ẽ",
-    "languageLabelsCount": "1",
-    "isoLabel": "avañe'ẽ"
-  },
-  {
-    "itemLabel": "Duala",
-    "wikidata": "Q33013",
-    "EthnologueStatus": "3 Wider Communication",
-    "EthnologueCode": "dua"
-  },
-  {
-    "itemLabel": "Teochew",
-    "wikidata": "Q36759"
-  },
-  {
-    "itemLabel": "Blissymbols",
-    "wikidata": "Q609817"
-  },
-  {
-    "itemLabel": "Mentawai",
-    "wikidata": "Q13365",
-    "EthnologueStatus": "5 Developing",
-    "EthnologueCode": "mwv",
-    "languageLabelNative": "bahasa Mentawai",
-    "languageLabelsCount": "1"
-  },
-  {
-    "itemLabel": "Musi",
-    "wikidata": "Q615660",
-    "EthnologueStatus": "3 Wider Communication",
-    "EthnologueCode": "mui",
-    "languageLabelNative": "Basé Musi",
-    "languageLabelsCount": "2"
-  },
-  {
-    "itemLabel": "Betawi",
-    "wikidata": "Q33014",
-    "EthnologueStatus": "6b Threatened",
-    "EthnologueCode": "bew",
-    "languageLabelNative": "basè Betawi",
-    "languageLabelsCount": "1"
-  },
-  {
-    "itemLabel": "Lampung Api",
-    "wikidata": "Q49215",
-    "EthnologueStatus": "6a Vigorous",
-    "EthnologueCode": "ljp",
-    "languageLabelNative": "bahasa Lampung Api",
-    "languageLabelsCount": "1"
-  },
-  {
-    "itemLabel": "Ahom",
-    "wikidata": "Q34778",
-    "EthnologueStatus": "9 Second language only",
-    "EthnologueCode": "aho",
-    "UnescoStatus": "6 extinct"
-  },
-  {
-    "itemLabel": "Faka'uvea",
-    "wikidata": "Q36979",
-    "EthnologueStatus": "5 Developing",
-    "EthnologueCode": "wls",
-    "languageLabelNative": "Lea faka'uvea",
-    "languageLabelsCount": "1"
-  },
-  {
-    "itemLabel": "Zarma",
-    "wikidata": "Q36990",
-    "EthnologueStatus": "4 Educational",
-    "EthnologueCode": "dje"
-  },
-  {
-    "itemLabel": "Yemba",
-    "wikidata": "Q36917",
-    "EthnologueStatus": "5 Developing",
-    "EthnologueCode": "ybb"
-  },
-  {
-    "itemLabel": "Londo",
-    "wikidata": "Q35071",
-    "EthnologueStatus": "6b Threatened",
-    "EthnologueCode": "bzm"
-  },
-  {
-    "itemLabel": "Oroko",
-    "wikidata": "Q36278",
-    "EthnologueStatus": "5 Developing",
-    "EthnologueCode": "bdu"
-  },
-  {
-    "itemLabel": "Ghomala' language",
-    "wikidata": "Q35271",
-    "EthnologueStatus": "5 Developing",
-    "EthnologueCode": "bbj",
-    "languageLabelNative": "Ghɔmálá’",
-    "languageLabelsCount": "1"
-  },
-  {
-    "itemLabel": "Wayuu",
-    "wikidata": "Q891085",
-    "EthnologueStatus": "5 Developing",
-    "EthnologueCode": "guc",
-    "UnescoStatus": "2 vulnerable"
-  },
-  {
-    "itemLabel": "Ngiemboon",
-    "wikidata": "Q36286",
-    "EthnologueStatus": "5 Developing",
-    "EthnologueCode": "nnh",
-    "languageLabelNative": "Ngiembɔɔn",
-    "languageLabelsCount": "1"
-  },
-  {
-    "itemLabel": "Tupuri",
-    "wikidata": "Q36646",
-    "EthnologueStatus": "5 Developing",
-    "EthnologueCode": "tui"
-  },
-  {
-    "itemLabel": "Mundang",
-    "wikidata": "Q36032",
-    "EthnologueStatus": "5 Developing",
-    "EthnologueCode": "mua"
-  },
-  {
-    "itemLabel": "Nyang language",
-    "wikidata": "Q35650",
-    "EthnologueStatus": "5 Developing",
-    "EthnologueCode": "ken"
-  },
-  {
-    "itemLabel": "Berom",
-    "wikidata": "Q35013",
-    "EthnologueStatus": "5 Developing",
-    "EthnologueCode": "bom"
-  },
-  {
-    "itemLabel": "Jju",
-    "wikidata": "Q35401",
-    "EthnologueStatus": "5 Developing",
-    "EthnologueCode": "kaj"
-  },
-  {
-    "itemLabel": "British English",
-    "wikidata": "Q7979",
-    "languageLabelNative": "British English",
-    "languageLabelsCount": "1"
-  },
-  {
-    "itemLabel": "Paiwan",
-    "wikidata": "Q715755",
-    "EthnologueStatus": "5 Developing",
-    "EthnologueCode": "pwn",
-    "languageLabelNative": "Pinayuanan",
-    "languageLabelsCount": "1",
-    "UnescoStatus": "2 vulnerable"
-  },
-  {
-    "itemLabel": "Old French",
-    "wikidata": "Q35222"
-  },
-  {
-    "itemLabel": "Salentino",
-    "wikidata": "Q1213"
-  },
-  {
-    "itemLabel": "Láadan",
-    "wikidata": "Q35757",
-    "EthnologueStatus": "9 Second language only",
-    "languageLabelNative": "Láadan",
-    "languageLabelsCount": "1"
-  },
-  {
-    "itemLabel": "Latin",
-    "wikidata": "Q397",
-    "EthnologueStatus": "9 Second language only",
-    "EthnologueCode": "lat",
-    "languageLabelNative": "Lingua latina",
-    "languageLabelsCount": "1",
-    "isoLabel": "lingua Latīna"
-  },
-  {
-    "itemLabel": "Ancient Greek",
-    "wikidata": "Q35497",
-    "EthnologueStatus": "9 Second language only",
-    "EthnologueCode": "grc",
-    "languageLabelNative": "Ἀρχαία Ἑλληνική",
-    "languageLabelsCount": "1"
-  },
-  {
-    "itemLabel": "Angika",
-    "wikidata": "Q28378",
-    "EthnologueStatus": "5 Developing",
-    "EthnologueCode": "anp",
-    "languageLabelNative": "अंगिका",
-    "languageLabelsCount": "1",
-    "UnescoStatus": "2 vulnerable"
-  },
-  {
-    "itemLabel": "Obolo",
-    "wikidata": "Q36614",
-    "EthnologueStatus": "5 Developing",
-    "EthnologueCode": "ann"
-  },
-  {
-    "itemLabel": "Bangala",
-    "wikidata": "Q34989",
-    "EthnologueStatus": "3 Wider Communication",
-    "EthnologueCode": "bxg"
-  },
-  {
-    "itemLabel": "multiple languages",
-    "wikidata": "Q20923490"
-  },
-  {
-    "itemLabel": "Old Norse",
-    "wikidata": "Q35505"
   },
   {
     "itemLabel": "centro-meridional Calabrian",
@@ -3168,6 +2754,474 @@
   {
     "itemLabel": "Nanjing Dialect",
     "wikidata": "Q2681098"
+  },
+  {
+    "itemLabel": "Proto-Germanic",
+    "wikidata": "Q669623"
+  },
+  {
+    "itemLabel": "Tulu",
+    "wikidata": "Q67999865"
+  },
+  {
+    "itemLabel": "Mon-Pali",
+    "wikidata": "Q100271134",
+    "languageLabelNative": "ပါဠိမန်",
+    "languageLabelsCount": "1"
+  },
+  {
+    "itemLabel": "Mayennais",
+    "wikidata": "Q3302952"
+  },
+  {
+    "itemLabel": "Bila",
+    "wikidata": "Q2902626",
+    "EthnologueCode": "bip",
+    "EthnologueStatus": "6a Vigorous"
+  },
+  {
+    "itemLabel": "Petjo",
+    "wikidata": "Q940486",
+    "EthnologueCode": "pey",
+    "EthnologueStatus": "8b Nearly Extinct"
+  },
+  {
+    "itemLabel": "Palembang",
+    "wikidata": "Q12497929",
+    "EthnologueCode": "plm",
+    "EthnologueStatus": "2 Provincial",
+    "languageLabelNative": "baso Pelémbang",
+    "languageLabelsCount": "1"
+  },
+  {
+    "itemLabel": "Minriq",
+    "wikidata": "Q2742268",
+    "EthnologueCode": "mnq",
+    "EthnologueStatus": "6b Threatened"
+  },
+  {
+    "itemLabel": "Tsimshian",
+    "wikidata": "Q20085721",
+    "EthnologueCode": "tsi",
+    "EthnologueStatus": "8a Moribund",
+    "UnescoStatus": "5 critically endangered"
+  },
+  {
+    "itemLabel": "Bakumpai",
+    "wikidata": "Q3436626",
+    "EthnologueCode": "bkr",
+    "EthnologueStatus": "3 Wider Communication"
+  },
+  {
+    "itemLabel": "Indonesian Sign Language",
+    "wikidata": "Q3915477",
+    "EthnologueCode": "inl",
+    "EthnologueStatus": "6a Vigorous",
+    "languageLabelNative": "Bahasa Isyarat Indonesia",
+    "languageLabelsCount": "1"
+  },
+  {
+    "itemLabel": "Highland Konjo",
+    "wikidata": "Q3198688",
+    "EthnologueCode": "kjk",
+    "EthnologueStatus": "6b Threatened",
+    "languageLabelNative": "bahasa Konjo Pegunungan",
+    "languageLabelsCount": "1"
+  },
+  {
+    "itemLabel": "Papuan Malay",
+    "wikidata": "Q12473446",
+    "EthnologueCode": "pmy",
+    "EthnologueStatus": "3 Wider Communication",
+    "languageLabelNative": "bahasa Melayu Papua",
+    "languageLabelsCount": "1"
+  },
+  {
+    "itemLabel": "Ngaju",
+    "wikidata": "Q2992872",
+    "EthnologueCode": "nij",
+    "EthnologueStatus": "3 Wider Communication"
+  },
+  {
+    "itemLabel": "Haji",
+    "wikidata": "Q5639933",
+    "EthnologueCode": "hji",
+    "EthnologueStatus": "6a Vigorous",
+    "languageLabelNative": "bahasa Haji",
+    "languageLabelsCount": "1"
+  },
+  {
+    "itemLabel": "Jakun",
+    "wikidata": "Q4216968",
+    "EthnologueCode": "jak",
+    "EthnologueStatus": "6b Threatened",
+    "UnescoStatus": "3 definitely endangered"
+  },
+  {
+    "itemLabel": "Wapan",
+    "wikidata": "Q3914914",
+    "EthnologueCode": "juk",
+    "EthnologueStatus": "5 Developing"
+  },
+  {
+    "itemLabel": "Tyap",
+    "wikidata": "Q3912765",
+    "EthnologueCode": "kcg",
+    "EthnologueStatus": "6a Vigorous"
+  },
+  {
+    "itemLabel": "Keninjal",
+    "wikidata": "Q6389309",
+    "EthnologueCode": "knl",
+    "EthnologueStatus": "6a Vigorous"
+  },
+  {
+    "itemLabel": "Tenggerese",
+    "wikidata": "Q12473479",
+    "EthnologueCode": "tes",
+    "EthnologueStatus": "6a Vigorous"
+  },
+  {
+    "itemLabel": "Huaylas Quechua",
+    "wikidata": "Q6094343",
+    "EthnologueCode": "qwh",
+    "EthnologueStatus": "6b Threatened"
+  },
+  {
+    "itemLabel": "Armenian Sign Language",
+    "wikidata": "Q3446604",
+    "EthnologueCode": "aen",
+    "EthnologueStatus": "6a Vigorous"
+  },
+  {
+    "itemLabel": "Lampung Nyo",
+    "wikidata": "Q12473424",
+    "EthnologueCode": "abl",
+    "EthnologueStatus": "6a Vigorous",
+    "languageLabelNative": "Caba Abbung",
+    "languageLabelsCount": "1"
+  },
+  {
+    "itemLabel": "Pa'O",
+    "wikidata": "Q7121294",
+    "EthnologueCode": "blk",
+    "EthnologueStatus": "5 Developing"
+  },
+  {
+    "itemLabel": "Central Malay",
+    "wikidata": "Q3367751",
+    "EthnologueCode": "pse",
+    "EthnologueStatus": "6a Vigorous"
+  },
+  {
+    "itemLabel": "Taiwanese Sign Language",
+    "wikidata": "Q34019",
+    "EthnologueCode": "tss",
+    "EthnologueStatus": "6b Threatened",
+    "languageLabelNative": "台灣手語",
+    "languageLabelsCount": "1"
+  },
+  {
+    "itemLabel": "Chinese Sign Language",
+    "wikidata": "Q1094190",
+    "EthnologueCode": "csl",
+    "EthnologueStatus": "5 Developing",
+    "languageLabelNative": "中国手语",
+    "languageLabelsCount": "2"
+  },
+  {
+    "itemLabel": "Standard Moroccan Tamazight",
+    "wikidata": "Q7598268",
+    "EthnologueCode": "zgh",
+    "EthnologueStatus": "1 National",
+    "languageLabelNative": "ⵜⴰⵎⴰⵣⵉⵖⵜ ⵜⴰⵏⴰⵡⴰⵢⵜ",
+    "languageLabelsCount": "1"
+  },
+  {
+    "itemLabel": "Tangut",
+    "wikidata": "Q2727930",
+    "languageLabelNative": "𗼇𗟲",
+    "languageLabelsCount": "1"
+  },
+  {
+    "itemLabel": "Old Church Slavonic",
+    "wikidata": "Q35499",
+    "EthnologueStatus": "6b Threatened",
+    "languageLabelNative": "Словѣньскъ",
+    "languageLabelsCount": "2",
+    "UnescoStatus": "2 vulnerable"
+  },
+  {
+    "itemLabel": "Biak",
+    "wikidata": "Q1961488",
+    "EthnologueCode": "bhw",
+    "EthnologueStatus": "6b Threatened",
+    "UnescoStatus": "2 vulnerable"
+  },
+  {
+    "itemLabel": "Kensiu",
+    "wikidata": "Q6391529",
+    "EthnologueCode": "kns",
+    "EthnologueStatus": "6a Vigorous"
+  },
+  {
+    "itemLabel": "Jambi Malay",
+    "wikidata": "Q3915769",
+    "EthnologueCode": "jax",
+    "EthnologueStatus": "6a Vigorous",
+    "languageLabelNative": "bahaso Melayu Jambi",
+    "languageLabelsCount": "1"
+  },
+  {
+    "itemLabel": "Kanayatn",
+    "wikidata": "Q6388963",
+    "EthnologueCode": "knx",
+    "EthnologueStatus": "3 Wider Communication"
+  },
+  {
+    "itemLabel": "Tenggarong",
+    "wikidata": "Q12683226",
+    "EthnologueCode": "vkt",
+    "EthnologueStatus": "6a Vigorous"
+  },
+  {
+    "itemLabel": "Kaidipang",
+    "wikidata": "Q6347611",
+    "EthnologueCode": "kzp",
+    "EthnologueStatus": "6b Threatened"
+  },
+  {
+    "itemLabel": "Kaur",
+    "wikidata": "Q6378867",
+    "EthnologueCode": "vkk",
+    "EthnologueStatus": "6a Vigorous",
+    "languageLabelNative": "bahasa Bintuhan",
+    "languageLabelsCount": "2"
+  },
+  {
+    "itemLabel": "Bikol languages",
+    "wikidata": "Q35455",
+    "EthnologueCode": "bik"
+  },
+  {
+    "itemLabel": "Laari",
+    "wikidata": "Q12952693"
+  },
+  {
+    "itemLabel": "Martinique Creole",
+    "wikidata": "Q3006281"
+  },
+  {
+    "itemLabel": "Sursilvan",
+    "wikidata": "Q688348",
+    "languageLabelNative": "Sursilvan",
+    "languageLabelsCount": "1"
+  },
+  {
+    "itemLabel": "multiple languages",
+    "wikidata": "Q20923490"
+  },
+  {
+    "itemLabel": "Old Norse",
+    "wikidata": "Q35505"
+  },
+  {
+    "itemLabel": "Central Catalan",
+    "wikidata": "Q2941602"
+  },
+  {
+    "itemLabel": "Massa language",
+    "wikidata": "Q56668",
+    "EthnologueCode": "mcn",
+    "EthnologueStatus": "5 Developing"
+  },
+  {
+    "itemLabel": "Saint Lucian Creole French",
+    "wikidata": "Q3006285",
+    "EthnologueCode": "acf",
+    "EthnologueStatus": "5 Developing",
+    "languageLabelNative": "kweyol",
+    "languageLabelsCount": "2"
+  },
+  {
+    "itemLabel": "Guadeloupean Creole French",
+    "wikidata": "Q3006280",
+    "EthnologueCode": "gcf",
+    "EthnologueStatus": "6a Vigorous"
+  },
+  {
+    "itemLabel": "Nga'ka language",
+    "wikidata": "Q36068",
+    "EthnologueCode": "mhk",
+    "EthnologueStatus": "6a Vigorous"
+  },
+  {
+    "itemLabel": "Amis",
+    "wikidata": "Q35132",
+    "EthnologueCode": "ami",
+    "EthnologueStatus": "5 Developing",
+    "languageLabelNative": "Amis",
+    "languageLabelsCount": "1",
+    "UnescoStatus": "2 vulnerable"
+  },
+  {
+    "itemLabel": "Havu",
+    "wikidata": "Q5684097",
+    "EthnologueCode": "hav",
+    "EthnologueStatus": "6a Vigorous"
+  },
+  {
+    "itemLabel": "Salentino",
+    "wikidata": "Q1213"
+  },
+  {
+    "itemLabel": "Blissymbols",
+    "wikidata": "Q609817"
+  },
+  {
+    "itemLabel": "Musi",
+    "wikidata": "Q615660",
+    "EthnologueCode": "mui",
+    "EthnologueStatus": "3 Wider Communication",
+    "languageLabelNative": "Basé Musi",
+    "languageLabelsCount": "2"
+  },
+  {
+    "itemLabel": "Berom",
+    "wikidata": "Q35013",
+    "EthnologueCode": "bom",
+    "EthnologueStatus": "5 Developing"
+  },
+  {
+    "itemLabel": "Jju",
+    "wikidata": "Q35401",
+    "EthnologueCode": "kaj",
+    "EthnologueStatus": "5 Developing"
+  },
+  {
+    "itemLabel": "Betawi",
+    "wikidata": "Q33014",
+    "EthnologueCode": "bew",
+    "EthnologueStatus": "6b Threatened",
+    "languageLabelNative": "basè Betawi",
+    "languageLabelsCount": "1"
+  },
+  {
+    "itemLabel": "Lampung Api",
+    "wikidata": "Q49215",
+    "EthnologueCode": "ljp",
+    "EthnologueStatus": "6a Vigorous",
+    "languageLabelNative": "bahasa Lampung Api",
+    "languageLabelsCount": "1"
+  },
+  {
+    "itemLabel": "Ahom",
+    "wikidata": "Q34778",
+    "EthnologueCode": "aho",
+    "EthnologueStatus": "9 Second language only",
+    "UnescoStatus": "6 extinct"
+  },
+  {
+    "itemLabel": "Láadan",
+    "wikidata": "Q35757",
+    "EthnologueStatus": "9 Second language only",
+    "languageLabelNative": "Láadan",
+    "languageLabelsCount": "1"
+  },
+  {
+    "itemLabel": "Old French",
+    "wikidata": "Q35222"
+  },
+  {
+    "itemLabel": "Obolo",
+    "wikidata": "Q36614",
+    "EthnologueCode": "ann",
+    "EthnologueStatus": "5 Developing"
+  },
+  {
+    "itemLabel": "Bangala",
+    "wikidata": "Q34989",
+    "EthnologueCode": "bxg",
+    "EthnologueStatus": "3 Wider Communication"
+  },
+  {
+    "itemLabel": "Ancient Greek",
+    "wikidata": "Q35497",
+    "EthnologueCode": "grc",
+    "EthnologueStatus": "9 Second language only",
+    "languageLabelNative": "Ἀρχαία Ἑλληνική",
+    "languageLabelsCount": "1"
+  },
+  {
+    "itemLabel": "Anyin",
+    "wikidata": "Q28395",
+    "EthnologueCode": "any",
+    "EthnologueStatus": "5 Developing"
+  },
+  {
+    "itemLabel": "Futunan",
+    "wikidata": "Q35334",
+    "EthnologueCode": "fud",
+    "EthnologueStatus": "5 Developing"
+  },
+  {
+    "itemLabel": "Wushi",
+    "wikidata": "Q36973",
+    "EthnologueCode": "bse",
+    "EthnologueStatus": "6a Vigorous"
+  },
+  {
+    "itemLabel": "Angika",
+    "wikidata": "Q28378",
+    "EthnologueCode": "anp",
+    "EthnologueStatus": "5 Developing",
+    "languageLabelNative": "अंगिका",
+    "languageLabelsCount": "1",
+    "UnescoStatus": "2 vulnerable"
+  },
+  {
+    "itemLabel": "Ngiemboon",
+    "wikidata": "Q36286",
+    "EthnologueCode": "nnh",
+    "EthnologueStatus": "5 Developing",
+    "languageLabelNative": "Ngiembɔɔn",
+    "languageLabelsCount": "1"
+  },
+  {
+    "itemLabel": "Tupuri",
+    "wikidata": "Q36646",
+    "EthnologueCode": "tui",
+    "EthnologueStatus": "5 Developing"
+  },
+  {
+    "itemLabel": "Gayo",
+    "wikidata": "Q33286",
+    "EthnologueCode": "gay",
+    "EthnologueStatus": "6b Threatened",
+    "languageLabelNative": "bahasa Gayo",
+    "languageLabelsCount": "1"
+  },
+  {
+    "itemLabel": "Mentawai",
+    "wikidata": "Q13365",
+    "EthnologueCode": "mwv",
+    "EthnologueStatus": "5 Developing",
+    "languageLabelNative": "bahasa Mentawai",
+    "languageLabelsCount": "1"
+  },
+  {
+    "itemLabel": "Guarani",
+    "wikidata": "Q35876",
+    "EthnologueCode": "grn",
+    "languageLabelNative": "Avañe'ẽ",
+    "languageLabelsCount": "1",
+    "isoLabel": "avañe'ẽ"
+  },
+  {
+    "itemLabel": "Duala",
+    "wikidata": "Q33013",
+    "EthnologueCode": "dua",
+    "EthnologueStatus": "3 Wider Communication"
   },
   {
     "itemLabel": "Medinipuri Odia",
@@ -3186,173 +3240,119 @@
     "wikidata": "Q804899"
   },
   {
-    "itemLabel": "Bila",
-    "wikidata": "Q2902626",
-    "EthnologueStatus": "6a Vigorous",
-    "EthnologueCode": "bip"
-  },
-  {
-    "itemLabel": "Batak Dairi",
-    "wikidata": "Q2891045",
-    "EthnologueStatus": "6b Threatened",
-    "EthnologueCode": "btd"
-  },
-  {
-    "itemLabel": "Batak Angkola",
-    "wikidata": "Q2640686",
-    "EthnologueStatus": "6b Threatened",
-    "EthnologueCode": "akb"
-  },
-  {
-    "itemLabel": "Ngambay",
-    "wikidata": "Q2372207",
-    "EthnologueStatus": "3 Wider Communication",
-    "EthnologueCode": "sba"
-  },
-  {
-    "itemLabel": "Old Church Slavonic",
-    "wikidata": "Q35499",
-    "EthnologueStatus": "6b Threatened",
-    "languageLabelNative": "Словѣньскъ",
-    "languageLabelsCount": "2",
-    "UnescoStatus": "2 vulnerable"
-  },
-  {
-    "itemLabel": "Bikol languages",
-    "wikidata": "Q35455",
-    "EthnologueCode": "bik"
-  },
-  {
     "itemLabel": "Baleswari Oriya",
     "wikidata": "Q4850727"
   },
   {
-    "itemLabel": "Laari",
-    "wikidata": "Q12952693"
+    "itemLabel": "Batak Dairi",
+    "wikidata": "Q2891045",
+    "EthnologueCode": "btd",
+    "EthnologueStatus": "6b Threatened"
   },
   {
-    "itemLabel": "Martinique Creole",
-    "wikidata": "Q3006281"
+    "itemLabel": "Batak Angkola",
+    "wikidata": "Q2640686",
+    "EthnologueCode": "akb",
+    "EthnologueStatus": "6b Threatened"
   },
   {
-    "itemLabel": "Sursilvan",
-    "wikidata": "Q688348",
-    "languageLabelNative": "Sursilvan",
-    "languageLabelsCount": "1"
-  },
-  {
-    "itemLabel": "Tulu",
-    "wikidata": "Q67999865"
-  },
-  {
-    "itemLabel": "Mon-Pali",
-    "wikidata": "Q100271134",
-    "languageLabelNative": "ပါဠိမန်",
-    "languageLabelsCount": "1"
+    "itemLabel": "Ngambay",
+    "wikidata": "Q2372207",
+    "EthnologueCode": "sba",
+    "EthnologueStatus": "3 Wider Communication"
   },
   {
     "itemLabel": "Ndrumbea",
     "wikidata": "Q6983819",
-    "EthnologueStatus": "6b Threatened",
     "EthnologueCode": "duf",
+    "EthnologueStatus": "6b Threatened",
     "UnescoStatus": "2 vulnerable"
   },
   {
-    "itemLabel": "Massa language",
-    "wikidata": "Q56668",
+    "itemLabel": "Faka'uvea",
+    "wikidata": "Q36979",
+    "EthnologueCode": "wls",
     "EthnologueStatus": "5 Developing",
-    "EthnologueCode": "mcn"
+    "languageLabelNative": "Lea faka'uvea",
+    "languageLabelsCount": "1"
   },
   {
-    "itemLabel": "Saint Lucian Creole French",
-    "wikidata": "Q3006285",
-    "EthnologueStatus": "5 Developing",
-    "EthnologueCode": "acf",
-    "languageLabelNative": "kweyol",
-    "languageLabelsCount": "2"
+    "itemLabel": "British English",
+    "wikidata": "Q7979",
+    "languageLabelNative": "British English",
+    "languageLabelsCount": "1"
   },
   {
-    "itemLabel": "Amis",
-    "wikidata": "Q35132",
+    "itemLabel": "Teochew",
+    "wikidata": "Q36759"
+  },
+  {
+    "itemLabel": "Mundang",
+    "wikidata": "Q36032",
+    "EthnologueCode": "mua",
+    "EthnologueStatus": "5 Developing"
+  },
+  {
+    "itemLabel": "Nyang language",
+    "wikidata": "Q35650",
+    "EthnologueCode": "ken",
+    "EthnologueStatus": "5 Developing"
+  },
+  {
+    "itemLabel": "Zarma",
+    "wikidata": "Q36990",
+    "EthnologueCode": "dje",
+    "EthnologueStatus": "4 Educational"
+  },
+  {
+    "itemLabel": "Yemba",
+    "wikidata": "Q36917",
+    "EthnologueCode": "ybb",
+    "EthnologueStatus": "5 Developing"
+  },
+  {
+    "itemLabel": "Londo",
+    "wikidata": "Q35071",
+    "EthnologueCode": "bzm",
+    "EthnologueStatus": "6b Threatened"
+  },
+  {
+    "itemLabel": "Oroko",
+    "wikidata": "Q36278",
+    "EthnologueCode": "bdu",
+    "EthnologueStatus": "5 Developing"
+  },
+  {
+    "itemLabel": "Ghomala' language",
+    "wikidata": "Q35271",
+    "EthnologueCode": "bbj",
     "EthnologueStatus": "5 Developing",
-    "EthnologueCode": "ami",
-    "languageLabelNative": "Amis",
+    "languageLabelNative": "Ghɔmálá’",
+    "languageLabelsCount": "1"
+  },
+  {
+    "itemLabel": "Latin",
+    "wikidata": "Q397",
+    "EthnologueCode": "lat",
+    "EthnologueStatus": "9 Second language only",
+    "languageLabelNative": "Lingua latina",
+    "languageLabelsCount": "1",
+    "isoLabel": "lingua Latīna"
+  },
+  {
+    "itemLabel": "Paiwan",
+    "wikidata": "Q715755",
+    "EthnologueCode": "pwn",
+    "EthnologueStatus": "5 Developing",
+    "languageLabelNative": "Pinayuanan",
     "languageLabelsCount": "1",
     "UnescoStatus": "2 vulnerable"
   },
   {
-    "itemLabel": "Havu",
-    "wikidata": "Q5684097",
-    "EthnologueStatus": "6a Vigorous",
-    "EthnologueCode": "hav"
-  },
-  {
-    "itemLabel": "Guadeloupean Creole French",
-    "wikidata": "Q3006280",
-    "EthnologueStatus": "6a Vigorous",
-    "EthnologueCode": "gcf"
-  },
-  {
-    "itemLabel": "Jakun",
-    "wikidata": "Q4216968",
-    "EthnologueStatus": "6b Threatened",
-    "EthnologueCode": "jak",
-    "UnescoStatus": "3 definitely endangered"
-  },
-  {
-    "itemLabel": "Wapan",
-    "wikidata": "Q3914914",
+    "itemLabel": "Wayuu",
+    "wikidata": "Q891085",
+    "EthnologueCode": "guc",
     "EthnologueStatus": "5 Developing",
-    "EthnologueCode": "juk"
-  },
-  {
-    "itemLabel": "Tyap",
-    "wikidata": "Q3912765",
-    "EthnologueStatus": "6a Vigorous",
-    "EthnologueCode": "kcg"
-  },
-  {
-    "itemLabel": "Keninjal",
-    "wikidata": "Q6389309",
-    "EthnologueStatus": "6a Vigorous",
-    "EthnologueCode": "knl"
-  },
-  {
-    "itemLabel": "Tenggerese",
-    "wikidata": "Q12473479",
-    "EthnologueStatus": "6a Vigorous",
-    "EthnologueCode": "tes"
-  },
-  {
-    "itemLabel": "Huaylas Quechua",
-    "wikidata": "Q6094343",
-    "EthnologueStatus": "6b Threatened",
-    "EthnologueCode": "qwh"
-  },
-  {
-    "itemLabel": "Gayo",
-    "wikidata": "Q33286",
-    "EthnologueStatus": "6b Threatened",
-    "EthnologueCode": "gay",
-    "languageLabelNative": "bahasa Gayo",
-    "languageLabelsCount": "1"
-  },
-  {
-    "itemLabel": "Anyin",
-    "wikidata": "Q28395",
-    "EthnologueStatus": "5 Developing",
-    "EthnologueCode": "any"
-  },
-  {
-    "itemLabel": "Futunan",
-    "wikidata": "Q35334",
-    "EthnologueStatus": "5 Developing",
-    "EthnologueCode": "fud"
-  },
-  {
-    "itemLabel": "Wushi",
-    "wikidata": "Q36973",
-    "EthnologueStatus": "6a Vigorous",
-    "EthnologueCode": "bse"
+    "UnescoStatus": "2 vulnerable"
   }
 ]
