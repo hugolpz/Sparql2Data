@@ -1,0 +1,12 @@
+# default:Wikidata
+SELECT ?project ?projectLabel ?officialWebsite
+WHERE {
+  VALUES ?instanceOf {
+    wd:Q10876391
+    wd:Q22001389
+  }
+  ?project wdt:P31 ?instanceOf;
+    wdt:P856 ?officialWebsite.
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+}
+ORDER BY ASC (?officialWebsite)
