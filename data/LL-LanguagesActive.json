@@ -563,13 +563,6 @@
     "iso": "jud"
   },
   {
-    "language": "Q390314",
-    "wikidata": "Q29919",
-    "languageLabel": "Egyptian Arabic",
-    "records": "20",
-    "iso": "arz"
-  },
-  {
     "language": "Q273",
     "wikidata": "Q35853",
     "languageLabel": "Kabyle",
@@ -610,13 +603,6 @@
     "languageLabel": "Hawaiian",
     "records": "23",
     "iso": "haw"
-  },
-  {
-    "language": "Q1512909",
-    "wikidata": "Q30007",
-    "languageLabel": "Extremaduran",
-    "records": "24",
-    "iso": "ext"
   },
   {
     "language": "Q204947",
@@ -785,13 +771,6 @@
     "iso": "kzp"
   },
   {
-    "language": "Q36",
-    "wikidata": "Q7838",
-    "languageLabel": "Swahili",
-    "records": "52",
-    "iso": "swa"
-  },
-  {
     "language": "Q84029",
     "wikidata": "Q3006281",
     "languageLabel": "Martinique Creole",
@@ -851,6 +830,13 @@
     "languageLabel": "Chuvash",
     "records": "65",
     "iso": "chv"
+  },
+  {
+    "language": "Q36",
+    "wikidata": "Q7838",
+    "languageLabel": "Swahili",
+    "records": "66",
+    "iso": "swa"
   },
   {
     "language": "Q55",
@@ -1023,6 +1009,13 @@
     "iso": "auv"
   },
   {
+    "language": "Q390314",
+    "wikidata": "Q29919",
+    "languageLabel": "Egyptian Arabic",
+    "records": "118",
+    "iso": "arz"
+  },
+  {
     "language": "Q1467325",
     "wikidata": "Q6389309",
     "languageLabel": "Keninjal",
@@ -1033,7 +1026,7 @@
     "language": "Q181",
     "wikidata": "Q36217",
     "languageLabel": "Lingala",
-    "records": "120",
+    "records": "121",
     "iso": "lin"
   },
   {
@@ -1076,6 +1069,13 @@
     "languageLabel": "Picard",
     "records": "142",
     "iso": "pcd"
+  },
+  {
+    "language": "Q1512909",
+    "wikidata": "Q30007",
+    "languageLabel": "Extremaduran",
+    "records": "143",
+    "iso": "ext"
   },
   {
     "language": "Q217",
@@ -1622,7 +1622,7 @@
     "language": "Q80",
     "wikidata": "Q33673",
     "languageLabel": "Kannada",
-    "records": "1097",
+    "records": "1115",
     "iso": "kan"
   },
   {
@@ -1734,7 +1734,7 @@
     "language": "Q555966",
     "wikidata": "Q13349",
     "languageLabel": "Mon",
-    "records": "1894",
+    "records": "1898",
     "iso": "mnw"
   },
   {
@@ -1940,17 +1940,17 @@
     "iso": "tam"
   },
   {
-    "language": "Q297",
-    "wikidata": "Q256",
-    "languageLabel": "Turkish",
-    "records": "5270",
-    "iso": "tur"
-  },
-  {
     "language": "Q322719",
     "wikidata": "Q4850727",
     "languageLabel": "Baleswari Oriya",
     "records": "5271"
+  },
+  {
+    "language": "Q297",
+    "wikidata": "Q256",
+    "languageLabel": "Turkish",
+    "records": "5273",
+    "iso": "tur"
   },
   {
     "language": "Q931",
@@ -1963,7 +1963,7 @@
     "language": "Q230",
     "wikidata": "Q29507",
     "languageLabel": "Asturian",
-    "records": "5429",
+    "records": "5504",
     "iso": "ast"
   },
   {
@@ -2005,15 +2005,8 @@
     "language": "Q219",
     "wikidata": "Q13955",
     "languageLabel": "Arabic",
-    "records": "7384",
+    "records": "7385",
     "iso": "ara"
-  },
-  {
-    "language": "Q204",
-    "wikidata": "Q7918",
-    "languageLabel": "Bulgarian",
-    "records": "8013",
-    "iso": "bul"
   },
   {
     "language": "Q126",
@@ -2023,10 +2016,17 @@
     "iso": "por"
   },
   {
+    "language": "Q204",
+    "wikidata": "Q7918",
+    "languageLabel": "Bulgarian",
+    "records": "8316",
+    "iso": "bul"
+  },
+  {
     "language": "Q44",
     "wikidata": "Q9027",
     "languageLabel": "Swedish",
-    "records": "9335",
+    "records": "9375",
     "iso": "swe"
   },
   {
@@ -2047,14 +2047,14 @@
     "language": "Q437",
     "wikidata": "Q36236",
     "languageLabel": "Malayalam",
-    "records": "15391",
+    "records": "15506",
     "iso": "mal"
   },
   {
     "language": "Q129",
     "wikidata": "Q7737",
     "languageLabel": "Russian",
-    "records": "16433",
+    "records": "16446",
     "iso": "rus"
   },
   {
@@ -2068,7 +2068,7 @@
     "language": "Q386",
     "wikidata": "Q1321",
     "languageLabel": "Spanish",
-    "records": "17145",
+    "records": "17152",
     "iso": "spa"
   },
   {
@@ -2138,7 +2138,7 @@
     "language": "Q22",
     "wikidata": "Q1860",
     "languageLabel": "English",
-    "records": "90195",
+    "records": "90382",
     "iso": "eng"
   },
   {
@@ -2166,7 +2166,7 @@
     "language": "Q21",
     "wikidata": "Q150",
     "languageLabel": "French",
-    "records": "425187",
+    "records": "425212",
     "iso": "fra"
   }
 ]
