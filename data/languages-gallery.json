@@ -121,9 +121,9 @@
     "percent": 77.5,
     "population": 753359540,
     "populationQualifier": ">100M",
-    "records": 91486,
+    "records": 91487,
     "recordsFemale": 23891,
-    "recordsMale": 63602,
+    "recordsMale": 63603,
     "recordsOthers": 3993,
     "speakers": 279,
     "speakersFemales": 65,
@@ -131,7 +131,7 @@
     "speakersOthers": 29,
     "wiki": "en",
     "wikidata": "Q1860",
-    "words": 70882
+    "words": 70883
   },
   {
     "EthnologueCode": "ben",
@@ -516,9 +516,9 @@
     "percent": 98.8,
     "population": 9000000,
     "populationQualifier": "1-10M",
-    "records": 13004,
+    "records": 13029,
     "recordsFemale": 0,
-    "recordsMale": 13004,
+    "recordsMale": 13029,
     "recordsOthers": 0,
     "speakers": 3,
     "speakersFemales": 0,
@@ -526,7 +526,7 @@
     "speakersOthers": 0,
     "wiki": "bg",
     "wikidata": "Q7918",
-    "words": 12842
+    "words": 12867
   },
   {
     "EthnologueCode": "ita",
@@ -596,9 +596,9 @@
     "percent": 63,
     "population": 254300000,
     "populationQualifier": ">100M",
-    "records": 8193,
+    "records": 8202,
     "recordsFemale": 2585,
-    "recordsMale": 5263,
+    "recordsMale": 5272,
     "recordsOthers": 345,
     "speakers": 33,
     "speakersFemales": 7,
@@ -606,7 +606,7 @@
     "speakersOthers": 5,
     "wiki": "pt",
     "wikidata": "Q5146",
-    "words": 5163
+    "words": 5171
   },
   {
     "EthnologueCode": "ara",
@@ -735,6 +735,7 @@
   {
     "EthnologueCode": "nor",
     "EthnologueStatus": "1 National",
+    "UnescoStatus": "1 safe",
     "code": "nor",
     "iso": "nor",
     "itemLabel": "Norwegian",
@@ -1466,6 +1467,7 @@
   {
     "EthnologueCode": "som",
     "EthnologueStatus": "1 National",
+    "UnescoStatus": "1 safe",
     "code": "som",
     "iso": "som",
     "isoLabel": "Af-Soomaali",
@@ -3194,6 +3196,8 @@
     "itemLabel": "Wayuu",
     "language": "Q40979",
     "languageLabel": "Wayuu",
+    "languageLabelNative": "Wayuunaiki",
+    "languageLabelsCount": 1,
     "percent": 99.7,
     "records": 289,
     "recordsFemale": 18,
@@ -3918,6 +3922,7 @@
   },
   {
     "EthnologueCode": "lav",
+    "UnescoStatus": "1 safe",
     "code": "lvs",
     "iso": "lvs",
     "isoLabel": "latviešu valoda",
@@ -5450,6 +5455,31 @@
     "words": 21
   },
   {
+    "EthnologueCode": "kea",
+    "EthnologueStatus": "1 National",
+    "code": "kea",
+    "iso": "kea",
+    "itemLabel": "Cape Verdean Creole",
+    "language": "Q1549902",
+    "languageLabel": "Cape Verdean Creole",
+    "languageLabelNative": "kabuverdianu",
+    "languageLabelsCount": 2,
+    "percent": 100,
+    "population": 871000,
+    "populationQualifier": "100k-1M",
+    "records": 20,
+    "recordsFemale": 20,
+    "recordsMale": 0,
+    "recordsOthers": 0,
+    "speakers": 1,
+    "speakersFemales": 1,
+    "speakersMales": 0,
+    "speakersOthers": 0,
+    "wiki": "kea",
+    "wikidata": "Q35963",
+    "words": 20
+  },
+  {
     "EthnologueCode": "kab",
     "EthnologueStatus": "5 Developing",
     "UnescoStatus": "1 safe",
@@ -5517,6 +5547,7 @@
   {
     "EthnologueCode": "lit",
     "EthnologueStatus": "1 National",
+    "UnescoStatus": "1 safe",
     "code": "lit",
     "iso": "lit",
     "isoLabel": "lietuvių kalba",
@@ -6201,6 +6232,7 @@
   {
     "EthnologueCode": "smo",
     "EthnologueStatus": "1 National",
+    "UnescoStatus": "1 safe",
     "code": "smo",
     "iso": "smo",
     "isoLabel": "Gagana fa'a Sāmoa",
@@ -6270,31 +6302,6 @@
     "speakersOthers": 0,
     "wikidata": "Q33298",
     "words": 7
-  },
-  {
-    "EthnologueCode": "kea",
-    "EthnologueStatus": "1 National",
-    "code": "kea",
-    "iso": "kea",
-    "itemLabel": "Cape Verdean Creole",
-    "language": "Q53356",
-    "languageLabel": "Cape Verdean Creole",
-    "languageLabelNative": "kabuverdianu",
-    "languageLabelsCount": 2,
-    "percent": 83.3,
-    "population": 871000,
-    "populationQualifier": "100k-1M",
-    "records": 6,
-    "recordsFemale": 3,
-    "recordsMale": 0,
-    "recordsOthers": 3,
-    "speakers": 2,
-    "speakersFemales": 1,
-    "speakersMales": 0,
-    "speakersOthers": 1,
-    "wiki": "kea",
-    "wikidata": "Q35963",
-    "words": 5
   },
   {
     "iso": "kbp",
