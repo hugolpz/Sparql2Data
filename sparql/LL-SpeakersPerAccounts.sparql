@@ -1,0 +1,12 @@
+# Lists users with their locations and their numbers of records.
+# Source: https://lingualibre.org/index.php?title=LinguaLibre:Stats/Speakers&diff=782961&oldid=782826
+# Source: https://w.wiki/5ZkA
+SELECT ?speakerId ?speakerLabel ?recordist
+WHERE {
+  # Grammatical note: ';' allows to chain actions 
+  ?speakerId prop:P2 entity:Q3 ;        # Filter: P2 'instance of' is Q3 'speaker'.
+             prop:P11 ?recordist;
+             rdfs:label ?speakerLabel . # Filter by value: label equal ?speakerLabel's value
+}
+GROUP BY ?speakerId ?speakerLabel ?recordist
+ORDER BY ?recordist
