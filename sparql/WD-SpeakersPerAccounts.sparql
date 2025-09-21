@@ -1,0 +1,25 @@
+# Lists users with their locations and their numbers of records.
+# Source: https://lingualibre.org/index.php?title=LinguaLibre:Stats/Speakers&diff=782961&oldid=782826
+# Source: https://w.wiki/5ZkA
+PREFIX ll:<https://lingualibre.org/entity/>
+PREFIX llt:<https://lingualibre.org/prop/direct/>
+SELECT ?recordist ?itemLabel ?records
+WHERE {
+  SERVICE <https://lingualibre.org/sparql> {
+    SELECT ?itemLabel ?recordist (COUNT(?record) AS ?records)
+    {
+      ?item llt:P2 ll:Q3 ;            # is instance of speaker
+               rdfs:label ?itemLabel. # speaker name
+      ?record llt:P5 ?item .          # is records of the speaker
+      ?recordist llt:P11 ?recordist . # is recordist of the speaker
+      FILTER (LANG(?itemLabel)='en')
+    } GROUP BY ?itemLabel
+  }
+}
+GROUP BY ?itemLabel
+ORDER BY DESC (?recordist ?records)
+
+
+
+
+
