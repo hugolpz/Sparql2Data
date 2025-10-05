@@ -1,26 +1,45 @@
 SELECT 
-  ?language 
+  ?language
   ?languageLabel 
-  (SAMPLE(?nativeLabel) AS ?nativeLabel) 
-  (SAMPLE(?population) AS ?population) 
-  (SAMPLE(?ethnologueStatus) AS ?ethnologueStatus)
-  (SAMPLE(?iso639_1) AS ?iso639_1) 
-  (SAMPLE(?iso639_2) AS ?iso639_2) 
-  (SAMPLE(?iso639_3) AS ?iso639_3)
-# (IF(?languageType = wd:Q34228, "Yes", "No") AS ?isSignedLanguage) 
+  # ?nativeLabel ?population
+  (SAMPLE(?nativeLabel) AS ?nativeLabel)
+  (SAMPLE(?population) AS ?population)
   (SAMPLE(IF(CONTAINS(STR(?languageType), STR(wd:Q34228)), "signed", "spoken")) AS ?type)
+  ?iso639_1
+  ?iso639_2
+  ?iso639_3
+  ?ethnologueStatusLabel   # ✅ label instead of raw id
 WHERE {
-  ?language wdt:P3823 ?ethnologueStatus.
+  ### Item selector
+  VALUES ?languages { 
+    wd:Q34770    # language
+    wd:Q20162172 # human language (Q20162172) 
+    wd:Q33742    # langue naturelle
+    wd:Q34228    # signed language
+    wd:Q1288568  # modern language
+  }
+  ?language wdt:P31 ?languages ;
+        wdt:P31 ?instanceOf .               # results: 10957
+
+  # ?language wdt:P3823 ?ethnologueStatus.  # results: 7407
+  # ?language wdt:P1394 ?glottolog.         # results: 11654 
+
+  ### Properties selectors
   OPTIONAL { ?language wdt:P1705 ?nativeLabel. }
+  OPTIONAL { ?language wdt:P1098 ?population. }
+  OPTIONAL { ?language wdt:P3823 ?ethnologueStatus. }
   OPTIONAL { ?language wdt:P218 ?iso639_1. }
   OPTIONAL { ?language wdt:P219 ?iso639_2. }
   OPTIONAL { ?language wdt:P220 ?iso639_3. }
   OPTIONAL { ?language wdt:P31 ?languageType. }
-  OPTIONAL { ?language wdt:P1098 ?population. }
+  ### Sugar
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
   # ?language rdfs:label ?labelEN.
   # FILTER((LANG(?labelEN)) = "en")
-  
-  SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
+  # Bind "signed" or "spoken" based on instanceOf
+  # BIND(IF(CONTAINS(STR(?instanceOf), STR(wd:Q34228)), "signed", "spoken") AS ?type)
+  # BIND(REPLACE(STR(?language), ".*/Q", "Q") AS ?languageQid)
+  # BIND(CONCAT(UCASE(SUBSTR(?nativeLabel, 1 , 1 )), SUBSTR(?nativeLabel, 2 )) AS ?native)
 }
-GROUP BY ?language ?languageLabel
-ORDER BY ?type
+GROUP BY ?iso639_1 ?iso639_2 ?iso639_3 ?language ?languageLabel ?ethnologueStatusLabel
+ORDER BY ASC(?type)
