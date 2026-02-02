@@ -1,14 +1,15 @@
 
-SELECT DISTINCT ?language ?languageQid ?languageLabel ?nativeLabel ?ethnologueStatusLabel ?population ?iso639_2
+SELECT DISTINCT ?language ?languageQid ?languageLabel ?nativeLabel ?ethnologueStatusLabel ?population ?iso639_3 ?lingualibreId
 # (SAMPLE(?native) AS ?labelNative)
 # (IF(?languageType = wd:Q34228, "Yes", "No") AS ?isSignedLanguage) 
 (IF(CONTAINS(STR(?languageType), STR(wd:Q34228)), "signed", "spoken") AS ?type)
 WHERE {
   ?language wdt:P3823 ?ethnologueStatus.
   OPTIONAL { ?language wdt:P1705 ?nativeLabel. }
-  OPTIONAL { ?language wdt:P220 ?iso639_2. }
-  OPTIONAL { ?language wdt:P31 ?languageType. }
+  OPTIONAL { ?language wdt:P220 ?iso639_3. }
   OPTIONAL { ?language wdt:P1098 ?population. }
+  OPTIONAL { ?language wdt:P31 ?languageType. }
+  OPTIONAL { ?language wdt:P10369 ?lingualibreId. }
   # ?language rdfs:label ?labelEN.
   # FILTER((LANG(?labelEN)) = "en")
   SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
