@@ -1,4 +1,4 @@
-SELECT ?language ?wikidata ?languageLabel ?iso # ?wiki
+SELECT ?language ?wikidata (?languageLabel AS ?label) ?iso639_3 # ?wiki
 (COUNT(?record) AS ?records)
 #(COUNT(DISTINCT(?recordLabel)) AS ?words) 
 #(ROUND(1000*?words/?records)/10 AS ?percent)
@@ -9,10 +9,10 @@ WHERE {
   #?record rdfs:label ?recordLabel. # Assign value: label to ?itemLabel
   #FILTER ( (COUNT(?record)) > 0).
   OPTIONAL { ?language prop:P12 ?wikidata }  # Assign value: language's P12 'wikidata id' into ?wikidata
-  OPTIONAL { ?language prop:P13 ?iso }      # Assign value: language's P13 'ISO 639-3' into ?wikidata
+  OPTIONAL { ?language prop:P13 ?iso639_3 }      # Assign value: language's P13 'ISO 639-3' into ?wikidata
   #OPTIONAL { ?language prop:P17 ?wiki }
   OPTIONAL { ?language rdfs:label ?languageLabel .
              FILTER (lang(?languageLabel) = "en"). }
 }
-GROUP BY ?language ?wikidata ?languageLabel ?iso # ?wiki
-ORDER BY ?records ?iso
+GROUP BY ?language ?wikidata ?languageLabel ?iso639_3 # ?wiki
+ORDER BY ?records ?iso639_3
