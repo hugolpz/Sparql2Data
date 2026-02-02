@@ -8,6 +8,7 @@ SELECT
   ?iso639_1
   ?iso639_2
   ?iso639_3
+  ?lingualibreId
   ?ethnologueStatusLabel   # ✅ label instead of raw id
 WHERE {
   ### Item selector
@@ -31,6 +32,7 @@ WHERE {
   OPTIONAL { ?language wdt:P218 ?iso639_1. }
   OPTIONAL { ?language wdt:P219 ?iso639_2. }
   OPTIONAL { ?language wdt:P220 ?iso639_3. }
+  OPTIONAL { ?language wdt:P10369 ?lingualibreId. }
   OPTIONAL { ?language wdt:P31 ?languageType. }
   ### Sugar
   SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
@@ -41,5 +43,5 @@ WHERE {
   # BIND(REPLACE(STR(?language), ".*/Q", "Q") AS ?languageQid)
   # BIND(CONCAT(UCASE(SUBSTR(?nativeLabel, 1 , 1 )), SUBSTR(?nativeLabel, 2 )) AS ?native)
 }
-GROUP BY ?iso639_1 ?iso639_2 ?iso639_3 ?language ?languageLabel ?ethnologueStatusLabel
+GROUP BY ?iso639_1 ?iso639_2 ?iso639_3 ?lingualibreId ?language ?languageLabel ?ethnologueStatusLabel
 ORDER BY ASC(?type)
