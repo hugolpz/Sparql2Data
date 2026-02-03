@@ -5,15 +5,16 @@ SELECT ?wdQid ?wikimediaCode ?i18nCode ?labelEN
 WHERE {
     # languages & scripts
     VALUES ?i18nCode { 
-     "ar" "de" "en" "es" "fr"
-#    "anp" "ar" "bn" "br" "de" "en" "es" "fa" "fi" "fr"
-#    "he" "hi" "ia" "id" "it" "ja" "kk-cyrl" "ko" "krc" "lmo"
-#    "mk" "ms" "nb" "pnb" "pt" "pt-br" "qqq" "ru" "scn" "sl"
-#    "sv" "sw" "tl" "tr" "uk" "zh-hans" "zh-hant" "mnw" "hu"
-#    "kk" "zh"
+     "ar" "ba" "ban" "be" "bg" "blk" "bn" "br" "ca" "de" 
+     "dtp" "el" "eo" "es" "eu" "fa" "fr" "frc" "ga" "gl" 
+     "he" "hi" "hyw" "ig" "it" "ja" "kaa" "ko" "lfn" "lmo" 
+     "mad" "mk" "ml" "mnw" "ms" "my" "nb" "oc" "pl" "pnb" 
+     "pt" "ro" "ru" "sat" "scn" "sdc" "shn" "sk" "sv" "ta" 
+     "te" "tg" "th" "tly" "tr" "tt" "uk" "uz" "vi" "wls"
+     "yue" "zgh" "zh"
  }
     # Scripts, not languages
-    VALUES ?i18nScript { "kk-cyrl" "zh-hans" "zh-hant" }
+    VALUES ?i18nScript { "kk-cyrl" "zh-yue" "zh-hans" "zh-hant" }
   
     { ?langId wdt:P218 ?i18nCode. } # has for iso 639-1 code
     UNION {?langId wdt:P219 ?i18nCode. } # has for iso 639-2 code
