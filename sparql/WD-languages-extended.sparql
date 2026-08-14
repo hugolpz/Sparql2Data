@@ -29,6 +29,8 @@ WHERE {
         wd:Q34228    # signed language
         wd:Q1288568  # modern language
         wd:Q33384    # dialect
+        wd:Q45762    # dead language
+        wd:Q38058796 # extinct language.
       }
       ?language wdt:P31 ?languages .
 
