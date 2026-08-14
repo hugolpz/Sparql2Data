@@ -31,6 +31,8 @@ WHERE {
         wd:Q33384    # dialect
         wd:Q45762    # dead language
         wd:Q38058796 # extinct language.
+        wd:Q33215    # constructed language
+        wd:Q33289    # creole
       }
       ?language wdt:P31 ?languages .
 
