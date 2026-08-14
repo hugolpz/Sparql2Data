@@ -1,48 +1,55 @@
 SELECT 
   ?language
   ?languageLabel 
-  # ?nativeLabel ?population
-  (SAMPLE(?nativeLabel) AS ?nativeLabel)
-  (SAMPLE(?population) AS ?population)
-  (SAMPLE(IF(CONTAINS(STR(?languageType), STR(wd:Q34228)), "signed", "spoken")) AS ?type)
+  ?nativeLabel
+  ?population
+  ?type
   ?iso639_1
   ?iso639_2
   ?iso639_3
   ?lingualibreId
-  ?ethnologueStatusLabel   # ✅ label instead of raw id
+  ?ethnologueStatusLabel
 WHERE {
-  ### Item selector
-  VALUES ?languages { 
-    wd:Q34770    # language
-    wd:Q20162172 # human language (Q20162172) 
-    wd:Q33742    # langue naturelle
-    wd:Q34228    # signed language
-    wd:Q1288568  # modern language
-    # wd:Q33384    # dialect
+  {
+    SELECT 
+      ?language
+      (SAMPLE(?nativeLabel) AS ?nativeLabel)
+      (SAMPLE(?population) AS ?population)
+      (COALESCE(SAMPLE(?signedCheck), "spoken") AS ?type)
+      (SAMPLE(?iso639_1) AS ?iso639_1)
+      (SAMPLE(?iso639_2) AS ?iso639_2)
+      (SAMPLE(?iso639_3) AS ?iso639_3)
+      (SAMPLE(?lingualibreId) AS ?lingualibreId)
+      (SAMPLE(?ethnologueStatus) AS ?ethnologueStatus)
+    WHERE {
+      VALUES ?languages { 
+        wd:Q34770    # language
+        wd:Q20162172 # human language 
+        wd:Q33742    # natural language
+        wd:Q34228    # signed language
+        wd:Q1288568  # modern language
+        wd:Q33384    # dialect
+      }
+      ?language wdt:P31 ?languages .
+
+      # Check for signed language without triggering the EXISTS parser bug
+      OPTIONAL {
+        ?language wdt:P31 wd:Q34228 .
+        BIND("signed" AS ?signedCheck)
+      }
+
+      OPTIONAL { ?language wdt:P1705 ?nativeLabel . }
+      OPTIONAL { ?language wdt:P1098 ?population . }
+      OPTIONAL { ?language wdt:P3823 ?ethnologueStatus . }
+      OPTIONAL { ?language wdt:P218 ?iso639_1 . }
+      OPTIONAL { ?language wdt:P219 ?iso639_2 . }
+      OPTIONAL { ?language wdt:P220 ?iso639_3 . }
+      OPTIONAL { ?language wdt:P10369 ?lingualibreId . }
+    }
+    GROUP BY ?language
   }
-  ?language wdt:P31 ?languages ;
-        wdt:P31 ?instanceOf .               # results: 10957
-
-  # ?language wdt:P3823 ?ethnologueStatus.  # results: 7407
-  # ?language wdt:P1394 ?glottolog.         # results: 11654 
-
-  ### Properties selectors
-  OPTIONAL { ?language wdt:P1705 ?nativeLabel. }
-  OPTIONAL { ?language wdt:P1098 ?population. }
-  OPTIONAL { ?language wdt:P3823 ?ethnologueStatus. }
-  OPTIONAL { ?language wdt:P218 ?iso639_1. }
-  OPTIONAL { ?language wdt:P219 ?iso639_2. }
-  OPTIONAL { ?language wdt:P220 ?iso639_3. }
-  OPTIONAL { ?language wdt:P10369 ?lingualibreId. }
-  OPTIONAL { ?language wdt:P31 ?languageType. }
-  ### Sugar
+  
+  ### Resolve labels outside the subquery
   SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
-  # ?language rdfs:label ?labelEN.
-  # FILTER((LANG(?labelEN)) = "en")
-  # Bind "signed" or "spoken" based on instanceOf
-  # BIND(IF(CONTAINS(STR(?instanceOf), STR(wd:Q34228)), "signed", "spoken") AS ?type)
-  # BIND(REPLACE(STR(?language), ".*/Q", "Q") AS ?languageQid)
-  # BIND(CONCAT(UCASE(SUBSTR(?nativeLabel, 1 , 1 )), SUBSTR(?nativeLabel, 2 )) AS ?native)
 }
-GROUP BY ?iso639_1 ?iso639_2 ?iso639_3 ?lingualibreId ?language ?languageLabel ?ethnologueStatusLabel
 ORDER BY ASC(?type)
