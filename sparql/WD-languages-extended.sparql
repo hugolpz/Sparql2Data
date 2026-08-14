@@ -18,6 +18,7 @@ WHERE {
     wd:Q33742    # langue naturelle
     wd:Q34228    # signed language
     wd:Q1288568  # modern language
+    # wd:Q33384    # dialect
   }
   ?language wdt:P31 ?languages ;
         wdt:P31 ?instanceOf .               # results: 10957
