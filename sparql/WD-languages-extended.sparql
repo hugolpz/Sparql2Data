@@ -27,12 +27,14 @@ WHERE {
         wd:Q20162172 # human language 
         wd:Q33742    # natural language
         wd:Q34228    # signed language
-        wd:Q1288568  # modern language
         wd:Q33384    # dialect
+        wd:Q1288568  # modern language
+        wd:Q436240   # ancient language
         wd:Q45762    # dead language
         wd:Q38058796 # extinct language.
         wd:Q33215    # constructed language
         wd:Q33289    # creole
+        wd:Q20825842 # Standard variety
       }
       ?language wdt:P31 ?languages .
 
