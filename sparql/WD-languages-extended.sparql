@@ -36,7 +36,11 @@ WHERE {
         wd:Q33289    # creole
         wd:Q20825842 # Standard variety
       }
-      ?language wdt:P31 ?languages .
+      # Match P31 across Preferred and Normal ranks
+      ?language p:P31 ?stmt .
+      ?stmt ps:P31 ?languages .
+      ?stmt wikibase:rank ?rank .
+      FILTER(?rank != wikibase:DeprecatedRank)
 
       # Check for signed language without triggering the EXISTS parser bug
       OPTIONAL {
