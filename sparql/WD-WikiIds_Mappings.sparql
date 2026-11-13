@@ -1,6 +1,6 @@
-#title: Core Wikimedia projects with localized project type names (sitename)
+#title: Core Wikimedia projects with both project type name (?sitename) and specific wiki name (?sitenameFull)
 # Source: https://wikitech.wikimedia.org/wiki/MediaWiki_Content_File_Exports/WikiId_Mappings
-SELECT DISTINCT ?wiki_id ?hostname ?type ?language ?sitename WHERE {
+SELECT DISTINCT ?wiki_id ?hostname ?type ?language ?sitename ?sitenameFull WHERE {
   {
     # Branch 1: Language editions mapped to their core project item
     VALUES (?projectClass ?type ?projectItem) {
@@ -32,17 +32,34 @@ SELECT DISTINCT ?wiki_id ?hostname ?type ?language ?sitename WHERE {
   ?item wdt:P1800 ?wiki_id ;
         wdt:P856 ?hostname .
 
-  # Retrieve the language code
+  # Retrieve language code
   OPTIONAL {
     ?item wdt:P407 ?langItem .
     ?langItem wdt:P424 ?language .
   }
-  # Fallback to English for global projects if no language code is bound
   BIND(COALESCE(?language, "en") AS ?language)
 
-  # Fetch the label of the project type item in ?language
-  ?projectItem rdfs:label ?sitename .
-  FILTER(LANG(?sitename) = ?language)
+  # 1. Localized project type name (?sitename) e.g., "Wikipedia" -> "維基百科"
+  OPTIONAL {
+    ?projectItem rdfs:label ?sitenameRaw .
+    FILTER(LANG(?sitenameRaw) = ?language)
+  }
+  OPTIONAL {
+    ?projectItem rdfs:label ?sitenameEn .
+    FILTER(LANG(?sitenameEn) = "en")
+  }
+  BIND(COALESCE(?sitenameRaw, ?sitenameEn) AS ?sitename)
+
+  # 2. Specific wiki instance native name (?sitenameFull) e.g., "Abkhazian Wikipedia" -> "Авикипедиа"
+  OPTIONAL {
+    ?item rdfs:label ?sitenameFullRaw .
+    FILTER(LANG(?sitenameFullRaw) = ?language)
+  }
+  OPTIONAL {
+    ?item rdfs:label ?sitenameFullEn .
+    FILTER(LANG(?sitenameFullEn) = "en")
+  }
+  BIND(COALESCE(?sitenameFullRaw, ?sitenameFullEn) AS ?sitenameFull)
 
   # Exclude closed/locked wikis
   FILTER NOT EXISTS { ?item wdt:P31 wd:Q19826567 }
