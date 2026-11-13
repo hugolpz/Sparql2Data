@@ -1,0 +1,50 @@
+#title: Core Wikimedia projects with localized project type names (sitename)
+# Source: https://wikitech.wikimedia.org/wiki/MediaWiki_Content_File_Exports/WikiId_Mappings
+SELECT DISTINCT ?wiki_id ?hostname ?type ?language ?sitename WHERE {
+  {
+    # Branch 1: Language editions mapped to their core project item
+    VALUES (?projectClass ?type ?projectItem) {
+      (wd:Q10876391  "wikipedia"   wd:Q52)     # Wikipedia
+      (wd:Q151885    "wiktionary"  wd:Q151)    # Wiktionary
+      (wd:Q15156455  "wikibooks"   wd:Q367)    # Wikibooks
+      (wd:Q15156406  "wikinews"    wd:Q964)    # Wikinews
+      (wd:Q15156451  "wikiquote"   wd:Q369)    # Wikiquote
+      (wd:Q15156456  "wikisource"  wd:Q263)    # Wikisource
+      (wd:Q15156458  "wikiversity" wd:Q370)    # Wikiversity
+      (wd:Q15156459  "wikivoyage"  wd:Q373)    # Wikivoyage
+    }
+    ?item wdt:P31 ?projectClass .
+  }
+  UNION
+  {
+    # Branch 2: Global / Multilingual projects (project item is itself)
+    VALUES (?item ?type ?projectItem) {
+      (wd:Q565       "commons"     wd:Q565)
+      (wd:Q2013      "wikidata"    wd:Q2013)
+      (wd:Q13679     "species"     wd:Q13679)
+      (wd:Q15633578  "wikifunctions" wd:Q15633578)
+      (wd:Q1063116   "meta"        wd:Q1063116)
+      (wd:Q15156769  "incubator"   wd:Q15156769)
+      (wd:Q83        "mediawiki"   wd:Q83)
+    }
+  }
+
+  ?item wdt:P1800 ?wiki_id ;
+        wdt:P856 ?hostname .
+
+  # Retrieve the language code
+  OPTIONAL {
+    ?item wdt:P407 ?langItem .
+    ?langItem wdt:P424 ?language .
+  }
+  # Fallback to English for global projects if no language code is bound
+  BIND(COALESCE(?language, "en") AS ?language)
+
+  # Fetch the label of the project type item in ?language
+  ?projectItem rdfs:label ?sitename .
+  FILTER(LANG(?sitename) = ?language)
+
+  # Exclude closed/locked wikis
+  FILTER NOT EXISTS { ?item wdt:P31 wd:Q19826567 }
+}
+ORDER BY ?wiki_id
