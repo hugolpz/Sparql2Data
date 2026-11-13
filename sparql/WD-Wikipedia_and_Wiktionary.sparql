@@ -1,12 +1,43 @@
-# default:Wikidata
-SELECT ?project ?projectLabel ?officialWebsite
-WHERE {
-  VALUES ?instanceOf {
-    wd:Q10876391
-    wd:Q22001389
+#title: Refactored Wikipedias and Wiktionaries query
+SELECT DISTINCT ?wiki_id ?hostname ?type ?language ?sitename ?sitenameFull WHERE {
+  # 1. Define target project classes and their corresponding base project items
+  VALUES (?projectClass ?type ?projectItem) {
+    (wd:Q10876391 "wikipedia"  wd:Q52)   # Wikipedia
+    (wd:Q151885   "wiktionary" wd:Q151)  # Wiktionary
   }
-  ?project wdt:P31 ?instanceOf;
-    wdt:P856 ?officialWebsite.
-  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+
+  # 2. Core structural properties (fastest to filter first)
+  ?item wdt:P31 ?projectClass ;
+        wdt:P1800 ?wiki_id ;
+        wdt:P856 ?hostname .
+
+  # Exclude closed/locked wikis early
+  FILTER NOT EXISTS { ?item wdt:P31 wd:Q19826567 }
+
+  # 3. Resolve language code (fallback to "en" if missing)
+  OPTIONAL { ?item wdt:P407/wdt:P424 ?langCode . }
+  BIND(COALESCE(?langCode, "en") AS ?language)
+
+  # 4. Fetch Localized Project Type Name (?sitename) with English fallback
+  OPTIONAL {
+    ?projectItem rdfs:label ?sitenameLang .
+    FILTER(LANG(?sitenameLang) = ?language)
+  }
+  OPTIONAL {
+    ?projectItem rdfs:label ?sitenameEn .
+    FILTER(LANG(?sitenameEn) = "en")
+  }
+  BIND(COALESCE(?sitenameLang, ?sitenameEn) AS ?sitename)
+
+  # 5. Fetch Specific Wiki Instance Name (?sitenameFull) with English fallback
+  OPTIONAL {
+    ?item rdfs:label ?sitenameFullLang .
+    FILTER(LANG(?sitenameFullLang) = ?language)
+  }
+  OPTIONAL {
+    ?item rdfs:label ?sitenameFullEn .
+    FILTER(LANG(?sitenameFullEn) = "en")
+  }
+  BIND(COALESCE(?sitenameFullLang, ?sitenameFullEn) AS ?sitenameFull)
 }
-ORDER BY ASC (?officialWebsite)
+ORDER BY ?wiki_id
